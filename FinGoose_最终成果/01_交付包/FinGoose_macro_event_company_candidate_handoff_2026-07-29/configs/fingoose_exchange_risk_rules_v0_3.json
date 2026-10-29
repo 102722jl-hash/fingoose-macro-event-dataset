@@ -1,0 +1,94 @@
+{
+  "dataset_version": "fingoose-research-candidate-v0.3",
+  "rules": [
+    {
+      "rule_id": "sse-main-financial-delisting-risk-warning-2024",
+      "exchange": "SSE",
+      "applies_to_exchange_suffixes": [".SH"],
+      "excluded_code_prefixes": ["688"],
+      "rule_type": "financial_delisting_risk_warning",
+      "source_url": "https://www.sse.com.cn/lawandrules/sselawsrules/repeal/rules/c/10777828/files/50bc3d26529d44679cc3e8c94118db0e.docx",
+      "published_at": "2024-04-30T00:00:00+08:00",
+      "effective_at": "2024-04-30T00:00:00+08:00",
+      "media_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "local_snapshot_path": "inputs/research_candidate_v0_3/public_official/risk_rule_snapshots/258f8d39ef06ff4c0881a071cb7b36458116f40329fd2d9e42776553868926d7.docx",
+      "content_sha256": "258f8d39ef06ff4c0881a071cb7b36458116f40329fd2d9e42776553868926d7",
+      "publication_evidence": {
+        "source_url": "https://www.sse.com.cn/lawandrules/sselawsrules/repeal/rules/c/c_20240430_10777828.shtml",
+        "local_snapshot_path": "inputs/research_candidate_v0_3/public_official/risk_rule_snapshots/ac8cf55afd2a3ca8c7be94e3d4006a884f28c6f38536e4249e8d2af456ec1f27.html",
+        "content_sha256": "ac8cf55afd2a3ca8c7be94e3d4006a884f28c6f38536e4249e8d2af456ec1f27"
+      },
+      "thresholds": {
+        "revenue_floor_cny": 300000000,
+        "loss_metric": "minimum_of_profit_before_tax_net_income_adjusted_net_income"
+      }
+    },
+    {
+      "rule_id": "sse-star-financial-delisting-risk-warning-2024",
+      "exchange": "SSE",
+      "applies_to_exchange_suffixes": [".SH"],
+      "required_code_prefixes": ["688"],
+      "rule_type": "financial_delisting_risk_warning",
+      "source_url": "https://www.sse.com.cn/lawandrules/sselawsrules2025/repeal/rules/c/10785258/files/c713b7393e1f412aa9efc115ee375d13.docx",
+      "published_at": "2024-04-30T00:00:00+08:00",
+      "effective_at": "2024-04-30T00:00:00+08:00",
+      "media_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "local_snapshot_path": "inputs/research_candidate_v0_3/public_official/risk_rule_snapshots/f02e8423e467102e30b419f4e01a42600fa315557eca0ac059740114fe849f15.docx",
+      "content_sha256": "f02e8423e467102e30b419f4e01a42600fa315557eca0ac059740114fe849f15",
+      "publication_evidence": {
+        "source_url": "https://www.sse.com.cn/lawandrules/sselawsrules2025/repeal/rules/c/c_20240430_10785258.shtml",
+        "local_snapshot_path": "inputs/research_candidate_v0_3/public_official/risk_rule_snapshots/619f793850682ea0f3f6c77f0eaba93bfe9eb53192781fb9d3477b48814b1c4a.html",
+        "content_sha256": "619f793850682ea0f3f6c77f0eaba93bfe9eb53192781fb9d3477b48814b1c4a"
+      },
+      "thresholds": {
+        "revenue_floor_cny": 100000000,
+        "loss_metric": "minimum_of_profit_before_tax_net_income_adjusted_net_income"
+      }
+    },
+    {
+      "rule_id": "szse-main-financial-delisting-risk-warning-2024",
+      "exchange": "SZSE",
+      "applies_to_exchange_suffixes": [".SZ"],
+      "excluded_code_prefixes": ["300"],
+      "rule_type": "financial_delisting_risk_warning",
+      "source_url": "http://docs.static.szse.cn/www/lawrules/rule/repeal/rules/W020240430677262007864.pdf",
+      "published_at": "2024-04-30T00:00:00+08:00",
+      "effective_at": "2024-04-30T00:00:00+08:00",
+      "media_type": "application/pdf",
+      "local_snapshot_path": "inputs/research_candidate_v0_3/public_official/risk_rule_snapshots/df0ea12983df0d577fd1f0154d3bf1a1aea2378b0631d6ef2d4c04b0a96bfeea.pdf",
+      "content_sha256": "df0ea12983df0d577fd1f0154d3bf1a1aea2378b0631d6ef2d4c04b0a96bfeea",
+      "publication_evidence": {
+        "source_url": "https://www.szse.cn/lawrules/rule/repeal/rules/t20240430_607069.html",
+        "local_snapshot_path": "inputs/research_candidate_v0_3/public_official/risk_rule_snapshots/575b8546c0208e26366698655a8dfb37a78dcfb0c0eb6e566e78d5e7ea1c1f4e.html",
+        "content_sha256": "575b8546c0208e26366698655a8dfb37a78dcfb0c0eb6e566e78d5e7ea1c1f4e"
+      },
+      "thresholds": {
+        "revenue_floor_cny": 300000000,
+        "loss_metric": "minimum_of_profit_before_tax_net_income_adjusted_net_income"
+      }
+    },
+    {
+      "rule_id": "szse-chinext-financial-delisting-risk-warning-2024",
+      "exchange": "SZSE",
+      "applies_to_exchange_suffixes": [".SZ"],
+      "required_code_prefixes": ["300"],
+      "rule_type": "financial_delisting_risk_warning",
+      "source_url": "http://docs.static.szse.cn/www/lawrules/rule/repeal/rules/W020240528406128801584.pdf",
+      "published_at": "2024-04-30T00:00:00+08:00",
+      "effective_at": "2024-04-30T00:00:00+08:00",
+      "media_type": "application/pdf",
+      "local_snapshot_path": "inputs/research_candidate_v0_3/public_official/risk_rule_snapshots/d48d2e9b49b4eb120c506f000992746ea4a5d63d44c1e9943e575ca2ed944967.pdf",
+      "content_sha256": "d48d2e9b49b4eb120c506f000992746ea4a5d63d44c1e9943e575ca2ed944967",
+      "publication_evidence": {
+        "source_url": "https://www.szse.cn/lawrules/rule/repeal/rules/t20240430_607070.html",
+        "local_snapshot_path": "inputs/research_candidate_v0_3/public_official/risk_rule_snapshots/5e9e40980eb0bcec17582b0575bbb6237b07bddf2e8f6133996c4a3b4351d8fe.html",
+        "content_sha256": "5e9e40980eb0bcec17582b0575bbb6237b07bddf2e8f6133996c4a3b4351d8fe"
+      },
+      "thresholds": {
+        "revenue_floor_cny": 100000000,
+        "loss_metric": "minimum_of_profit_before_tax_net_income_adjusted_net_income"
+      }
+    }
+  ],
+  "unavailable_exchange_rules": []
+}

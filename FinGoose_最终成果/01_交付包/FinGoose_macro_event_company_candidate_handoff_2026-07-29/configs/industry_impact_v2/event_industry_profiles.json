@@ -1,0 +1,1664 @@
+{
+    "dataset_version":  "fingoose-industry-impact-high-quality-v2-candidate",
+    "events":  [
+                   {
+                       "event_id":  "event-01",
+                       "title_zh":  "WHO 将新冠疫情定性为全球大流行",
+                       "anchor_node_id":  "fast-event-01-M04",
+                       "classification_edition":  "SW2014",
+                       "behavior_change_zh":  "全球公共卫生响应、旅行限制与居民活动方式同步改变",
+                       "counterevidence_zh":  [
+                                                  "同期原油价格战和全球流动性冲击可能主导部分资产价格",
+                                                  "各国限制强度和行业政策支持存在显著差异"
+                                              ],
+                       "industries":  [
+                                          {
+                                              "sw1_id":  "801150",
+                                              "name":  "医药生物",
+                                              "tier":  "CORE_DIRECT",
+                                              "segments":  [
+                                                               "体外诊断",
+                                                               "疫苗",
+                                                               "医疗服务"
+                                                           ],
+                                              "driver":  "检测与诊疗需求",
+                                              "unit":  "人次或检测量",
+                                              "operating":  "检测量、产品准入与诊疗人次",
+                                              "financial":  "试剂销量、医疗服务收入与毛利率",
+                                              "directions":  [
+                                                                 "MIXED",
+                                                                 "POSITIVE",
+                                                                 "MIXED"
+                                                             ],
+                                              "condition":  "公共卫生冲击转化为检测、疫苗或诊疗需求",
+                                              "invalidation":  "产品未获准入、常规诊疗停滞抵消增量需求"
+                                          },
+                                          {
+                                              "sw1_id":  "801170",
+                                              "name":  "交通运输",
+                                              "tier":  "CORE_DIRECT",
+                                              "segments":  [
+                                                               "航空",
+                                                               "机场"
+                                                           ],
+                                              "driver":  "旅客出行与航班限制",
+                                              "unit":  "人次或航班架次",
+                                              "operating":  "旅客吞吐量、客座率与航班架次",
+                                              "financial":  "客运收入、航空性收入与固定成本摊薄",
+                                              "directions":  [
+                                                                 "NEGATIVE",
+                                                                 "NEGATIVE",
+                                                                 "MIXED"
+                                                             ],
+                                              "condition":  "旅行限制和主动减少出行持续",
+                                              "invalidation":  "限制快速解除或政策补贴覆盖停航损失"
+                                          },
+                                          {
+                                              "sw1_id":  "801210",
+                                              "name":  "社会服务",
+                                              "name_at_event":  "休闲服务",
+                                              "tier":  "CORE_DIRECT",
+                                              "segments":  [
+                                                               "酒店",
+                                                               "旅游"
+                                                           ],
+                                              "driver":  "跨境与本地旅游客流",
+                                              "unit":  "人次或入住率",
+                                              "operating":  "入住率、预订量与景区客流",
+                                              "financial":  "房费、旅游收入与经营杠杆",
+                                              "directions":  [
+                                                                 "NEGATIVE",
+                                                                 "NEGATIVE",
+                                                                 "MIXED"
+                                                             ],
+                                              "condition":  "线下聚集和旅行活动受限",
+                                              "invalidation":  "本地需求快速替代跨境客流"
+                                          },
+                                          {
+                                              "sw1_id":  "801200",
+                                              "name":  "商贸零售",
+                                              "name_at_event":  "商业贸易",
+                                              "tier":  "SECOND_ORDER",
+                                              "segments":  [
+                                                               "线下零售",
+                                                               "购物中心"
+                                                           ],
+                                              "driver":  "门店客流与消费场景",
+                                              "unit":  "客流或销售额",
+                                              "operating":  "门店客流、同店销售与线上迁移",
+                                              "financial":  "零售收入、租金减免与库存周转",
+                                              "directions":  [
+                                                                 "NEGATIVE",
+                                                                 "NEGATIVE",
+                                                                 "MIXED"
+                                                             ],
+                                              "condition":  "线下客流下降且线上渠道不足以补偿",
+                                              "invalidation":  "线上销售和必选消费充分对冲"
+                                          },
+                                          {
+                                              "sw1_id":  "801760",
+                                              "name":  "传媒",
+                                              "tier":  "SECOND_ORDER",
+                                              "segments":  [
+                                                               "影视院线"
+                                                           ],
+                                              "driver":  "影院开放与观影人次",
+                                              "unit":  "人次或票房",
+                                              "operating":  "影院营业率、观影人次与票房",
+                                              "financial":  "票房分账收入和固定租赁成本",
+                                              "directions":  [
+                                                                 "NEGATIVE",
+                                                                 "NEGATIVE",
+                                                                 "MIXED"
+                                                             ],
+                                              "condition":  "聚集活动限制导致影院停业",
+                                              "invalidation":  "线上娱乐收入覆盖线下损失"
+                                          },
+                                          {
+                                              "sw1_id":  "801020",
+                                              "name":  "石油石化",
+                                              "name_at_event":  "采掘",
+                                              "tier":  "SECOND_ORDER",
+                                              "segments":  [
+                                                               "原油需求",
+                                                               "炼化"
+                                                           ],
+                                              "driver":  "全球交通和工业原油需求",
+                                              "unit":  "桶/日",
+                                              "operating":  "炼厂开工、成品油需求与库存",
+                                              "financial":  "原油实现价格、炼化价差与库存损益",
+                                              "directions":  [
+                                                                 "NEGATIVE",
+                                                                 "NEGATIVE",
+                                                                 "MIXED"
+                                                             ],
+                                              "condition":  "需求损失大于供应协调减产",
+                                              "invalidation":  "主要产油国快速减产或库存去化"
+                                          },
+                                          {
+                                              "sw1_id":  "801750",
+                                              "name":  "计算机",
+                                              "tier":  "CONDITIONAL",
+                                              "segments":  [
+                                                               "云服务",
+                                                               "远程办公"
+                                                           ],
+                                              "driver":  "远程办公与在线服务使用量",
+                                              "unit":  "用户量或云用量",
+                                              "operating":  "云资源使用、在线协作席位与订单",
+                                              "financial":  "订阅收入、服务器成本与获客费用",
+                                              "directions":  [
+                                                                 "POSITIVE",
+                                                                 "POSITIVE",
+                                                                 "MIXED"
+                                                             ],
+                                              "condition":  "远程需求落到可收费产品并持续",
+                                              "invalidation":  "免费服务占比高或线下恢复过快"
+                                          },
+                                          {
+                                              "sw1_id":  "801120",
+                                              "name":  "食品饮料",
+                                              "tier":  "CONDITIONAL",
+                                              "segments":  [
+                                                               "餐饮供应链",
+                                                               "居家消费"
+                                                           ],
+                                              "driver":  "餐饮与居家消费结构",
+                                              "unit":  "销售额",
+                                              "operating":  "餐饮渠道销量与家庭渠道补库",
+                                              "financial":  "分渠道收入、促销费用与产品结构",
+                                              "directions":  [
+                                                                 "MIXED",
+                                                                 "NEGATIVE",
+                                                                 "MIXED"
+                                                             ],
+                                              "condition":  "餐饮渠道损失大于居家消费增量",
+                                              "invalidation":  "家庭渠道和必选品充分补偿"
+                                          }
+                                      ],
+                       "anchor_fact_zh":  "2020年3月11日，世界卫生组织总干事在新冠疫情媒体通报会上宣布，COVID-19可以被界定为全球大流行。"
+                   },
+                   {
+                       "event_id":  "event-02",
+                       "title_zh":  "俄乌冲突全面升级",
+                       "anchor_node_id":  "fast-event-02-M03",
+                       "classification_edition":  "SW2021",
+                       "behavior_change_zh":  "战争、制裁和贸易中断重估能源、粮食、金属与安全供给",
+                       "counterevidence_zh":  [
+                                                  "美联储紧缩预期可能同时影响商品和权益估值",
+                                                  "实际制裁范围与供应替代速度决定冲击持续性"
+                                              ],
+                       "industries":  [
+                                          {
+                                              "sw1_id":  "801960",
+                                              "name":  "石油石化",
+                                              "tier":  "CORE_DIRECT",
+                                              "segments":  [
+                                                               "油气开采",
+                                                               "炼化"
+                                                           ],
+                                              "driver":  "俄油供应风险与国际油价",
+                                              "unit":  "美元/桶",
+                                              "operating":  "产量、实现价格、采购成本与炼化价差",
+                                              "financial":  "上游收入、炼化毛利与库存损益",
+                                              "directions":  [
+                                                                 "POSITIVE",
+                                                                 "POSITIVE",
+                                                                 "MIXED"
+                                                             ],
+                                              "condition":  "供应风险溢价持续且出口替代不充分",
+                                              "invalidation":  "冲突缓和或需求衰退压过供应冲击"
+                                          },
+                                          {
+                                              "sw1_id":  "801950",
+                                              "name":  "煤炭",
+                                              "tier":  "CORE_DIRECT",
+                                              "segments":  [
+                                                               "动力煤",
+                                                               "能源替代"
+                                                           ],
+                                              "driver":  "欧洲及全球能源替代需求",
+                                              "unit":  "元/吨",
+                                              "operating":  "煤价、库存和电厂补库",
+                                              "financial":  "销售单价、吨煤利润与运输成本",
+                                              "directions":  [
+                                                                 "POSITIVE",
+                                                                 "POSITIVE",
+                                                                 "MIXED"
+                                                             ],
+                                              "condition":  "天然气和原油短缺推动煤炭替代",
+                                              "invalidation":  "环保约束或需求下降限制替代"
+                                          },
+                                          {
+                                              "sw1_id":  "801740",
+                                              "name":  "国防军工",
+                                              "tier":  "CORE_DIRECT",
+                                              "segments":  [
+                                                               "航空装备",
+                                                               "军工电子"
+                                                           ],
+                                              "driver":  "国防支出与装备补库预期",
+                                              "unit":  "预算或订单额",
+                                              "operating":  "军费预算、装备订单与交付节奏",
+                                              "financial":  "订单、预收款与研发投入",
+                                              "directions":  [
+                                                                 "POSITIVE",
+                                                                 "POSITIVE",
+                                                                 "POSITIVE"
+                                                             ],
+                                              "condition":  "安全风险转化为可执行采购预算",
+                                              "invalidation":  "财政约束或订单落地显著延后"
+                                          },
+                                          {
+                                              "sw1_id":  "801050",
+                                              "name":  "有色金属",
+                                              "tier":  "CORE_DIRECT",
+                                              "segments":  [
+                                                               "黄金",
+                                                               "受限金属"
+                                                           ],
+                                              "driver":  "避险需求与金属供应约束",
+                                              "unit":  "价格指数",
+                                              "operating":  "金价、库存和冶炼供应",
+                                              "financial":  "产品售价、加工费与套保损益",
+                                              "directions":  [
+                                                                 "MIXED",
+                                                                 "POSITIVE",
+                                                                 "MIXED"
+                                                             ],
+                                              "condition":  "避险或供应约束强于美元利率上升",
+                                              "invalidation":  "实际利率快速上升压制金价"
+                                          },
+                                          {
+                                              "sw1_id":  "801030",
+                                              "name":  "基础化工",
+                                              "tier":  "SECOND_ORDER",
+                                              "segments":  [
+                                                               "化肥",
+                                                               "能源化工"
+                                                           ],
+                                              "driver":  "天然气、原油和化肥供给成本",
+                                              "unit":  "元/吨",
+                                              "operating":  "原料价格、装置开工与产品价差",
+                                              "financial":  "材料成本、产品售价与加工利润",
+                                              "directions":  [
+                                                                 "MIXED",
+                                                                 "NEGATIVE",
+                                                                 "MIXED"
+                                                             ],
+                                              "condition":  "原料上涨快于产品提价",
+                                              "invalidation":  "一体化产能或提价覆盖成本"
+                                          },
+                                          {
+                                              "sw1_id":  "801010",
+                                              "name":  "农林牧渔",
+                                              "tier":  "SECOND_ORDER",
+                                              "segments":  [
+                                                               "粮食",
+                                                               "种植"
+                                                           ],
+                                              "driver":  "黑海粮食供给与化肥成本",
+                                              "unit":  "元/吨",
+                                              "operating":  "粮价、种植成本与进口量",
+                                              "financial":  "农产品售价、亩均成本与库存价值",
+                                              "directions":  [
+                                                                 "POSITIVE",
+                                                                 "MIXED",
+                                                                 "MIXED"
+                                                             ],
+                                              "condition":  "粮价上涨收益大于化肥和能源成本",
+                                              "invalidation":  "政策限价或进口替代稳定供给"
+                                          },
+                                          {
+                                              "sw1_id":  "801170",
+                                              "name":  "交通运输",
+                                              "tier":  "SECOND_ORDER",
+                                              "segments":  [
+                                                               "油轮",
+                                                               "干散货",
+                                                               "航线"
+                                                           ],
+                                              "driver":  "航线重构与运价",
+                                              "unit":  "运价指数",
+                                              "operating":  "吨海里、运价与燃油成本",
+                                              "financial":  "运费收入、燃油成本与船舶利用率",
+                                              "directions":  [
+                                                                 "MIXED",
+                                                                 "POSITIVE",
+                                                                 "MIXED"
+                                                             ],
+                                              "condition":  "绕航和贸易重构提升吨海里",
+                                              "invalidation":  "贸易量萎缩或运力迅速补充"
+                                          },
+                                          {
+                                              "sw1_id":  "801160",
+                                              "name":  "公用事业",
+                                              "tier":  "CONDITIONAL",
+                                              "segments":  [
+                                                               "火电",
+                                                               "燃气"
+                                                           ],
+                                              "driver":  "燃料价格与电价传导",
+                                              "unit":  "元/吨或元/立方米",
+                                              "operating":  "煤气采购价、发电量与上网电价",
+                                              "financial":  "燃料成本、度电利润与补贴",
+                                              "directions":  [
+                                                                 "NEGATIVE",
+                                                                 "NEGATIVE",
+                                                                 "MIXED"
+                                                             ],
+                                              "condition":  "燃料涨价不能及时传导至终端价格",
+                                              "invalidation":  "电价机制或补贴充分覆盖成本"
+                                          }
+                                      ],
+                       "anchor_fact_zh":  "2022年2月24日，北约理事会公开谴责俄罗斯对乌克兰发动大规模军事进攻；本数据集以北约声明首次公开时刻作为市场可见锚点，不虚构更早战事时刻。"
+                   },
+                   {
+                       "event_id":  "event-03",
+                       "title_zh":  "美联储开启加息周期",
+                       "anchor_node_id":  "fast-event-03-M03",
+                       "classification_edition":  "SW2021",
+                       "behavior_change_zh":  "美元政策利率、全球贴现率和跨境资金成本上升",
+                       "counterevidence_zh":  [
+                                                  "中国货币政策周期可能与美国不同步",
+                                                  "国内增长和监管因素可能主导A股行业表现"
+                                              ],
+                       "industries":  [
+                                          {
+                                              "sw1_id":  "801780",
+                                              "name":  "银行",
+                                              "tier":  "CORE_DIRECT",
+                                              "segments":  [
+                                                               "商业银行"
+                                                           ],
+                                              "driver":  "利率曲线与美元融资成本",
+                                              "unit":  "基点",
+                                              "operating":  "净息差、负债成本与资产质量",
+                                              "financial":  "利息净收入、信用成本与估值",
+                                              "directions":  [
+                                                                 "MIXED",
+                                                                 "MIXED",
+                                                                 "MIXED"
+                                                             ],
+                                              "condition":  "资产收益率上升快于负债成本且信用风险稳定",
+                                              "invalidation":  "存款成本和坏账压力同步上升"
+                                          },
+                                          {
+                                              "sw1_id":  "801790",
+                                              "name":  "非银金融",
+                                              "tier":  "CORE_DIRECT",
+                                              "segments":  [
+                                                               "券商",
+                                                               "保险"
+                                                           ],
+                                              "driver":  "贴现率、成交活跃度与债券收益率",
+                                              "unit":  "基点或成交额",
+                                              "operating":  "成交额、投资收益与保险负债久期",
+                                              "financial":  "经纪收入、投资收益和准备金",
+                                              "directions":  [
+                                                                 "NEGATIVE",
+                                                                 "NEGATIVE",
+                                                                 "MIXED"
+                                                             ],
+                                              "condition":  "风险偏好下降和估值压缩占主导",
+                                              "invalidation":  "长端收益改善保险再投资回报"
+                                          },
+                                          {
+                                              "sw1_id":  "801180",
+                                              "name":  "房地产",
+                                              "tier":  "CORE_DIRECT",
+                                              "segments":  [
+                                                               "开发",
+                                                               "融资"
+                                                           ],
+                                              "driver":  "全球融资成本与风险溢价",
+                                              "unit":  "基点",
+                                              "operating":  "融资利率、销售和再融资规模",
+                                              "financial":  "利息支出、现金流与资产估值",
+                                              "directions":  [
+                                                                 "NEGATIVE",
+                                                                 "NEGATIVE",
+                                                                 "MIXED"
+                                                             ],
+                                              "condition":  "外部融资收紧传导至境内信用条件",
+                                              "invalidation":  "国内宽松政策完全抵消"
+                                          },
+                                          {
+                                              "sw1_id":  "801730",
+                                              "name":  "电力设备",
+                                              "tier":  "SECOND_ORDER",
+                                              "segments":  [
+                                                               "新能源成长"
+                                                           ],
+                                              "driver":  "长久期成长估值贴现率",
+                                              "unit":  "基点",
+                                              "operating":  "融资成本、订单和扩产计划",
+                                              "financial":  "资本成本、估值与自由现金流",
+                                              "directions":  [
+                                                                 "NEGATIVE",
+                                                                 "NEGATIVE",
+                                                                 "MIXED"
+                                                             ],
+                                              "condition":  "远期现金流权重高且融资依赖强",
+                                              "invalidation":  "盈利上修覆盖估值压缩"
+                                          },
+                                          {
+                                              "sw1_id":  "801080",
+                                              "name":  "电子",
+                                              "tier":  "SECOND_ORDER",
+                                              "segments":  [
+                                                               "半导体",
+                                                               "消费电子"
+                                                           ],
+                                              "driver":  "贴现率与美元融资条件",
+                                              "unit":  "基点",
+                                              "operating":  "订单、库存周期与资本开支",
+                                              "financial":  "收入增速、库存减值与估值",
+                                              "directions":  [
+                                                                 "NEGATIVE",
+                                                                 "NEGATIVE",
+                                                                 "MIXED"
+                                                             ],
+                                              "condition":  "估值压缩和需求放缓同时出现",
+                                              "invalidation":  "产业上行周期或国产替代主导"
+                                          },
+                                          {
+                                              "sw1_id":  "801150",
+                                              "name":  "医药生物",
+                                              "tier":  "SECOND_ORDER",
+                                              "segments":  [
+                                                               "创新药",
+                                                               "生物科技"
+                                                           ],
+                                              "driver":  "研发融资成本与风险偏好",
+                                              "unit":  "融资额或基点",
+                                              "operating":  "融资轮次、研发投入和授权交易",
+                                              "financial":  "现金消耗、研发费用与估值",
+                                              "directions":  [
+                                                                 "NEGATIVE",
+                                                                 "NEGATIVE",
+                                                                 "MIXED"
+                                                             ],
+                                              "condition":  "企业依赖外部融资且盈利较远",
+                                              "invalidation":  "重磅产品兑现或授权收入对冲"
+                                          },
+                                          {
+                                              "sw1_id":  "801050",
+                                              "name":  "有色金属",
+                                              "tier":  "CONDITIONAL",
+                                              "segments":  [
+                                                               "黄金"
+                                                           ],
+                                              "driver":  "实际利率与避险需求",
+                                              "unit":  "%或美元/盎司",
+                                              "operating":  "金价、矿产量与套保",
+                                              "financial":  "金属售价、采选利润与套保损益",
+                                              "directions":  [
+                                                                 "MIXED",
+                                                                 "NEGATIVE",
+                                                                 "MIXED"
+                                                             ],
+                                              "condition":  "实际利率上升强于避险买盘",
+                                              "invalidation":  "金融风险使避险需求占主导"
+                                          },
+                                          {
+                                              "sw1_id":  "801880",
+                                              "name":  "汽车",
+                                              "tier":  "CONDITIONAL",
+                                              "segments":  [
+                                                               "出口制造"
+                                                           ],
+                                              "driver":  "美元汇率、海外需求与融资成本",
+                                              "unit":  "汇率或销量",
+                                              "operating":  "出口销量、价格和库存",
+                                              "financial":  "海外收入、汇兑损益与促销费用",
+                                              "directions":  [
+                                                                 "MIXED",
+                                                                 "MIXED",
+                                                                 "MIXED"
+                                                             ],
+                                              "condition":  "汇率收益大于海外需求和融资压力",
+                                              "invalidation":  "海外需求明显衰退"
+                                          }
+                                      ],
+                       "anchor_fact_zh":  "2022年3月16日，美联储联邦公开市场委员会将联邦基金利率目标区间上调至0.25%—0.50%，完成本轮加息周期首次25个基点加息。"
+                   },
+                   {
+                       "event_id":  "event-04",
+                       "title_zh":  "中国防疫政策转向",
+                       "anchor_node_id":  "fast-event-04-M03",
+                       "classification_edition":  "SW2021",
+                       "behavior_change_zh":  "隔离、核酸和跨区域流动限制优化，线下活动逐步恢复",
+                       "counterevidence_zh":  [
+                                                  "感染高峰可能在初期抑制客流和生产",
+                                                  "居民收入与信心决定恢复斜率"
+                                              ],
+                       "industries":  [
+                                          {
+                                              "sw1_id":  "801170",
+                                              "name":  "交通运输",
+                                              "tier":  "CORE_DIRECT",
+                                              "segments":  [
+                                                               "航空",
+                                                               "机场"
+                                                           ],
+                                              "driver":  "出行限制解除与客流恢复",
+                                              "unit":  "人次或航班架次",
+                                              "operating":  "旅客量、客座率和航班架次",
+                                              "financial":  "客运收入与固定成本摊薄",
+                                              "directions":  [
+                                                                 "POSITIVE",
+                                                                 "POSITIVE",
+                                                                 "POSITIVE"
+                                                             ],
+                                              "condition":  "运力和出行需求同步恢复",
+                                              "invalidation":  "感染高峰或油价限制恢复"
+                                          },
+                                          {
+                                              "sw1_id":  "801210",
+                                              "name":  "社会服务",
+                                              "tier":  "CORE_DIRECT",
+                                              "segments":  [
+                                                               "酒店",
+                                                               "旅游"
+                                                           ],
+                                              "driver":  "旅游客流与酒店入住率",
+                                              "unit":  "人次或入住率",
+                                              "operating":  "预订、入住率和平均房价",
+                                              "financial":  "房费、旅游收入和经营杠杆",
+                                              "directions":  [
+                                                                 "POSITIVE",
+                                                                 "POSITIVE",
+                                                                 "POSITIVE"
+                                                             ],
+                                              "condition":  "消费者恢复跨区和线下活动",
+                                              "invalidation":  "收入预期疲弱抑制需求"
+                                          },
+                                          {
+                                              "sw1_id":  "801200",
+                                              "name":  "商贸零售",
+                                              "tier":  "CORE_DIRECT",
+                                              "segments":  [
+                                                               "线下零售",
+                                                               "购物中心"
+                                                           ],
+                                              "driver":  "门店客流与线下消费",
+                                              "unit":  "销售额或客流",
+                                              "operating":  "同店销售、客流和库存周转",
+                                              "financial":  "零售收入、租金与促销费用",
+                                              "directions":  [
+                                                                 "POSITIVE",
+                                                                 "POSITIVE",
+                                                                 "MIXED"
+                                                             ],
+                                              "condition":  "客流恢复转化为实际消费",
+                                              "invalidation":  "谨慎储蓄压制可选消费"
+                                          },
+                                          {
+                                              "sw1_id":  "801760",
+                                              "name":  "传媒",
+                                              "tier":  "CORE_DIRECT",
+                                              "segments":  [
+                                                               "影视院线"
+                                                           ],
+                                              "driver":  "影院开放和观影人次",
+                                              "unit":  "票房或人次",
+                                              "operating":  "影院营业率、票房和排片",
+                                              "financial":  "票房分账与固定租赁成本",
+                                              "directions":  [
+                                                                 "POSITIVE",
+                                                                 "POSITIVE",
+                                                                 "MIXED"
+                                                             ],
+                                              "condition":  "优质内容供给与影院开放同步",
+                                              "invalidation":  "内容供给不足"
+                                          },
+                                          {
+                                              "sw1_id":  "801120",
+                                              "name":  "食品饮料",
+                                              "tier":  "SECOND_ORDER",
+                                              "segments":  [
+                                                               "餐饮供应链"
+                                                           ],
+                                              "driver":  "餐饮和宴席场景恢复",
+                                              "unit":  "销售额",
+                                              "operating":  "餐饮渠道销量和库存",
+                                              "financial":  "渠道收入、产品结构与费用率",
+                                              "directions":  [
+                                                                 "POSITIVE",
+                                                                 "POSITIVE",
+                                                                 "MIXED"
+                                                             ],
+                                              "condition":  "餐饮场景恢复并带动补库",
+                                              "invalidation":  "渠道库存过高"
+                                          },
+                                          {
+                                              "sw1_id":  "801960",
+                                              "name":  "石油石化",
+                                              "tier":  "SECOND_ORDER",
+                                              "segments":  [
+                                                               "交通燃料"
+                                                           ],
+                                              "driver":  "交通燃料需求",
+                                              "unit":  "吨或桶/日",
+                                              "operating":  "成品油销量、炼厂开工与库存",
+                                              "financial":  "炼化收入、价差和库存损益",
+                                              "directions":  [
+                                                                 "POSITIVE",
+                                                                 "POSITIVE",
+                                                                 "MIXED"
+                                                             ],
+                                              "condition":  "出行恢复带动燃料需求",
+                                              "invalidation":  "国际油价上涨压缩炼化价差"
+                                          },
+                                          {
+                                              "sw1_id":  "801150",
+                                              "name":  "医药生物",
+                                              "tier":  "CONDITIONAL",
+                                              "segments":  [
+                                                               "核酸检测",
+                                                               "常规诊疗"
+                                                           ],
+                                              "driver":  "检测回落与常规医疗恢复",
+                                              "unit":  "检测量或诊疗人次",
+                                              "operating":  "核酸检测量、门诊和手术量",
+                                              "financial":  "检测收入与医疗服务收入",
+                                              "directions":  [
+                                                                 "MIXED",
+                                                                 "NEGATIVE",
+                                                                 "MIXED"
+                                                             ],
+                                              "condition":  "检测收入下降快于常规医疗恢复",
+                                              "invalidation":  "其他诊疗需求快速补偿"
+                                          },
+                                          {
+                                              "sw1_id":  "801980",
+                                              "name":  "美容护理",
+                                              "tier":  "CONDITIONAL",
+                                              "segments":  [
+                                                               "线下医美",
+                                                               "化妆品"
+                                                           ],
+                                              "driver":  "线下客流与可选消费",
+                                              "unit":  "到店人次或销售额",
+                                              "operating":  "到店咨询、转化率和渠道销量",
+                                              "financial":  "服务收入、获客成本与毛利",
+                                              "directions":  [
+                                                                 "POSITIVE",
+                                                                 "POSITIVE",
+                                                                 "MIXED"
+                                                             ],
+                                              "condition":  "消费信心和到店活动恢复",
+                                              "invalidation":  "居民收入预期持续偏弱"
+                                          }
+                                      ],
+                       "anchor_fact_zh":  "2022年12月7日，国务院联防联控机制发布进一步优化疫情防控的十条措施；现有证据仅核实发布日期，07:00+08:00的精确发生时刻仍为 provisional。"
+                   },
+                   {
+                       "event_id":  "event-05",
+                       "title_zh":  "硅谷银行倒闭与银行业冲击",
+                       "anchor_node_id":  "fast-event-05-M02",
+                       "classification_edition":  "SW2021",
+                       "behavior_change_zh":  "银行关闭引发存款迁移、久期损失重估和紧急流动性支持",
+                       "counterevidence_zh":  [
+                                                  "BTFP与存款保障措施可能迅速截断传染",
+                                                  "中国金融机构资产负债结构与美国区域银行不同"
+                                              ],
+                       "industries":  [
+                                          {
+                                              "sw1_id":  "801780",
+                                              "name":  "银行",
+                                              "tier":  "CORE_DIRECT",
+                                              "segments":  [
+                                                               "商业银行"
+                                                           ],
+                                              "driver":  "存款流失与批发融资成本",
+                                              "unit":  "存款额或基点",
+                                              "operating":  "存款、流动性覆盖率和未实现损失",
+                                              "financial":  "净息差、融资成本与信用损失",
+                                              "directions":  [
+                                                                 "NEGATIVE",
+                                                                 "NEGATIVE",
+                                                                 "MIXED"
+                                                             ],
+                                              "condition":  "存款迁移和资产出售损失扩散",
+                                              "invalidation":  "流动性工具稳定存款"
+                                          },
+                                          {
+                                              "sw1_id":  "801790",
+                                              "name":  "非银金融",
+                                              "tier":  "CORE_DIRECT",
+                                              "segments":  [
+                                                               "券商",
+                                                               "保险"
+                                                           ],
+                                              "driver":  "信用利差与风险偏好",
+                                              "unit":  "基点或成交额",
+                                              "operating":  "融资利差、成交额和投资组合损益",
+                                              "financial":  "投资收益、经纪收入与资本要求",
+                                              "directions":  [
+                                                                 "NEGATIVE",
+                                                                 "NEGATIVE",
+                                                                 "MIXED"
+                                                             ],
+                                              "condition":  "金融风险溢价持续扩大",
+                                              "invalidation":  "政策工具恢复市场流动性"
+                                          },
+                                          {
+                                              "sw1_id":  "801750",
+                                              "name":  "计算机",
+                                              "tier":  "SECOND_ORDER",
+                                              "segments":  [
+                                                               "软件",
+                                                               "初创企业"
+                                                           ],
+                                              "driver":  "科技企业存款与风险融资",
+                                              "unit":  "融资额",
+                                              "operating":  "融资轮次、合同和现金消耗",
+                                              "financial":  "订阅收入、融资成本与现金余额",
+                                              "directions":  [
+                                                                 "NEGATIVE",
+                                                                 "NEGATIVE",
+                                                                 "MIXED"
+                                                             ],
+                                              "condition":  "客户和企业依赖风险融资与集中存款",
+                                              "invalidation":  "替代银行和股权资金快速到位"
+                                          },
+                                          {
+                                              "sw1_id":  "801150",
+                                              "name":  "医药生物",
+                                              "tier":  "SECOND_ORDER",
+                                              "segments":  [
+                                                               "生物科技融资"
+                                                           ],
+                                              "driver":  "生物科技企业融资可得性",
+                                              "unit":  "融资额",
+                                              "operating":  "融资轮次、临床研发和授权交易",
+                                              "financial":  "现金跑道、研发费用与估值",
+                                              "directions":  [
+                                                                 "NEGATIVE",
+                                                                 "NEGATIVE",
+                                                                 "MIXED"
+                                                             ],
+                                              "condition":  "未盈利企业依赖外部融资",
+                                              "invalidation":  "授权收入或战略投资覆盖资金缺口"
+                                          },
+                                          {
+                                              "sw1_id":  "801080",
+                                              "name":  "电子",
+                                              "tier":  "SECOND_ORDER",
+                                              "segments":  [
+                                                               "半导体初创"
+                                                           ],
+                                              "driver":  "科技融资与供应链信用",
+                                              "unit":  "融资额或账期",
+                                              "operating":  "融资、订单和资本开支",
+                                              "financial":  "研发支出、库存与现金流",
+                                              "directions":  [
+                                                                 "NEGATIVE",
+                                                                 "NEGATIVE",
+                                                                 "MIXED"
+                                                             ],
+                                              "condition":  "融资收缩传导至扩产和研发",
+                                              "invalidation":  "产业补贴或大客户预付款对冲"
+                                          },
+                                          {
+                                              "sw1_id":  "801180",
+                                              "name":  "房地产",
+                                              "tier":  "CONDITIONAL",
+                                              "segments":  [
+                                                               "商业地产"
+                                                           ],
+                                              "driver":  "区域银行地产敞口与再融资",
+                                              "unit":  "贷款额或基点",
+                                              "operating":  "贷款审批、空置率和再融资成本",
+                                              "financial":  "利息支出、资产减值与现金流",
+                                              "directions":  [
+                                                                 "NEGATIVE",
+                                                                 "NEGATIVE",
+                                                                 "MIXED"
+                                                             ],
+                                              "condition":  "银行收缩商业地产信贷",
+                                              "invalidation":  "本地信贷政策保持宽松"
+                                          },
+                                          {
+                                              "sw1_id":  "801050",
+                                              "name":  "有色金属",
+                                              "tier":  "CONDITIONAL",
+                                              "segments":  [
+                                                               "黄金"
+                                                           ],
+                                              "driver":  "避险需求与利率预期",
+                                              "unit":  "美元/盎司",
+                                              "operating":  "金价、持仓和矿产量",
+                                              "financial":  "产品售价、采选利润与套保损益",
+                                              "directions":  [
+                                                                 "POSITIVE",
+                                                                 "POSITIVE",
+                                                                 "MIXED"
+                                                             ],
+                                              "condition":  "避险和降息预期强于美元流动性需求",
+                                              "invalidation":  "危机快速受控且实际利率上升"
+                                          }
+                                      ],
+                       "anchor_fact_zh":  "2023年3月10日，加州金融保护与创新部关闭硅谷银行并指定FDIC为接管人；FDIC当日公告确认该行关闭。"
+                   },
+                   {
+                       "event_id":  "event-06",
+                       "title_zh":  "OPEC+ 意外减产",
+                       "anchor_node_id":  "fast-event-06-M03",
+                       "classification_edition":  "SW2021",
+                       "behavior_change_zh":  "产油国额外减产收紧预期供应并抬升能源价格风险",
+                       "counterevidence_zh":  [
+                                                  "全球需求衰退可能抵消供应收缩",
+                                                  "实际执行率和非OPEC增产决定缺口"
+                                              ],
+                       "industries":  [
+                                          {
+                                              "sw1_id":  "801960",
+                                              "name":  "石油石化",
+                                              "tier":  "CORE_DIRECT",
+                                              "segments":  [
+                                                               "油气开采",
+                                                               "油服",
+                                                               "炼化"
+                                                           ],
+                                              "driver":  "原油供应缺口与油价",
+                                              "unit":  "美元/桶",
+                                              "operating":  "产量、实现价格、钻采活动与炼化价差",
+                                              "financial":  "上游收入、油服订单和炼化毛利",
+                                              "directions":  [
+                                                                 "POSITIVE",
+                                                                 "POSITIVE",
+                                                                 "MIXED"
+                                                             ],
+                                              "condition":  "减产执行且需求不显著下滑",
+                                              "invalidation":  "需求衰退或增产完全抵消"
+                                          },
+                                          {
+                                              "sw1_id":  "801950",
+                                              "name":  "煤炭",
+                                              "tier":  "SECOND_ORDER",
+                                              "segments":  [
+                                                               "能源替代"
+                                                           ],
+                                              "driver":  "油煤相对价格与替代需求",
+                                              "unit":  "元/吨",
+                                              "operating":  "煤价、电厂库存和补库",
+                                              "financial":  "吨煤售价、利润与运输成本",
+                                              "directions":  [
+                                                                 "POSITIVE",
+                                                                 "POSITIVE",
+                                                                 "MIXED"
+                                                             ],
+                                              "condition":  "高油价推动部分能源替代",
+                                              "invalidation":  "替代技术和环保约束限制需求"
+                                          },
+                                          {
+                                              "sw1_id":  "801030",
+                                              "name":  "基础化工",
+                                              "tier":  "SECOND_ORDER",
+                                              "segments":  [
+                                                               "油基化工"
+                                                           ],
+                                              "driver":  "石脑油和原油原料成本",
+                                              "unit":  "元/吨",
+                                              "operating":  "原料成本、产品价格和价差",
+                                              "financial":  "毛利率、库存损益与营运资金",
+                                              "directions":  [
+                                                                 "NEGATIVE",
+                                                                 "NEGATIVE",
+                                                                 "MIXED"
+                                                             ],
+                                              "condition":  "原料涨价快于产品提价",
+                                              "invalidation":  "一体化和低库存缓冲成本"
+                                          },
+                                          {
+                                              "sw1_id":  "801170",
+                                              "name":  "交通运输",
+                                              "tier":  "SECOND_ORDER",
+                                              "segments":  [
+                                                               "航空",
+                                                               "公路物流"
+                                                           ],
+                                              "driver":  "航油和柴油成本",
+                                              "unit":  "元/吨",
+                                              "operating":  "单位燃油成本、运量和运价",
+                                              "financial":  "燃油支出、票价和运输毛利",
+                                              "directions":  [
+                                                                 "NEGATIVE",
+                                                                 "NEGATIVE",
+                                                                 "MIXED"
+                                                             ],
+                                              "condition":  "燃油涨价不能及时传导",
+                                              "invalidation":  "套保或运价附加费覆盖成本"
+                                          },
+                                          {
+                                              "sw1_id":  "801160",
+                                              "name":  "公用事业",
+                                              "tier":  "SECOND_ORDER",
+                                              "segments":  [
+                                                               "燃气",
+                                                               "燃油发电"
+                                                           ],
+                                              "driver":  "进口燃料采购成本",
+                                              "unit":  "元/单位",
+                                              "operating":  "燃料采购价和终端价格",
+                                              "financial":  "购销价差、补贴与现金流",
+                                              "directions":  [
+                                                                 "NEGATIVE",
+                                                                 "NEGATIVE",
+                                                                 "MIXED"
+                                                             ],
+                                              "condition":  "价格监管阻碍成本传导",
+                                              "invalidation":  "顺价机制及时调整"
+                                          },
+                                          {
+                                              "sw1_id":  "801730",
+                                              "name":  "电力设备",
+                                              "tier":  "CONDITIONAL",
+                                              "segments":  [
+                                                               "新能源替代"
+                                                           ],
+                                              "driver":  "化石能源价格与替代投资回报",
+                                              "unit":  "投资额或度电成本",
+                                              "operating":  "新增装机、订单和项目收益率",
+                                              "financial":  "设备订单、收入和资本开支",
+                                              "directions":  [
+                                                                 "MIXED",
+                                                                 "POSITIVE",
+                                                                 "POSITIVE"
+                                                             ],
+                                              "condition":  "高油价持续并转化为替代投资",
+                                              "invalidation":  "融资成本或电网约束阻止投资"
+                                          },
+                                          {
+                                              "sw1_id":  "801010",
+                                              "name":  "农林牧渔",
+                                              "tier":  "CONDITIONAL",
+                                              "segments":  [
+                                                               "种植",
+                                                               "养殖"
+                                                           ],
+                                              "driver":  "柴油、运输和化肥成本",
+                                              "unit":  "元/亩或元/吨",
+                                              "operating":  "种植、饲料和运输成本",
+                                              "financial":  "单位成本、产品售价与利润率",
+                                              "directions":  [
+                                                                 "NEGATIVE",
+                                                                 "NEGATIVE",
+                                                                 "MIXED"
+                                                             ],
+                                              "condition":  "能源成本上涨且农产品价格不跟随",
+                                              "invalidation":  "产品涨价或补贴覆盖成本"
+                                          }
+                                      ],
+                       "anchor_fact_zh":  "OPEC在2023年4月3日的联合部长级监测委员会页面记录，多国于4月2日宣布自愿减产并计划自2023年5月实施；4月2日13:00Z时刻仍待成员国原始声明核实。"
+                   },
+                   {
+                       "event_id":  "event-07",
+                       "title_zh":  "红海航运危机升级",
+                       "anchor_node_id":  "fast-event-07-M03",
+                       "classification_edition":  "SW2021",
+                       "behavior_change_zh":  "商船遇袭促使绕航好望角、保险加价和交付周期延长",
+                       "counterevidence_zh":  [
+                                                  "运力投放和需求走弱可能压低运价",
+                                                  "部分企业已有库存和长期运价合同"
+                                              ],
+                       "industries":  [
+                                          {
+                                              "sw1_id":  "801170",
+                                              "name":  "交通运输",
+                                              "tier":  "CORE_DIRECT",
+                                              "segments":  [
+                                                               "集运",
+                                                               "油运",
+                                                               "港口",
+                                                               "航空货运"
+                                                           ],
+                                              "driver":  "绕航比例与集装箱运价",
+                                              "unit":  "运价指数",
+                                              "operating":  "吨海里、运价、周转天数与燃油消耗",
+                                              "financial":  "运费收入、燃油成本和船舶利用率",
+                                              "directions":  [
+                                                                 "MIXED",
+                                                                 "MIXED",
+                                                                 "MIXED"
+                                                             ],
+                                              "condition":  "绕航推升运价大于额外运营成本",
+                                              "invalidation":  "运力快速补充或航线恢复"
+                                          },
+                                          {
+                                              "sw1_id":  "801960",
+                                              "name":  "石油石化",
+                                              "tier":  "SECOND_ORDER",
+                                              "segments":  [
+                                                               "油运风险溢价"
+                                                           ],
+                                              "driver":  "能源运输风险与油价",
+                                              "unit":  "美元/桶",
+                                              "operating":  "到岸成本、库存和炼化价差",
+                                              "financial":  "采购成本、库存损益与产品价差",
+                                              "directions":  [
+                                                                 "POSITIVE",
+                                                                 "POSITIVE",
+                                                                 "MIXED"
+                                                             ],
+                                              "condition":  "航运风险转化为持续供应溢价",
+                                              "invalidation":  "能源航线未受实质阻断"
+                                          },
+                                          {
+                                              "sw1_id":  "801080",
+                                              "name":  "电子",
+                                              "tier":  "SECOND_ORDER",
+                                              "segments":  [
+                                                               "对欧出口",
+                                                               "供应链"
+                                                           ],
+                                              "driver":  "交付周期与海运成本",
+                                              "unit":  "天或运费",
+                                              "operating":  "交付天数、库存和订单履约",
+                                              "financial":  "物流费用、收入确认和营运资金",
+                                              "directions":  [
+                                                                 "NEGATIVE",
+                                                                 "NEGATIVE",
+                                                                 "MIXED"
+                                                             ],
+                                              "condition":  "欧洲方向海运占比较高",
+                                              "invalidation":  "空运、海外库存或本地化产能对冲"
+                                          },
+                                          {
+                                              "sw1_id":  "801880",
+                                              "name":  "汽车",
+                                              "tier":  "SECOND_ORDER",
+                                              "segments":  [
+                                                               "整车出口",
+                                                               "零部件"
+                                                           ],
+                                              "driver":  "出口航线和滚装运价",
+                                              "unit":  "天或运费",
+                                              "operating":  "出口交付、在途库存和运费",
+                                              "financial":  "海外收入、物流成本与库存资金",
+                                              "directions":  [
+                                                                 "NEGATIVE",
+                                                                 "NEGATIVE",
+                                                                 "MIXED"
+                                                             ],
+                                              "condition":  "红海航线承担重要出口量",
+                                              "invalidation":  "改道成本可转嫁或海外产能替代"
+                                          },
+                                          {
+                                              "sw1_id":  "801110",
+                                              "name":  "家用电器",
+                                              "tier":  "CONDITIONAL",
+                                              "segments":  [
+                                                               "对欧出口"
+                                                           ],
+                                              "driver":  "海运成本与渠道库存",
+                                              "unit":  "运费或库存天数",
+                                              "operating":  "出口交付、库存和渠道补货",
+                                              "financial":  "海外收入、物流费率与促销",
+                                              "directions":  [
+                                                                 "NEGATIVE",
+                                                                 "NEGATIVE",
+                                                                 "MIXED"
+                                                             ],
+                                              "condition":  "欧洲收入和海运占比较高",
+                                              "invalidation":  "海外仓库存充分"
+                                          },
+                                          {
+                                              "sw1_id":  "801890",
+                                              "name":  "机械设备",
+                                              "tier":  "CONDITIONAL",
+                                              "segments":  [
+                                                               "出口机械"
+                                                           ],
+                                              "driver":  "项目交付与运输周期",
+                                              "unit":  "天或运费",
+                                              "operating":  "交付进度、在手订单和运输成本",
+                                              "financial":  "收入确认、违约成本与现金流",
+                                              "directions":  [
+                                                                 "NEGATIVE",
+                                                                 "NEGATIVE",
+                                                                 "MIXED"
+                                                             ],
+                                              "condition":  "大件设备依赖红海航线",
+                                              "invalidation":  "合同允许延期或成本转嫁"
+                                          },
+                                          {
+                                              "sw1_id":  "801030",
+                                              "name":  "基础化工",
+                                              "tier":  "CONDITIONAL",
+                                              "segments":  [
+                                                               "外贸化工"
+                                                           ],
+                                              "driver":  "原料到岸与出口运费",
+                                              "unit":  "元/吨",
+                                              "operating":  "库存、价差和交付周期",
+                                              "financial":  "原料成本、出口收入与营运资金",
+                                              "directions":  [
+                                                                 "MIXED",
+                                                                 "NEGATIVE",
+                                                                 "MIXED"
+                                                             ],
+                                              "condition":  "进口原料或对欧出口暴露较高",
+                                              "invalidation":  "本地原料和国内销售占主导"
+                                          }
+                                      ],
+                       "anchor_fact_zh":  "2023年11月19日，Galaxy Leader汽车运输船在红海被扣押，国际海事组织秘书长同日对此表达严重关切；精确首次公开时刻尚未解决。"
+                   },
+                   {
+                       "event_id":  "event-08",
+                       "title_zh":  "日本央行结束负利率",
+                       "anchor_node_id":  "fast-event-08-M04",
+                       "classification_edition":  "SW2021",
+                       "behavior_change_zh":  "日本短端利率和日元融资条件正常化，套息交易与汇率预期重估",
+                       "counterevidence_zh":  [
+                                                  "政策路径温和且已被市场预期",
+                                                  "中日行业基本面差异可能大于日元传导"
+                                              ],
+                       "industries":  [
+                                          {
+                                              "sw1_id":  "801780",
+                                              "name":  "银行",
+                                              "tier":  "CORE_DIRECT",
+                                              "segments":  [
+                                                               "商业银行"
+                                                           ],
+                                              "driver":  "日元利率与跨境利差",
+                                              "unit":  "基点",
+                                              "operating":  "净息差、外币融资和资产配置",
+                                              "financial":  "利息收入、外汇损益与估值",
+                                              "directions":  [
+                                                                 "POSITIVE",
+                                                                 "POSITIVE",
+                                                                 "MIXED"
+                                                             ],
+                                              "condition":  "利率正常化改善资产收益且负债成本可控",
+                                              "invalidation":  "曲线过度平坦或信贷需求疲弱"
+                                          },
+                                          {
+                                              "sw1_id":  "801790",
+                                              "name":  "非银金融",
+                                              "tier":  "CORE_DIRECT",
+                                              "segments":  [
+                                                               "保险",
+                                                               "券商",
+                                                               "套息交易"
+                                                           ],
+                                              "driver":  "日债收益率与套息平仓",
+                                              "unit":  "基点或持仓",
+                                              "operating":  "再投资收益、交易量和跨境持仓",
+                                              "financial":  "投资收益、估值和交易收入",
+                                              "directions":  [
+                                                                 "MIXED",
+                                                                 "POSITIVE",
+                                                                 "MIXED"
+                                                             ],
+                                              "condition":  "再投资收益改善大于持仓重估损失",
+                                              "invalidation":  "套息平仓造成流动性冲击"
+                                          },
+                                          {
+                                              "sw1_id":  "801170",
+                                              "name":  "交通运输",
+                                              "tier":  "SECOND_ORDER",
+                                              "segments":  [
+                                                               "赴日旅游",
+                                                               "航空"
+                                                           ],
+                                              "driver":  "日元汇率与赴日客流",
+                                              "unit":  "汇率或人次",
+                                              "operating":  "客流、客座率和当地成本",
+                                              "financial":  "客运收入、汇兑和境外成本",
+                                              "directions":  [
+                                                                 "MIXED",
+                                                                 "MIXED",
+                                                                 "MIXED"
+                                                             ],
+                                              "condition":  "汇率变化显著改变旅游需求",
+                                              "invalidation":  "运力和签证约束占主导"
+                                          },
+                                          {
+                                              "sw1_id":  "801880",
+                                              "name":  "汽车",
+                                              "tier":  "SECOND_ORDER",
+                                              "segments":  [
+                                                               "出口竞争"
+                                                           ],
+                                              "driver":  "人民币兑日元与日本车出口价",
+                                              "unit":  "汇率或销量",
+                                              "operating":  "出口销量、定价和市场份额",
+                                              "financial":  "海外收入、汇兑与促销成本",
+                                              "directions":  [
+                                                                 "MIXED",
+                                                                 "MIXED",
+                                                                 "MIXED"
+                                                             ],
+                                              "condition":  "日元升值改变中日出口竞争",
+                                              "invalidation":  "产品周期主导份额"
+                                          },
+                                          {
+                                              "sw1_id":  "801890",
+                                              "name":  "机械设备",
+                                              "tier":  "SECOND_ORDER",
+                                              "segments":  [
+                                                               "工业设备出口"
+                                                           ],
+                                              "driver":  "汇率与日本设备竞争价格",
+                                              "unit":  "汇率或订单额",
+                                              "operating":  "出口订单、价格和交付",
+                                              "financial":  "海外收入、毛利和汇兑",
+                                              "directions":  [
+                                                                 "MIXED",
+                                                                 "MIXED",
+                                                                 "MIXED"
+                                                             ],
+                                              "condition":  "日本竞争品价格随汇率变化",
+                                              "invalidation":  "技术和服务差异占主导"
+                                          },
+                                          {
+                                              "sw1_id":  "801080",
+                                              "name":  "电子",
+                                              "tier":  "CONDITIONAL",
+                                              "segments":  [
+                                                               "日本供应链"
+                                                           ],
+                                              "driver":  "日元汇率与零部件采购成本",
+                                              "unit":  "汇率或采购价",
+                                              "operating":  "进口成本、订单与库存",
+                                              "financial":  "材料成本、汇兑和毛利率",
+                                              "directions":  [
+                                                                 "MIXED",
+                                                                 "MIXED",
+                                                                 "MIXED"
+                                                             ],
+                                              "condition":  "日本零部件采购占比较高",
+                                              "invalidation":  "本地化供应链降低暴露"
+                                          },
+                                          {
+                                              "sw1_id":  "801050",
+                                              "name":  "有色金属",
+                                              "tier":  "CONDITIONAL",
+                                              "segments":  [
+                                                               "黄金"
+                                                           ],
+                                              "driver":  "日元、美元与实际利率",
+                                              "unit":  "汇率或%",
+                                              "operating":  "金价、持仓和矿产量",
+                                              "financial":  "金属售价和套保损益",
+                                              "directions":  [
+                                                                 "MIXED",
+                                                                 "MIXED",
+                                                                 "MIXED"
+                                                             ],
+                                              "condition":  "政策改变全球利率和避险配置",
+                                              "invalidation":  "美联储政策完全主导金价"
+                                          }
+                                      ],
+                       "anchor_fact_zh":  "2024年3月19日，日本银行宣布收益率曲线控制和负利率政策已经完成其作用，将短期政策利率设为0%至0.1%左右，正式结束负利率框架。"
+                   },
+                   {
+                       "event_id":  "event-09",
+                       "title_zh":  "中国一揽子金融支持政策",
+                       "anchor_node_id":  "fast-event-09-M03",
+                       "classification_edition":  "SW2021",
+                       "behavior_change_zh":  "降准降息、房地产支持和资本市场工具共同改善流动性与风险预期",
+                       "counterevidence_zh":  [
+                                                  "政策宣布不等于信用需求和地产销售立即恢复",
+                                                  "财政力度与居民信心影响中期持续性"
+                                              ],
+                       "industries":  [
+                                          {
+                                              "sw1_id":  "801790",
+                                              "name":  "非银金融",
+                                              "tier":  "CORE_DIRECT",
+                                              "segments":  [
+                                                               "券商",
+                                                               "资本市场"
+                                                           ],
+                                              "driver":  "市场流动性、成交额与风险偏好",
+                                              "unit":  "成交额或融资余额",
+                                              "operating":  "成交额、两融和资管规模",
+                                              "financial":  "经纪、自营和资管收入",
+                                              "directions":  [
+                                                                 "POSITIVE",
+                                                                 "POSITIVE",
+                                                                 "MIXED"
+                                                             ],
+                                              "condition":  "政策工具带动成交和风险偏好",
+                                              "invalidation":  "成交迅速回落"
+                                          },
+                                          {
+                                              "sw1_id":  "801180",
+                                              "name":  "房地产",
+                                              "tier":  "CORE_DIRECT",
+                                              "segments":  [
+                                                               "开发",
+                                                               "住房金融"
+                                                           ],
+                                              "driver":  "房贷利率、首付和再融资条件",
+                                              "unit":  "基点或销售额",
+                                              "operating":  "销售、融资和土地投资",
+                                              "financial":  "回款、利息支出与资产减值",
+                                              "directions":  [
+                                                                 "POSITIVE",
+                                                                 "POSITIVE",
+                                                                 "MIXED"
+                                                             ],
+                                              "condition":  "融资改善转化为销售和现金回流",
+                                              "invalidation":  "居民购房需求继续疲弱"
+                                          },
+                                          {
+                                              "sw1_id":  "801780",
+                                              "name":  "银行",
+                                              "tier":  "CORE_DIRECT",
+                                              "segments":  [
+                                                               "商业银行"
+                                                           ],
+                                              "driver":  "降准、政策利率和信贷需求",
+                                              "unit":  "基点或贷款额",
+                                              "operating":  "净息差、贷款投放和资产质量",
+                                              "financial":  "利息收入、信用成本与资本占用",
+                                              "directions":  [
+                                                                 "MIXED",
+                                                                 "POSITIVE",
+                                                                 "MIXED"
+                                                             ],
+                                              "condition":  "信贷量增和信用改善覆盖息差下降",
+                                              "invalidation":  "贷款需求不足且息差继续收窄"
+                                          },
+                                          {
+                                              "sw1_id":  "801710",
+                                              "name":  "建筑材料",
+                                              "tier":  "SECOND_ORDER",
+                                              "segments":  [
+                                                               "水泥",
+                                                               "玻璃"
+                                                           ],
+                                              "driver":  "地产施工与竣工需求",
+                                              "unit":  "开工面积或销量",
+                                              "operating":  "水泥玻璃销量、库存和价格",
+                                              "financial":  "收入、吨毛利和库存周转",
+                                              "directions":  [
+                                                                 "POSITIVE",
+                                                                 "POSITIVE",
+                                                                 "MIXED"
+                                                             ],
+                                              "condition":  "地产资金改善带动实物工作量",
+                                              "invalidation":  "政策仅改善金融指标未带动施工"
+                                          },
+                                          {
+                                              "sw1_id":  "801140",
+                                              "name":  "轻工制造",
+                                              "tier":  "SECOND_ORDER",
+                                              "segments":  [
+                                                               "家居"
+                                                           ],
+                                              "driver":  "住宅成交与装修需求",
+                                              "unit":  "成交面积或订单额",
+                                              "operating":  "家居订单、客单价和渠道库存",
+                                              "financial":  "收入、应收账款与促销费用",
+                                              "directions":  [
+                                                                 "POSITIVE",
+                                                                 "POSITIVE",
+                                                                 "MIXED"
+                                                             ],
+                                              "condition":  "住房成交转化为装修订单",
+                                              "invalidation":  "交付周期长或渠道库存过高"
+                                          },
+                                          {
+                                              "sw1_id":  "801110",
+                                              "name":  "家用电器",
+                                              "tier":  "SECOND_ORDER",
+                                              "segments":  [
+                                                               "地产后周期"
+                                                           ],
+                                              "driver":  "住宅交付与换新需求",
+                                              "unit":  "销量",
+                                              "operating":  "家电销量、渠道库存和均价",
+                                              "financial":  "收入、毛利与促销费用",
+                                              "directions":  [
+                                                                 "POSITIVE",
+                                                                 "POSITIVE",
+                                                                 "MIXED"
+                                                             ],
+                                              "condition":  "地产企稳叠加消费换新",
+                                              "invalidation":  "需求透支或价格竞争加剧"
+                                          },
+                                          {
+                                              "sw1_id":  "801720",
+                                              "name":  "建筑装饰",
+                                              "tier":  "CONDITIONAL",
+                                              "segments":  [
+                                                               "房建",
+                                                               "基建"
+                                                           ],
+                                              "driver":  "项目资金到位与新签订单",
+                                              "unit":  "订单额",
+                                              "operating":  "新签订单、施工进度和回款",
+                                              "financial":  "收入确认、应收账款与现金流",
+                                              "directions":  [
+                                                                 "POSITIVE",
+                                                                 "POSITIVE",
+                                                                 "MIXED"
+                                                             ],
+                                              "condition":  "金融支持落实为项目资金",
+                                              "invalidation":  "地方和开发商资金仍受约束"
+                                          },
+                                          {
+                                              "sw1_id":  "801200",
+                                              "name":  "商贸零售",
+                                              "tier":  "CONDITIONAL",
+                                              "segments":  [
+                                                               "可选消费"
+                                                           ],
+                                              "driver":  "财富效应与消费信贷",
+                                              "unit":  "零售额",
+                                              "operating":  "客流、同店销售和库存",
+                                              "financial":  "收入、促销和库存周转",
+                                              "directions":  [
+                                                                 "POSITIVE",
+                                                                 "POSITIVE",
+                                                                 "MIXED"
+                                                             ],
+                                              "condition":  "资产价格改善转化为消费信心",
+                                              "invalidation":  "居民继续增加储蓄"
+                                          }
+                                      ],
+                       "anchor_fact_zh":  "2024年9月24日，国新办发布会宣布降准、下调政策利率、降低存量房贷利率及创设支持股票市场的新工具；01:00Z时刻仍需直播或议程记录佐证。"
+                   },
+                   {
+                       "event_id":  "event-10",
+                       "title_zh":  "美国对等关税政策公布",
+                       "anchor_node_id":  "fast-event-10-M02",
+                       "classification_edition":  "SW2021",
+                       "behavior_change_zh":  "美国提高进口关税并引发反制、转口和海外产能重配预期",
+                       "counterevidence_zh":  [
+                                                  "具体税目豁免和谈判可能显著改变有效税率",
+                                                  "汇率、转口和海外产能能够部分缓冲"
+                                              ],
+                       "industries":  [
+                                          {
+                                              "sw1_id":  "801080",
+                                              "name":  "电子",
+                                              "tier":  "CORE_DIRECT",
+                                              "segments":  [
+                                                               "消费电子",
+                                                               "元件出口"
+                                                           ],
+                                              "driver":  "对美有效关税与出口订单",
+                                              "unit":  "税率或订单额",
+                                              "operating":  "对美销量、订单、转口和库存",
+                                              "financial":  "海外收入、关税成本与毛利率",
+                                              "directions":  [
+                                                                 "NEGATIVE",
+                                                                 "NEGATIVE",
+                                                                 "MIXED"
+                                                             ],
+                                              "condition":  "对美出口暴露高且成本难以转嫁",
+                                              "invalidation":  "豁免、海外产能或转口充分"
+                                          },
+                                          {
+                                              "sw1_id":  "801110",
+                                              "name":  "家用电器",
+                                              "tier":  "CORE_DIRECT",
+                                              "segments":  [
+                                                               "白电",
+                                                               "小家电出口"
+                                                           ],
+                                              "driver":  "对美关税与零售渠道订单",
+                                              "unit":  "税率或销量",
+                                              "operating":  "出口销量、渠道库存和定价",
+                                              "financial":  "海外收入、关税和促销费用",
+                                              "directions":  [
+                                                                 "NEGATIVE",
+                                                                 "NEGATIVE",
+                                                                 "MIXED"
+                                                             ],
+                                              "condition":  "美国收入占比高且品牌议价有限",
+                                              "invalidation":  "本土产能和提价覆盖关税"
+                                          },
+                                          {
+                                              "sw1_id":  "801730",
+                                              "name":  "电力设备",
+                                              "tier":  "CORE_DIRECT",
+                                              "segments":  [
+                                                               "光伏",
+                                                               "电池",
+                                                               "电网设备"
+                                                           ],
+                                              "driver":  "关税、原产地规则与美国订单",
+                                              "unit":  "税率或订单额",
+                                              "operating":  "订单、出货和海外产能利用率",
+                                              "financial":  "海外收入、关税成本和资本开支",
+                                              "directions":  [
+                                                                 "NEGATIVE",
+                                                                 "NEGATIVE",
+                                                                 "MIXED"
+                                                             ],
+                                              "condition":  "产品被纳入税目且依赖中国出口",
+                                              "invalidation":  "海外产能满足原产地规则"
+                                          },
+                                          {
+                                              "sw1_id":  "801130",
+                                              "name":  "纺织服饰",
+                                              "tier":  "CORE_DIRECT",
+                                              "segments":  [
+                                                               "纺织制造",
+                                                               "服装出口"
+                                                           ],
+                                              "driver":  "关税与美国采购订单",
+                                              "unit":  "税率或订单额",
+                                              "operating":  "出口订单、产能转移和库存",
+                                              "financial":  "海外收入、人工物流成本与毛利",
+                                              "directions":  [
+                                                                 "NEGATIVE",
+                                                                 "NEGATIVE",
+                                                                 "MIXED"
+                                                             ],
+                                              "condition":  "美国客户无法快速转移成本",
+                                              "invalidation":  "东南亚产能和汇率对冲"
+                                          },
+                                          {
+                                              "sw1_id":  "801890",
+                                              "name":  "机械设备",
+                                              "tier":  "SECOND_ORDER",
+                                              "segments":  [
+                                                               "通用设备出口"
+                                                           ],
+                                              "driver":  "美国资本品订单与关税",
+                                              "unit":  "订单额或税率",
+                                              "operating":  "出口订单、交付和海外产能",
+                                              "financial":  "海外收入、成本与应收账款",
+                                              "directions":  [
+                                                                 "NEGATIVE",
+                                                                 "NEGATIVE",
+                                                                 "MIXED"
+                                                             ],
+                                              "condition":  "美国终端需求和直接出口占比较高",
+                                              "invalidation":  "非美市场补位"
+                                          },
+                                          {
+                                              "sw1_id":  "801880",
+                                              "name":  "汽车",
+                                              "tier":  "SECOND_ORDER",
+                                              "segments":  [
+                                                               "零部件",
+                                                               "整车出口"
+                                                           ],
+                                              "driver":  "关税、原产地规则与供应链迁移",
+                                              "unit":  "税率或销量",
+                                              "operating":  "出口销量、零部件订单和产能迁移",
+                                              "financial":  "海外收入、关税与重建产能支出",
+                                              "directions":  [
+                                                                 "NEGATIVE",
+                                                                 "NEGATIVE",
+                                                                 "MIXED"
+                                                             ],
+                                              "condition":  "相关税目覆盖且客户不吸收成本",
+                                              "invalidation":  "本地化生产或市场多元化"
+                                          },
+                                          {
+                                              "sw1_id":  "801170",
+                                              "name":  "交通运输",
+                                              "tier":  "SECOND_ORDER",
+                                              "segments":  [
+                                                               "集运",
+                                                               "港口"
+                                                           ],
+                                              "driver":  "中美贸易量与航线重构",
+                                              "unit":  "箱量或运价指数",
+                                              "operating":  "吞吐量、运价和航线配置",
+                                              "financial":  "运费收入、港口费和利用率",
+                                              "directions":  [
+                                                                 "NEGATIVE",
+                                                                 "NEGATIVE",
+                                                                 "MIXED"
+                                                             ],
+                                              "condition":  "关税持续压低双边贸易量",
+                                              "invalidation":  "抢出口或贸易转移抬升吨海里"
+                                          },
+                                          {
+                                              "sw1_id":  "801030",
+                                              "name":  "基础化工",
+                                              "tier":  "CONDITIONAL",
+                                              "segments":  [
+                                                               "化工出口"
+                                                           ],
+                                              "driver":  "产品税目、转口与海外供给",
+                                              "unit":  "税率或价差",
+                                              "operating":  "出口量、价差和库存",
+                                              "financial":  "出口收入、关税成本与毛利",
+                                              "directions":  [
+                                                                 "MIXED",
+                                                                 "NEGATIVE",
+                                                                 "MIXED"
+                                                             ],
+                                              "condition":  "具体产品被征税且替代供给充足",
+                                              "invalidation":  "产品稀缺或海外产能对冲"
+                                          },
+                                          {
+                                              "sw1_id":  "801010",
+                                              "name":  "农林牧渔",
+                                              "tier":  "CONDITIONAL",
+                                              "segments":  [
+                                                               "进口替代",
+                                                               "农产品反制"
+                                                           ],
+                                              "driver":  "反制税率与进口结构",
+                                              "unit":  "税率或进口量",
+                                              "operating":  "国内价格、进口量和种植面积",
+                                              "financial":  "产品售价、种植成本与库存价值",
+                                              "directions":  [
+                                                                 "MIXED",
+                                                                 "POSITIVE",
+                                                                 "MIXED"
+                                                             ],
+                                              "condition":  "反制措施提升国产替代需求",
+                                              "invalidation":  "国内增产导致价格回落"
+                                          }
+                                      ],
+                       "anchor_fact_zh":  "2025年4月2日，白宫先后发布对等关税事实清单和第14257号行政令，规定多数进口商品加征10%的额外从价税，并设置商品豁免。"
+                   }
+               ]
+}

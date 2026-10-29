@@ -1,0 +1,33 @@
+{
+  "event_id": "event-05",
+  "clean_attribution_decision": "CHALLENGE_ONLY",
+  "reason": "Signature Bank 关闭、流动性工具和存款担保改变银行压力路径。",
+  "by_horizon": {
+    "T0": "MINOR",
+    "D1": "MINOR",
+    "D3": "MATERIAL",
+    "D5": "MATERIAL",
+    "D20": "DOMINANT"
+  },
+  "items": [
+    {
+      "confounder_id": "event-05-C01-overlapping-developments",
+      "level": "DOMINANT",
+      "active_from": "2023-03-12",
+      "description": "Signature Bank 关闭、流动性工具和存款担保改变银行压力路径。",
+      "affected_path_ids": [
+        "event-05-P-banking-stress",
+        "event-05-P-rate-repricing",
+        "event-05-P-safe-haven"
+      ],
+      "affected_windows": [
+        "D3",
+        "D5",
+        "D20"
+      ],
+      "evidence_source_ids": [
+        "mechanism-event-05-fed-svb-review"
+      ]
+    }
+  ]
+}

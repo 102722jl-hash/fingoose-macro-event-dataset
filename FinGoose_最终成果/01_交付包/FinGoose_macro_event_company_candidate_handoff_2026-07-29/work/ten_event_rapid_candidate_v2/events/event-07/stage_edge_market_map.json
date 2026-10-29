@@ -1,0 +1,60 @@
+{
+  "event_id": "event-07",
+  "mapping_rule": "node -> rule-matched core paths -> preselected core series",
+  "node_mappings": [
+    {
+      "fast_node_id": "fast-event-07-M01",
+      "phase": "INITIAL_SHOCK",
+      "node_action": "STARTS",
+      "path_ids": [
+        "event-07-P-energy-supply",
+        "event-07-P-risk-appetite",
+        "event-07-P-safe-haven"
+      ],
+      "series_ids": [
+        "DCOILBRENTEU",
+        "DEXCHUS",
+        "SP500",
+        "VIXCLS"
+      ],
+      "market_window_status": "PRIMARY_ANCHOR"
+    },
+    {
+      "fast_node_id": "fast-event-07-M02",
+      "phase": "ESCALATION",
+      "node_action": "OBSERVES",
+      "path_ids": [],
+      "series_ids": [],
+      "market_window_status": "OUTSIDE_PRIMARY_ANCHOR_WINDOW"
+    },
+    {
+      "fast_node_id": "fast-event-07-M03",
+      "phase": "ESCALATION",
+      "node_action": "AMPLIFIES",
+      "path_ids": [],
+      "series_ids": [],
+      "market_window_status": "OUTSIDE_PRIMARY_ANCHOR_WINDOW"
+    },
+    {
+      "fast_node_id": "fast-event-07-M04",
+      "phase": "SECONDARY_SHOCK",
+      "node_action": "AMPLIFIES",
+      "path_ids": [
+        "event-07-P-shipping-disruption"
+      ],
+      "series_ids": [
+        "DCOILBRENTEU",
+        "SP500"
+      ],
+      "market_window_status": "OUTSIDE_PRIMARY_ANCHOR_WINDOW"
+    },
+    {
+      "fast_node_id": "fast-event-07-M05",
+      "phase": "POLICY_RESPONSE",
+      "node_action": "WEAKENS",
+      "path_ids": [],
+      "series_ids": [],
+      "market_window_status": "PENDING_EVIDENCE"
+    }
+  ]
+}

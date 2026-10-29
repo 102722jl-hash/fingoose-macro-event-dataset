@@ -1,0 +1,38 @@
+{
+  "counts": {
+    "anchors": 24,
+    "bindings": 111,
+    "events": 10,
+    "graphs": 10
+  },
+  "dataset_version": "fingoose-macro-event-attribution-v2.0",
+  "files": [
+    {
+      "path": "anchor_catalog.jsonl",
+      "record_count": 24,
+      "sha256": "1f067a6459cebc51d54da1dd771e84b508d46979cb2f513f99019da8bac89660"
+    },
+    {
+      "path": "transmission_graphs.jsonl",
+      "record_count": 10,
+      "sha256": "7a227dc3b412b0ca827d97e6b122b85a867367193e684e4cab9bcd155165ef91"
+    },
+    {
+      "path": "dynamic_edge_bindings.jsonl",
+      "record_count": 111,
+      "sha256": "7e150ddae81978268d858ae3f8b6608bd015c9ade5aea82ad0549b2b798f4f70"
+    },
+    {
+      "path": "validation_report.json",
+      "record_count": 1,
+      "sha256": "bd8de9b1348620e538f6e661e883367dafae7c3952dbfd239ba85a06710eca3e"
+    },
+    {
+      "path": "README.md",
+      "record_count": 1,
+      "sha256": "e6000d319b37da9502dceeaae32d3e015dd3a0e86a77100d9b1ec501820169a5"
+    }
+  ],
+  "formal_ready": false,
+  "release_tier": "FAST_CANDIDATE"
+}

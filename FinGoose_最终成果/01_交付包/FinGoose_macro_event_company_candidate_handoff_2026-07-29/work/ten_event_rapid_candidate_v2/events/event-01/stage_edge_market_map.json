@@ -1,0 +1,60 @@
+{
+  "event_id": "event-01",
+  "mapping_rule": "node -> rule-matched core paths -> preselected core series",
+  "node_mappings": [
+    {
+      "fast_node_id": "fast-event-01-M01",
+      "phase": "PRECONDITION",
+      "node_action": "OBSERVES",
+      "path_ids": [],
+      "series_ids": [],
+      "market_window_status": "NOT_COMPUTED"
+    },
+    {
+      "fast_node_id": "fast-event-01-M02",
+      "phase": "PRECONDITION",
+      "node_action": "AMPLIFIES",
+      "path_ids": [],
+      "series_ids": [],
+      "market_window_status": "NOT_COMPUTED"
+    },
+    {
+      "fast_node_id": "fast-event-01-M03",
+      "phase": "PRECONDITION",
+      "node_action": "OBSERVES",
+      "path_ids": [],
+      "series_ids": [],
+      "market_window_status": "SAME_DAY_UNRESOLVED"
+    },
+    {
+      "fast_node_id": "fast-event-01-M04",
+      "phase": "INITIAL_SHOCK",
+      "node_action": "STARTS",
+      "path_ids": [
+        "event-01-P-pandemic-risk-appetite",
+        "event-01-P-pandemic-oil-demand",
+        "event-01-P-pandemic-safe-haven"
+      ],
+      "series_ids": [
+        "DCOILWTICO",
+        "DEXCHUS",
+        "SP500",
+        "VIXCLS"
+      ],
+      "market_window_status": "PRIMARY_ANCHOR"
+    },
+    {
+      "fast_node_id": "fast-event-01-M05",
+      "phase": "POLICY_RESPONSE",
+      "node_action": "AMPLIFIES",
+      "path_ids": [
+        "event-01-P-pandemic-policy-response"
+      ],
+      "series_ids": [
+        "SP500",
+        "VIXCLS"
+      ],
+      "market_window_status": "OUTSIDE_PRIMARY_ANCHOR_WINDOW"
+    }
+  ]
+}

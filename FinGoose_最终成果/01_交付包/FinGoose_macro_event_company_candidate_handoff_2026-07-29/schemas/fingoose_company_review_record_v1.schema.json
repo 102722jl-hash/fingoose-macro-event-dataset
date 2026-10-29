@@ -1,0 +1,49 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://fingoose.local/schemas/fingoose_company_review_record_v1.schema.json",
+  "type": "object",
+  "additionalProperties": true,
+  "required": ["review_id", "dataset_version", "dossier_id", "confidence", "core_dimensions", "initial_review", "second_review", "adjudication"],
+  "properties": {
+    "review_id": {"type": "string", "minLength": 1},
+    "dataset_version": {"const": "fingoose-macro-event-company-v1.0"},
+    "dossier_id": {"type": "string", "minLength": 1},
+    "confidence": {"enum": ["HIGH", "MEDIUM", "LOW"]},
+    "core_dimensions": {"$ref": "#/$defs/coreDimensions"},
+    "quarter_differencing_used": {"type": "boolean"},
+    "event_channel_explicitly_disclosed": {"type": "boolean"},
+    "leakage_anomalies": {"type": "array", "items": {"type": "string", "minLength": 1}},
+    "initial_review": {"$ref": "#/$defs/review"},
+    "second_review": {"anyOf": [{"type": "null"}, {"$ref": "#/$defs/review"}]},
+    "adjudication": {"anyOf": [{"type": "null"}, {"$ref": "#/$defs/review"}]},
+    "second_review_trigger_reasons": {
+      "type": "array", "uniqueItems": true,
+      "items": {"enum": ["LOW_CONFIDENCE", "CORE_DIMENSION_UNKNOWN", "CORE_DIMENSION_CONTRADICTED", "STRONG_COMPETING_EXPLANATION", "QUARTER_DIFFERENCING", "EVENT_CHANNEL_NOT_EXPLICITLY_DISCLOSED", "LEAKAGE_ANOMALY"]}
+    }
+  },
+  "$defs": {
+    "coreDimensions": {
+      "type": "object", "additionalProperties": true,
+      "required": ["temporal_alignment", "business_exposure", "operating_financial_link", "competing_explanations"],
+      "properties": {
+        "temporal_alignment": {"enum": ["SUPPORTED", "CONTRADICTED", "UNKNOWN"]},
+        "business_exposure": {"enum": ["SUPPORTED", "CONTRADICTED", "UNKNOWN"]},
+        "operating_financial_link": {"enum": ["SUPPORTED", "CONTRADICTED", "UNKNOWN"]},
+        "competing_explanations": {"enum": ["LIMITED", "MIXED", "STRONG", "UNKNOWN"]}
+      }
+    },
+    "review": {
+      "type": "object", "additionalProperties": true,
+      "required": ["reviewer_id", "status", "label", "confidence", "core_dimensions"],
+      "properties": {
+        "reviewer_id": {"type": "string", "minLength": 1},
+        "status": {"enum": ["APPROVED", "PENDING", "REJECTED"]},
+        "label": {"enum": ["VERIFIED_ASSOCIATION", "CONTRIBUTING_ASSOCIATION", "WEAK_RELATION", "UNSUPPORTED"]},
+        "confidence": {"enum": ["HIGH", "MEDIUM", "LOW"]},
+        "core_dimensions": {"$ref": "#/$defs/coreDimensions"},
+        "reviewed_at": {"type": "string", "format": "date-time"},
+        "comments": {"type": "string", "minLength": 1}
+      }
+    }
+  }
+}

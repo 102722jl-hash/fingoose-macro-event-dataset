@@ -1,0 +1,168 @@
+{
+  "event_id": "event-02",
+  "title": "俄罗斯对乌克兰发动全面进攻及后续能源制裁",
+  "release_tier": "RAPID_CANDIDATE",
+  "formal_ready": false,
+  "primary_anchor_fast_node_id": "fast-event-02-M03",
+  "nodes": [
+    {
+      "anchor_role": "NONE",
+      "event_id": "event-02",
+      "evidence_status": "PENDING_EVIDENCE",
+      "fact": "EIA 在冲击前记录低库存与地缘紧张背景，供应中断风险的敏感度已较高。",
+      "fast_node_id": "fast-event-02-M01",
+      "first_public_at": null,
+      "gap_reason": "The available Kremlin candidate describes conflict onset, while this node describes the EIA inventory and geopolitical-risk precondition. A semantically matched source with independently reproducible times is still required.",
+      "impact_tags": [
+        "ENERGY_SUPPLY",
+        "RISK_APPETITE",
+        "INFLATION_EXPECTATIONS"
+      ],
+      "node_action": "OBSERVES",
+      "occurred_at": null,
+      "original_milestone_id": "milestone-event-02-a15f1fe4410d",
+      "phase": "PRECONDITION",
+      "promotion_eligible": false,
+      "sequence": 1,
+      "source_ids": [],
+      "status": "PROPOSED",
+      "visibility": "UNRESOLVED",
+      "linked_path_ids": [],
+      "impact_summary": "背景敏感度候选；证据未闭环，不激活可评分传导边。",
+      "market_observation_scope": "NOT_COMPUTED"
+    },
+    {
+      "anchor_role": "NONE",
+      "event_id": "event-02",
+      "evidence_status": "VERIFIED_EXISTING",
+      "fact": "Kremlin address: President announced the launch of a 'special military operation' (24 Feb 2022).",
+      "fast_node_id": "fast-event-02-M02",
+      "first_public_at": "2022-02-24T03:00:00Z",
+      "gap_reason": null,
+      "impact_tags": [
+        "GEOPOLITICAL_RISK",
+        "ENERGY_SUPPLY"
+      ],
+      "node_action": "AMPLIFIES",
+      "occurred_at": "2022-02-24T03:00:00Z",
+      "original_milestone_id": null,
+      "phase": "PRECONDITION",
+      "promotion_eligible": false,
+      "sequence": 2,
+      "source_ids": [
+        "supplemental-fast-event-02-M02"
+      ],
+      "status": "PROPOSED",
+      "visibility": "PUBLIC_PREDICTION",
+      "linked_path_ids": [
+        "event-02-P01-energy-supply",
+        "event-02-P03-risk-appetite"
+      ],
+      "impact_summary": "冲突正式启动，强化供应中断与尾部风险。",
+      "market_observation_scope": "PRIMARY_ANCHOR_SHARED_DAY"
+    },
+    {
+      "anchor_role": "PRIMARY",
+      "event_id": "event-02",
+      "evidence_status": "VERIFIED_EXISTING",
+      "expected_type": "UNKNOWN",
+      "fact": "NATO 首次公开确认俄罗斯对乌克兰发动大规模进攻；现有快照不支持把 03:00Z 作为已确认事实时刻。",
+      "fast_node_id": "fast-event-02-M03",
+      "first_public_at": "2022-02-24T05:00:00+00:00",
+      "gap_reason": null,
+      "impact_tags": [
+        "ENERGY_SUPPLY",
+        "RISK_APPETITE",
+        "INFLATION_EXPECTATIONS"
+      ],
+      "node_action": "STARTS",
+      "occurred_at": "2022-02-24T05:00:00+00:00",
+      "original_milestone_id": "milestone-event-02-47ac72edd092",
+      "phase": "INITIAL_SHOCK",
+      "promotion_eligible": true,
+      "sequence": 3,
+      "source_ids": [
+        "event02-nato-statement"
+      ],
+      "status": "PROPOSED",
+      "visibility": "PUBLIC_PREDICTION",
+      "linked_path_ids": [
+        "event-02-P01-energy-supply",
+        "event-02-P02-inflation-rates",
+        "event-02-P03-risk-appetite"
+      ],
+      "impact_summary": "公开主锚点，启动核心冲击观测窗口。",
+      "market_observation_scope": "PRIMARY_ANCHOR"
+    },
+    {
+      "anchor_role": "SECONDARY",
+      "event_id": "event-02",
+      "evidence_status": "VERIFIED_EXISTING",
+      "fact": "NATO 同一声明记录成员国已依据《华盛顿条约》第四条完成磋商，并决定加强联盟威慑与防御部署。",
+      "fast_node_id": "fast-event-02-M04",
+      "first_public_at": "2022-02-24T05:00:00+00:00",
+      "gap_reason": null,
+      "impact_tags": [
+        "ENERGY_SUPPLY",
+        "RISK_APPETITE",
+        "INFLATION_EXPECTATIONS"
+      ],
+      "node_action": "AMPLIFIES",
+      "occurred_at": "2022-02-24T05:00:00+00:00",
+      "original_milestone_id": "milestone-event-02-d8017a79fdfc",
+      "phase": "POLICY_RESPONSE",
+      "promotion_eligible": true,
+      "sequence": 4,
+      "source_ids": [
+        "event02-nato-statement"
+      ],
+      "status": "PROPOSED",
+      "visibility": "PUBLIC_PREDICTION",
+      "linked_path_ids": [
+        "event-02-P02-inflation-rates",
+        "event-02-P03-risk-appetite"
+      ],
+      "impact_summary": "同日政策响应强化安全与风险偏好分支。",
+      "market_observation_scope": "SAME_DAY_UNRESOLVED"
+    },
+    {
+      "anchor_role": "SECONDARY",
+      "event_id": "event-02",
+      "evidence_status": "VERIFIED_EXISTING",
+      "fact": "Treasury: G7, EU and Australia jointly set a price cap on seaborne Russian oil (Dec 2, 2022).",
+      "fast_node_id": "fast-event-02-M05",
+      "first_public_at": "2022-12-02T16:00:00Z",
+      "gap_reason": null,
+      "impact_tags": [
+        "DOLLAR_LIQUIDITY",
+        "ENERGY_SUPPLY",
+        "RISK_APPETITE"
+      ],
+      "node_action": "AMPLIFIES",
+      "occurred_at": "2022-12-02T16:00:00Z",
+      "original_milestone_id": null,
+      "phase": "POLICY_RESPONSE",
+      "promotion_eligible": false,
+      "sequence": 5,
+      "source_ids": [
+        "supplemental-fast-event-02-M05"
+      ],
+      "status": "PROPOSED",
+      "visibility": "PUBLIC_PREDICTION",
+      "linked_path_ids": [
+        "event-02-P04-sanctions-trade"
+      ],
+      "impact_summary": "价格上限开启新的政策与贸易摩擦分支。",
+      "market_observation_scope": "OUTSIDE_PRIMARY_ANCHOR_WINDOW"
+    }
+  ],
+  "daily_resolution": {
+    "status": "SAME_DAY_UNRESOLVED",
+    "date": "2022-02-24",
+    "node_ids": [
+      "fast-event-02-M03",
+      "fast-event-02-M04"
+    ],
+    "reason": "两个节点的公开时间相同，日频收盘值无法识别各自的边际影响。"
+  }
+}

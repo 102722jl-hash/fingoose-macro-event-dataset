@@ -1,0 +1,59 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://fingoose.local/schemas/fingoose_company_stock_window_v1.schema.json",
+  "type": "object",
+  "additionalProperties": true,
+  "required": ["stock_window_id", "dataset_version", "dossier_id", "event_id", "company_code", "t0_session", "baseline", "benchmark", "window_basis", "windows"],
+  "properties": {
+    "stock_window_id": {"type": "string", "minLength": 1},
+    "dataset_version": {"const": "fingoose-macro-event-company-v1.0"},
+    "dossier_id": {"type": "string", "minLength": 1},
+    "event_id": {"type": "string", "pattern": "^event-[0-9]{2}$"},
+    "company_code": {"type": "string", "pattern": "^[0-9]{6}\\.(SH|SZ)$"},
+    "t0_session": {"type": "string", "format": "date"},
+    "benchmark": {"const": "CSI300"},
+    "window_basis": {"const": "COMPANY_TRADING_SESSIONS"},
+    "baseline": {
+      "type": "object", "additionalProperties": false,
+      "required": ["date", "company_close", "benchmark_close", "csi300_close"],
+      "properties": {
+        "date": {"type": "string", "format": "date"},
+        "company_close": {"type": "number", "exclusiveMinimum": 0},
+        "benchmark_close": {"type": "number", "exclusiveMinimum": 0},
+        "csi300_close": {"type": "number", "exclusiveMinimum": 0}
+      }
+    },
+    "windows": {
+      "type": "object", "additionalProperties": false,
+      "required": ["D1", "D3", "D5", "D20"],
+      "properties": {
+        "D1": {"$ref": "#/$defs/windowOrNull"},
+        "D3": {"$ref": "#/$defs/windowOrNull"},
+        "D5": {"$ref": "#/$defs/windowOrNull"},
+        "D20": {"$ref": "#/$defs/windowOrNull"}
+      }
+    }
+  },
+  "$defs": {
+    "windowOrNull": {
+      "anyOf": [
+        {"type": "null"},
+        {
+          "type": "object", "additionalProperties": false,
+          "required": ["end_date", "company_close", "benchmark_close", "company_return_pct", "benchmark_return_pct", "csi300_return_pct", "relative_abnormal_return_pct", "company_trading_session_count"],
+          "properties": {
+            "end_date": {"type": "string", "format": "date"},
+            "company_close": {"type": "number", "exclusiveMinimum": 0},
+            "benchmark_close": {"type": "number", "exclusiveMinimum": 0},
+        "csi300_close": {"type": "number", "exclusiveMinimum": 0},
+            "company_return_pct": {"type": "number"},
+            "benchmark_return_pct": {"type": "number"},
+            "csi300_return_pct": {"type": "number"},
+            "relative_abnormal_return_pct": {"type": "number"},
+            "company_trading_session_count": {"enum": [1, 3, 5, 20]}
+          }
+        }
+      ]
+    }
+  }
+}

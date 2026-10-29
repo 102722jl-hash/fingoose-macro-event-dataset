@@ -1,0 +1,14 @@
+EVIDENCE SPEC (snapshot not retrievable automatically - manual drop-in required)
+NODE: fast-event-07-M05
+OFFICIAL_URL: https://www.whitehouse.gov/briefing-room/statements-releases/2024/01/11/statement-from-president-joe-biden-on-us-military-strikes-in-yemen/
+PUBLISHER: The White House / U.S. CENTCOM
+
+VERBATIM QUOTE (target):
+  "successfully conducted strikes against Houthi targets"
+
+OCCURRED_AT: 2024-01-12T01:00:00Z (America/New_York (UTC-5, EST))
+  locator: White House statement 11 Jan 2024: 'U.S. military forces - together with the United Kingdom - successfully conducted strikes against Houthi targets.'
+FIRST_PUBLIC_AT: 2024-01-11T20:00:00Z (America/New_York (UTC-5, EST))
+  locator: White House briefing-room statement published 11 Jan 2024.
+
+FACT: The U.S. (with the UK) conducted strikes against Houthi targets in Yemen - the multi-national policy/escort response to Red Sea shipping risk.

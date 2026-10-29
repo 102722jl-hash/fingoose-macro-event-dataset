@@ -1,0 +1,131 @@
+{
+  "event_id": "event-07",
+  "title": "2023 年 10 月中东冲突与航运风险升级",
+  "ordering_basis": "CURATED_STORY_SEQUENCE",
+  "steps": [
+    {
+      "story_step_id": "story-event-07-01",
+      "sequence": 1,
+      "phase": "INITIAL_SHOCK",
+      "title_cn": "10 月 7 日袭击启动中东冲突主线",
+      "narrative_cn": "10 月 7 日袭击启动中东冲突主线。事件状态由“中东风险尚未形成新的全球锚点”转为“冲突与能源风险溢价进入定价”，后续观察应使用新的阶段基准。",
+      "before_state_cn": "中东风险尚未形成新的全球锚点",
+      "after_state_cn": "冲突与能源风险溢价进入定价",
+      "significance_cn": "该步骤改变事件性质并启动核心市场重定价，并重新界定能源风险溢价、航运成本、避险需求与风险资产的观察窗口与传导条件。",
+      "evidence_node_ids": [
+        "fast-event-07-M01"
+      ],
+      "period_start": "2023-10-07T12:00:00+00:00",
+      "period_end": "2023-10-07T12:00:00+00:00",
+      "time_precision": "TIMESTAMP",
+      "evidence_status": "SUPPORTED",
+      "evidence_boundary_cn": "关联证据支持事件事实；前后状态与阶段意义属于可追溯的研究归纳。",
+      "activated_path_ids": [
+        "event-07-P-energy-supply",
+        "event-07-P-risk-appetite",
+        "event-07-P-safe-haven"
+      ],
+      "amplified_path_ids": [],
+      "weakened_path_ids": [],
+      "market_series_ids": [
+        "DCOILBRENTEU",
+        "VIXCLS",
+        "SP500",
+        "DEXCHUS"
+      ]
+    },
+    {
+      "story_step_id": "story-event-07-02",
+      "sequence": 2,
+      "phase": "ESCALATION",
+      "title_cn": "油市报告记录冲击初期供需环境",
+      "narrative_cn": "油市报告记录冲击初期供需环境。事件状态由“冲突与能源风险溢价进入定价”转为“油市反应可与实际供给中断区分”，后续观察应使用新的阶段基准。",
+      "before_state_cn": "冲突与能源风险溢价进入定价",
+      "after_state_cn": "油市反应可与实际供给中断区分",
+      "significance_cn": "该步骤扩大冲击范围或提高传导强度，并重新界定能源风险溢价、航运成本、避险需求与风险资产的观察窗口与传导条件。",
+      "evidence_node_ids": [
+        "fast-event-07-M02"
+      ],
+      "period_start": "2023-10-11T16:00:00+00:00",
+      "period_end": "2023-10-11T16:00:00+00:00",
+      "time_precision": "TIMESTAMP",
+      "evidence_status": "SUPPORTED",
+      "evidence_boundary_cn": "关联证据支持事件事实；前后状态与阶段意义属于可追溯的研究归纳。",
+      "activated_path_ids": [],
+      "amplified_path_ids": [],
+      "weakened_path_ids": [],
+      "market_series_ids": []
+    },
+    {
+      "story_step_id": "story-event-07-03",
+      "sequence": 3,
+      "phase": "ESCALATION",
+      "title_cn": "Galaxy Leader 被扣押使风险扩展至红海",
+      "narrative_cn": "Galaxy Leader 被扣押使风险扩展至红海。事件状态由“油市反应可与实际供给中断区分”转为“红海安全成为独立航运成本渠道”，后续观察应使用新的阶段基准。",
+      "before_state_cn": "油市反应可与实际供给中断区分",
+      "after_state_cn": "红海安全成为独立航运成本渠道",
+      "significance_cn": "该步骤扩大冲击范围或提高传导强度，并重新界定能源风险溢价、航运成本、避险需求与风险资产的观察窗口与传导条件。",
+      "evidence_node_ids": [
+        "fast-event-07-M03"
+      ],
+      "period_start": "2023-11-19",
+      "period_end": "2023-11-19",
+      "time_precision": "DATE",
+      "evidence_status": "SUPPORTED",
+      "evidence_boundary_cn": "关联证据支持事件事实；前后状态与阶段意义属于可追溯的研究归纳。",
+      "activated_path_ids": [],
+      "amplified_path_ids": [],
+      "weakened_path_ids": [],
+      "market_series_ids": []
+    },
+    {
+      "story_step_id": "story-event-07-04",
+      "sequence": 4,
+      "phase": "POLICY_RESPONSE",
+      "title_cn": "多国护航行动回应航运安全风险",
+      "narrative_cn": "多国护航行动回应航运安全风险。事件状态由“红海安全成为独立航运成本渠道”转为“多国护航形成组织化响应”，后续观察应使用新的阶段基准。",
+      "before_state_cn": "红海安全成为独立航运成本渠道",
+      "after_state_cn": "多国护航形成组织化响应",
+      "significance_cn": "该步骤引入可能改变原有传导方向的政策响应，并重新界定能源风险溢价、航运成本、避险需求与风险资产的观察窗口与传导条件。",
+      "evidence_node_ids": [
+        "fast-event-07-M04"
+      ],
+      "period_start": "2023-12-18T17:00:00Z",
+      "period_end": "2023-12-18T17:00:00Z",
+      "time_precision": "TIMESTAMP",
+      "evidence_status": "SUPPORTED",
+      "evidence_boundary_cn": "关联证据支持事件事实；前后状态与阶段意义属于可追溯的研究归纳。",
+      "activated_path_ids": [],
+      "amplified_path_ids": [
+        "event-07-P-shipping-disruption"
+      ],
+      "weakened_path_ids": [],
+      "market_series_ids": [
+        "DCOILBRENTEU",
+        "SP500"
+      ]
+    },
+    {
+      "story_step_id": "story-event-07-05",
+      "sequence": 5,
+      "phase": "POLICY_RESPONSE",
+      "title_cn": "美英空袭构成政策响应再升级",
+      "narrative_cn": "美英空袭构成政策响应再升级。事件状态由“多国护航形成组织化响应”转为“军事回应可能形成新的升级循环”，后续观察应使用新的阶段基准。",
+      "before_state_cn": "多国护航形成组织化响应",
+      "after_state_cn": "军事回应可能形成新的升级循环",
+      "significance_cn": "该步骤引入可能改变原有传导方向的政策响应，并重新界定能源风险溢价、航运成本、避险需求与风险资产的观察窗口与传导条件。",
+      "evidence_node_ids": [
+        "fast-event-07-M05"
+      ],
+      "period_start": null,
+      "period_end": null,
+      "time_precision": "UNKNOWN",
+      "evidence_status": "PENDING_EVIDENCE",
+      "evidence_boundary_cn": "核心事实仍待补证，当前只保留候选叙事，不进入干净归因评分。",
+      "activated_path_ids": [],
+      "amplified_path_ids": [],
+      "weakened_path_ids": [],
+      "market_series_ids": []
+    }
+  ]
+}

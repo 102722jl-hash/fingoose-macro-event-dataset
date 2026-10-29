@@ -1,0 +1,77 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://fingoose.local/schemas/fingoose_macro_review_decision_v1.schema.json",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["review_id", "event_id", "initial_review", "second_review", "adjudication"],
+  "properties": {
+    "review_id": {"type": "string", "minLength": 1},
+    "event_id": {"type": "string", "pattern": "^event-[0-9]{2}$"},
+    "initial_review": {"$ref": "#/$defs/verdict"},
+    "second_review": {
+      "anyOf": [
+        {"type": "null"},
+        {"$ref": "#/$defs/verdict"}
+      ]
+    },
+    "adjudication": {
+      "anyOf": [
+        {"type": "null"},
+        {"$ref": "#/$defs/verdict"}
+      ]
+    }
+  },
+  "$defs": {
+    "core_dimensions": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "temporal_alignment",
+        "abnormal_movement",
+        "transmission_mechanism",
+        "competing_explanations"
+      ],
+      "properties": {
+        "temporal_alignment": {
+          "enum": ["SUPPORTED", "CONTRADICTED", "UNKNOWN"]
+        },
+        "abnormal_movement": {
+          "enum": ["SUPPORTED", "CONTRADICTED", "UNKNOWN"]
+        },
+        "transmission_mechanism": {
+          "enum": ["SUPPORTED", "CONTRADICTED", "UNKNOWN"]
+        },
+        "competing_explanations": {
+          "enum": ["LIMITED", "MIXED", "STRONG", "UNKNOWN"]
+        }
+      }
+    },
+    "verdict": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "reviewer_id",
+        "reviewed_at",
+        "comments",
+        "label",
+        "confidence",
+        "core_dimensions"
+      ],
+      "properties": {
+        "reviewer_id": {"type": "string", "minLength": 1},
+        "reviewed_at": {"type": "string", "format": "date-time"},
+        "comments": {"type": "string", "minLength": 1},
+        "label": {
+          "enum": [
+            "PRIMARY_DRIVER",
+            "CONTRIBUTING_FACTOR",
+            "WEAK_RELATION",
+            "UNSUPPORTED"
+          ]
+        },
+        "confidence": {"enum": ["HIGH", "MEDIUM", "LOW"]},
+        "core_dimensions": {"$ref": "#/$defs/core_dimensions"}
+      }
+    }
+  }
+}

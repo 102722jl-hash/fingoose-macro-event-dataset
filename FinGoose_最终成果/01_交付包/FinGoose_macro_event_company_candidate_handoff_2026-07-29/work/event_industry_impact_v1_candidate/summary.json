@@ -1,0 +1,13 @@
+{
+  "anchor_count": 24,
+  "causal_attribution_allowed": false,
+  "company_association_count": 72,
+  "conditional_count": 19,
+  "dataset_version": "fingoose-event-industry-impact-v1.0",
+  "event_count": 10,
+  "formal_ready": false,
+  "official_company_exposure_verified": false,
+  "record_count": 43,
+  "release_tier": "CANDIDATE",
+  "unknown_direction_count": 24
+}

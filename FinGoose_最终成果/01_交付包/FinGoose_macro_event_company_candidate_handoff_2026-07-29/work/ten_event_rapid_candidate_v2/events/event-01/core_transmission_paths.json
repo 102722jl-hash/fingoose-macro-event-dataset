@@ -1,0 +1,257 @@
+{
+  "event_id": "event-01",
+  "release_tier": "RAPID_CANDIDATE",
+  "paths": [
+    {
+      "path_id": "event-01-P-pandemic-risk-appetite",
+      "event_id": "event-01",
+      "activation_phases": [
+        "INITIAL_SHOCK"
+      ],
+      "activation_actions": [
+        "STARTS"
+      ],
+      "activation_tags": [
+        "RISK_APPETITE"
+      ],
+      "chain": [
+        "PANDEMIC_SHOCK",
+        "RISK_APPETITE",
+        "EVENT-01_PANDEMIC_RISK_APPETITE",
+        "SP500|VIXCLS"
+      ],
+      "asset_series_ids": [
+        "SP500",
+        "VIXCLS"
+      ],
+      "expected_direction": {
+        "IMMEDIATE": "SP500_DOWN__VIX_UP",
+        "SHORT_TERM": "SP500_DOWN__VIX_UP",
+        "MEDIUM_TERM": "MIXED"
+      },
+      "lag": {
+        "minimum": "P0D",
+        "maximum": "P20D"
+      },
+      "conditions": [
+        "主锚点事实未被官方实质更正。",
+        "RISK_APPETITE 渠道在所选窗口内仍具经济相关性。"
+      ],
+      "invalidation_conditions": [
+        "政策响应或后续事件成为窗口内主导冲击。",
+        "同期石油价格战与紧急政策响应可能主导部分资产走势。"
+      ],
+      "counterevidence": [
+        "同期石油价格战与紧急政策响应可能主导部分资产走势。"
+      ],
+      "selection_status": "CORE_REVIEWED",
+      "confirmation_status": "PROPOSED",
+      "review_basis": "AI_DESK_REVIEW_NO_HUMAN_CONFIRMATION",
+      "name": "疫情冲击经风险偏好传导至股票与波动率",
+      "anchor_fast_node_ids": [
+        "fast-event-01-M04"
+      ],
+      "unverified_candidate_anchor_ids": [],
+      "anchor_evidence_status": "VERIFIED_EXISTING",
+      "scoring_eligible": true,
+      "event_fact_evidence": [
+        "event01-who-pandemic"
+      ],
+      "mechanism_evidence": [
+        {
+          "source_id": "mechanism-event-01-imf-covid-financial",
+          "evidence_scope": "POST_EVENT_MECHANISM_CORROBORATION",
+          "prediction_use": "EXCLUDED_TO_PREVENT_LEAKAGE"
+        }
+      ]
+    },
+    {
+      "path_id": "event-01-P-pandemic-oil-demand",
+      "event_id": "event-01",
+      "activation_phases": [
+        "INITIAL_SHOCK"
+      ],
+      "activation_actions": [
+        "STARTS"
+      ],
+      "activation_tags": [
+        "GLOBAL_DEMAND"
+      ],
+      "chain": [
+        "PANDEMIC_SHOCK",
+        "GLOBAL_DEMAND",
+        "EVENT-01_PANDEMIC_OIL_DEMAND",
+        "DCOILWTICO"
+      ],
+      "asset_series_ids": [
+        "DCOILWTICO"
+      ],
+      "expected_direction": {
+        "IMMEDIATE": "DOWN",
+        "SHORT_TERM": "DOWN",
+        "MEDIUM_TERM": "MIXED"
+      },
+      "lag": {
+        "minimum": "P0D",
+        "maximum": "P20D"
+      },
+      "conditions": [
+        "主锚点事实未被官方实质更正。",
+        "GLOBAL_DEMAND 渠道在所选窗口内仍具经济相关性。"
+      ],
+      "invalidation_conditions": [
+        "政策响应或后续事件成为窗口内主导冲击。",
+        "同期石油价格战与紧急政策响应可能主导部分资产走势。"
+      ],
+      "counterevidence": [
+        "同期石油价格战与紧急政策响应可能主导部分资产走势。"
+      ],
+      "selection_status": "CORE_REVIEWED",
+      "confirmation_status": "PROPOSED",
+      "review_basis": "AI_DESK_REVIEW_NO_HUMAN_CONFIRMATION",
+      "name": "封控与出行下降压低石油需求",
+      "anchor_fast_node_ids": [
+        "fast-event-01-M04"
+      ],
+      "unverified_candidate_anchor_ids": [],
+      "anchor_evidence_status": "VERIFIED_EXISTING",
+      "scoring_eligible": true,
+      "event_fact_evidence": [
+        "event01-who-pandemic"
+      ],
+      "mechanism_evidence": [
+        {
+          "source_id": "mechanism-event-01-imf-covid-financial",
+          "evidence_scope": "POST_EVENT_MECHANISM_CORROBORATION",
+          "prediction_use": "EXCLUDED_TO_PREVENT_LEAKAGE"
+        }
+      ]
+    },
+    {
+      "path_id": "event-01-P-pandemic-safe-haven",
+      "event_id": "event-01",
+      "activation_phases": [
+        "INITIAL_SHOCK"
+      ],
+      "activation_actions": [
+        "STARTS"
+      ],
+      "activation_tags": [
+        "LIQUIDITY_STRESS"
+      ],
+      "chain": [
+        "PANDEMIC_SHOCK",
+        "SAFE_HAVEN_DEMAND",
+        "EVENT-01_PANDEMIC_SAFE_HAVEN",
+        "DEXCHUS"
+      ],
+      "asset_series_ids": [
+        "DEXCHUS"
+      ],
+      "expected_direction": {
+        "IMMEDIATE": "UP",
+        "SHORT_TERM": "UP",
+        "MEDIUM_TERM": "MIXED"
+      },
+      "lag": {
+        "minimum": "P0D",
+        "maximum": "P20D"
+      },
+      "conditions": [
+        "主锚点事实未被官方实质更正。",
+        "SAFE_HAVEN_DEMAND 渠道在所选窗口内仍具经济相关性。"
+      ],
+      "invalidation_conditions": [
+        "政策响应或后续事件成为窗口内主导冲击。",
+        "同期石油价格战与紧急政策响应可能主导部分资产走势。"
+      ],
+      "counterevidence": [
+        "同期石油价格战与紧急政策响应可能主导部分资产走势。"
+      ],
+      "selection_status": "CORE_REVIEWED",
+      "confirmation_status": "PROPOSED",
+      "review_basis": "AI_DESK_REVIEW_NO_HUMAN_CONFIRMATION",
+      "name": "全球不确定性推动美元避险需求",
+      "anchor_fast_node_ids": [
+        "fast-event-01-M04"
+      ],
+      "unverified_candidate_anchor_ids": [],
+      "anchor_evidence_status": "VERIFIED_EXISTING",
+      "scoring_eligible": true,
+      "event_fact_evidence": [
+        "event01-who-pandemic"
+      ],
+      "mechanism_evidence": [
+        {
+          "source_id": "mechanism-event-01-imf-covid-financial",
+          "evidence_scope": "POST_EVENT_MECHANISM_CORROBORATION",
+          "prediction_use": "EXCLUDED_TO_PREVENT_LEAKAGE"
+        }
+      ]
+    },
+    {
+      "path_id": "event-01-P-pandemic-policy-response",
+      "event_id": "event-01",
+      "activation_phases": [
+        "POLICY_RESPONSE"
+      ],
+      "activation_actions": [
+        "AMPLIFIES"
+      ],
+      "activation_tags": [
+        "GLOBAL_DEMAND",
+        "LIQUIDITY_STRESS"
+      ],
+      "chain": [
+        "PANDEMIC_NORMALIZATION",
+        "GLOBAL_DEMAND",
+        "EVENT-01_PANDEMIC_POLICY_RESPONSE",
+        "SP500|VIXCLS"
+      ],
+      "asset_series_ids": [
+        "SP500",
+        "VIXCLS"
+      ],
+      "expected_direction": {
+        "IMMEDIATE": "MIXED",
+        "SHORT_TERM": "MIXED",
+        "MEDIUM_TERM": "MIXED"
+      },
+      "lag": {
+        "minimum": "P0D",
+        "maximum": "P20D"
+      },
+      "conditions": [
+        "主锚点事实未被官方实质更正。",
+        "GLOBAL_DEMAND 渠道在所选窗口内仍具经济相关性。"
+      ],
+      "invalidation_conditions": [
+        "政策响应或后续事件成为窗口内主导冲击。",
+        "同期石油价格战与紧急政策响应可能主导部分资产走势。"
+      ],
+      "counterevidence": [
+        "同期石油价格战与紧急政策响应可能主导部分资产走势。"
+      ],
+      "selection_status": "CORE_REVIEWED",
+      "confirmation_status": "PROPOSED",
+      "review_basis": "AI_DESK_REVIEW_NO_HUMAN_CONFIRMATION",
+      "name": "WHO 结束 PHEIC 确认疫情冲击进入常态化阶段（非 2020 年政策刺激）",
+      "anchor_fast_node_ids": [
+        "fast-event-01-M05"
+      ],
+      "unverified_candidate_anchor_ids": [],
+      "anchor_evidence_status": "VERIFIED_EXISTING",
+      "scoring_eligible": true,
+      "event_fact_evidence": [
+        "supplemental-fast-event-01-M05"
+      ],
+      "mechanism_evidence": [
+        {
+          "source_id": "mechanism-event-01-imf-covid-financial",
+          "evidence_scope": "POST_EVENT_MECHANISM_CORROBORATION",
+          "prediction_use": "EXCLUDED_TO_PREVENT_LEAKAGE"
+        }
+      ]
+    }
+  ]
+}

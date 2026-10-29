@@ -1,0 +1,195 @@
+{
+  "event_id": "event-08",
+  "title": "日本央行结束负利率政策",
+  "release_tier": "RAPID_CANDIDATE",
+  "formal_ready": false,
+  "primary_anchor_fast_node_id": "fast-event-08-M04",
+  "nodes": [
+    {
+      "anchor_role": "NONE",
+      "checklist": {
+        "p1_one_to_one_link": true,
+        "p2_quote_locator": true,
+        "p3_occurred_at": true,
+        "p4_first_public_at": true,
+        "p5_snapshot_sha": true,
+        "p6_semantic": true,
+        "p7_expected_type": "UNKNOWN",
+        "package_complete": true
+      },
+      "event_id": "event-08",
+      "evidence_status": "VERIFIED_EXISTING",
+      "fact": "On 28 July 2023 the Bank of Japan increased the flexibility of yield curve control, allowing the 10-year JGB yield to rise toward 1.0% — an early normalization step.",
+      "fast_node_id": "fast-event-08-M01",
+      "first_public_at": "2023-07-28T03:00:00Z",
+      "gap_reason": null,
+      "impact_tags": [
+        "RATE_DIFFERENTIAL",
+        "YEN_FUNDING"
+      ],
+      "label": "BOJ YCC flexibility increase",
+      "node_action": "OBSERVES",
+      "occurred_at": "2023-07-28T03:00:00Z",
+      "original_milestone_id": null,
+      "phase": "PRECONDITION",
+      "promotion_eligible": false,
+      "sequence": 1,
+      "source_ids": [
+        "supplemental-fast-event-08-M01"
+      ],
+      "status": "PROPOSED",
+      "visibility": "UNRESOLVED",
+      "linked_path_ids": [],
+      "impact_summary": "Verified milestone; linked paths are rule-projected candidates."
+    },
+    {
+      "anchor_role": "NONE",
+      "event_id": "event-08",
+      "evidence_status": "VERIFIED_EXISTING",
+      "fact": "The outlook supplies the policy-normalization baseline.",
+      "fast_node_id": "fast-event-08-M02",
+      "first_public_at": "2024-01-23T06:00:00+00:00",
+      "gap_reason": null,
+      "impact_tags": [
+        "RATE_DIFFERENTIAL",
+        "YEN_FUNDING",
+        "GLOBAL_LIQUIDITY"
+      ],
+      "node_action": "OBSERVES",
+      "occurred_at": "2024-01-23T06:00:00+00:00",
+      "original_milestone_id": "milestone-event-08-bf7751834310",
+      "phase": "PRECONDITION",
+      "promotion_eligible": true,
+      "sequence": 2,
+      "source_ids": [
+        "event08-boj-outlook"
+      ],
+      "status": "PROPOSED",
+      "visibility": "PUBLIC_PREDICTION",
+      "linked_path_ids": [],
+      "impact_summary": "Verified milestone; linked paths are rule-projected candidates."
+    },
+    {
+      "anchor_role": "NONE",
+      "checklist": {
+        "p1_one_to_one_link": true,
+        "p2_quote_locator": true,
+        "p3_occurred_at": true,
+        "p4_first_public_at": true,
+        "p5_snapshot_sha": true,
+        "p6_semantic": true,
+        "p7_expected_type": "UNKNOWN",
+        "package_complete": true
+      },
+      "event_id": "event-08",
+      "evidence_status": "VERIFIED_EXISTING",
+      "fact": "On 19 March 2024 the Bank of Japan ended negative interest rates for the first time since 2007, guiding the uncollateralized overnight call rate to around 0 to 0.1 percent — the start of policy normalization.",
+      "fast_node_id": "fast-event-08-M03",
+      "first_public_at": "2024-03-19T03:00:00Z",
+      "gap_reason": null,
+      "impact_tags": [
+        "INFLATION_EXPECTATIONS",
+        "RATE_DIFFERENTIAL"
+      ],
+      "label": "BOJ ends negative rates",
+      "node_action": "AMPLIFIES",
+      "occurred_at": "2024-03-19T03:00:00Z",
+      "original_milestone_id": null,
+      "phase": "PRECONDITION",
+      "promotion_eligible": false,
+      "sequence": 3,
+      "source_ids": [
+        "supplemental-fast-event-08-M03"
+      ],
+      "status": "PROPOSED",
+      "visibility": "UNRESOLVED",
+      "linked_path_ids": [],
+      "impact_summary": "Verified milestone; linked paths are rule-projected candidates."
+    },
+    {
+      "anchor_role": "PRIMARY",
+      "event_id": "event-08",
+      "evidence_status": "VERIFIED_EXISTING",
+      "fact": "The BOJ ended the negative short-rate setting.",
+      "fast_node_id": "fast-event-08-M04",
+      "first_public_at": "2024-03-19T03:00:00+00:00",
+      "gap_reason": null,
+      "impact_tags": [
+        "RATE_DIFFERENTIAL",
+        "YEN_FUNDING",
+        "GLOBAL_LIQUIDITY"
+      ],
+      "node_action": "STARTS",
+      "occurred_at": "2024-03-19T03:00:00+00:00",
+      "original_milestone_id": "milestone-event-08-3e6e93e33155",
+      "phase": "INITIAL_SHOCK",
+      "promotion_eligible": true,
+      "sequence": 4,
+      "source_ids": [
+        "event08-boj"
+      ],
+      "status": "PROPOSED",
+      "visibility": "PUBLIC_PREDICTION",
+      "linked_path_ids": [
+        "event-08-P-yen-rate-differential",
+        "event-08-P-japan-rates",
+        "event-08-P-global-risk"
+      ],
+      "impact_summary": "Verified milestone; linked paths are rule-projected candidates."
+    },
+    {
+      "anchor_role": "SECONDARY",
+      "checklist": {
+        "p1_one_to_one_link": true,
+        "p2_quote_locator": true,
+        "p3_occurred_at": true,
+        "p4_first_public_at": true,
+        "p5_snapshot_sha": true,
+        "p6_semantic": true,
+        "p7_expected_type": "UNKNOWN",
+        "package_complete": true
+      },
+      "event_id": "event-08",
+      "evidence_status": "VERIFIED_EXISTING",
+      "fact": "On 5 August 2024 the Nikkei 225 crashed 12.40% (down 4,451.28 points), its worst single-day drop since the 1987 \"Black Monday\" — an escalation/amplification shock tied to BOJ tightening and the yen carry-trade unwind.",
+      "fast_node_id": "fast-event-08-M05",
+      "first_public_at": "2024-08-05T06:00:00Z",
+      "gap_reason": null,
+      "impact_tags": [
+        "RATE_DIFFERENTIAL",
+        "GLOBAL_LIQUIDITY"
+      ],
+      "label": "Nikkei 225 crash (Aug 5 2024)",
+      "node_action": "OBSERVES",
+      "occurred_at": "2024-08-05T06:00:00Z",
+      "original_milestone_id": null,
+      "phase": "ESCALATION",
+      "promotion_eligible": false,
+      "sequence": 5,
+      "source_ids": [
+        "supplemental-fast-event-08-M05"
+      ],
+      "status": "PROPOSED",
+      "visibility": "UNRESOLVED",
+      "linked_path_ids": [],
+      "impact_summary": "Verified milestone; linked paths are rule-projected candidates."
+    }
+  ],
+  "daily_resolution": {
+    "status": "SAME_DAY_UNRESOLVED",
+    "groups": [
+      {
+        "date": "2024-03-19",
+        "node_ids": [
+          "fast-event-08-M03",
+          "fast-event-08-M04"
+        ],
+        "status": "SAME_DAY_UNRESOLVED",
+        "reason": "Daily observations cannot identify the marginal effect of same-day nodes."
+      }
+    ]
+  },
+  "ordering_basis": "CURATED_SEQUENCE",
+  "chronology_warnings": [],
+  "chronology_status": "CURATED_SEQUENCE_CHRONOLOGICAL"
+}

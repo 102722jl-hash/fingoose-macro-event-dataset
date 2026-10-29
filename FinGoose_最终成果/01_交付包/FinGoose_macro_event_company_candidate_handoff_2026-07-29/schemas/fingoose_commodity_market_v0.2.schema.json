@@ -1,0 +1,302 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://fingoose.local/schemas/fingoose_commodity_market_v0.2.schema.json",
+  "title": "FinGoose Commodity Market v0.2",
+  "description": "Schema for raw futures contract daily data, auditable roll events, and derived continuous series.",
+  "oneOf": [
+    {"$ref": "#/$defs/contract_daily"},
+    {"$ref": "#/$defs/roll_event"},
+    {"$ref": "#/$defs/continuous_daily"}
+  ],
+  "$defs": {
+    "record_base": {
+      "type": "object",
+      "required": [
+        "schema_version",
+        "record_type",
+        "record_id",
+        "commodity",
+        "provenance",
+        "quality"
+      ],
+      "properties": {
+        "schema_version": {"const": "fingoose-commodity-market-v0.2"},
+        "record_type": {
+          "enum": ["contract_daily", "roll_event", "continuous_daily"]
+        },
+        "record_id": {
+          "type": "string",
+          "pattern": "^FGCMD-[A-F0-9]{20}$"
+        },
+        "commodity": {"$ref": "#/$defs/commodity"},
+        "provenance": {"$ref": "#/$defs/provenance"},
+        "quality": {"$ref": "#/$defs/quality"}
+      }
+    },
+    "commodity": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "commodity_code",
+        "name_cn",
+        "exchange",
+        "provider_market_id",
+        "currency",
+        "quote_unit"
+      ],
+      "properties": {
+        "commodity_code": {"enum": ["CU", "SC", "AU", "I"]},
+        "name_cn": {"enum": ["沪铜", "原油", "沪金", "铁矿石"]},
+        "exchange": {"enum": ["SHFE", "INE", "DCE"]},
+        "provider_market_id": {"enum": ["113", "142", "114"]},
+        "currency": {"const": "CNY"},
+        "quote_unit": {"enum": ["CNY_PER_TONNE", "CNY_PER_BARREL", "CNY_PER_GRAM"]}
+      }
+    },
+    "provenance": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "source_id",
+        "source_url",
+        "provider",
+        "retrieved_at",
+        "snapshot_id",
+        "content_sha256",
+        "adapter_version",
+        "license_scope"
+      ],
+      "properties": {
+        "source_id": {"type": "string", "minLength": 1},
+        "source_url": {"type": "string", "format": "uri"},
+        "provider": {"type": "string", "minLength": 1},
+        "retrieved_at": {"type": "string", "format": "date-time"},
+        "snapshot_id": {"type": "string", "minLength": 1},
+        "content_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+        "adapter_version": {"type": "string", "minLength": 1},
+        "license_scope": {
+          "enum": ["unknown", "internal_research", "internal_training", "redistributable"]
+        },
+        "display_allowed": {"type": "boolean"},
+        "redistribution_allowed": {"type": "boolean"}
+      }
+    },
+    "quality": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["status", "flags"],
+      "properties": {
+        "status": {"enum": ["accepted", "review_required", "rejected"]},
+        "flags": {
+          "type": "array",
+          "items": {"type": "string", "minLength": 1},
+          "uniqueItems": true
+        },
+        "notes": {"type": ["string", "null"]}
+      }
+    },
+    "price": {
+      "type": ["number", "null"],
+      "exclusiveMinimum": 0
+    },
+    "required_price": {
+      "type": "number",
+      "exclusiveMinimum": 0
+    },
+    "nonnegative_integer": {
+      "type": ["integer", "null"],
+      "minimum": 0
+    },
+    "required_nonnegative_integer": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "contract_daily": {
+      "allOf": [
+        {"$ref": "#/$defs/record_base"},
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "schema_version",
+            "record_type",
+            "record_id",
+            "commodity",
+            "trade_date",
+            "contract_code",
+            "contract_month",
+            "last_trade_date",
+            "open",
+            "high",
+            "low",
+            "close",
+            "settlement",
+            "pre_settlement",
+            "volume",
+            "open_interest",
+            "is_trading",
+            "revision",
+            "is_latest",
+            "provenance",
+            "quality"
+          ],
+          "properties": {
+            "schema_version": {"const": "fingoose-commodity-market-v0.2"},
+            "record_type": {"const": "contract_daily"},
+            "record_id": {"type": "string", "pattern": "^FGCMD-[A-F0-9]{20}$"},
+            "commodity": {"$ref": "#/$defs/commodity"},
+            "trade_date": {"type": "string", "format": "date"},
+            "contract_code": {
+              "type": "string",
+              "pattern": "^(cu|au|sc|i)[0-9]{4}$"
+            },
+            "contract_month": {"type": "string", "pattern": "^[0-9]{4}-(0[1-9]|1[0-2])$"},
+            "last_trade_date": {"type": "string", "format": "date"},
+            "open": {"$ref": "#/$defs/required_price"},
+            "high": {"$ref": "#/$defs/required_price"},
+            "low": {"$ref": "#/$defs/required_price"},
+            "close": {"$ref": "#/$defs/required_price"},
+            "settlement": {"$ref": "#/$defs/required_price"},
+            "pre_settlement": {"$ref": "#/$defs/required_price"},
+            "volume": {"$ref": "#/$defs/required_nonnegative_integer"},
+            "open_interest": {"$ref": "#/$defs/required_nonnegative_integer"},
+            "is_trading": {"type": "boolean"},
+            "revision": {"type": "integer", "minimum": 1},
+            "is_latest": {"type": "boolean"},
+            "provenance": {"$ref": "#/$defs/provenance"},
+            "quality": {"$ref": "#/$defs/quality"}
+          }
+        }
+      ]
+    },
+    "roll_event": {
+      "allOf": [
+        {"$ref": "#/$defs/record_base"},
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "schema_version",
+            "record_type",
+            "record_id",
+            "commodity",
+            "series_id",
+            "rule_version",
+            "signal_date",
+            "effective_date",
+            "old_contract",
+            "new_contract",
+            "old_open_interest",
+            "new_open_interest",
+            "old_volume",
+            "new_volume",
+            "confirmation_days",
+            "reason",
+            "is_forced",
+            "decision_cutoff",
+            "provenance",
+            "quality"
+          ],
+          "properties": {
+            "schema_version": {"const": "fingoose-commodity-market-v0.2"},
+            "record_type": {"const": "roll_event"},
+            "record_id": {"type": "string", "pattern": "^FGCMD-[A-F0-9]{20}$"},
+            "commodity": {"$ref": "#/$defs/commodity"},
+            "series_id": {
+              "type": "string",
+              "pattern": "^FINGOOSE-(CU|SC|AU|I)-OI-MAIN-V1$"
+            },
+            "rule_version": {"const": "fingoose-oi-main-v1"},
+            "signal_date": {"type": "string", "format": "date"},
+            "effective_date": {"type": "string", "format": "date"},
+            "old_contract": {
+              "type": ["string", "null"],
+              "pattern": "^(cu|au|sc|i)[0-9]{4}$"
+            },
+            "new_contract": {
+              "type": "string",
+              "pattern": "^(cu|au|sc|i)[0-9]{4}$"
+            },
+            "old_open_interest": {"$ref": "#/$defs/nonnegative_integer"},
+            "new_open_interest": {"$ref": "#/$defs/nonnegative_integer"},
+            "old_volume": {"$ref": "#/$defs/nonnegative_integer"},
+            "new_volume": {"$ref": "#/$defs/nonnegative_integer"},
+            "confirmation_days": {"type": "integer", "minimum": 0, "maximum": 2},
+            "reason": {"enum": ["INIT", "OI_CONFIRM", "FORCED_EXPIRY", "FORCED_INVALID"]},
+            "is_forced": {"type": "boolean"},
+            "decision_cutoff": {"type": "string", "format": "date-time"},
+            "provenance": {"$ref": "#/$defs/provenance"},
+            "quality": {"$ref": "#/$defs/quality"}
+          }
+        }
+      ]
+    },
+    "vendor_main": {
+      "type": ["object", "null"],
+      "additionalProperties": false,
+      "required": ["provider_code", "close", "settlement"],
+      "properties": {
+        "provider_code": {"enum": ["cum", "scm", "aum", "im"]},
+        "close": {"$ref": "#/$defs/price"},
+        "settlement": {"$ref": "#/$defs/price"}
+      }
+    },
+    "continuous_daily": {
+      "allOf": [
+        {"$ref": "#/$defs/record_base"},
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "schema_version",
+            "record_type",
+            "record_id",
+            "commodity",
+            "trade_date",
+            "series_id",
+            "rule_version",
+            "active_contract",
+            "is_roll_effective_date",
+            "settlement_return",
+            "settlement_index",
+            "close_return",
+            "close_index",
+            "basis_disagreement",
+            "vendor_main",
+            "provenance",
+            "quality"
+          ],
+          "properties": {
+            "schema_version": {"const": "fingoose-commodity-market-v0.2"},
+            "record_type": {"const": "continuous_daily"},
+            "record_id": {"type": "string", "pattern": "^FGCMD-[A-F0-9]{20}$"},
+            "commodity": {"$ref": "#/$defs/commodity"},
+            "trade_date": {"type": "string", "format": "date"},
+            "series_id": {
+              "type": "string",
+              "pattern": "^FINGOOSE-(CU|SC|AU|I)-OI-MAIN-V1$"
+            },
+            "rule_version": {"const": "fingoose-oi-main-v1"},
+            "active_contract": {
+              "type": "string",
+              "pattern": "^(cu|au|sc|i)[0-9]{4}$"
+            },
+            "is_roll_effective_date": {"type": "boolean"},
+            "old_contract": {
+              "type": ["string", "null"],
+              "pattern": "^(cu|au|sc|i)[0-9]{4}$"
+            },
+            "settlement_return": {"type": ["number", "null"], "exclusiveMinimum": -1},
+            "settlement_index": {"type": ["number", "null"], "exclusiveMinimum": 0},
+            "close_return": {"type": ["number", "null"], "exclusiveMinimum": -1},
+            "close_index": {"type": ["number", "null"], "exclusiveMinimum": 0},
+            "basis_disagreement": {"type": "boolean"},
+            "vendor_main": {"$ref": "#/$defs/vendor_main"},
+            "provenance": {"$ref": "#/$defs/provenance"},
+            "quality": {"$ref": "#/$defs/quality"}
+          }
+        }
+      ]
+    }
+  }
+}

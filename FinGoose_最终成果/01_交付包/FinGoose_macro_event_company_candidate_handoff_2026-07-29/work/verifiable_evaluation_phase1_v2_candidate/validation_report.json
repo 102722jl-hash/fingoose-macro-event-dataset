@@ -1,0 +1,50 @@
+{
+  "candidate_status": "CANDIDATE",
+  "checks": {
+    "binding_layer_gate": true,
+    "confounding_exclusion_gate": true,
+    "d3_cutoff_isolation": false,
+    "event_level_public_hidden_isolation": true,
+    "market_layer_gate": true,
+    "numeric_recomputation": true,
+    "observation_anchor_causality_gate": true,
+    "per_document_publication_time_complete": false,
+    "review_state_gate": true,
+    "source_authenticity": false,
+    "source_metadata_integrity": true,
+    "source_quote_snapshot_alignment": true,
+    "source_snapshot_existence": true,
+    "source_snapshot_hash_coverage_complete": false,
+    "source_snapshot_hash_integrity": true,
+    "three_independent_tracks": true
+  },
+  "evaluator_release_allowlist": [
+    "benchmark_labels.jsonl"
+  ],
+  "formal_ready": false,
+  "hard_failures": [],
+  "known_gaps": [
+    "111 dynamic bindings require edge-level human review",
+    "43 industry directions require human review",
+    "30 broad-market benchmarks unavailable",
+    "30 event-date Shenwan index benchmarks unavailable",
+    "30 official company exposure dossiers remain open",
+    "Graph construction and direction tracks are blocked until scoring labels are human-reviewed.",
+    "Public evidence documents use node-level first_public_at; independent per-document publication timestamps remain incomplete.",
+    "MySQL audit is internally reproducible but has no signed execution log; execution authenticity remains unverified.",
+    "25 source snapshots lack SHA-256; SHA gate remains deferred."
+  ],
+  "public_release_allowlist": [
+    "benchmark_cases.jsonl"
+  ],
+  "sha_gate": "DEFERRED",
+  "source_validation": {
+    "binary_quote_snapshot_unchecked_count": 0,
+    "manifest_source_count": 50,
+    "node_level_publication_basis_count": 24,
+    "pdf_quote_snapshot_checked_count": 4,
+    "sha256_missing_count": 25,
+    "sha256_present_count": 25,
+    "text_quote_snapshot_checked_count": 48
+  }
+}

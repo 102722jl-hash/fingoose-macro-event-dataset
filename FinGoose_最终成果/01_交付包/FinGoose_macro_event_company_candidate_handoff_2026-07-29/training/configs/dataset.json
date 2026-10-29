@@ -1,0 +1,80 @@
+{
+  "dataset_version": "fingoose-unified-sft-v1",
+  "project_root": "../..",
+  "content_alignment": {
+    "schema_version": "research-content-v1",
+    "ui_reference_path": "work/company_impact_high_quality_v2_candidate/ui/ui_data_bundle.js",
+    "ui_dataset_version": "fingoose-company-impact-high-quality-v2-candidate",
+    "gold_event_ids": ["event-01"]
+  },
+
+  "sources": {
+    "macro": {
+      "base_dir": "data/market_event_attribution_v2_candidate",
+      "files": {
+        "event_episodes": "event_episodes.jsonl",
+        "event_milestones": "event_milestones.jsonl",
+        "transmission_graphs": "transmission_graphs.jsonl",
+        "macro_market_windows": "market_windows.jsonl",
+        "macro_sources": "source_manifest.jsonl"
+      }
+    },
+    "industry": {
+      "base_dir": "work/industry_impact_high_quality_v2_candidate",
+      "files": {
+        "event_industry_mappings": "event_industry_mappings.jsonl",
+        "industry_mechanism_chains": "industry_mechanism_chains.jsonl",
+        "industry_market_windows": "industry_market_windows.jsonl",
+        "industry_evidence": "industry_evidence.jsonl"
+      }
+    },
+    "company": {
+      "base_dir": "work/company_impact_high_quality_v2_candidate",
+      "files": {
+        "event_company_map": "event_company_map.jsonl",
+        "company_mechanism_chains": "event_company_mechanism_chains.jsonl",
+        "direction_assessments": "direction_assessments.jsonl",
+        "company_evidence": "company_evidence.jsonl",
+        "company_market_windows": "company_market_windows.jsonl",
+        "company_confounders": "company_confounders.jsonl",
+        "company_counterevidence_reviews": "company_counterevidence_reviews.jsonl",
+        "trading_status_reviews": "trading_status_reviews.jsonl"
+      }
+    },
+    "qa": {
+      "base_dir": "work/qa_reasoning_pilot_v2_candidate",
+      "files": {
+        "qa_cases": "qa_cases.jsonl",
+        "qa_answers": "qa_answer_candidates.jsonl",
+        "qa_sources": "source_fetches.jsonl"
+      }
+    }
+  },
+  "outputs": {
+    "unified_events": "../data/unified_events.jsonl",
+    "sft_dataset": "../data/sft_dataset.jsonl",
+    "split_manifest": "../data/split_manifest.json",
+    "manifest": "../data/manifest.json",
+    "validation_report": "../data/validation_report.json"
+  },
+  "splits": {
+    "train": [
+      "event-01",
+      "event-02",
+      "event-03",
+      "event-04",
+      "event-05",
+      "event-06",
+      "event-07",
+      "event-08"
+    ],
+    "validation": ["event-09"],
+    "test": ["event-10"]
+  },
+  "task_types": [
+    "EVENT_ANALYSIS",
+    "INDUSTRY_IMPACT",
+    "COMPANY_IMPACT",
+    "EVENT_QA"
+  ]
+}

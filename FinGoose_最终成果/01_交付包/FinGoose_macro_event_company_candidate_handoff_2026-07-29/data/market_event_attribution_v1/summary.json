@@ -1,0 +1,37 @@
+{
+  "cross_asset_count": 10,
+  "dataset_version": "fingoose-macro-event-attribution-v1.0",
+  "event_count": 10,
+  "final_attribution_label_count": 40,
+  "forecast_reasoning_chain": [
+    "MACRO_REPORT",
+    "DATA",
+    "PERIOD_DESCRIPTION",
+    "FACT_TRANSMISSION_CHAIN",
+    "MULTI_DATA_TREND_CONFIRMATION",
+    "SHORT_TERM_PREDICTION"
+  ],
+  "formal_ready": true,
+  "gate_failures": [],
+  "hidden_attribution_label_count": 40,
+  "hidden_outcome_count": 40,
+  "initial_review_pending_count": 0,
+  "label_distribution": {
+    "CONTRIBUTING_FACTOR": 9,
+    "PRIMARY_DRIVER": 5,
+    "UNSUPPORTED": 18,
+    "WEAK_RELATION": 8
+  },
+  "market_window_count": 40,
+  "pilot_review_task_count": 8,
+  "rejected_count": 0,
+  "review_count": 40,
+  "review_decision_template_count": 40,
+  "review_preparation_ready": true,
+  "sample_count": 40,
+  "second_review_packet_count": 0,
+  "second_review_pending_count": 0,
+  "second_review_required_count": 29,
+  "single_asset_count": 30,
+  "source_count": 20
+}

@@ -1,0 +1,31 @@
+{
+  "baseline_sha256": {
+    "event_episodes_jsonl": "32626f4dd798c315ee1529581e31165369826c4119c5fd51fa82442623b4349b",
+    "event_milestones_jsonl": "2fafc57e304f810ef24c65c7248de487e711574108b179231e3f9ff869048d8a",
+    "manifest_json": "3c0cd2d56aed32ac518231fb855dc69dc23c37f73e5b645ff1b84e4bdb48f4d1"
+  },
+  "episode_count": 37,
+  "event_count": 10,
+  "evidence_packages_complete_count": 38,
+  "formal_ready": false,
+  "hard_failures": [],
+  "node_count": 50,
+  "pending_evidence_count": 8,
+  "production_dataset_modified": false,
+  "promotable_count": 18,
+  "release_tier": "FAST_CANDIDATE",
+  "supplemental_accepted_count": 25,
+  "supplemental_candidate_count": 50,
+  "supplemental_pending_count": 23,
+  "supplemental_rejected_count": 2,
+  "unresolved_time_count": 8,
+  "verified_existing_count": 42,
+  "warnings": [
+    "FAST_EPISODES_ARE_WORKBOOK_RECORDS_NOT_PRODUCTION_EPISODE_SCHEMA",
+    "SUPPLEMENTAL_AUDIT_DOES_NOT_CHANGE_PRODUCTION_DATASET",
+    "TEN_UNREPRODUCIBLE_SUPPLEMENTAL_RECORDS_DOWNGRADED",
+    "TWO_SOURCE_LOCATED_RECORDS_NOT_TREATED_AS_TIME_VERIFIED",
+    "CANDIDATE_SNAPSHOT_SHA_GATE_DEFERRED",
+    "EVENT_02_M01_REMAINS_PENDING_DUE_TO_SEMANTIC_MISMATCH"
+  ]
+}

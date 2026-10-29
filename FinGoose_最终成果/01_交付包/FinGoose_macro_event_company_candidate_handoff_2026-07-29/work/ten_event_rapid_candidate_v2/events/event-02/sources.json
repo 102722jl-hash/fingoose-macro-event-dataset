@@ -1,0 +1,55 @@
+[
+  {
+    "source_id": "event02-nato-statement",
+    "event_id": "event-02",
+    "publisher": "NATO",
+    "source_tier": "B",
+    "url": "https://www.nato.int/en/about-us/official-texts-and-resources/official-texts/2022/02/24/statement-by-the-north-atlantic-council-on-russias-attack-on-ukraine",
+    "published_at": "2022-02-24T05:00:00+00:00",
+    "title": "North Atlantic Council statement on Russia's attack",
+    "locator": "North Atlantic Council statement on Russia's attack",
+    "quote": null,
+    "evidence_scope": "EVENT_FACT_AND_TIME",
+    "visibility": "PUBLIC_PREDICTION",
+    "snapshot_path": "sources/event02_nato_ukraine.html"
+  },
+  {
+    "source_id": "mechanism-event-02-fed-ukraine",
+    "publisher": "Board of Governors of the Federal Reserve System",
+    "source_tier": "A",
+    "url": "https://www.federalreserve.gov/econres/notes/feds-notes/the-effect-of-the-war-in-ukraine-on-global-activity-and-inflation-20220527.html",
+    "published_at": "2022-05-27",
+    "locator": "Summary and transmission-channel discussion",
+    "quote": "The effects operate through lower consumer sentiment, higher commodity prices, and tighter financial conditions.",
+    "evidence_scope": "POST_EVENT_MECHANISM_CORROBORATION",
+    "visibility": "HIDDEN_FROM_PRIMARY_PREDICTION"
+  },
+  {
+    "source_id": "supplemental-fast-event-02-M02",
+    "event_id": "event-02",
+    "publisher": "President of Russia",
+    "source_tier": "A",
+    "url": "http://en.kremlin.ru/events/president/news/67843",
+    "published_at": null,
+    "title": null,
+    "locator": null,
+    "quote": null,
+    "evidence_scope": "EVENT_FACT_AND_TIME",
+    "visibility": "PUBLIC_PREDICTION",
+    "snapshot_path": "sources/cand_fast-event-02-M02.html"
+  },
+  {
+    "source_id": "supplemental-fast-event-02-M05",
+    "event_id": "event-02",
+    "publisher": "U.S. Department of the Treasury",
+    "source_tier": "A",
+    "url": "https://home.treasury.gov/news/press-releases/jy1138",
+    "published_at": null,
+    "title": null,
+    "locator": null,
+    "quote": null,
+    "evidence_scope": "EVENT_FACT_AND_TIME",
+    "visibility": "PUBLIC_PREDICTION",
+    "snapshot_path": "sources/webfetch_fast-event-02-M05.txt"
+  }
+]

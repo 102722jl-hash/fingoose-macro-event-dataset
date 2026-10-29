@@ -1,0 +1,185 @@
+{
+  "event_id": "event-01",
+  "title": "WHO 宣布 COVID-19 构成全球大流行",
+  "release_tier": "RAPID_CANDIDATE",
+  "formal_ready": false,
+  "primary_anchor_fast_node_id": "fast-event-01-M04",
+  "nodes": [
+    {
+      "anchor_role": "NONE",
+      "event_id": "event-01",
+      "evidence_status": "VERIFIED_EXISTING",
+      "fact": "WHO Director-General declared the 2019-nCoV outbreak a PHEIC (30 Jan 2020).",
+      "fast_node_id": "fast-event-01-M01",
+      "first_public_at": "2020-01-30T20:50:00Z",
+      "gap_reason": null,
+      "impact_tags": [
+        "RISK_APPETITE",
+        "GLOBAL_DEMAND"
+      ],
+      "node_action": "OBSERVES",
+      "occurred_at": "2020-01-30T20:50:00Z",
+      "original_milestone_id": null,
+      "phase": "PRECONDITION",
+      "promotion_eligible": false,
+      "sequence": 1,
+      "source_ids": [
+        "supplemental-fast-event-01-M01"
+      ],
+      "status": "PROPOSED",
+      "visibility": "PUBLIC_PREDICTION",
+      "linked_path_ids": [],
+      "impact_summary": "Verified milestone; linked paths are rule-projected candidates."
+    },
+    {
+      "anchor_role": "NONE",
+      "event_id": "event-01",
+      "evidence_status": "VERIFIED_EXISTING",
+      "fact": "Italy extended DPCM 8 Mar 2020 measures to the entire national territory (9 Mar 2020).",
+      "fast_node_id": "fast-event-01-M02",
+      "first_public_at": "2020-03-09T00:00:00Z",
+      "gap_reason": null,
+      "impact_tags": [
+        "GLOBAL_DEMAND",
+        "RISK_APPETITE"
+      ],
+      "node_action": "AMPLIFIES",
+      "occurred_at": "2020-03-09T00:00:00Z",
+      "original_milestone_id": null,
+      "phase": "PRECONDITION",
+      "promotion_eligible": false,
+      "sequence": 2,
+      "source_ids": [
+        "supplemental-fast-event-01-M02"
+      ],
+      "status": "PROPOSED",
+      "visibility": "PUBLIC_PREDICTION",
+      "linked_path_ids": [],
+      "impact_summary": "Verified milestone; linked paths are rule-projected candidates."
+    },
+    {
+      "anchor_role": "NONE",
+      "checklist": {
+        "p1_one_to_one_link": true,
+        "p2_quote_locator": true,
+        "p3_occurred_at": true,
+        "p4_first_public_at": true,
+        "p5_snapshot_sha": true,
+        "p6_semantic": true,
+        "p7_expected_type": "UNKNOWN",
+        "package_complete": true
+      },
+      "event_id": "event-01",
+      "evidence_status": "VERIFIED_EXISTING",
+      "fact": "On 11 March 2020 WHO characterized COVID-19 as a pandemic — the global escalation preamble marking the shift from outbreak to pandemic.",
+      "fast_node_id": "fast-event-01-M03",
+      "first_public_at": "2020-03-11T19:00:00Z",
+      "gap_reason": null,
+      "impact_tags": [
+        "RISK_APPETITE",
+        "GLOBAL_DEMAND",
+        "LIQUIDITY_STRESS"
+      ],
+      "label": "WHO pandemic declaration",
+      "node_action": "OBSERVES",
+      "occurred_at": "2020-03-11T19:00:00Z",
+      "original_milestone_id": "milestone-event-01-81cfcd5e5437",
+      "phase": "PRECONDITION",
+      "promotion_eligible": true,
+      "sequence": 3,
+      "source_ids": [
+        "event01-who-sitrep51",
+        "supplemental-fast-event-01-M03"
+      ],
+      "status": "PROPOSED",
+      "visibility": "PUBLIC_PREDICTION",
+      "linked_path_ids": [],
+      "impact_summary": "Verified milestone; linked paths are rule-projected candidates."
+    },
+    {
+      "anchor_role": "PRIMARY",
+      "event_id": "event-01",
+      "evidence_status": "VERIFIED_EXISTING",
+      "expected_type": "UNKNOWN",
+      "fact": "WHO assessed that COVID-19 could be characterized as a pandemic.",
+      "fast_node_id": "fast-event-01-M04",
+      "first_public_at": "2020-03-11T16:30:00+00:00",
+      "gap_reason": null,
+      "impact_tags": [
+        "RISK_APPETITE",
+        "GLOBAL_DEMAND",
+        "LIQUIDITY_STRESS"
+      ],
+      "node_action": "STARTS",
+      "occurred_at": "2020-03-11T16:30:00+00:00",
+      "original_milestone_id": "milestone-event-01-1f0d9ae571b0",
+      "phase": "INITIAL_SHOCK",
+      "promotion_eligible": true,
+      "sequence": 4,
+      "source_ids": [
+        "event01-who-pandemic"
+      ],
+      "status": "PROPOSED",
+      "visibility": "PUBLIC_PREDICTION",
+      "linked_path_ids": [
+        "event-01-P-pandemic-risk-appetite",
+        "event-01-P-pandemic-oil-demand",
+        "event-01-P-pandemic-safe-haven"
+      ],
+      "impact_summary": "Verified milestone; linked paths are rule-projected candidates."
+    },
+    {
+      "anchor_role": "SECONDARY",
+      "event_id": "event-01",
+      "evidence_status": "VERIFIED_EXISTING",
+      "fact": "WHO ended the COVID-19 PHEIC (15th IHR Emergency Committee, 5 May 2023).",
+      "fast_node_id": "fast-event-01-M05",
+      "first_public_at": "2023-05-05T13:00:00Z",
+      "gap_reason": null,
+      "impact_tags": [
+        "GLOBAL_DEMAND",
+        "LIQUIDITY_STRESS"
+      ],
+      "node_action": "AMPLIFIES",
+      "occurred_at": "2023-05-05T13:00:00Z",
+      "original_milestone_id": null,
+      "phase": "POLICY_RESPONSE",
+      "promotion_eligible": false,
+      "sequence": 5,
+      "source_ids": [
+        "supplemental-fast-event-01-M05"
+      ],
+      "status": "PROPOSED",
+      "visibility": "PUBLIC_PREDICTION",
+      "linked_path_ids": [
+        "event-01-P-pandemic-policy-response"
+      ],
+      "impact_summary": "Verified milestone; linked paths are rule-projected candidates."
+    }
+  ],
+  "daily_resolution": {
+    "status": "SAME_DAY_UNRESOLVED",
+    "groups": [
+      {
+        "date": "2020-03-11",
+        "node_ids": [
+          "fast-event-01-M03",
+          "fast-event-01-M04"
+        ],
+        "status": "SAME_DAY_UNRESOLVED",
+        "reason": "Daily observations cannot identify the marginal effect of same-day nodes."
+      }
+    ]
+  },
+  "ordering_basis": "CURATED_SEQUENCE",
+  "chronology_warnings": [
+    {
+      "type": "CURATED_SEQUENCE_TIMESTAMP_INVERSION",
+      "previous_node_id": "fast-event-01-M03",
+      "previous_first_public_at": "2020-03-11T19:00:00Z",
+      "current_node_id": "fast-event-01-M04",
+      "current_first_public_at": "2020-03-11T16:30:00+00:00"
+    }
+  ],
+  "chronology_status": "CURATED_SEQUENCE_WITH_TIMESTAMP_INVERSIONS"
+}

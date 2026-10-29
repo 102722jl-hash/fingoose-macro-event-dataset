@@ -1,0 +1,33 @@
+{
+  "all_ids_join": true,
+  "available_driver_count": 39,
+  "available_market_window_count": 69,
+  "candidate_complete_count": 23,
+  "dataset_version": "fingoose-event-02-10-industry-closure-v2-candidate",
+  "event_count": 9,
+  "event_mapping_counts": {
+    "event-02": 8,
+    "event-03": 8,
+    "event-04": 8,
+    "event-05": 7,
+    "event-06": 7,
+    "event-07": 7,
+    "event-08": 7,
+    "event-09": 8,
+    "event-10": 9
+  },
+  "formal_ready": false,
+  "mapping_count": 69,
+  "mechanism_chain_count": 69,
+  "mechanism_node_count": 483,
+  "open_count": 46,
+  "review_status": "NEEDS_HUMAN_REVIEW",
+  "sha_gate": "DEFERRED",
+  "status": "PROPOSED",
+  "tier_counts": {
+    "CONDITIONAL": 18,
+    "CORE_DIRECT": 24,
+    "SECOND_ORDER": 27
+  },
+  "verified_source_count": 30
+}

@@ -1,0 +1,126 @@
+{
+  "event_id": "event-09",
+  "title": "中国宣布一揽子货币、住房与资本市场支持",
+  "ordering_basis": "CURATED_STORY_SEQUENCE",
+  "steps": [
+    {
+      "story_step_id": "story-event-09-01",
+      "sequence": 1,
+      "phase": "PRECONDITION",
+      "title_cn": "宏观与信贷报告建立政策前基线",
+      "narrative_cn": "宏观与信贷报告建立政策前基线。事件状态由“增长信贷与住房仍需要政策支持”转为“国内政策前基线获得官方记录”，后续观察应使用新的阶段基准。",
+      "before_state_cn": "增长信贷与住房仍需要政策支持",
+      "after_state_cn": "国内政策前基线获得官方记录",
+      "significance_cn": "该步骤建立冲击发生前的约束条件，并重新界定中国增长、人民币、住房信用与风险资产的观察窗口与传导条件。",
+      "evidence_node_ids": [
+        "fast-event-09-M01"
+      ],
+      "period_start": "2024-08-09T18:34:00+08:00",
+      "period_end": "2024-08-09T18:34:00+08:00",
+      "time_precision": "TIMESTAMP",
+      "evidence_status": "SUPPORTED",
+      "evidence_boundary_cn": "关联证据支持事件事实；前后状态与阶段意义属于可追溯的研究归纳。",
+      "activated_path_ids": [],
+      "amplified_path_ids": [],
+      "weakened_path_ids": [],
+      "market_series_ids": []
+    },
+    {
+      "story_step_id": "story-event-09-02",
+      "sequence": 2,
+      "phase": "PRECONDITION",
+      "title_cn": "美联储降息构成外部金融背景",
+      "narrative_cn": "美联储降息构成外部金融背景。事件状态由“国内政策前基线获得官方记录”转为“外部降息改善金融背景但不证明国内因果”，后续观察应使用新的阶段基准。",
+      "before_state_cn": "国内政策前基线获得官方记录",
+      "after_state_cn": "外部降息改善金融背景但不证明国内因果",
+      "significance_cn": "该步骤建立冲击发生前的约束条件，并重新界定中国增长、人民币、住房信用与风险资产的观察窗口与传导条件。",
+      "evidence_node_ids": [
+        "fast-event-09-M02"
+      ],
+      "period_start": "2024-09-18T18:00:00Z",
+      "period_end": "2024-09-18T18:00:00Z",
+      "time_precision": "TIMESTAMP",
+      "evidence_status": "SUPPORTED",
+      "evidence_boundary_cn": "关联证据支持事件事实；前后状态与阶段意义属于可追溯的研究归纳。",
+      "activated_path_ids": [],
+      "amplified_path_ids": [],
+      "weakened_path_ids": [],
+      "market_series_ids": []
+    },
+    {
+      "story_step_id": "story-event-09-03",
+      "sequence": 3,
+      "phase": "INITIAL_SHOCK",
+      "title_cn": "中国公布货币、住房与资本市场组合政策",
+      "narrative_cn": "中国公布货币、住房与资本市场组合政策。事件状态由“外部降息改善金融背景但不证明国内因果”转为“一揽子支持成为市场主锚点”，后续观察应使用新的阶段基准。",
+      "before_state_cn": "外部降息改善金融背景但不证明国内因果",
+      "after_state_cn": "一揽子支持成为市场主锚点",
+      "significance_cn": "该步骤改变事件性质并启动核心市场重定价，并重新界定中国增长、人民币、住房信用与风险资产的观察窗口与传导条件。",
+      "evidence_node_ids": [
+        "fast-event-09-M03"
+      ],
+      "period_start": "2024-09-24T16:07:00+08:00",
+      "period_end": "2024-09-24T16:07:00+08:00",
+      "time_precision": "TIMESTAMP",
+      "evidence_status": "SUPPORTED",
+      "evidence_boundary_cn": "关联证据支持事件事实；前后状态与阶段意义属于可追溯的研究归纳。",
+      "activated_path_ids": [
+        "event-09-P-china-growth",
+        "event-09-P-yuan-repricing",
+        "event-09-P-risk-assets"
+      ],
+      "amplified_path_ids": [],
+      "weakened_path_ids": [],
+      "market_series_ids": [
+        "SP500",
+        "DGS10",
+        "DEXCHUS",
+        "DTWEXBGS"
+      ]
+    },
+    {
+      "story_step_id": "story-event-09-04",
+      "sequence": 4,
+      "phase": "POLICY_RESPONSE",
+      "title_cn": "存量房贷与降准措施面向居民资产负债表",
+      "narrative_cn": "存量房贷与降准措施面向居民资产负债表。事件状态由“一揽子支持成为市场主锚点”转为“政策延伸到房贷和居民资产负债表”，后续观察应使用新的阶段基准。",
+      "before_state_cn": "一揽子支持成为市场主锚点",
+      "after_state_cn": "政策延伸到房贷和居民资产负债表",
+      "significance_cn": "该步骤引入可能改变原有传导方向的政策响应，并重新界定中国增长、人民币、住房信用与风险资产的观察窗口与传导条件。",
+      "evidence_node_ids": [
+        "fast-event-09-M04"
+      ],
+      "period_start": "2024-09-24",
+      "period_end": "2024-09-24",
+      "time_precision": "DATE",
+      "evidence_status": "SUPPORTED",
+      "evidence_boundary_cn": "关联证据支持事件事实；前后状态与阶段意义属于可追溯的研究归纳。",
+      "activated_path_ids": [],
+      "amplified_path_ids": [],
+      "weakened_path_ids": [],
+      "market_series_ids": []
+    },
+    {
+      "story_step_id": "story-event-09-05",
+      "sequence": 5,
+      "phase": "POLICY_RESPONSE",
+      "title_cn": "互换便利建立资本市场流动性支持",
+      "narrative_cn": "互换便利建立资本市场流动性支持。事件状态由“政策延伸到房贷和居民资产负债表”转为“资本市场获得结构性流动性工具”，后续观察应使用新的阶段基准。",
+      "before_state_cn": "政策延伸到房贷和居民资产负债表",
+      "after_state_cn": "资本市场获得结构性流动性工具",
+      "significance_cn": "该步骤引入可能改变原有传导方向的政策响应，并重新界定中国增长、人民币、住房信用与风险资产的观察窗口与传导条件。",
+      "evidence_node_ids": [
+        "fast-event-09-M05"
+      ],
+      "period_start": "2024-09-24",
+      "period_end": "2024-09-24",
+      "time_precision": "DATE",
+      "evidence_status": "SUPPORTED",
+      "evidence_boundary_cn": "关联证据支持事件事实；前后状态与阶段意义属于可追溯的研究归纳。",
+      "activated_path_ids": [],
+      "amplified_path_ids": [],
+      "weakened_path_ids": [],
+      "market_series_ids": []
+    }
+  ]
+}

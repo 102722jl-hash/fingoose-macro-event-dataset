@@ -1,0 +1,14 @@
+EVIDENCE SPEC (snapshot not retrievable automatically - manual drop-in required)
+NODE: fast-event-08-M03
+OFFICIAL_URL: https://www.boj.or.jp/en/mopo/mpmdeci/mpo_2024/mp240319a.htm
+PUBLISHER: Bank of Japan
+
+VERBATIM QUOTE (target):
+  "around 0 to 0.1 percent"
+
+OCCURRED_AT: 2024-03-19T03:00:00Z (Asia/Tokyo (UTC+9))
+  locator: BOJ statement 19 Mar 2024: 'decided to apply an uncollateralized overnight call rate of around 0 to 0.1 percent and discontinue Yield Curve Control.'
+FIRST_PUBLIC_AT: 2024-03-19T03:00:00Z (Asia/Tokyo (UTC+9))
+  locator: BOJ mpo_2024 monetary policy statement published 19 Mar 2024.
+
+FACT: The Bank of Japan ended negative rates and Yield Curve Control, setting the uncollateralized overnight call rate at around 0 to 0.1% - the first hike in 17 years.

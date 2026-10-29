@@ -1,0 +1,34 @@
+{
+  "event_id": "event-02",
+  "clean_attribution_decision": "CHALLENGE_ONLY",
+  "reason": "持续战事、金融制裁、能源限制与央行路径重估进入 D3 以后窗口。",
+  "by_horizon": {
+    "T0": "MINOR",
+    "D1": "MINOR",
+    "D3": "MATERIAL",
+    "D5": "MATERIAL",
+    "D20": "DOMINANT"
+  },
+  "items": [
+    {
+      "confounder_id": "event-02-C01-overlapping-developments",
+      "level": "DOMINANT",
+      "active_from": "2022-02-26",
+      "description": "持续战事、金融制裁、能源限制与央行路径重估进入 D3 以后窗口。",
+      "affected_path_ids": [
+        "event-02-P-energy-supply",
+        "event-02-P-inflation-rates",
+        "event-02-P-risk-appetite",
+        "event-02-P-sanctions-trade"
+      ],
+      "affected_windows": [
+        "D3",
+        "D5",
+        "D20"
+      ],
+      "evidence_source_ids": [
+        "mechanism-event-02-fed-ukraine"
+      ]
+    }
+  ]
+}

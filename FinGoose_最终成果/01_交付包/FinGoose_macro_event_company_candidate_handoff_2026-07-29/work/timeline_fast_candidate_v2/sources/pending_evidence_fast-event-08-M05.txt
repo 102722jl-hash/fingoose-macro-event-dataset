@@ -1,0 +1,14 @@
+EVIDENCE SPEC (snapshot not retrievable automatically - manual drop-in required)
+NODE: fast-event-08-M05
+OFFICIAL_URL: https://www.jpx.co.jp/english/news/1020/20240805.html
+PUBLISHER: Japan Exchange Group (JPX)
+
+VERBATIM QUOTE (target):
+  "4,451.28"
+
+OCCURRED_AT: 2024-08-05T06:00:00Z (Asia/Tokyo (UTC+9))
+  locator: JPX market note 5 Aug 2024: 'Nikkei 225 index dropped 4,451.28 points (-12.4%), marking the largest single-day point drop in history.'
+FIRST_PUBLIC_AT: 2024-08-05T06:00:00Z (Asia/Tokyo (UTC+9))
+  locator: JPX news published 5 Aug 2024.
+
+FACT: On 5 Aug 2024 the Nikkei 225 fell 4,451.28 points (-12.4%), its largest single-day point drop - the volatility shock following the BOJ hike.

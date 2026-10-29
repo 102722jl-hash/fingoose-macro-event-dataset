@@ -1,0 +1,33 @@
+{
+  "event_id": "event-01",
+  "classification_edition": "SW2014",
+  "event_at": "2020-03-11T16:30:00+00:00",
+  "market_timezone": "Asia/Shanghai",
+  "market_close": "15:00:00",
+  "date_range": {
+    "start_date": "20200201",
+    "end_date": "20200630"
+  },
+  "market_benchmark": {
+    "benchmark_id": "CSI300",
+    "code": "sh000300"
+  },
+  "industry_benchmarks": [
+    {"mapping_id": "event-industry-event-01-801150", "code": "801150", "name_at_event": "医药生物"},
+    {"mapping_id": "event-industry-event-01-801170", "code": "801170", "name_at_event": "交通运输"},
+    {"mapping_id": "event-industry-event-01-801210", "code": "801210", "name_at_event": "休闲服务"},
+    {"mapping_id": "event-industry-event-01-801200", "code": "801200", "name_at_event": "商业贸易"},
+    {"mapping_id": "event-industry-event-01-801760", "code": "801760", "name_at_event": "传媒"},
+    {"mapping_id": "event-industry-event-01-801020", "code": "801020", "name_at_event": "采掘"},
+    {"mapping_id": "event-industry-event-01-801750", "code": "801750", "name_at_event": "计算机"},
+    {"mapping_id": "event-industry-event-01-801120", "code": "801120", "name_at_event": "食品饮料"}
+  ],
+  "provider_priority": [
+    "LICENSED_DATABASE",
+    "AKSHARE_SWSRESEARCH",
+    "PRE_REGISTERED_ETF"
+  ],
+  "missing_value_policy": "KEEP_NULL_NEVER_ZERO_IMPUTE",
+  "formal_ready": false,
+  "sha_gate": "DEFERRED"
+}

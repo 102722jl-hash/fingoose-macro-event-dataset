@@ -1,0 +1,78 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://fingoose.local/schemas/fingoose_commodity_vendor_main_v0.2.schema.json",
+  "title": "FinGoose Commodity Vendor Main Close v0.2",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version", "record_type", "record_id", "trade_date", "commodity",
+    "vendor_main_code", "open", "high", "low", "close", "volume", "amount",
+    "currency", "quote_unit", "source_role", "price_basis", "revision",
+    "is_latest", "provenance", "quality"
+  ],
+  "properties": {
+    "schema_version": {"const": "fingoose-commodity-vendor-main-v0.2"},
+    "record_type": {"const": "vendor_main_close_daily"},
+    "record_id": {"type": "string", "pattern": "^FGVND-[A-F0-9]{20}$"},
+    "trade_date": {"type": "string", "format": "date"},
+    "commodity": {"const": "I"},
+    "vendor_main_code": {"const": "im"},
+    "open": {"type": "number", "exclusiveMinimum": 0},
+    "high": {"type": "number", "exclusiveMinimum": 0},
+    "low": {"type": "number", "exclusiveMinimum": 0},
+    "close": {"type": "number", "exclusiveMinimum": 0},
+    "volume": {"type": "integer", "minimum": 0},
+    "amount": {"type": ["number", "null"], "minimum": 0},
+    "currency": {"const": "CNY"},
+    "quote_unit": {"const": "CNY_PER_TONNE"},
+    "source_role": {"const": "vendor_main_close_candidate"},
+    "price_basis": {"const": "close"},
+    "revision": {"type": "integer", "minimum": 1},
+    "is_latest": {"type": "boolean"},
+    "provenance": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "source_id", "source_url", "provider", "retrieved_at", "snapshot_id",
+        "content_sha256", "adapter_version", "license_scope",
+        "display_allowed", "redistribution_allowed"
+      ],
+      "properties": {
+        "source_id": {"const": "eastmoney_i_main_close"},
+        "source_url": {"type": "string", "format": "uri"},
+        "provider": {"const": "Eastmoney"},
+        "retrieved_at": {"type": "string", "format": "date-time"},
+        "snapshot_id": {"type": "string", "minLength": 1},
+        "content_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+        "adapter_version": {"const": "fingoose-eastmoney-main-close-v0.1"},
+        "license_scope": {"const": "unknown"},
+        "display_allowed": {"const": false},
+        "redistribution_allowed": {"const": false}
+      }
+    },
+    "quality": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["status", "flags", "notes"],
+      "properties": {
+        "status": {"const": "review_required"},
+        "flags": {
+          "type": "array",
+          "minItems": 5,
+          "maxItems": 5,
+          "uniqueItems": true,
+          "items": {
+            "enum": [
+              "VENDOR_MAIN_ALGORITHM_UNKNOWN",
+              "CONTRACT_MAPPING_MISSING",
+              "OPEN_INTEREST_MISSING",
+              "SETTLEMENT_MISSING",
+              "LICENSE_SCOPE_UNKNOWN"
+            ]
+          }
+        },
+        "notes": {"type": ["string", "null"]}
+      }
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "project": "FinGoose",
+  "package": "company_event_map_v1_candidate",
+  "release_tier": "CANDIDATE",
+  "formal_ready": false,
+  "generated_at": "2026-07-31",
+  "event_count": 10,
+  "record_count": 50,
+  "seed_count": 30,
+  "pending_selection_count": 20,
+  "price_request_rows": 65,
+  "t0_map": {
+    "event-01": "2020-03-12",
+    "event-02": "2022-02-24",
+    "event-03": "2022-03-17",
+    "event-04": "2022-12-07",
+    "event-05": "2023-03-13",
+    "event-06": "2023-04-04",
+    "event-07": "2023-10-09",
+    "event-08": "2024-03-19",
+    "event-09": "2024-09-24",
+    "event-10": "2025-04-03"
+  },
+  "open_items": [
+    "DATE_RANGE_CONFLICT: design §4.2 (T0-40mo~T0+2mo) vs earlier request draft earlier start dates; using design rule, needs sign-off.",
+    "EVENT09_T0_FIXED: 2024-09-24 per design doc.",
+    "PENDING_COMPANIES: 20 slots require pre-event evidence; not yet selected.",
+    "SW_INDUSTRY_HISTORY: event-day effective 申万一级 must be filled; no 2026 backfill.",
+    "VENDOR_DATA_NEEDED: raw prices require licensed source (Wind/Choice/CSMAR)."
+  ]
+}

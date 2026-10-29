@@ -1,0 +1,9 @@
+{
+  "direction_count": 30,
+  "unknown_all_horizons_count": 6,
+  "needs_human_review_count": 30,
+  "price_leakage_count": 0,
+  "binding_confirmed_count": 0,
+  "sha_gate": "DEFERRED",
+  "formal_ready": false
+}

@@ -1,0 +1,13 @@
+{
+  "answer_count": 40,
+  "case_count": 40,
+  "event_count": 10,
+  "formal_ready": false,
+  "hard_failures": [],
+  "label_count": 40,
+  "market_formula_max_abs_error": 0.0,
+  "required_abstention_count": 312,
+  "review_status": "NEEDS_HUMAN_REVIEW",
+  "sha_gate": "DEFERRED",
+  "status": "PROPOSED"
+}

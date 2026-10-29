@@ -1,0 +1,90 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://fingoose.local/schemas/fingoose_macro_market_window_v2.schema.json",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["market_window_id", "dataset_version", "release_tier", "event_id", "series_id", "metric_type", "baseline", "estimation", "observation_source", "benchmark_series_id", "timezone", "calendar_id", "observation_cutoff", "t0", "windows", "confounder_level", "challenge_set", "calculation_basis"],
+  "properties": {
+    "market_window_id": {"type": "string", "pattern": "^window-event-[0-9]{2}-[a-z0-9-]+-[a-f0-9]{12}$"},
+    "dataset_version": {"const": "fingoose-macro-event-attribution-v2.0"},
+    "release_tier": {"const": "CANDIDATE"},
+    "event_id": {"type": "string", "pattern": "^event-[0-9]{2}$"},
+    "series_id": {"type": "string", "minLength": 1},
+    "metric_type": {"enum": ["price_return_pct", "fx_return_pct", "yield_basis_points", "absolute_change"]},
+    "baseline": {
+      "type": "object", "additionalProperties": false,
+      "required": ["date", "value"],
+      "properties": {
+        "date": {"type": "string", "format": "date"},
+        "value": {"type": "number"}
+      }
+    },
+    "estimation": {
+      "type": "object", "additionalProperties": false,
+      "required": ["window", "observation_count", "daily_change_stddev"],
+      "properties": {
+        "window": {"const": "PREVIOUS_60_SESSIONS"},
+        "observation_count": {"type": "integer", "minimum": 0, "maximum": 60},
+        "daily_change_stddev": {"$ref": "#/$defs/nullableNumber"}
+      }
+    },
+    "observation_source": {
+      "type": "object", "additionalProperties": false,
+      "required": ["path", "sha256", "hash_verified"],
+      "properties": {
+        "path": {"type": "string", "minLength": 1},
+        "sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+        "hash_verified": {"const": true}
+      }
+    },
+    "benchmark_series_id": {
+      "oneOf": [{"type": "null"}, {"type": "string", "minLength": 1}]
+    },
+    "timezone": {"type": "string", "minLength": 1},
+    "calendar_id": {"type": "string", "minLength": 1},
+    "observation_cutoff": {"type": "string", "pattern": "^[0-2][0-9]:[0-5][0-9]:[0-5][0-9]$"},
+    "t0": {
+      "type": "object", "additionalProperties": false,
+      "required": ["date", "alignment_reason"],
+      "properties": {
+        "date": {"oneOf": [{"type": "null"}, {"type": "string", "format": "date"}]},
+        "alignment_reason": {"enum": ["IN_SESSION", "AT_CUTOFF", "AFTER_CUTOFF", "NON_TRADING_DAY", "NO_FUTURE_SESSION"]}
+      }
+    },
+    "windows": {
+      "type": "object", "additionalProperties": false,
+      "required": ["T60", "T20", "T1", "D1", "D3", "D5", "D20", "M3"],
+      "properties": {
+        "T60": {"$ref": "#/$defs/nullablePoint"}, "T20": {"$ref": "#/$defs/nullablePoint"},
+        "T1": {"$ref": "#/$defs/nullablePoint"}, "D1": {"$ref": "#/$defs/nullablePoint"},
+        "D3": {"$ref": "#/$defs/nullablePoint"}, "D5": {"$ref": "#/$defs/nullablePoint"},
+        "D20": {"$ref": "#/$defs/nullablePoint"}, "M3": {"$ref": "#/$defs/nullablePoint"}
+      }
+    },
+    "confounder_level": {"enum": ["CLEAN", "MINOR", "MATERIAL", "DOMINANT", "UNRESOLVED"]},
+    "challenge_set": {"type": "boolean"},
+    "calculation_basis": {"type": "string", "minLength": 1}
+  },
+  "allOf": [
+    {
+      "if": {"properties": {"confounder_level": {"enum": ["MATERIAL", "DOMINANT"]}}, "required": ["confounder_level"]},
+      "then": {"properties": {"challenge_set": {"const": true}}}
+    }
+  ],
+  "$defs": {
+    "nullableNumber": {"oneOf": [{"type": "null"}, {"type": "number"}]},
+    "point": {
+      "type": "object", "additionalProperties": false,
+      "required": ["date", "value", "raw_change", "standardized_change", "relative_change", "empirical_percentile"],
+      "properties": {
+        "date": {"type": "string", "format": "date"},
+        "value": {"type": "number"},
+        "raw_change": {"$ref": "#/$defs/nullableNumber"},
+        "standardized_change": {"$ref": "#/$defs/nullableNumber"},
+        "relative_change": {"$ref": "#/$defs/nullableNumber"},
+        "empirical_percentile": {"oneOf": [{"type": "null"}, {"type": "number", "minimum": 0, "maximum": 1}]}
+      }
+    },
+    "nullablePoint": {"oneOf": [{"type": "null"}, {"$ref": "#/$defs/point"}]}
+  }
+}

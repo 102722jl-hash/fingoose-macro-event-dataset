@@ -1,0 +1,12 @@
+EVIDENCE SPEC (snapshot not retrievable automatically - manual drop-in required)
+NODE: fast-event-06-M04
+OFFICIAL_URL: https://www.spa.gov.sa/en/N1961204
+PUBLISHER: Saudi Press Agency (SPA)
+
+VERBATIM QUOTE (target):
+  "Saudi Arabia ... extend its voluntary cut of 1 million bpd ... through the end of December 2023."
+
+OCCURRED_AT: 2023-06-04T12:00:00Z (Asia/Riyadh (UTC+3))
+FIRST_PUBLIC_AT: 2023-06-04T12:00:00Z (Asia/Riyadh (UTC+3))
+
+FACT: Saudi Arabia announced it would extend its voluntary 1 million bpd crude production cut through the end of December 2023 - a supply-tightening amplification.

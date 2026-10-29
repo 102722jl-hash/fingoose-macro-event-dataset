@@ -1,0 +1,33 @@
+{
+  "event_id": "event-09",
+  "clean_attribution_decision": "WINDOW_DEPENDENT",
+  "reason": "财政落实、房地产基本面和同期全球利率变化影响政策效果。",
+  "by_horizon": {
+    "T0": "MINOR",
+    "D1": "MINOR",
+    "D3": "MATERIAL",
+    "D5": "MATERIAL",
+    "D20": "MATERIAL"
+  },
+  "items": [
+    {
+      "confounder_id": "event-09-C01-overlapping-developments",
+      "level": "MATERIAL",
+      "active_from": "2024-09-24",
+      "description": "财政落实、房地产基本面和同期全球利率变化影响政策效果。",
+      "affected_path_ids": [
+        "event-09-P-china-growth",
+        "event-09-P-yuan-repricing",
+        "event-09-P-risk-assets"
+      ],
+      "affected_windows": [
+        "D3",
+        "D5",
+        "D20"
+      ],
+      "evidence_source_ids": [
+        "mechanism-event-09-pbc-report"
+      ]
+    }
+  ]
+}

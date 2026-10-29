@@ -1,0 +1,194 @@
+{
+  "event_id": "event-05",
+  "release_tier": "RAPID_CANDIDATE",
+  "paths": [
+    {
+      "path_id": "event-05-P-banking-stress",
+      "event_id": "event-05",
+      "activation_phases": [
+        "INITIAL_SHOCK"
+      ],
+      "activation_actions": [
+        "STARTS"
+      ],
+      "activation_tags": [
+        "BANKING_STRESS"
+      ],
+      "chain": [
+        "BANK_FAILURE",
+        "BANKING_STRESS",
+        "EVENT-05_BANKING_STRESS",
+        "VIXCLS|SP500"
+      ],
+      "asset_series_ids": [
+        "VIXCLS",
+        "SP500"
+      ],
+      "expected_direction": {
+        "IMMEDIATE": "VIX_UP__SP500_DOWN",
+        "SHORT_TERM": "MIXED",
+        "MEDIUM_TERM": "MIXED"
+      },
+      "lag": {
+        "minimum": "P0D",
+        "maximum": "P20D"
+      },
+      "conditions": [
+        "主锚点事实未被官方实质更正。",
+        "BANKING_STRESS 渠道在所选窗口内仍具经济相关性。"
+      ],
+      "invalidation_conditions": [
+        "政策响应或后续事件成为窗口内主导冲击。",
+        "通胀数据与央行流动性措施会改变银行压力的资产表现。"
+      ],
+      "counterevidence": [
+        "通胀数据与央行流动性措施会改变银行压力的资产表现。"
+      ],
+      "selection_status": "CORE_REVIEWED",
+      "confirmation_status": "PROPOSED",
+      "review_basis": "AI_DESK_REVIEW_NO_HUMAN_CONFIRMATION",
+      "name": "存款外流和流动性风险推高银行压力",
+      "anchor_fast_node_ids": [
+        "fast-event-05-M02"
+      ],
+      "unverified_candidate_anchor_ids": [],
+      "anchor_evidence_status": "VERIFIED_EXISTING",
+      "scoring_eligible": true,
+      "event_fact_evidence": [
+        "event05-fdic"
+      ],
+      "mechanism_evidence": [
+        {
+          "source_id": "mechanism-event-05-fed-svb-review",
+          "evidence_scope": "POST_EVENT_MECHANISM_CORROBORATION",
+          "prediction_use": "EXCLUDED_TO_PREVENT_LEAKAGE"
+        }
+      ]
+    },
+    {
+      "path_id": "event-05-P-rate-repricing",
+      "event_id": "event-05",
+      "activation_phases": [
+        "INITIAL_SHOCK"
+      ],
+      "activation_actions": [
+        "STARTS"
+      ],
+      "activation_tags": [
+        "RATE_EXPECTATIONS"
+      ],
+      "chain": [
+        "BANK_FAILURE",
+        "RATE_REPRICING",
+        "EVENT-05_RATE_REPRICING",
+        "DGS10"
+      ],
+      "asset_series_ids": [
+        "DGS10"
+      ],
+      "expected_direction": {
+        "IMMEDIATE": "DOWN",
+        "SHORT_TERM": "DOWN",
+        "MEDIUM_TERM": "MIXED"
+      },
+      "lag": {
+        "minimum": "P0D",
+        "maximum": "P20D"
+      },
+      "conditions": [
+        "主锚点事实未被官方实质更正。",
+        "RATE_REPRICING 渠道在所选窗口内仍具经济相关性。"
+      ],
+      "invalidation_conditions": [
+        "政策响应或后续事件成为窗口内主导冲击。",
+        "通胀数据与央行流动性措施会改变银行压力的资产表现。"
+      ],
+      "counterevidence": [
+        "通胀数据与央行流动性措施会改变银行压力的资产表现。"
+      ],
+      "selection_status": "CORE_REVIEWED",
+      "confirmation_status": "PROPOSED",
+      "review_basis": "AI_DESK_REVIEW_NO_HUMAN_CONFIRMATION",
+      "name": "金融稳定风险压低加息路径预期",
+      "anchor_fast_node_ids": [
+        "fast-event-05-M02"
+      ],
+      "unverified_candidate_anchor_ids": [],
+      "anchor_evidence_status": "VERIFIED_EXISTING",
+      "scoring_eligible": true,
+      "event_fact_evidence": [
+        "event05-fdic"
+      ],
+      "mechanism_evidence": [
+        {
+          "source_id": "mechanism-event-05-fed-svb-review",
+          "evidence_scope": "POST_EVENT_MECHANISM_CORROBORATION",
+          "prediction_use": "EXCLUDED_TO_PREVENT_LEAKAGE"
+        }
+      ]
+    },
+    {
+      "path_id": "event-05-P-safe-haven",
+      "event_id": "event-05",
+      "activation_phases": [
+        "INITIAL_SHOCK"
+      ],
+      "activation_actions": [
+        "STARTS"
+      ],
+      "activation_tags": [
+        "SAFE_HAVEN_DEMAND"
+      ],
+      "chain": [
+        "BANK_FAILURE",
+        "SAFE_HAVEN_DEMAND",
+        "EVENT-05_SAFE_HAVEN",
+        "DEXCHUS|VIXCLS"
+      ],
+      "asset_series_ids": [
+        "DEXCHUS",
+        "VIXCLS"
+      ],
+      "expected_direction": {
+        "IMMEDIATE": "UP",
+        "SHORT_TERM": "MIXED",
+        "MEDIUM_TERM": "MIXED"
+      },
+      "lag": {
+        "minimum": "P0D",
+        "maximum": "P20D"
+      },
+      "conditions": [
+        "主锚点事实未被官方实质更正。",
+        "SAFE_HAVEN_DEMAND 渠道在所选窗口内仍具经济相关性。"
+      ],
+      "invalidation_conditions": [
+        "政策响应或后续事件成为窗口内主导冲击。",
+        "通胀数据与央行流动性措施会改变银行压力的资产表现。"
+      ],
+      "counterevidence": [
+        "通胀数据与央行流动性措施会改变银行压力的资产表现。"
+      ],
+      "selection_status": "CORE_REVIEWED",
+      "confirmation_status": "PROPOSED",
+      "review_basis": "AI_DESK_REVIEW_NO_HUMAN_CONFIRMATION",
+      "name": "系统性担忧推动避险与美元需求",
+      "anchor_fast_node_ids": [
+        "fast-event-05-M02"
+      ],
+      "unverified_candidate_anchor_ids": [],
+      "anchor_evidence_status": "VERIFIED_EXISTING",
+      "scoring_eligible": true,
+      "event_fact_evidence": [
+        "event05-fdic"
+      ],
+      "mechanism_evidence": [
+        {
+          "source_id": "mechanism-event-05-fed-svb-review",
+          "evidence_scope": "POST_EVENT_MECHANISM_CORROBORATION",
+          "prediction_use": "EXCLUDED_TO_PREVENT_LEAKAGE"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "event_id": "event-08",
+  "clean_attribution_decision": "WINDOW_DEPENDENT",
+  "reason": "政策退出已被预告，美联储路径与美日利差继续主导日元。",
+  "by_horizon": {
+    "T0": "MINOR",
+    "D1": "MINOR",
+    "D3": "MATERIAL",
+    "D5": "MATERIAL",
+    "D20": "MATERIAL"
+  },
+  "items": [
+    {
+      "confounder_id": "event-08-C01-overlapping-developments",
+      "level": "MATERIAL",
+      "active_from": "2024-03-19",
+      "description": "政策退出已被预告，美联储路径与美日利差继续主导日元。",
+      "affected_path_ids": [
+        "event-08-P-yen-rate-differential",
+        "event-08-P-japan-rates",
+        "event-08-P-global-risk"
+      ],
+      "affected_windows": [
+        "D3",
+        "D5",
+        "D20"
+      ],
+      "evidence_source_ids": [
+        "mechanism-event-08-boj-yen"
+      ]
+    }
+  ]
+}

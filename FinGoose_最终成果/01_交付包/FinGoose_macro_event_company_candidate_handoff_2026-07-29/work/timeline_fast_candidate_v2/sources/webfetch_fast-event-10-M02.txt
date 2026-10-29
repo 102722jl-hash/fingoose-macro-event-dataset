@@ -1,0 +1,7 @@
+SOURCE: https://www.federalregister.gov/executive-order/14257
+RETRIEVED_VIA: WebFetch (second pass, 2026-07-30)
+TITLE: Regulating Imports With a Reciprocal Tariff To Rectify Trade Practices That Contribute to Large and Persistent Annual United States Goods Trade Deficits (Executive Order 14257)
+SIGNING_DATE: April 2, 2025
+FEDERAL_REGISTER: 90 FR 15041 (Document Number 2025-06063), published 04/07/2025
+
+Sec. 3(a): Except as otherwise provided in this order, at 12:01 a.m. eastern daylight time on April 9, 2025, all articles from trading partners enumerated in Annex I to this order imported into the customs territory of the United States shall be, consistent with law, subject to the country-specific ad valorem rates of duty specified in Annex I to this order.

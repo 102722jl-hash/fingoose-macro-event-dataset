@@ -1,0 +1,13 @@
+{
+  "company_count": 23,
+  "claim_count": 92,
+  "evidence_candidate_count": 157,
+  "two_document_claim_candidate_count": 73,
+  "partial_claim_candidate_count": 11,
+  "missing_claim_candidate_count": 8,
+  "verified_dossier_count": 0,
+  "partial_dossier_count": 23,
+  "review_status": "NEEDS_HUMAN_REVIEW",
+  "sha_gate": "DEFERRED",
+  "formal_ready": false
+}

@@ -1,0 +1,195 @@
+{
+  "event_id": "event-06",
+  "release_tier": "RAPID_CANDIDATE",
+  "paths": [
+    {
+      "path_id": "event-06-P-oil-supply",
+      "event_id": "event-06",
+      "activation_phases": [
+        "INITIAL_SHOCK"
+      ],
+      "activation_actions": [
+        "STARTS"
+      ],
+      "activation_tags": [
+        "ENERGY_SUPPLY"
+      ],
+      "chain": [
+        "PRODUCTION_CUT",
+        "OIL_SUPPLY",
+        "EVENT-06_OIL_SUPPLY",
+        "DCOILBRENTEU|DCOILWTICO"
+      ],
+      "asset_series_ids": [
+        "DCOILBRENTEU",
+        "DCOILWTICO"
+      ],
+      "expected_direction": {
+        "IMMEDIATE": "UP",
+        "SHORT_TERM": "UP",
+        "MEDIUM_TERM": "MIXED"
+      },
+      "lag": {
+        "minimum": "P0D",
+        "maximum": "P20D"
+      },
+      "conditions": [
+        "主锚点事实未被官方实质更正。",
+        "OIL_SUPPLY 渠道在所选窗口内仍具经济相关性。"
+      ],
+      "invalidation_conditions": [
+        "政策响应或后续事件成为窗口内主导冲击。",
+        "全球需求预期与库存变化可能压过名义减产信号。"
+      ],
+      "counterevidence": [
+        "全球需求预期与库存变化可能压过名义减产信号。"
+      ],
+      "selection_status": "CORE_REVIEWED",
+      "confirmation_status": "PROPOSED",
+      "review_basis": "AI_DESK_REVIEW_NO_HUMAN_CONFIRMATION",
+      "name": "减产承诺收紧预期石油供给",
+      "anchor_fast_node_ids": [
+        "fast-event-06-M03"
+      ],
+      "unverified_candidate_anchor_ids": [],
+      "anchor_evidence_status": "VERIFIED_EXISTING",
+      "scoring_eligible": true,
+      "event_fact_evidence": [
+        "event06-opec"
+      ],
+      "mechanism_evidence": [
+        {
+          "source_id": "mechanism-event-06-eia-opec",
+          "evidence_scope": "MECHANISM_PRIOR",
+          "prediction_use": "AVAILABLE_AT_ANCHOR"
+        }
+      ]
+    },
+    {
+      "path_id": "event-06-P-inflation-pass-through",
+      "event_id": "event-06",
+      "activation_phases": [
+        "INITIAL_SHOCK"
+      ],
+      "activation_actions": [
+        "STARTS"
+      ],
+      "activation_tags": [
+        "INFLATION_EXPECTATIONS"
+      ],
+      "chain": [
+        "PRODUCTION_CUT",
+        "INFLATION_PASS_THROUGH",
+        "EVENT-06_INFLATION_PASS_THROUGH",
+        "DCOILBRENTEU|DCOILWTICO"
+      ],
+      "asset_series_ids": [
+        "DCOILBRENTEU",
+        "DCOILWTICO"
+      ],
+      "expected_direction": {
+        "IMMEDIATE": "UP",
+        "SHORT_TERM": "UP",
+        "MEDIUM_TERM": "MIXED"
+      },
+      "lag": {
+        "minimum": "P0D",
+        "maximum": "P20D"
+      },
+      "conditions": [
+        "主锚点事实未被官方实质更正。",
+        "INFLATION_PASS_THROUGH 渠道在所选窗口内仍具经济相关性。"
+      ],
+      "invalidation_conditions": [
+        "政策响应或后续事件成为窗口内主导冲击。",
+        "全球需求预期与库存变化可能压过名义减产信号。"
+      ],
+      "counterevidence": [
+        "全球需求预期与库存变化可能压过名义减产信号。"
+      ],
+      "selection_status": "CORE_REVIEWED",
+      "confirmation_status": "PROPOSED",
+      "review_basis": "AI_DESK_REVIEW_NO_HUMAN_CONFIRMATION",
+      "name": "油价上涨抬升成本与通胀压力",
+      "anchor_fast_node_ids": [
+        "fast-event-06-M03"
+      ],
+      "unverified_candidate_anchor_ids": [],
+      "anchor_evidence_status": "VERIFIED_EXISTING",
+      "scoring_eligible": true,
+      "event_fact_evidence": [
+        "event06-opec"
+      ],
+      "mechanism_evidence": [
+        {
+          "source_id": "mechanism-event-06-eia-opec",
+          "evidence_scope": "MECHANISM_PRIOR",
+          "prediction_use": "AVAILABLE_AT_ANCHOR"
+        }
+      ]
+    },
+    {
+      "path_id": "event-06-P-global-growth",
+      "event_id": "event-06",
+      "activation_phases": [
+        "INITIAL_SHOCK"
+      ],
+      "activation_actions": [
+        "STARTS"
+      ],
+      "activation_tags": [
+        "RISK_APPETITE"
+      ],
+      "chain": [
+        "PRODUCTION_CUT",
+        "GLOBAL_GROWTH",
+        "EVENT-06_GLOBAL_GROWTH",
+        "SP500|DEXCHUS"
+      ],
+      "asset_series_ids": [
+        "SP500",
+        "DEXCHUS"
+      ],
+      "expected_direction": {
+        "IMMEDIATE": "MIXED",
+        "SHORT_TERM": "SP500_DOWN",
+        "MEDIUM_TERM": "MIXED"
+      },
+      "lag": {
+        "minimum": "P0D",
+        "maximum": "P20D"
+      },
+      "conditions": [
+        "主锚点事实未被官方实质更正。",
+        "GLOBAL_GROWTH 渠道在所选窗口内仍具经济相关性。"
+      ],
+      "invalidation_conditions": [
+        "政策响应或后续事件成为窗口内主导冲击。",
+        "全球需求预期与库存变化可能压过名义减产信号。"
+      ],
+      "counterevidence": [
+        "全球需求预期与库存变化可能压过名义减产信号。"
+      ],
+      "selection_status": "CORE_REVIEWED",
+      "confirmation_status": "PROPOSED",
+      "review_basis": "AI_DESK_REVIEW_NO_HUMAN_CONFIRMATION",
+      "name": "能源成本上升压低风险资产增长预期",
+      "anchor_fast_node_ids": [
+        "fast-event-06-M03"
+      ],
+      "unverified_candidate_anchor_ids": [],
+      "anchor_evidence_status": "VERIFIED_EXISTING",
+      "scoring_eligible": true,
+      "event_fact_evidence": [
+        "event06-opec"
+      ],
+      "mechanism_evidence": [
+        {
+          "source_id": "mechanism-event-06-eia-opec",
+          "evidence_scope": "MECHANISM_PRIOR",
+          "prediction_use": "AVAILABLE_AT_ANCHOR"
+        }
+      ]
+    }
+  ]
+}

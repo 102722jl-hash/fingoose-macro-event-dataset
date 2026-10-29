@@ -1,0 +1,193 @@
+{
+  "event_id": "event-08",
+  "release_tier": "RAPID_CANDIDATE",
+  "paths": [
+    {
+      "path_id": "event-08-P-yen-rate-differential",
+      "event_id": "event-08",
+      "activation_phases": [
+        "INITIAL_SHOCK"
+      ],
+      "activation_actions": [
+        "STARTS"
+      ],
+      "activation_tags": [
+        "RATE_DIFFERENTIAL"
+      ],
+      "chain": [
+        "BOJ_NORMALIZATION",
+        "RATE_DIFFERENTIAL",
+        "EVENT-08_YEN_RATE_DIFFERENTIAL",
+        "DEXJPUS"
+      ],
+      "asset_series_ids": [
+        "DEXJPUS"
+      ],
+      "expected_direction": {
+        "IMMEDIATE": "DOWN",
+        "SHORT_TERM": "MIXED",
+        "MEDIUM_TERM": "MIXED"
+      },
+      "lag": {
+        "minimum": "P0D",
+        "maximum": "P20D"
+      },
+      "conditions": [
+        "主锚点事实未被官方实质更正。",
+        "RATE_DIFFERENTIAL 渠道在所选窗口内仍具经济相关性。"
+      ],
+      "invalidation_conditions": [
+        "政策响应或后续事件成为窗口内主导冲击。",
+        "政策退出已被沟通，且美日利差仍受美联储路径主导。"
+      ],
+      "counterevidence": [
+        "政策退出已被沟通，且美日利差仍受美联储路径主导。"
+      ],
+      "selection_status": "CORE_REVIEWED",
+      "confirmation_status": "PROPOSED",
+      "review_basis": "AI_DESK_REVIEW_NO_HUMAN_CONFIRMATION",
+      "name": "政策正常化缩小利差并影响日元",
+      "anchor_fast_node_ids": [
+        "fast-event-08-M04"
+      ],
+      "unverified_candidate_anchor_ids": [],
+      "anchor_evidence_status": "VERIFIED_EXISTING",
+      "scoring_eligible": true,
+      "event_fact_evidence": [
+        "event08-boj"
+      ],
+      "mechanism_evidence": [
+        {
+          "source_id": "mechanism-event-08-boj-yen",
+          "evidence_scope": "POST_EVENT_MECHANISM_CORROBORATION",
+          "prediction_use": "EXCLUDED_TO_PREVENT_LEAKAGE"
+        }
+      ]
+    },
+    {
+      "path_id": "event-08-P-japan-rates",
+      "event_id": "event-08",
+      "activation_phases": [
+        "INITIAL_SHOCK"
+      ],
+      "activation_actions": [
+        "STARTS"
+      ],
+      "activation_tags": [
+        "RATE_DIFFERENTIAL"
+      ],
+      "chain": [
+        "BOJ_NORMALIZATION",
+        "JAPAN_RATES",
+        "EVENT-08_JAPAN_RATES",
+        "DGS10"
+      ],
+      "asset_series_ids": [
+        "DGS10"
+      ],
+      "expected_direction": {
+        "IMMEDIATE": "MIXED",
+        "SHORT_TERM": "MIXED",
+        "MEDIUM_TERM": "MIXED"
+      },
+      "lag": {
+        "minimum": "P0D",
+        "maximum": "P20D"
+      },
+      "conditions": [
+        "主锚点事实未被官方实质更正。",
+        "JAPAN_RATES 渠道在所选窗口内仍具经济相关性。"
+      ],
+      "invalidation_conditions": [
+        "政策响应或后续事件成为窗口内主导冲击。",
+        "政策退出已被沟通，且美日利差仍受美联储路径主导。"
+      ],
+      "counterevidence": [
+        "政策退出已被沟通，且美日利差仍受美联储路径主导。"
+      ],
+      "selection_status": "CORE_REVIEWED",
+      "confirmation_status": "PROPOSED",
+      "review_basis": "AI_DESK_REVIEW_NO_HUMAN_CONFIRMATION",
+      "name": "负利率退出推动日本收益率重定价",
+      "anchor_fast_node_ids": [
+        "fast-event-08-M04"
+      ],
+      "unverified_candidate_anchor_ids": [],
+      "anchor_evidence_status": "VERIFIED_EXISTING",
+      "scoring_eligible": true,
+      "event_fact_evidence": [
+        "event08-boj"
+      ],
+      "mechanism_evidence": [
+        {
+          "source_id": "mechanism-event-08-boj-yen",
+          "evidence_scope": "POST_EVENT_MECHANISM_CORROBORATION",
+          "prediction_use": "EXCLUDED_TO_PREVENT_LEAKAGE"
+        }
+      ]
+    },
+    {
+      "path_id": "event-08-P-global-risk",
+      "event_id": "event-08",
+      "activation_phases": [
+        "INITIAL_SHOCK"
+      ],
+      "activation_actions": [
+        "STARTS"
+      ],
+      "activation_tags": [
+        "GLOBAL_LIQUIDITY"
+      ],
+      "chain": [
+        "BOJ_NORMALIZATION",
+        "GLOBAL_RISK",
+        "EVENT-08_GLOBAL_RISK",
+        "SP500|DEXCHUS"
+      ],
+      "asset_series_ids": [
+        "SP500",
+        "DEXCHUS"
+      ],
+      "expected_direction": {
+        "IMMEDIATE": "MIXED",
+        "SHORT_TERM": "MIXED",
+        "MEDIUM_TERM": "MIXED"
+      },
+      "lag": {
+        "minimum": "P0D",
+        "maximum": "P20D"
+      },
+      "conditions": [
+        "主锚点事实未被官方实质更正。",
+        "GLOBAL_RISK 渠道在所选窗口内仍具经济相关性。"
+      ],
+      "invalidation_conditions": [
+        "政策响应或后续事件成为窗口内主导冲击。",
+        "政策退出已被沟通，且美日利差仍受美联储路径主导。"
+      ],
+      "counterevidence": [
+        "政策退出已被沟通，且美日利差仍受美联储路径主导。"
+      ],
+      "selection_status": "CORE_REVIEWED",
+      "confirmation_status": "PROPOSED",
+      "review_basis": "AI_DESK_REVIEW_NO_HUMAN_CONFIRMATION",
+      "name": "日元融资交易调整影响全球风险资产",
+      "anchor_fast_node_ids": [
+        "fast-event-08-M04"
+      ],
+      "unverified_candidate_anchor_ids": [],
+      "anchor_evidence_status": "VERIFIED_EXISTING",
+      "scoring_eligible": true,
+      "event_fact_evidence": [
+        "event08-boj"
+      ],
+      "mechanism_evidence": [
+        {
+          "source_id": "mechanism-event-08-boj-yen",
+          "evidence_scope": "POST_EVENT_MECHANISM_CORROBORATION",
+          "prediction_use": "EXCLUDED_TO_PREVENT_LEAKAGE"
+        }
+      ]
+    }
+  ]
+}

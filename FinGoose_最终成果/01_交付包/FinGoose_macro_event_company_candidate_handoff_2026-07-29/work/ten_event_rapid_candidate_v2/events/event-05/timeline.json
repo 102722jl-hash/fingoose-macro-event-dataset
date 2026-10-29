@@ -1,0 +1,162 @@
+{
+  "event_id": "event-05",
+  "title": "硅谷银行关闭及银行业压力升级",
+  "release_tier": "RAPID_CANDIDATE",
+  "formal_ready": false,
+  "primary_anchor_fast_node_id": "fast-event-05-M02",
+  "nodes": [
+    {
+      "anchor_role": "NONE",
+      "event_id": "event-05",
+      "evidence_status": "PENDING_EVIDENCE",
+      "expected_type": "UNKNOWN",
+      "fact": "SVB Financial Group disclosed the completed sale of its available-for-sale securities portfolio (~$24bn book, ~$1.8bn after-tax loss) on 8 Mar 2023 - the liquidity-stress trigger.",
+      "fast_node_id": "fast-event-05-M01",
+      "first_public_at": null,
+      "gap_reason": "SOURCE_PACKAGE_INCOMPLETE: a semantically matched official snapshot must independently support the fact, occurred_at, and first_public_at before promotion.",
+      "impact_tags": [
+        "BANKING_STRESS",
+        "LIQUIDITY_STRESS"
+      ],
+      "node_action": "AMPLIFIES",
+      "occurred_at": null,
+      "original_milestone_id": null,
+      "phase": "PRECONDITION",
+      "promotion_eligible": false,
+      "sequence": 1,
+      "source_ids": [],
+      "status": "PROPOSED",
+      "visibility": "UNRESOLVED",
+      "linked_path_ids": [],
+      "impact_summary": "Pending evidence; no scored path is activated."
+    },
+    {
+      "anchor_role": "PRIMARY",
+      "event_id": "event-05",
+      "evidence_status": "VERIFIED_EXISTING",
+      "expected_type": "UNKNOWN",
+      "fact": "FDIC records the closure and receivership.",
+      "fast_node_id": "fast-event-05-M02",
+      "first_public_at": "2023-03-10T21:00:00+00:00",
+      "gap_reason": null,
+      "impact_tags": [
+        "BANKING_STRESS",
+        "RATE_EXPECTATIONS",
+        "SAFE_HAVEN_DEMAND"
+      ],
+      "node_action": "STARTS",
+      "occurred_at": "2023-03-10T21:00:00+00:00",
+      "original_milestone_id": "milestone-event-05-4d0e10c71b19",
+      "phase": "INITIAL_SHOCK",
+      "promotion_eligible": true,
+      "sequence": 2,
+      "source_ids": [
+        "event05-fdic"
+      ],
+      "status": "PROPOSED",
+      "visibility": "PUBLIC_PREDICTION",
+      "linked_path_ids": [
+        "event-05-P-banking-stress",
+        "event-05-P-rate-repricing",
+        "event-05-P-safe-haven"
+      ],
+      "impact_summary": "Verified milestone; linked paths are rule-projected candidates."
+    },
+    {
+      "anchor_role": "SECONDARY",
+      "checklist": {
+        "p1_one_to_one_link": true,
+        "p2_quote_locator": true,
+        "p3_occurred_at": true,
+        "p4_first_public_at": true,
+        "p5_snapshot_sha": true,
+        "p6_semantic": true,
+        "p7_expected_type": "UNKNOWN",
+        "package_complete": true
+      },
+      "event_id": "event-05",
+      "evidence_status": "VERIFIED_EXISTING",
+      "fact": "The statement describes emergency stabilization measures.",
+      "fast_node_id": "fast-event-05-M03",
+      "first_public_at": "2023-03-12T22:15:00+00:00",
+      "gap_reason": null,
+      "impact_tags": [
+        "BANKING_STRESS",
+        "RATE_EXPECTATIONS",
+        "SAFE_HAVEN_DEMAND"
+      ],
+      "label": "Credit Suisse emergency rescue",
+      "node_action": "WEAKENS",
+      "occurred_at": "2023-03-12T22:15:00+00:00",
+      "original_milestone_id": "milestone-event-05-d12ca8adba7a",
+      "phase": "ESCALATION",
+      "promotion_eligible": true,
+      "sequence": 3,
+      "source_ids": [
+        "event05-fed-joint"
+      ],
+      "status": "PROPOSED",
+      "visibility": "PUBLIC_PREDICTION",
+      "linked_path_ids": [],
+      "impact_summary": "Verified milestone; linked paths are rule-projected candidates."
+    },
+    {
+      "anchor_role": "SECONDARY",
+      "event_id": "event-05",
+      "evidence_status": "PENDING_EVIDENCE",
+      "expected_type": "UNKNOWN",
+      "fact": "FINMA approved the takeover of Credit Suisse by UBS; extraordinary government support triggered a full write-down of ~CHF 16bn AT1 debt - the cross-border bank-resolution event.",
+      "fast_node_id": "fast-event-05-M04",
+      "first_public_at": null,
+      "gap_reason": "TIMEZONE_NOT_PROVEN_BY_SNAPSHOT: a semantically matched official snapshot must independently support the fact, occurred_at, and first_public_at before promotion.",
+      "impact_tags": [
+        "BANKING_STRESS",
+        "SAFE_HAVEN_DEMAND"
+      ],
+      "node_action": "AMPLIFIES",
+      "occurred_at": null,
+      "original_milestone_id": null,
+      "phase": "SECONDARY_SHOCK",
+      "promotion_eligible": false,
+      "sequence": 4,
+      "source_ids": [],
+      "status": "PROPOSED",
+      "visibility": "UNRESOLVED",
+      "linked_path_ids": [],
+      "impact_summary": "Pending evidence; no scored path is activated."
+    },
+    {
+      "anchor_role": "SECONDARY",
+      "event_id": "event-05",
+      "evidence_status": "VERIFIED_EXISTING",
+      "fact": "FDIC: JPMorgan Chase assumed all deposits of First Republic Bank (1 May 2023).",
+      "fast_node_id": "fast-event-05-M05",
+      "first_public_at": "2023-05-01T07:30:00Z",
+      "gap_reason": null,
+      "impact_tags": [
+        "BANKING_STRESS",
+        "RATE_EXPECTATIONS"
+      ],
+      "node_action": "WEAKENS",
+      "occurred_at": "2023-05-01T07:30:00Z",
+      "original_milestone_id": null,
+      "phase": "EASING",
+      "promotion_eligible": false,
+      "sequence": 5,
+      "source_ids": [
+        "supplemental-fast-event-05-M05"
+      ],
+      "status": "PROPOSED",
+      "visibility": "PUBLIC_PREDICTION",
+      "linked_path_ids": [],
+      "impact_summary": "Verified milestone; linked paths are rule-projected candidates."
+    }
+  ],
+  "daily_resolution": {
+    "status": "UNIQUE_DAILY_ANCHOR",
+    "groups": []
+  },
+  "ordering_basis": "CURATED_SEQUENCE",
+  "chronology_warnings": [],
+  "chronology_status": "CURATED_SEQUENCE_CHRONOLOGICAL"
+}

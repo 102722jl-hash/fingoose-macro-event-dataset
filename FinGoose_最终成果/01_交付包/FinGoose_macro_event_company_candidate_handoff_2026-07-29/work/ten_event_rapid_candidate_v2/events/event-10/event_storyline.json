@@ -1,0 +1,126 @@
+{
+  "event_id": "event-10",
+  "title": "美国建立广泛对等关税框架",
+  "ordering_basis": "CURATED_STORY_SEQUENCE",
+  "steps": [
+    {
+      "story_step_id": "story-event-10-01",
+      "sequence": 1,
+      "phase": "PRECONDITION",
+      "title_cn": "美国优先贸易政策构成候选前置框架",
+      "narrative_cn": "美国优先贸易政策构成候选前置框架。事件状态由“对等关税仍处于调查和预期阶段”转为“前置框架存在但证据尚未闭环”，后续观察应使用新的阶段基准。",
+      "before_state_cn": "对等关税仍处于调查和预期阶段",
+      "after_state_cn": "前置框架存在但证据尚未闭环",
+      "significance_cn": "该步骤建立冲击发生前的约束条件，并重新界定贸易成本、美国通胀、全球增长与风险偏好的观察窗口与传导条件。",
+      "evidence_node_ids": [
+        "fast-event-10-M01"
+      ],
+      "period_start": null,
+      "period_end": null,
+      "time_precision": "UNKNOWN",
+      "evidence_status": "PENDING_EVIDENCE",
+      "evidence_boundary_cn": "核心事实仍待补证，当前只保留候选叙事，不进入干净归因评分。",
+      "activated_path_ids": [],
+      "amplified_path_ids": [],
+      "weakened_path_ids": [],
+      "market_series_ids": []
+    },
+    {
+      "story_step_id": "story-event-10-02",
+      "sequence": 2,
+      "phase": "INITIAL_SHOCK",
+      "title_cn": "白宫事实清单先行披露措施与政策逻辑",
+      "narrative_cn": "白宫事实清单先行披露措施与政策逻辑。事件状态由“前置框架存在但证据尚未闭环”转为“措施范围与传导逻辑进入公开信息”，后续观察应使用新的阶段基准。",
+      "before_state_cn": "前置框架存在但证据尚未闭环",
+      "after_state_cn": "措施范围与传导逻辑进入公开信息",
+      "significance_cn": "该步骤改变事件性质并启动核心市场重定价，并重新界定贸易成本、美国通胀、全球增长与风险偏好的观察窗口与传导条件。",
+      "evidence_node_ids": [
+        "fast-event-10-M03"
+      ],
+      "period_start": "2025-04-02T21:19:04+00:00",
+      "period_end": "2025-04-02T21:19:04+00:00",
+      "time_precision": "TIMESTAMP",
+      "evidence_status": "SUPPORTED",
+      "evidence_boundary_cn": "关联证据支持事件事实；前后状态与阶段意义属于可追溯的研究归纳。",
+      "activated_path_ids": [],
+      "amplified_path_ids": [],
+      "weakened_path_ids": [],
+      "market_series_ids": []
+    },
+    {
+      "story_step_id": "story-event-10-03",
+      "sequence": 3,
+      "phase": "INITIAL_SHOCK",
+      "title_cn": "行政命令建立广泛对等关税框架",
+      "narrative_cn": "行政命令建立广泛对等关税框架。事件状态由“措施范围与传导逻辑进入公开信息”转为“行政命令形成正式关税框架”，后续观察应使用新的阶段基准。",
+      "before_state_cn": "措施范围与传导逻辑进入公开信息",
+      "after_state_cn": "行政命令形成正式关税框架",
+      "significance_cn": "该步骤改变事件性质并启动核心市场重定价，并重新界定贸易成本、美国通胀、全球增长与风险偏好的观察窗口与传导条件。",
+      "evidence_node_ids": [
+        "fast-event-10-M02"
+      ],
+      "period_start": "2025-04-02T21:37:45+00:00",
+      "period_end": "2025-04-02T21:37:45+00:00",
+      "time_precision": "TIMESTAMP",
+      "evidence_status": "SUPPORTED",
+      "evidence_boundary_cn": "关联证据支持事件事实；前后状态与阶段意义属于可追溯的研究归纳。",
+      "activated_path_ids": [
+        "event-10-P-trade-costs",
+        "event-10-P-inflation-rates",
+        "event-10-P-global-growth-risk"
+      ],
+      "amplified_path_ids": [],
+      "weakened_path_ids": [],
+      "market_series_ids": [
+        "SP500",
+        "DEXCHUS",
+        "DGS10",
+        "DTWEXBGS"
+      ]
+    },
+    {
+      "story_step_id": "story-event-10-04",
+      "sequence": 4,
+      "phase": "POLICY_RESPONSE",
+      "title_cn": "国别税率与海关执行进入候选实施阶段",
+      "narrative_cn": "国别税率与海关执行进入候选实施阶段。事件状态由“行政命令形成正式关税框架”转为“市场等待国别税率和执行细节”，后续观察应使用新的阶段基准。",
+      "before_state_cn": "行政命令形成正式关税框架",
+      "after_state_cn": "市场等待国别税率和执行细节",
+      "significance_cn": "该步骤引入可能改变原有传导方向的政策响应，并重新界定贸易成本、美国通胀、全球增长与风险偏好的观察窗口与传导条件。",
+      "evidence_node_ids": [
+        "fast-event-10-M04"
+      ],
+      "period_start": null,
+      "period_end": null,
+      "time_precision": "UNKNOWN",
+      "evidence_status": "PENDING_EVIDENCE",
+      "evidence_boundary_cn": "核心事实仍待补证，当前只保留候选叙事，不进入干净归因评分。",
+      "activated_path_ids": [],
+      "amplified_path_ids": [],
+      "weakened_path_ids": [],
+      "market_series_ids": []
+    },
+    {
+      "story_step_id": "story-event-10-05",
+      "sequence": 5,
+      "phase": "EASING",
+      "title_cn": "首轮税率调整与暂停机制形成候选缓和节点",
+      "narrative_cn": "首轮税率调整与暂停机制形成候选缓和节点。事件状态由“市场等待国别税率和执行细节”转为“首轮调整可能缓和冲击但仍待验证”，后续观察应使用新的阶段基准。",
+      "before_state_cn": "市场等待国别税率和执行细节",
+      "after_state_cn": "首轮调整可能缓和冲击但仍待验证",
+      "significance_cn": "该步骤削弱先前冲击但不代表影响立即消失，并重新界定贸易成本、美国通胀、全球增长与风险偏好的观察窗口与传导条件。",
+      "evidence_node_ids": [
+        "fast-event-10-M05"
+      ],
+      "period_start": null,
+      "period_end": null,
+      "time_precision": "UNKNOWN",
+      "evidence_status": "PENDING_EVIDENCE",
+      "evidence_boundary_cn": "核心事实仍待补证，当前只保留候选叙事，不进入干净归因评分。",
+      "activated_path_ids": [],
+      "amplified_path_ids": [],
+      "weakened_path_ids": [],
+      "market_series_ids": []
+    }
+  ]
+}

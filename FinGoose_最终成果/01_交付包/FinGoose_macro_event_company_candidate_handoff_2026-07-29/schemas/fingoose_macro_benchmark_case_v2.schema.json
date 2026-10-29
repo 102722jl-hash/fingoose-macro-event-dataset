@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://fingoose.local/schemas/fingoose_macro_benchmark_case_v2.schema.json",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["case_id", "dataset_version", "release_tier", "event_id", "forecast_cutoff_at", "tasks", "visible_evidence_ids", "visible_market_windows", "split", "challenge_set", "score_eligible"],
+  "properties": {
+    "case_id": {"type": "string", "pattern": "^case-event-[0-9]{2}-[a-f0-9]{12}$"},
+    "dataset_version": {"const": "fingoose-macro-event-attribution-v2.0"},
+    "release_tier": {"const": "CANDIDATE"},
+    "event_id": {"type": "string", "pattern": "^event-[0-9]{2}$"},
+    "forecast_cutoff_at": {"type": "string", "format": "date-time"},
+    "tasks": {
+      "type": "array", "minItems": 4, "uniqueItems": true,
+      "contains": {"const": "TIMELINE_RECONSTRUCTION"},
+      "items": {"enum": ["TIMELINE_RECONSTRUCTION", "GRAPH_CONSTRUCTION", "DIRECTION", "ABSTENTION"]}
+    },
+    "visible_evidence_ids": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"type": "string", "minLength": 1}},
+    "visible_market_windows": {
+      "type": "array", "uniqueItems": true,
+      "items": {"enum": ["T60", "T20", "T1", "D1", "D3"]}
+    },
+    "split": {"enum": ["EXAMPLE", "HIDDEN_EVALUATION", "CHALLENGE"]},
+    "challenge_set": {"type": "boolean"},
+    "score_eligible": {"type": "boolean"}
+  },
+  "allOf": [
+    {
+      "if": {"properties": {"challenge_set": {"const": true}}, "required": ["challenge_set"]},
+      "then": {"properties": {"score_eligible": {"const": false}}}
+    }
+  ]
+}

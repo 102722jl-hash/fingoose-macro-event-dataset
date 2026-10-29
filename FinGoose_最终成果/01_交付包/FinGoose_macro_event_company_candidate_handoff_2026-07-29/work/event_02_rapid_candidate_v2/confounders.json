@@ -1,0 +1,70 @@
+{
+  "event_id": "event-02",
+  "clean_attribution_decision": "CHALLENGE_ONLY",
+  "reason": "只有 D1 可作为较窄事件窗口观察；D3 以后制裁、政策预期与持续战争共同作用。",
+  "by_horizon": {
+    "T0": "MINOR",
+    "D1": "MINOR",
+    "D3": "MATERIAL",
+    "D5": "MATERIAL",
+    "D20": "DOMINANT"
+  },
+  "items": [
+    {
+      "confounder_id": "event-02-C01-preexisting-energy-tightness",
+      "level": "MATERIAL",
+      "active_from": "2021-01-01",
+      "description": "疫情后需求恢复、投资偏弱与库存偏紧已在入侵前推高能源价格。",
+      "affected_paths": [
+        "event-02-P01-energy-supply",
+        "event-02-P02-inflation-rates"
+      ],
+      "evidence_source_ids": [
+        "mechanism-ecb-eb-2022-04",
+        "mechanism-imf-2022-03-15"
+      ]
+    },
+    {
+      "confounder_id": "event-02-C02-policy-repricing",
+      "level": "MATERIAL",
+      "active_from": "2022-01-01",
+      "description": "高通胀与美联储紧缩路径重估同时影响股票、VIX 与长端收益率。",
+      "affected_paths": [
+        "event-02-P02-inflation-rates",
+        "event-02-P03-risk-appetite"
+      ],
+      "evidence_source_ids": [
+        "mechanism-fed-2022-05-27"
+      ]
+    },
+    {
+      "confounder_id": "event-02-C03-sanctions-sequence",
+      "level": "MATERIAL",
+      "active_from": "2022-02-26",
+      "description": "后续金融制裁与能源限制在 D3/D5 窗口内形成独立冲击。",
+      "affected_paths": [
+        "event-02-P01-energy-supply",
+        "event-02-P03-risk-appetite",
+        "event-02-P04-sanctions-trade"
+      ],
+      "evidence_source_ids": [
+        "mechanism-stlouisfed-2022-q4"
+      ]
+    },
+    {
+      "confounder_id": "event-02-C04-ongoing-war-and-policy",
+      "level": "DOMINANT",
+      "active_from": "2022-03-01",
+      "description": "D20 包含持续战事、更多制裁、OPEC+ 供给决策与 3 月 FOMC，不能作为单节点干净归因。",
+      "affected_paths": [
+        "event-02-P01-energy-supply",
+        "event-02-P02-inflation-rates",
+        "event-02-P03-risk-appetite"
+      ],
+      "evidence_source_ids": [
+        "mechanism-fed-2022-05-27",
+        "mechanism-ecb-eb-2022-04"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,173 @@
+{
+  "event_id": "event-06",
+  "title": "OPEC+ 宣布额外自愿减产",
+  "release_tier": "RAPID_CANDIDATE",
+  "formal_ready": false,
+  "primary_anchor_fast_node_id": "fast-event-06-M03",
+  "nodes": [
+    {
+      "anchor_role": "NONE",
+      "event_id": "event-06",
+      "evidence_status": "PENDING_EVIDENCE",
+      "expected_type": "UNKNOWN",
+      "fact": "IEA Oil Market Report (March 2023) documented the banking-turmoil-driven oil sell-off (post-SVB) that framed the supply backdrop ahead of the 2023 Saudi/OPEC+ voluntary cuts.",
+      "fast_node_id": "fast-event-06-M01",
+      "first_public_at": null,
+      "gap_reason": "SOURCE_PACKAGE_INCOMPLETE: a semantically matched official snapshot must independently support the fact, occurred_at, and first_public_at before promotion.",
+      "impact_tags": [
+        "ENERGY_SUPPLY",
+        "INFLATION_EXPECTATIONS"
+      ],
+      "node_action": "OBSERVES",
+      "occurred_at": null,
+      "original_milestone_id": null,
+      "phase": "PRECONDITION",
+      "promotion_eligible": false,
+      "sequence": 1,
+      "source_ids": [],
+      "status": "PROPOSED",
+      "visibility": "UNRESOLVED",
+      "linked_path_ids": [],
+      "impact_summary": "Pending evidence; no scored path is activated."
+    },
+    {
+      "anchor_role": "NONE",
+      "event_id": "event-06",
+      "evidence_status": "VERIFIED_EXISTING",
+      "fact": "The outlook supplies the pre-cut oil baseline.",
+      "fast_node_id": "fast-event-06-M02",
+      "first_public_at": "2023-03-07T17:00:00+00:00",
+      "gap_reason": null,
+      "impact_tags": [
+        "ENERGY_SUPPLY",
+        "INFLATION_EXPECTATIONS",
+        "RISK_APPETITE"
+      ],
+      "node_action": "OBSERVES",
+      "occurred_at": "2023-03-07T17:00:00+00:00",
+      "original_milestone_id": "milestone-event-06-072c8b1ea560",
+      "phase": "PRECONDITION",
+      "promotion_eligible": true,
+      "sequence": 2,
+      "source_ids": [
+        "event06-eia-steo"
+      ],
+      "status": "PROPOSED",
+      "visibility": "PUBLIC_PREDICTION",
+      "linked_path_ids": [],
+      "impact_summary": "Verified milestone; linked paths are rule-projected candidates."
+    },
+    {
+      "anchor_role": "PRIMARY",
+      "event_id": "event-06",
+      "evidence_status": "VERIFIED_EXISTING",
+      "fact": "OPEC documented additional voluntary production cuts.",
+      "fast_node_id": "fast-event-06-M03",
+      "first_public_at": "2023-04-03T09:00:00+00:00",
+      "gap_reason": "现有 OPEC 快照发布时间晚于配置发生时间；需补 2023-04-02 联合公告原始时刻或成员国一手声明。",
+      "impact_tags": [
+        "ENERGY_SUPPLY",
+        "INFLATION_EXPECTATIONS",
+        "RISK_APPETITE"
+      ],
+      "node_action": "STARTS",
+      "occurred_at": "2023-04-02T13:00:00+00:00",
+      "original_milestone_id": "milestone-event-06-8de7f47124a8",
+      "phase": "INITIAL_SHOCK",
+      "promotion_eligible": false,
+      "sequence": 3,
+      "source_ids": [
+        "event06-opec"
+      ],
+      "status": "PROPOSED",
+      "visibility": "PUBLIC_PREDICTION",
+      "linked_path_ids": [
+        "event-06-P-oil-supply",
+        "event-06-P-inflation-pass-through",
+        "event-06-P-global-growth"
+      ],
+      "impact_summary": "Verified milestone; linked paths are rule-projected candidates."
+    },
+    {
+      "anchor_role": "SECONDARY",
+      "checklist": {
+        "p1_one_to_one_link": true,
+        "p2_quote_locator": true,
+        "p3_occurred_at": true,
+        "p4_first_public_at": true,
+        "p5_snapshot_sha": true,
+        "p6_semantic": true,
+        "p7_expected_type": "UNKNOWN",
+        "package_complete": true
+      },
+      "event_id": "event-06",
+      "evidence_status": "VERIFIED_EXISTING",
+      "fact": "On 4 June 2023, at the OPEC+ ministerial meeting, Saudi Arabia announced an additional voluntary crude production cut of 1 million bpd, effective July 2023 and potentially extendable — a supply-tightening amplification within the oil/OPEC+ event.",
+      "fast_node_id": "fast-event-06-M04",
+      "first_public_at": "2023-06-04T12:00:00Z",
+      "gap_reason": null,
+      "impact_tags": [
+        "ENERGY_SUPPLY",
+        "INFLATION_EXPECTATIONS"
+      ],
+      "label": "Saudi 1mbpd voluntary cut",
+      "node_action": "AMPLIFIES",
+      "occurred_at": "2023-06-04T12:00:00Z",
+      "original_milestone_id": null,
+      "phase": "POLICY_RESPONSE",
+      "promotion_eligible": false,
+      "sequence": 4,
+      "source_ids": [
+        "supplemental-fast-event-06-M04"
+      ],
+      "status": "PROPOSED",
+      "visibility": "UNRESOLVED",
+      "linked_path_ids": [],
+      "impact_summary": "Verified milestone; linked paths are rule-projected candidates."
+    },
+    {
+      "anchor_role": "SECONDARY",
+      "checklist": {
+        "p1_one_to_one_link": true,
+        "p2_quote_locator": true,
+        "p3_occurred_at": true,
+        "p4_first_public_at": true,
+        "p5_snapshot_sha": true,
+        "p6_semantic": true,
+        "p7_expected_type": "UNKNOWN",
+        "package_complete": true
+      },
+      "event_id": "event-06",
+      "evidence_status": "VERIFIED_EXISTING",
+      "fact": "On 2 June 2024 OPEC+ agreed to gradually phase out the voluntary production cuts on a monthly basis through the end of September 2025 — a staged supply normalization after the 2023 tightening.",
+      "fast_node_id": "fast-event-06-M05",
+      "first_public_at": "2024-06-02T12:00:00Z",
+      "gap_reason": null,
+      "impact_tags": [
+        "ENERGY_SUPPLY",
+        "RISK_APPETITE"
+      ],
+      "label": "OPEC+ cut rollback plan",
+      "node_action": "AMPLIFIES",
+      "occurred_at": "2024-06-02T12:00:00Z",
+      "original_milestone_id": null,
+      "phase": "SECONDARY_SHOCK",
+      "promotion_eligible": false,
+      "sequence": 5,
+      "source_ids": [
+        "supplemental-fast-event-06-M05"
+      ],
+      "status": "PROPOSED",
+      "visibility": "UNRESOLVED",
+      "linked_path_ids": [],
+      "impact_summary": "Verified milestone; linked paths are rule-projected candidates."
+    }
+  ],
+  "daily_resolution": {
+    "status": "UNIQUE_DAILY_ANCHOR",
+    "groups": []
+  },
+  "ordering_basis": "CURATED_SEQUENCE",
+  "chronology_warnings": [],
+  "chronology_status": "CURATED_SEQUENCE_CHRONOLOGICAL"
+}

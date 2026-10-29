@@ -1,0 +1,124 @@
+{
+  "causal_identification_stats": {
+    "DESCRIPTIVE_EVENT_STUDY": 0,
+    "IDENTIFIED": 0,
+    "NOT_IDENTIFIED": 30,
+    "QUASI_EXPERIMENTAL_CANDIDATE": 0
+  },
+  "closure_reason_stats": {
+    "CLOSED": 157
+  },
+  "content_quality_stats": {
+    "answer_section_coverage": {
+      "中期影响": 157,
+      "公司影响": 10,
+      "即时影响": 157,
+      "来源事实": 50,
+      "短期影响": 157,
+      "结论": 146,
+      "行情验证": 127,
+      "证据边界": 127
+    },
+    "complete_horizon_count": 157,
+    "content_contract_count": 157,
+    "placeholder_sample_count": 0,
+    "review_boundary_count": 157,
+    "ui_parity_pass_count": 157
+  },
+  "counts": {
+    "sft_samples": 157,
+    "unified_events": 10
+  },
+  "dataset_version": "fingoose-unified-sft-v1",
+  "errors": [],
+  "event_counts": {
+    "event-01": 16,
+    "event-02": 16,
+    "event-03": 16,
+    "event-04": 16,
+    "event-05": 15,
+    "event-06": 15,
+    "event-07": 15,
+    "event-08": 15,
+    "event-09": 16,
+    "event-10": 17
+  },
+  "market_completeness_stats": {
+    "company_calculated_window_count": 117,
+    "company_missing_window_count": 0,
+    "company_partial_window_count": 33,
+    "company_total": 30,
+    "industry_total": 77
+  },
+  "reasoning_chain_stats": {
+    "by_task": {
+      "COMPANY_IMPACT": {
+        "chain_count": 30,
+        "evidence_count": 1119,
+        "main_path_node_count": 210,
+        "missing_node_count": 0,
+        "node_count": 210,
+        "open_closure_count": 0
+      },
+      "EVENT_ANALYSIS": {
+        "chain_count": 10,
+        "evidence_count": 343,
+        "main_path_node_count": 56,
+        "missing_node_count": 0,
+        "node_count": 152,
+        "open_closure_count": 0
+      },
+      "EVENT_QA": {
+        "chain_count": 40,
+        "evidence_count": 486,
+        "main_path_node_count": 280,
+        "missing_node_count": 0,
+        "node_count": 416,
+        "open_closure_count": 0
+      },
+      "INDUSTRY_IMPACT": {
+        "chain_count": 77,
+        "evidence_count": 2650,
+        "main_path_node_count": 539,
+        "missing_node_count": 0,
+        "node_count": 539,
+        "open_closure_count": 0
+      }
+    },
+    "totals": {
+      "chain_count": 157,
+      "evidence_count": 4598,
+      "main_path_node_count": 1085,
+      "missing_node_count": 0,
+      "node_count": 1317,
+      "open_closure_count": 0
+    }
+  },
+  "split_counts": {
+    "test": 17,
+    "train": 124,
+    "validation": 16
+  },
+  "task_counts": {
+    "COMPANY_IMPACT": 30,
+    "EVENT_ANALYSIS": 10,
+    "EVENT_QA": 40,
+    "INDUSTRY_IMPACT": 77
+  },
+  "valid": true,
+  "validated_artifacts": {
+    "sft_dataset": {
+      "path": "D:\\桌面\\workspace\\codex1\\FinGoose_最终成果\\01_交付包\\FinGoose_macro_event_company_candidate_handoff_2026-07-29\\training\\data\\sft_dataset.jsonl",
+      "sha256": "15e7581897e274ce556b9aeecee21de24208fa36fe83e501a5dbf205f22bb363"
+    },
+    "split_manifest": {
+      "path": "D:\\桌面\\workspace\\codex1\\FinGoose_最终成果\\01_交付包\\FinGoose_macro_event_company_candidate_handoff_2026-07-29\\training\\data\\split_manifest.json",
+      "sha256": "72dd3fef088eb2ff840c2c8b4371d819000203c4d34f21bbb3c4ae7f6dc3d75f"
+    },
+    "unified_events": {
+      "path": "D:\\桌面\\workspace\\codex1\\FinGoose_最终成果\\01_交付包\\FinGoose_macro_event_company_candidate_handoff_2026-07-29\\training\\data\\unified_events.jsonl",
+      "sha256": "4f2dce7fb31ff4171dc1e83edfadcc0db4947aa71d8c67354bdbecf6c328f05d"
+    }
+  },
+  "warnings": []
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://fingoose.local/schemas/fingoose_macro_event_episode_v2.schema.json",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["episode_id", "dataset_version", "release_tier", "event_id", "phase", "start_at", "end_at", "milestone_ids", "evidence_coverage"],
+  "properties": {
+    "episode_id": {"type": "string", "pattern": "^episode-event-[0-9]{2}-[a-f0-9]{12}$"},
+    "dataset_version": {"const": "fingoose-macro-event-attribution-v2.0"},
+    "release_tier": {"const": "CANDIDATE"},
+    "event_id": {"type": "string", "pattern": "^event-[0-9]{2}$"},
+    "phase": {"enum": ["PRECONDITION", "INITIAL_SHOCK", "ESCALATION", "POLICY_RESPONSE", "EASING", "SECONDARY_SHOCK"]},
+    "start_at": {"type": "string", "format": "date-time"},
+    "end_at": {"type": "string", "format": "date-time"},
+    "milestone_ids": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"type": "string", "pattern": "^milestone-event-[0-9]{2}-[a-f0-9]{12}$"}},
+    "evidence_coverage": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"type": "string", "minLength": 1}}
+  }
+}

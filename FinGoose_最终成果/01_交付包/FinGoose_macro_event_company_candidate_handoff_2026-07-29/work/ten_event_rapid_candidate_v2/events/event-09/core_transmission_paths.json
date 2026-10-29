@@ -1,0 +1,195 @@
+{
+  "event_id": "event-09",
+  "release_tier": "RAPID_CANDIDATE",
+  "paths": [
+    {
+      "path_id": "event-09-P-china-growth",
+      "event_id": "event-09",
+      "activation_phases": [
+        "INITIAL_SHOCK"
+      ],
+      "activation_actions": [
+        "STARTS"
+      ],
+      "activation_tags": [
+        "MONETARY_EASING",
+        "PROPERTY_SUPPORT"
+      ],
+      "chain": [
+        "CHINA_STIMULUS",
+        "GROWTH_EXPECTATIONS",
+        "EVENT-09_CHINA_GROWTH",
+        "SP500|DGS10"
+      ],
+      "asset_series_ids": [
+        "SP500",
+        "DGS10"
+      ],
+      "expected_direction": {
+        "IMMEDIATE": "UP",
+        "SHORT_TERM": "UP",
+        "MEDIUM_TERM": "MIXED"
+      },
+      "lag": {
+        "minimum": "P0D",
+        "maximum": "P20D"
+      },
+      "conditions": [
+        "主锚点事实未被官方实质更正。",
+        "GROWTH_EXPECTATIONS 渠道在所选窗口内仍具经济相关性。"
+      ],
+      "invalidation_conditions": [
+        "政策响应或后续事件成为窗口内主导冲击。",
+        "财政落实程度与房地产基本面会限制货币支持效果。"
+      ],
+      "counterevidence": [
+        "财政落实程度与房地产基本面会限制货币支持效果。"
+      ],
+      "selection_status": "CORE_REVIEWED",
+      "confirmation_status": "PROPOSED",
+      "review_basis": "AI_DESK_REVIEW_NO_HUMAN_CONFIRMATION",
+      "name": "信贷与住房支持改善增长预期",
+      "anchor_fast_node_ids": [
+        "fast-event-09-M03"
+      ],
+      "unverified_candidate_anchor_ids": [],
+      "anchor_evidence_status": "VERIFIED_EXISTING",
+      "scoring_eligible": true,
+      "event_fact_evidence": [
+        "event09-pbc"
+      ],
+      "mechanism_evidence": [
+        {
+          "source_id": "mechanism-event-09-pbc-report",
+          "evidence_scope": "MECHANISM_PRIOR",
+          "prediction_use": "AVAILABLE_AT_ANCHOR"
+        }
+      ]
+    },
+    {
+      "path_id": "event-09-P-yuan-repricing",
+      "event_id": "event-09",
+      "activation_phases": [
+        "INITIAL_SHOCK"
+      ],
+      "activation_actions": [
+        "STARTS"
+      ],
+      "activation_tags": [
+        "MONETARY_EASING"
+      ],
+      "chain": [
+        "CHINA_STIMULUS",
+        "FX_EXPECTATIONS",
+        "EVENT-09_YUAN_REPRICING",
+        "DEXCHUS|DTWEXBGS"
+      ],
+      "asset_series_ids": [
+        "DEXCHUS",
+        "DTWEXBGS"
+      ],
+      "expected_direction": {
+        "IMMEDIATE": "MIXED",
+        "SHORT_TERM": "MIXED",
+        "MEDIUM_TERM": "MIXED"
+      },
+      "lag": {
+        "minimum": "P0D",
+        "maximum": "P20D"
+      },
+      "conditions": [
+        "主锚点事实未被官方实质更正。",
+        "FX_EXPECTATIONS 渠道在所选窗口内仍具经济相关性。"
+      ],
+      "invalidation_conditions": [
+        "政策响应或后续事件成为窗口内主导冲击。",
+        "财政落实程度与房地产基本面会限制货币支持效果。"
+      ],
+      "counterevidence": [
+        "财政落实程度与房地产基本面会限制货币支持效果。"
+      ],
+      "selection_status": "CORE_REVIEWED",
+      "confirmation_status": "PROPOSED",
+      "review_basis": "AI_DESK_REVIEW_NO_HUMAN_CONFIRMATION",
+      "name": "宽松与增长预期共同影响人民币",
+      "anchor_fast_node_ids": [
+        "fast-event-09-M03"
+      ],
+      "unverified_candidate_anchor_ids": [],
+      "anchor_evidence_status": "VERIFIED_EXISTING",
+      "scoring_eligible": true,
+      "event_fact_evidence": [
+        "event09-pbc"
+      ],
+      "mechanism_evidence": [
+        {
+          "source_id": "mechanism-event-09-pbc-report",
+          "evidence_scope": "MECHANISM_PRIOR",
+          "prediction_use": "AVAILABLE_AT_ANCHOR"
+        }
+      ]
+    },
+    {
+      "path_id": "event-09-P-risk-assets",
+      "event_id": "event-09",
+      "activation_phases": [
+        "INITIAL_SHOCK"
+      ],
+      "activation_actions": [
+        "STARTS"
+      ],
+      "activation_tags": [
+        "RISK_APPETITE"
+      ],
+      "chain": [
+        "CHINA_STIMULUS",
+        "RISK_APPETITE",
+        "EVENT-09_RISK_ASSETS",
+        "SP500"
+      ],
+      "asset_series_ids": [
+        "SP500"
+      ],
+      "expected_direction": {
+        "IMMEDIATE": "UP",
+        "SHORT_TERM": "UP",
+        "MEDIUM_TERM": "MIXED"
+      },
+      "lag": {
+        "minimum": "P0D",
+        "maximum": "P20D"
+      },
+      "conditions": [
+        "主锚点事实未被官方实质更正。",
+        "RISK_APPETITE 渠道在所选窗口内仍具经济相关性。"
+      ],
+      "invalidation_conditions": [
+        "政策响应或后续事件成为窗口内主导冲击。",
+        "财政落实程度与房地产基本面会限制货币支持效果。"
+      ],
+      "counterevidence": [
+        "财政落实程度与房地产基本面会限制货币支持效果。"
+      ],
+      "selection_status": "CORE_REVIEWED",
+      "confirmation_status": "PROPOSED",
+      "review_basis": "AI_DESK_REVIEW_NO_HUMAN_CONFIRMATION",
+      "name": "政策组合改善风险偏好与权益估值",
+      "anchor_fast_node_ids": [
+        "fast-event-09-M03"
+      ],
+      "unverified_candidate_anchor_ids": [],
+      "anchor_evidence_status": "VERIFIED_EXISTING",
+      "scoring_eligible": true,
+      "event_fact_evidence": [
+        "event09-pbc"
+      ],
+      "mechanism_evidence": [
+        {
+          "source_id": "mechanism-event-09-pbc-report",
+          "evidence_scope": "MECHANISM_PRIOR",
+          "prediction_use": "AVAILABLE_AT_ANCHOR"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "event_id": "event-10",
+  "clean_attribution_decision": "CHALLENGE_ONLY",
+  "reason": "豁免、报复、谈判与政策调整持续改变实际关税冲击。",
+  "by_horizon": {
+    "T0": "MINOR",
+    "D1": "MINOR",
+    "D3": "MATERIAL",
+    "D5": "MATERIAL",
+    "D20": "DOMINANT"
+  },
+  "items": [
+    {
+      "confounder_id": "event-10-C01-overlapping-developments",
+      "level": "DOMINANT",
+      "active_from": "2025-04-03",
+      "description": "豁免、报复、谈判与政策调整持续改变实际关税冲击。",
+      "affected_path_ids": [
+        "event-10-P-trade-costs",
+        "event-10-P-inflation-rates",
+        "event-10-P-global-growth-risk"
+      ],
+      "affected_windows": [
+        "D3",
+        "D5",
+        "D20"
+      ],
+      "evidence_source_ids": [
+        "mechanism-event-10-imf-tariffs"
+      ]
+    }
+  ]
+}

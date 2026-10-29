@@ -1,0 +1,10 @@
+{
+  "formal_ready": false,
+  "hard_failures": [],
+  "promotion_eligible_count": 0,
+  "record_count": 8,
+  "remaining_pending_count": 8,
+  "snapshot_available_count": 7,
+  "snapshot_hash_match_count": 7,
+  "valid": true
+}

@@ -1,0 +1,54 @@
+{
+  "dataset_version": "fingoose-ten-event-rapid-candidate-v2.0",
+  "release_tier": "RAPID_CANDIDATE",
+  "formal_ready": false,
+  "production_dataset_modified": false,
+  "sha_gate": "DEFERRED_BY_USER_FOR_RAPID_CANDIDATE",
+  "percentile_gate": "DEFERRED_VALIDATION",
+  "event_count": 10,
+  "timeline_node_count": 50,
+  "storyline_step_count": 50,
+  "pending_storyline_step_count": 8,
+  "verified_node_count": 42,
+  "pending_evidence_count": 8,
+  "core_path_count": 35,
+  "chronology_warning_count": 3,
+  "chronology_warnings": [
+    {
+      "event_id": "event-01",
+      "type": "CURATED_SEQUENCE_TIMESTAMP_INVERSION",
+      "previous_node_id": "fast-event-01-M03",
+      "previous_first_public_at": "2020-03-11T19:00:00Z",
+      "current_node_id": "fast-event-01-M04",
+      "current_first_public_at": "2020-03-11T16:30:00+00:00"
+    },
+    {
+      "event_id": "event-09",
+      "type": "CURATED_SEQUENCE_TIMESTAMP_INVERSION",
+      "previous_node_id": "fast-event-09-M03",
+      "previous_first_public_at": "2024-09-24T16:07:00+08:00",
+      "current_node_id": "fast-event-09-M04",
+      "current_first_public_at": "2024-09-24T00:00:00+08:00"
+    },
+    {
+      "event_id": "event-10",
+      "type": "CURATED_SEQUENCE_TIMESTAMP_INVERSION",
+      "previous_node_id": "fast-event-10-M02",
+      "previous_first_public_at": "2025-04-02T21:37:45+00:00",
+      "current_node_id": "fast-event-10-M03",
+      "current_first_public_at": "2025-04-02T21:19:04+00:00"
+    }
+  ],
+  "confirmed_path_count": 0,
+  "core_market_series_count": 40,
+  "extension_market_series_count": 1,
+  "hard_failures": [],
+  "warnings": [
+    "Eight input-derived nodes remain PENDING_EVIDENCE.",
+    "All 35 core paths remain PROPOSED and are not human-confirmed.",
+    "T0 and D1 are aliases for the same daily close.",
+    "D3/D5/D20 are challenge or window-dependent where confounders overlap.",
+    "SHA and empirical-percentile gates are deferred by user for this rapid candidate.",
+    "Three curated-sequence timestamp inversions are explicitly reported."
+  ]
+}

@@ -1,0 +1,1109 @@
+{
+  "events": [
+    {
+      "event_id": "event-01",
+      "nodes": [
+        {
+          "checklist": {
+            "p1_one_to_one_link": true,
+            "p2_quote_locator": true,
+            "p3_occurred_at": true,
+            "p4_first_public_at": true,
+            "p5_snapshot_sha": "DEFERRED",
+            "p6_semantic": true,
+            "p7_expected_type": "UNKNOWN",
+            "package_complete": true
+          },
+          "evidence_status": "VERIFIED_EXISTING",
+          "fact": "WHO Director-General declared the 2019-nCoV outbreak a PHEIC (30 Jan 2020).",
+          "fast_node_id": "fast-event-01-M01",
+          "gap_note": null,
+          "node_action": "OBSERVES",
+          "package_complete": true,
+          "phase": "PRECONDITION",
+          "promotion_eligible": false
+        },
+        {
+          "checklist": {
+            "p1_one_to_one_link": true,
+            "p2_quote_locator": true,
+            "p3_occurred_at": true,
+            "p4_first_public_at": true,
+            "p5_snapshot_sha": "DEFERRED",
+            "p6_semantic": true,
+            "p7_expected_type": "UNKNOWN",
+            "package_complete": true
+          },
+          "evidence_status": "VERIFIED_EXISTING",
+          "fact": "Italy extended DPCM 8 Mar 2020 measures to the entire national territory (9 Mar 2020).",
+          "fast_node_id": "fast-event-01-M02",
+          "gap_note": null,
+          "node_action": "AMPLIFIES",
+          "package_complete": true,
+          "phase": "PRECONDITION",
+          "promotion_eligible": false
+        },
+        {
+          "checklist": {
+            "p1_one_to_one_link": true,
+            "p2_quote_locator": true,
+            "p3_occurred_at": true,
+            "p4_first_public_at": true,
+            "p5_snapshot_sha": "DEFERRED",
+            "p6_semantic": true,
+            "p7_expected_type": "UNKNOWN",
+            "package_complete": true
+          },
+          "evidence_status": "VERIFIED_EXISTING",
+          "fact": "On 11 March 2020 WHO characterized COVID-19 as a pandemic — the global escalation preamble marking the shift from outbreak to pandemic.",
+          "fast_node_id": "fast-event-01-M03",
+          "gap_note": null,
+          "node_action": "OBSERVES",
+          "package_complete": true,
+          "phase": "PRECONDITION",
+          "promotion_eligible": true
+        },
+        {
+          "checklist": {
+            "p1_one_to_one_link": true,
+            "p2_quote_locator": true,
+            "p3_occurred_at": true,
+            "p4_first_public_at": true,
+            "p5_snapshot_sha": "DEFERRED",
+            "p6_semantic": true,
+            "p7_expected_type": "UNKNOWN",
+            "package_complete": true
+          },
+          "evidence_status": "VERIFIED_EXISTING",
+          "fact": "WHO assessed that COVID-19 could be characterized as a pandemic.",
+          "fast_node_id": "fast-event-01-M04",
+          "gap_note": null,
+          "node_action": "STARTS",
+          "package_complete": true,
+          "phase": "INITIAL_SHOCK",
+          "promotion_eligible": true
+        },
+        {
+          "checklist": {
+            "p1_one_to_one_link": true,
+            "p2_quote_locator": true,
+            "p3_occurred_at": true,
+            "p4_first_public_at": true,
+            "p5_snapshot_sha": "DEFERRED",
+            "p6_semantic": true,
+            "p7_expected_type": "UNKNOWN",
+            "package_complete": true
+          },
+          "evidence_status": "VERIFIED_EXISTING",
+          "fact": "WHO ended the COVID-19 PHEIC (15th IHR Emergency Committee, 5 May 2023).",
+          "fast_node_id": "fast-event-01-M05",
+          "gap_note": null,
+          "node_action": "AMPLIFIES",
+          "package_complete": true,
+          "phase": "POLICY_RESPONSE",
+          "promotion_eligible": false
+        }
+      ],
+      "pending_evidence": 0,
+      "promotable": 2,
+      "total_nodes": 5,
+      "verified_existing": 5
+    },
+    {
+      "event_id": "event-02",
+      "nodes": [
+        {
+          "checklist": {
+            "p1_one_to_one_link": false,
+            "p2_quote_locator": false,
+            "p3_occurred_at": false,
+            "p4_first_public_at": false,
+            "p5_snapshot_sha": "DEFERRED",
+            "p6_semantic": false,
+            "p7_expected_type": "UNKNOWN",
+            "package_complete": false
+          },
+          "evidence_status": "PENDING_EVIDENCE",
+          "fact": "EIA 在冲击前记录低库存与地缘紧张背景，供应中断风险的敏感度已较高。",
+          "fast_node_id": "fast-event-02-M01",
+          "gap_note": "The available Kremlin candidate describes conflict onset, while this node describes the EIA inventory and geopolitical-risk precondition. A semantically matched source with independently reproducible times is still required.",
+          "node_action": "OBSERVES",
+          "package_complete": false,
+          "phase": "PRECONDITION",
+          "promotion_eligible": false
+        },
+        {
+          "checklist": {
+            "p1_one_to_one_link": true,
+            "p2_quote_locator": true,
+            "p3_occurred_at": true,
+            "p4_first_public_at": true,
+            "p5_snapshot_sha": "DEFERRED",
+            "p6_semantic": true,
+            "p7_expected_type": "UNKNOWN",
+            "package_complete": true
+          },
+          "evidence_status": "VERIFIED_EXISTING",
+          "fact": "Kremlin address: President announced the launch of a 'special military operation' (24 Feb 2022).",
+          "fast_node_id": "fast-event-02-M02",
+          "gap_note": null,
+          "node_action": "AMPLIFIES",
+          "package_complete": true,
+          "phase": "PRECONDITION",
+          "promotion_eligible": false
+        },
+        {
+          "checklist": {
+            "p1_one_to_one_link": true,
+            "p2_quote_locator": true,
+            "p3_occurred_at": true,
+            "p4_first_public_at": true,
+            "p5_snapshot_sha": "DEFERRED",
+            "p6_semantic": true,
+            "p7_expected_type": "UNKNOWN",
+            "package_complete": true
+          },
+          "evidence_status": "VERIFIED_EXISTING",
+          "fact": "NATO 首次公开确认俄罗斯对乌克兰发动大规模进攻；现有快照不支持把 03:00Z 作为已确认事实时刻。",
+          "fast_node_id": "fast-event-02-M03",
+          "gap_note": null,
+          "node_action": "STARTS",
+          "package_complete": true,
+          "phase": "INITIAL_SHOCK",
+          "promotion_eligible": true
+        },
+        {
+          "checklist": {
+            "p1_one_to_one_link": true,
+            "p2_quote_locator": true,
+            "p3_occurred_at": true,
+            "p4_first_public_at": true,
+            "p5_snapshot_sha": "DEFERRED",
+            "p6_semantic": true,
+            "p7_expected_type": "UNKNOWN",
+            "package_complete": true
+          },
+          "evidence_status": "VERIFIED_EXISTING",
+          "fact": "NATO 同一声明记录成员国已依据《华盛顿条约》第四条完成磋商，并决定加强联盟威慑与防御部署。",
+          "fast_node_id": "fast-event-02-M04",
+          "gap_note": null,
+          "node_action": "AMPLIFIES",
+          "package_complete": true,
+          "phase": "POLICY_RESPONSE",
+          "promotion_eligible": true
+        },
+        {
+          "checklist": {
+            "p1_one_to_one_link": true,
+            "p2_quote_locator": true,
+            "p3_occurred_at": true,
+            "p4_first_public_at": true,
+            "p5_snapshot_sha": "DEFERRED",
+            "p6_semantic": true,
+            "p7_expected_type": "UNKNOWN",
+            "package_complete": true
+          },
+          "evidence_status": "VERIFIED_EXISTING",
+          "fact": "Treasury: G7, EU and Australia jointly set a price cap on seaborne Russian oil (Dec 2, 2022).",
+          "fast_node_id": "fast-event-02-M05",
+          "gap_note": null,
+          "node_action": "AMPLIFIES",
+          "package_complete": true,
+          "phase": "POLICY_RESPONSE",
+          "promotion_eligible": false
+        }
+      ],
+      "pending_evidence": 1,
+      "promotable": 2,
+      "total_nodes": 5,
+      "verified_existing": 4
+    },
+    {
+      "event_id": "event-03",
+      "nodes": [
+        {
+          "checklist": {
+            "p1_one_to_one_link": true,
+            "p2_quote_locator": true,
+            "p3_occurred_at": true,
+            "p4_first_public_at": true,
+            "p5_snapshot_sha": "DEFERRED",
+            "p6_semantic": true,
+            "p7_expected_type": "UNKNOWN",
+            "package_complete": true
+          },
+          "evidence_status": "VERIFIED_EXISTING",
+          "fact": "FOMC kept the target range at 0%-0.25%, signaled that raising it would soon be appropriate, and set asset purchases to end in early March.",
+          "fast_node_id": "fast-event-03-M01",
+          "gap_note": null,
+          "node_action": "OBSERVES",
+          "package_complete": true,
+          "phase": "PRECONDITION",
+          "promotion_eligible": true
+        },
+        {
+          "checklist": {
+            "p1_one_to_one_link": true,
+            "p2_quote_locator": true,
+            "p3_occurred_at": true,
+            "p4_first_public_at": true,
+            "p5_snapshot_sha": "DEFERRED",
+            "p6_semantic": true,
+            "p7_expected_type": "UNKNOWN",
+            "package_complete": true
+          },
+          "evidence_status": "VERIFIED_EXISTING",
+          "fact": "BLS reported January CPI was 7.5% higher than a year earlier.",
+          "fast_node_id": "fast-event-03-M02",
+          "gap_note": null,
+          "node_action": "AMPLIFIES",
+          "package_complete": true,
+          "phase": "PRECONDITION",
+          "promotion_eligible": true
+        },
+        {
+          "checklist": {
+            "p1_one_to_one_link": true,
+            "p2_quote_locator": true,
+            "p3_occurred_at": true,
+            "p4_first_public_at": true,
+            "p5_snapshot_sha": "DEFERRED",
+            "p6_semantic": true,
+            "p7_expected_type": "UNKNOWN",
+            "package_complete": true
+          },
+          "evidence_status": "VERIFIED_EXISTING",
+          "fact": "FOMC raised the target range for the federal funds rate to 1/4 to 1/2 percent (first 25bp hike, 16 Mar 2022).",
+          "fast_node_id": "fast-event-03-M03",
+          "gap_note": null,
+          "node_action": "STARTS",
+          "package_complete": true,
+          "phase": "INITIAL_SHOCK",
+          "promotion_eligible": true
+        },
+        {
+          "checklist": {
+            "p1_one_to_one_link": true,
+            "p2_quote_locator": true,
+            "p3_occurred_at": true,
+            "p4_first_public_at": true,
+            "p5_snapshot_sha": "DEFERRED",
+            "p6_semantic": true,
+            "p7_expected_type": "UNKNOWN",
+            "package_complete": true
+          },
+          "evidence_status": "VERIFIED_EXISTING",
+          "fact": "FOMC raised the target range to 1-1/2 to 1-3/4 percent (75bp hike, 15 Jun 2022).",
+          "fast_node_id": "fast-event-03-M04",
+          "gap_note": null,
+          "node_action": "AMPLIFIES",
+          "package_complete": true,
+          "phase": "ESCALATION",
+          "promotion_eligible": false
+        },
+        {
+          "checklist": {
+            "p1_one_to_one_link": true,
+            "p2_quote_locator": true,
+            "p3_occurred_at": true,
+            "p4_first_public_at": true,
+            "p5_snapshot_sha": "DEFERRED",
+            "p6_semantic": true,
+            "p7_expected_type": "UNKNOWN",
+            "package_complete": true
+          },
+          "evidence_status": "VERIFIED_EXISTING",
+          "fact": "FOMC raised the target range to 5-1/4 to 5-1/2 percent (terminal 5.5%, 26 Jul 2023).",
+          "fast_node_id": "fast-event-03-M05",
+          "gap_note": null,
+          "node_action": "OBSERVES",
+          "package_complete": true,
+          "phase": "ESCALATION",
+          "promotion_eligible": true
+        }
+      ],
+      "pending_evidence": 0,
+      "promotable": 4,
+      "total_nodes": 5,
+      "verified_existing": 5
+    },
+    {
+      "event_id": "event-04",
+      "nodes": [
+        {
+          "checklist": {
+            "p1_one_to_one_link": true,
+            "p2_quote_locator": true,
+            "p3_occurred_at": true,
+            "p4_first_public_at": true,
+            "p5_snapshot_sha": "DEFERRED",
+            "p6_semantic": true,
+            "p7_expected_type": "UNKNOWN",
+            "package_complete": true
+          },
+          "evidence_status": "VERIFIED_EXISTING",
+          "fact": "China released the \"20 measures\" optimizing COVID-19 controls on 11 November 2022 — the pre-pivot policy baseline before the December 2022 exit from zero-COVID.",
+          "fast_node_id": "fast-event-04-M01",
+          "gap_note": null,
+          "node_action": "OBSERVES",
+          "package_complete": true,
+          "phase": "PRECONDITION",
+          "promotion_eligible": false
+        },
+        {
+          "checklist": {
+            "p1_one_to_one_link": true,
+            "p2_quote_locator": true,
+            "p3_occurred_at": true,
+            "p4_first_public_at": true,
+            "p5_snapshot_sha": "DEFERRED",
+            "p6_semantic": true,
+            "p7_expected_type": "UNKNOWN",
+            "package_complete": true
+          },
+          "evidence_status": "VERIFIED_EXISTING",
+          "fact": "On 30 November 2022, Vice Premier Sun Chunlan signaled the COVID policy turn, stating China’s control \"faces a new situation and a new task\" amid Omicron’s reduced pathogenicity — the first public signal of the pivot away from zero-COVID.",
+          "fast_node_id": "fast-event-04-M02",
+          "gap_note": null,
+          "node_action": "AMPLIFIES",
+          "package_complete": true,
+          "phase": "PRECONDITION",
+          "promotion_eligible": false
+        },
+        {
+          "checklist": {
+            "p1_one_to_one_link": true,
+            "p2_quote_locator": true,
+            "p3_occurred_at": true,
+            "p4_first_public_at": true,
+            "p5_snapshot_sha": "DEFERRED",
+            "p6_semantic": true,
+            "p7_expected_type": "UNKNOWN",
+            "package_complete": false
+          },
+          "evidence_status": "VERIFIED_EXISTING",
+          "fact": "官方页面确认 2022-12-07 发布十条优化措施，但精确时刻未被现有快照证明；配置时间仅保留为 provisional。",
+          "fast_node_id": "fast-event-04-M03",
+          "gap_note": "现有快照只证明发布日期，配置中的精确发生时刻仍为 provisional；需补国家级原始发布页或带时刻的归档。",
+          "node_action": "STARTS",
+          "package_complete": false,
+          "phase": "INITIAL_SHOCK",
+          "promotion_eligible": false
+        },
+        {
+          "checklist": {
+            "p1_one_to_one_link": true,
+            "p2_quote_locator": true,
+            "p3_occurred_at": true,
+            "p4_first_public_at": true,
+            "p5_snapshot_sha": "DEFERRED",
+            "p6_semantic": true,
+            "p7_expected_type": "UNKNOWN",
+            "package_complete": true
+          },
+          "evidence_status": "VERIFIED_EXISTING",
+          "fact": "次日发布的官方简报追述出行与活动变化，属于验证或次级节点。",
+          "fast_node_id": "fast-event-04-M04",
+          "gap_note": null,
+          "node_action": "OBSERVES",
+          "package_complete": true,
+          "phase": "ESCALATION",
+          "promotion_eligible": true
+        },
+        {
+          "checklist": {
+            "p1_one_to_one_link": true,
+            "p2_quote_locator": true,
+            "p3_occurred_at": true,
+            "p4_first_public_at": true,
+            "p5_snapshot_sha": "DEFERRED",
+            "p6_semantic": true,
+            "p7_expected_type": "UNKNOWN",
+            "package_complete": true
+          },
+          "evidence_status": "VERIFIED_EXISTING",
+          "fact": "China announced on 26–27 December 2022 it would reclassify COVID-19 to Class B and, from 8 January 2023, cancel universal nucleic-acid testing for inbound arrivals — the formal exit from zero-COVID.",
+          "fast_node_id": "fast-event-04-M05",
+          "gap_note": null,
+          "node_action": "AMPLIFIES",
+          "package_complete": true,
+          "phase": "POLICY_RESPONSE",
+          "promotion_eligible": false
+        }
+      ],
+      "pending_evidence": 0,
+      "promotable": 1,
+      "total_nodes": 5,
+      "verified_existing": 5
+    },
+    {
+      "event_id": "event-05",
+      "nodes": [
+        {
+          "checklist": {
+            "p1_one_to_one_link": false,
+            "p2_quote_locator": false,
+            "p3_occurred_at": false,
+            "p4_first_public_at": false,
+            "p5_snapshot_sha": "DEFERRED",
+            "p6_semantic": false,
+            "p7_expected_type": "UNKNOWN",
+            "package_complete": false
+          },
+          "evidence_status": "PENDING_EVIDENCE",
+          "fact": "SVB Financial Group disclosed the completed sale of its available-for-sale securities portfolio (~$24bn book, ~$1.8bn after-tax loss) on 8 Mar 2023 - the liquidity-stress trigger.",
+          "fast_node_id": "fast-event-05-M01",
+          "gap_note": "SOURCE_PACKAGE_INCOMPLETE: a semantically matched official snapshot must independently support the fact, occurred_at, and first_public_at before promotion.",
+          "node_action": "AMPLIFIES",
+          "package_complete": false,
+          "phase": "PRECONDITION",
+          "promotion_eligible": false
+        },
+        {
+          "checklist": {
+            "p1_one_to_one_link": true,
+            "p2_quote_locator": true,
+            "p3_occurred_at": true,
+            "p4_first_public_at": true,
+            "p5_snapshot_sha": "DEFERRED",
+            "p6_semantic": true,
+            "p7_expected_type": "UNKNOWN",
+            "package_complete": true
+          },
+          "evidence_status": "VERIFIED_EXISTING",
+          "fact": "FDIC records the closure and receivership.",
+          "fast_node_id": "fast-event-05-M02",
+          "gap_note": null,
+          "node_action": "STARTS",
+          "package_complete": true,
+          "phase": "INITIAL_SHOCK",
+          "promotion_eligible": true
+        },
+        {
+          "checklist": {
+            "p1_one_to_one_link": true,
+            "p2_quote_locator": true,
+            "p3_occurred_at": true,
+            "p4_first_public_at": true,
+            "p5_snapshot_sha": "DEFERRED",
+            "p6_semantic": true,
+            "p7_expected_type": "UNKNOWN",
+            "package_complete": true
+          },
+          "evidence_status": "VERIFIED_EXISTING",
+          "fact": "The statement describes emergency stabilization measures.",
+          "fast_node_id": "fast-event-05-M03",
+          "gap_note": null,
+          "node_action": "WEAKENS",
+          "package_complete": true,
+          "phase": "ESCALATION",
+          "promotion_eligible": true
+        },
+        {
+          "checklist": {
+            "p1_one_to_one_link": false,
+            "p2_quote_locator": false,
+            "p3_occurred_at": false,
+            "p4_first_public_at": false,
+            "p5_snapshot_sha": "DEFERRED",
+            "p6_semantic": false,
+            "p7_expected_type": "UNKNOWN",
+            "package_complete": false
+          },
+          "evidence_status": "PENDING_EVIDENCE",
+          "fact": "FINMA approved the takeover of Credit Suisse by UBS; extraordinary government support triggered a full write-down of ~CHF 16bn AT1 debt - the cross-border bank-resolution event.",
+          "fast_node_id": "fast-event-05-M04",
+          "gap_note": "TIMEZONE_NOT_PROVEN_BY_SNAPSHOT: a semantically matched official snapshot must independently support the fact, occurred_at, and first_public_at before promotion.",
+          "node_action": "AMPLIFIES",
+          "package_complete": false,
+          "phase": "SECONDARY_SHOCK",
+          "promotion_eligible": false
+        },
+        {
+          "checklist": {
+            "p1_one_to_one_link": true,
+            "p2_quote_locator": true,
+            "p3_occurred_at": true,
+            "p4_first_public_at": true,
+            "p5_snapshot_sha": "DEFERRED",
+            "p6_semantic": true,
+            "p7_expected_type": "UNKNOWN",
+            "package_complete": true
+          },
+          "evidence_status": "VERIFIED_EXISTING",
+          "fact": "FDIC: JPMorgan Chase assumed all deposits of First Republic Bank (1 May 2023).",
+          "fast_node_id": "fast-event-05-M05",
+          "gap_note": null,
+          "node_action": "WEAKENS",
+          "package_complete": true,
+          "phase": "EASING",
+          "promotion_eligible": false
+        }
+      ],
+      "pending_evidence": 2,
+      "promotable": 2,
+      "total_nodes": 5,
+      "verified_existing": 3
+    },
+    {
+      "event_id": "event-06",
+      "nodes": [
+        {
+          "checklist": {
+            "p1_one_to_one_link": false,
+            "p2_quote_locator": false,
+            "p3_occurred_at": false,
+            "p4_first_public_at": false,
+            "p5_snapshot_sha": "DEFERRED",
+            "p6_semantic": false,
+            "p7_expected_type": "UNKNOWN",
+            "package_complete": false
+          },
+          "evidence_status": "PENDING_EVIDENCE",
+          "fact": "IEA Oil Market Report (March 2023) documented the banking-turmoil-driven oil sell-off (post-SVB) that framed the supply backdrop ahead of the 2023 Saudi/OPEC+ voluntary cuts.",
+          "fast_node_id": "fast-event-06-M01",
+          "gap_note": "SOURCE_PACKAGE_INCOMPLETE: a semantically matched official snapshot must independently support the fact, occurred_at, and first_public_at before promotion.",
+          "node_action": "OBSERVES",
+          "package_complete": false,
+          "phase": "PRECONDITION",
+          "promotion_eligible": false
+        },
+        {
+          "checklist": {
+            "p1_one_to_one_link": true,
+            "p2_quote_locator": true,
+            "p3_occurred_at": true,
+            "p4_first_public_at": true,
+            "p5_snapshot_sha": "DEFERRED",
+            "p6_semantic": true,
+            "p7_expected_type": "UNKNOWN",
+            "package_complete": true
+          },
+          "evidence_status": "VERIFIED_EXISTING",
+          "fact": "The outlook supplies the pre-cut oil baseline.",
+          "fast_node_id": "fast-event-06-M02",
+          "gap_note": null,
+          "node_action": "OBSERVES",
+          "package_complete": true,
+          "phase": "PRECONDITION",
+          "promotion_eligible": true
+        },
+        {
+          "checklist": {
+            "p1_one_to_one_link": true,
+            "p2_quote_locator": true,
+            "p3_occurred_at": true,
+            "p4_first_public_at": true,
+            "p5_snapshot_sha": "DEFERRED",
+            "p6_semantic": true,
+            "p7_expected_type": "UNKNOWN",
+            "package_complete": false
+          },
+          "evidence_status": "VERIFIED_EXISTING",
+          "fact": "OPEC documented additional voluntary production cuts.",
+          "fast_node_id": "fast-event-06-M03",
+          "gap_note": "现有 OPEC 快照发布时间晚于配置发生时间；需补 2023-04-02 联合公告原始时刻或成员国一手声明。",
+          "node_action": "STARTS",
+          "package_complete": false,
+          "phase": "INITIAL_SHOCK",
+          "promotion_eligible": false
+        },
+        {
+          "checklist": {
+            "p1_one_to_one_link": true,
+            "p2_quote_locator": true,
+            "p3_occurred_at": true,
+            "p4_first_public_at": true,
+            "p5_snapshot_sha": "DEFERRED",
+            "p6_semantic": true,
+            "p7_expected_type": "UNKNOWN",
+            "package_complete": true
+          },
+          "evidence_status": "VERIFIED_EXISTING",
+          "fact": "On 4 June 2023, at the OPEC+ ministerial meeting, Saudi Arabia announced an additional voluntary crude production cut of 1 million bpd, effective July 2023 and potentially extendable — a supply-tightening amplification within the oil/OPEC+ event.",
+          "fast_node_id": "fast-event-06-M04",
+          "gap_note": null,
+          "node_action": "AMPLIFIES",
+          "package_complete": true,
+          "phase": "POLICY_RESPONSE",
+          "promotion_eligible": false
+        },
+        {
+          "checklist": {
+            "p1_one_to_one_link": true,
+            "p2_quote_locator": true,
+            "p3_occurred_at": true,
+            "p4_first_public_at": true,
+            "p5_snapshot_sha": "DEFERRED",
+            "p6_semantic": true,
+            "p7_expected_type": "UNKNOWN",
+            "package_complete": true
+          },
+          "evidence_status": "VERIFIED_EXISTING",
+          "fact": "On 2 June 2024 OPEC+ agreed to gradually phase out the voluntary production cuts on a monthly basis through the end of September 2025 — a staged supply normalization after the 2023 tightening.",
+          "fast_node_id": "fast-event-06-M05",
+          "gap_note": null,
+          "node_action": "AMPLIFIES",
+          "package_complete": true,
+          "phase": "SECONDARY_SHOCK",
+          "promotion_eligible": false
+        }
+      ],
+      "pending_evidence": 1,
+      "promotable": 1,
+      "total_nodes": 5,
+      "verified_existing": 4
+    },
+    {
+      "event_id": "event-07",
+      "nodes": [
+        {
+          "checklist": {
+            "p1_one_to_one_link": true,
+            "p2_quote_locator": true,
+            "p3_occurred_at": true,
+            "p4_first_public_at": true,
+            "p5_snapshot_sha": "DEFERRED",
+            "p6_semantic": true,
+            "p7_expected_type": "UNKNOWN",
+            "package_complete": false
+          },
+          "evidence_status": "VERIFIED_EXISTING",
+          "fact": "The same-day UN statement documents the attacks and escalation.",
+          "fast_node_id": "fast-event-07-M01",
+          "gap_note": "联合国同日声明支持事件事实，但未单独证明 06:00Z 的精确发生时刻；需补带时间戳的一手公告。",
+          "node_action": "STARTS",
+          "package_complete": false,
+          "phase": "INITIAL_SHOCK",
+          "promotion_eligible": false
+        },
+        {
+          "checklist": {
+            "p1_one_to_one_link": true,
+            "p2_quote_locator": true,
+            "p3_occurred_at": true,
+            "p4_first_public_at": true,
+            "p5_snapshot_sha": "DEFERRED",
+            "p6_semantic": true,
+            "p7_expected_type": "UNKNOWN",
+            "package_complete": true
+          },
+          "evidence_status": "VERIFIED_EXISTING",
+          "fact": "The report describes oil conditions by the D3 cutoff.",
+          "fast_node_id": "fast-event-07-M02",
+          "gap_note": null,
+          "node_action": "OBSERVES",
+          "package_complete": true,
+          "phase": "ESCALATION",
+          "promotion_eligible": true
+        },
+        {
+          "checklist": {
+            "p1_one_to_one_link": true,
+            "p2_quote_locator": true,
+            "p3_occurred_at": true,
+            "p4_first_public_at": true,
+            "p5_snapshot_sha": "DEFERRED",
+            "p6_semantic": true,
+            "p7_expected_type": "UNKNOWN",
+            "package_complete": true
+          },
+          "evidence_status": "VERIFIED_EXISTING",
+          "fact": "On 19 November 2023 Houthi forces seized the cargo ship Galaxy Leader in the Red Sea, opening the Red Sea shipping-attack escalation that the IMO Secretary-General subsequently condemned — a conflict-phase amplification of the Red Sea shipping-risk event.",
+          "fast_node_id": "fast-event-07-M03",
+          "gap_note": null,
+          "node_action": "AMPLIFIES",
+          "package_complete": true,
+          "phase": "ESCALATION",
+          "promotion_eligible": false
+        },
+        {
+          "checklist": {
+            "p1_one_to_one_link": true,
+            "p2_quote_locator": true,
+            "p3_occurred_at": true,
+            "p4_first_public_at": true,
+            "p5_snapshot_sha": "DEFERRED",
+            "p6_semantic": true,
+            "p7_expected_type": "UNKNOWN",
+            "package_complete": true
+          },
+          "evidence_status": "VERIFIED_EXISTING",
+          "fact": "U.S. DoD established Operation Prosperity Guardian, a multinational Red Sea navigation-security initiative (Dec 18, 2023).",
+          "fast_node_id": "fast-event-07-M04",
+          "gap_note": null,
+          "node_action": "AMPLIFIES",
+          "package_complete": true,
+          "phase": "SECONDARY_SHOCK",
+          "promotion_eligible": false
+        },
+        {
+          "checklist": {
+            "p1_one_to_one_link": false,
+            "p2_quote_locator": false,
+            "p3_occurred_at": false,
+            "p4_first_public_at": false,
+            "p5_snapshot_sha": "DEFERRED",
+            "p6_semantic": false,
+            "p7_expected_type": "UNKNOWN",
+            "package_complete": false
+          },
+          "evidence_status": "PENDING_EVIDENCE",
+          "fact": "On 11–12 January 2024 the U.S. and U.K. conducted joint airstrikes against Houthi targets in Yemen in response to Red Sea shipping attacks — a policy-response escalation.",
+          "fast_node_id": "fast-event-07-M05",
+          "gap_note": "OFFICIAL_SNAPSHOT_MISSING: a semantically matched official snapshot must independently support the fact, occurred_at, and first_public_at before promotion.",
+          "node_action": "WEAKENS",
+          "package_complete": false,
+          "phase": "POLICY_RESPONSE",
+          "promotion_eligible": false
+        }
+      ],
+      "pending_evidence": 1,
+      "promotable": 1,
+      "total_nodes": 5,
+      "verified_existing": 4
+    },
+    {
+      "event_id": "event-08",
+      "nodes": [
+        {
+          "checklist": {
+            "p1_one_to_one_link": true,
+            "p2_quote_locator": true,
+            "p3_occurred_at": true,
+            "p4_first_public_at": true,
+            "p5_snapshot_sha": "DEFERRED",
+            "p6_semantic": true,
+            "p7_expected_type": "UNKNOWN",
+            "package_complete": true
+          },
+          "evidence_status": "VERIFIED_EXISTING",
+          "fact": "On 28 July 2023 the Bank of Japan increased the flexibility of yield curve control, allowing the 10-year JGB yield to rise toward 1.0% — an early normalization step.",
+          "fast_node_id": "fast-event-08-M01",
+          "gap_note": null,
+          "node_action": "OBSERVES",
+          "package_complete": true,
+          "phase": "PRECONDITION",
+          "promotion_eligible": false
+        },
+        {
+          "checklist": {
+            "p1_one_to_one_link": true,
+            "p2_quote_locator": true,
+            "p3_occurred_at": true,
+            "p4_first_public_at": true,
+            "p5_snapshot_sha": "DEFERRED",
+            "p6_semantic": true,
+            "p7_expected_type": "UNKNOWN",
+            "package_complete": true
+          },
+          "evidence_status": "VERIFIED_EXISTING",
+          "fact": "The outlook supplies the policy-normalization baseline.",
+          "fast_node_id": "fast-event-08-M02",
+          "gap_note": null,
+          "node_action": "OBSERVES",
+          "package_complete": true,
+          "phase": "PRECONDITION",
+          "promotion_eligible": true
+        },
+        {
+          "checklist": {
+            "p1_one_to_one_link": true,
+            "p2_quote_locator": true,
+            "p3_occurred_at": true,
+            "p4_first_public_at": true,
+            "p5_snapshot_sha": "DEFERRED",
+            "p6_semantic": true,
+            "p7_expected_type": "UNKNOWN",
+            "package_complete": true
+          },
+          "evidence_status": "VERIFIED_EXISTING",
+          "fact": "On 19 March 2024 the Bank of Japan ended negative interest rates for the first time since 2007, guiding the uncollateralized overnight call rate to around 0 to 0.1 percent — the start of policy normalization.",
+          "fast_node_id": "fast-event-08-M03",
+          "gap_note": null,
+          "node_action": "AMPLIFIES",
+          "package_complete": true,
+          "phase": "PRECONDITION",
+          "promotion_eligible": false
+        },
+        {
+          "checklist": {
+            "p1_one_to_one_link": true,
+            "p2_quote_locator": true,
+            "p3_occurred_at": true,
+            "p4_first_public_at": true,
+            "p5_snapshot_sha": "DEFERRED",
+            "p6_semantic": true,
+            "p7_expected_type": "UNKNOWN",
+            "package_complete": true
+          },
+          "evidence_status": "VERIFIED_EXISTING",
+          "fact": "The BOJ ended the negative short-rate setting.",
+          "fast_node_id": "fast-event-08-M04",
+          "gap_note": null,
+          "node_action": "STARTS",
+          "package_complete": true,
+          "phase": "INITIAL_SHOCK",
+          "promotion_eligible": true
+        },
+        {
+          "checklist": {
+            "p1_one_to_one_link": true,
+            "p2_quote_locator": true,
+            "p3_occurred_at": true,
+            "p4_first_public_at": true,
+            "p5_snapshot_sha": "DEFERRED",
+            "p6_semantic": true,
+            "p7_expected_type": "UNKNOWN",
+            "package_complete": true
+          },
+          "evidence_status": "VERIFIED_EXISTING",
+          "fact": "On 5 August 2024 the Nikkei 225 crashed 12.40% (down 4,451.28 points), its worst single-day drop since the 1987 \"Black Monday\" — an escalation/amplification shock tied to BOJ tightening and the yen carry-trade unwind.",
+          "fast_node_id": "fast-event-08-M05",
+          "gap_note": null,
+          "node_action": "OBSERVES",
+          "package_complete": true,
+          "phase": "ESCALATION",
+          "promotion_eligible": false
+        }
+      ],
+      "pending_evidence": 0,
+      "promotable": 2,
+      "total_nodes": 5,
+      "verified_existing": 5
+    },
+    {
+      "event_id": "event-09",
+      "nodes": [
+        {
+          "checklist": {
+            "p1_one_to_one_link": true,
+            "p2_quote_locator": true,
+            "p3_occurred_at": true,
+            "p4_first_public_at": true,
+            "p5_snapshot_sha": "DEFERRED",
+            "p6_semantic": true,
+            "p7_expected_type": "UNKNOWN",
+            "package_complete": true
+          },
+          "evidence_status": "VERIFIED_EXISTING",
+          "fact": "The report supplies the pre-package macro and credit baseline.",
+          "fast_node_id": "fast-event-09-M01",
+          "gap_note": null,
+          "node_action": "OBSERVES",
+          "package_complete": true,
+          "phase": "PRECONDITION",
+          "promotion_eligible": true
+        },
+        {
+          "checklist": {
+            "p1_one_to_one_link": true,
+            "p2_quote_locator": true,
+            "p3_occurred_at": true,
+            "p4_first_public_at": true,
+            "p5_snapshot_sha": "DEFERRED",
+            "p6_semantic": true,
+            "p7_expected_type": "UNKNOWN",
+            "package_complete": true
+          },
+          "evidence_status": "VERIFIED_EXISTING",
+          "fact": "The Federal Reserve lowered its target range by 50 basis points, an external policy backdrop only; it does not prove the cause of China policy actions.",
+          "fast_node_id": "fast-event-09-M02",
+          "gap_note": null,
+          "node_action": "OBSERVES",
+          "package_complete": true,
+          "phase": "PRECONDITION",
+          "promotion_eligible": true
+        },
+        {
+          "checklist": {
+            "p1_one_to_one_link": true,
+            "p2_quote_locator": true,
+            "p3_occurred_at": true,
+            "p4_first_public_at": true,
+            "p5_snapshot_sha": "DEFERRED",
+            "p6_semantic": true,
+            "p7_expected_type": "UNKNOWN",
+            "package_complete": false
+          },
+          "evidence_status": "VERIFIED_EXISTING",
+          "fact": "The briefing announced monetary, housing and market support.",
+          "fast_node_id": "fast-event-09-M03",
+          "gap_note": "央行网页证明政策内容和网页发布时间，但未证明配置中的 01:00Z 发生时刻；需补发布会直播或正式议程记录。",
+          "node_action": "STARTS",
+          "package_complete": false,
+          "phase": "INITIAL_SHOCK",
+          "promotion_eligible": false
+        },
+        {
+          "checklist": {
+            "p1_one_to_one_link": true,
+            "p2_quote_locator": true,
+            "p3_occurred_at": true,
+            "p4_first_public_at": true,
+            "p5_snapshot_sha": "DEFERRED",
+            "p6_semantic": true,
+            "p7_expected_type": "UNKNOWN",
+            "package_complete": true
+          },
+          "evidence_status": "VERIFIED_EXISTING",
+          "fact": "On 24 September 2024 the PBOC announced an RRR cut and instructed commercial banks to batch-adjust existing mortgage rates by 31 October 2024 — a household-balance-sheet easing measure.",
+          "fast_node_id": "fast-event-09-M04",
+          "gap_note": null,
+          "node_action": "OBSERVES",
+          "package_complete": true,
+          "phase": "POLICY_RESPONSE",
+          "promotion_eligible": false
+        },
+        {
+          "checklist": {
+            "p1_one_to_one_link": true,
+            "p2_quote_locator": true,
+            "p3_occurred_at": true,
+            "p4_first_public_at": true,
+            "p5_snapshot_sha": "DEFERRED",
+            "p6_semantic": true,
+            "p7_expected_type": "UNKNOWN",
+            "package_complete": true
+          },
+          "evidence_status": "VERIFIED_EXISTING",
+          "fact": "On 24 September 2024 the PBOC created the Securities/Funds/Insurance Companies Swap Facility (SFISF), first tranche RMB 500 billion — a capital-market support instrument of the stimulus package.",
+          "fast_node_id": "fast-event-09-M05",
+          "gap_note": null,
+          "node_action": "AMPLIFIES",
+          "package_complete": true,
+          "phase": "POLICY_RESPONSE",
+          "promotion_eligible": false
+        }
+      ],
+      "pending_evidence": 0,
+      "promotable": 2,
+      "total_nodes": 5,
+      "verified_existing": 5
+    },
+    {
+      "event_id": "event-10",
+      "nodes": [
+        {
+          "checklist": {
+            "p1_one_to_one_link": false,
+            "p2_quote_locator": false,
+            "p3_occurred_at": false,
+            "p4_first_public_at": false,
+            "p5_snapshot_sha": "DEFERRED",
+            "p6_semantic": false,
+            "p7_expected_type": "UNKNOWN",
+            "package_complete": false
+          },
+          "evidence_status": "PENDING_EVIDENCE",
+          "fact": "The \"America First Trade Policy\" Presidential Memorandum (Jan 20 2025) directed reciprocal-trade investigations - the policy baseline before the April reciprocal tariff.",
+          "fast_node_id": "fast-event-10-M01",
+          "gap_note": "CLAIMED_TIME_CONTRADICTS_SNAPSHOT: a semantically matched official snapshot must independently support the fact, occurred_at, and first_public_at before promotion.",
+          "node_action": "OBSERVES",
+          "package_complete": false,
+          "phase": "PRECONDITION",
+          "promotion_eligible": false
+        },
+        {
+          "checklist": {
+            "p1_one_to_one_link": true,
+            "p2_quote_locator": true,
+            "p3_occurred_at": true,
+            "p4_first_public_at": true,
+            "p5_snapshot_sha": "DEFERRED",
+            "p6_semantic": true,
+            "p7_expected_type": "UNKNOWN",
+            "package_complete": true
+          },
+          "evidence_status": "VERIFIED_EXISTING",
+          "fact": "The order established a broad reciprocal tariff framework.",
+          "fast_node_id": "fast-event-10-M02",
+          "gap_note": null,
+          "node_action": "STARTS",
+          "package_complete": true,
+          "phase": "INITIAL_SHOCK",
+          "promotion_eligible": false
+        },
+        {
+          "checklist": {
+            "p1_one_to_one_link": true,
+            "p2_quote_locator": true,
+            "p3_occurred_at": true,
+            "p4_first_public_at": true,
+            "p5_snapshot_sha": "DEFERRED",
+            "p6_semantic": true,
+            "p7_expected_type": "UNKNOWN",
+            "package_complete": true
+          },
+          "evidence_status": "VERIFIED_EXISTING",
+          "fact": "The fact sheet describes the measures and transmission logic.",
+          "fast_node_id": "fast-event-10-M03",
+          "gap_note": null,
+          "node_action": "AMPLIFIES",
+          "package_complete": true,
+          "phase": "ESCALATION",
+          "promotion_eligible": true
+        },
+        {
+          "checklist": {
+            "p1_one_to_one_link": false,
+            "p2_quote_locator": false,
+            "p3_occurred_at": false,
+            "p4_first_public_at": false,
+            "p5_snapshot_sha": "DEFERRED",
+            "p6_semantic": false,
+            "p7_expected_type": "UNKNOWN",
+            "package_complete": false
+          },
+          "evidence_status": "PENDING_EVIDENCE",
+          "fact": "EO 14257 Annex I sets country-specific ad valorem duty rates effective 12:01 a.m. EDT 9 Apr 2025; U.S. Customs and Border Protection executes the rates at the border.",
+          "fast_node_id": "fast-event-10-M04",
+          "gap_note": "FIRST_PUBLIC_TIME_NOT_IN_SNAPSHOT: a semantically matched official snapshot must independently support the fact, occurred_at, and first_public_at before promotion.",
+          "node_action": "AMPLIFIES",
+          "package_complete": false,
+          "phase": "POLICY_RESPONSE",
+          "promotion_eligible": false
+        },
+        {
+          "checklist": {
+            "p1_one_to_one_link": false,
+            "p2_quote_locator": false,
+            "p3_occurred_at": false,
+            "p4_first_public_at": false,
+            "p5_snapshot_sha": "DEFERRED",
+            "p6_semantic": false,
+            "p7_expected_type": "UNKNOWN",
+            "package_complete": false
+          },
+          "evidence_status": "PENDING_EVIDENCE",
+          "fact": "EO 14266 (9 Apr 2025) modified the reciprocal-tariff rates in response to trading-partner retaliation - the first adjustment/pause mechanism of the regime.",
+          "fast_node_id": "fast-event-10-M05",
+          "gap_note": "FIRST_PUBLIC_TIME_NOT_IN_SNAPSHOT: a semantically matched official snapshot must independently support the fact, occurred_at, and first_public_at before promotion.",
+          "node_action": "WEAKENS",
+          "package_complete": false,
+          "phase": "EASING",
+          "promotion_eligible": false
+        }
+      ],
+      "pending_evidence": 3,
+      "promotable": 1,
+      "total_nodes": 5,
+      "verified_existing": 2
+    }
+  ],
+  "evidence_packages_complete_count": 38,
+  "formal_ready": false,
+  "node_count": 50,
+  "node_target": "40-50",
+  "pending_evidence_count": 8,
+  "priority_events": [
+    "event-10",
+    "event-05",
+    "event-07",
+    "event-06",
+    "event-02"
+  ],
+  "promotable_count": 18,
+  "release_tier": "FAST_CANDIDATE",
+  "verified_existing_count": 42
+}

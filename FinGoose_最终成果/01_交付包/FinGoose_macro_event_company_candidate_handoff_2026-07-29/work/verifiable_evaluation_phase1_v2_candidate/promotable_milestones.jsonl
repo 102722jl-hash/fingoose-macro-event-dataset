@@ -1,0 +1,13 @@
+{"event_id": "event-01", "evidence_status": "VERIFIED_EXISTING", "fast_node_id": "fast-event-01-M04", "original_milestone_id": "milestone-event-01-1f0d9ae571b0", "promotion_basis": "PHASE1_RECOMPUTED"}
+{"event_id": "event-02", "evidence_status": "VERIFIED_EXISTING", "fast_node_id": "fast-event-02-M03", "original_milestone_id": "milestone-event-02-47ac72edd092", "promotion_basis": "PHASE1_RECOMPUTED"}
+{"event_id": "event-02", "evidence_status": "VERIFIED_EXISTING", "fast_node_id": "fast-event-02-M04", "original_milestone_id": "milestone-event-02-d8017a79fdfc", "promotion_basis": "PHASE1_RECOMPUTED"}
+{"event_id": "event-03", "evidence_status": "VERIFIED_EXISTING", "fast_node_id": "fast-event-03-M03", "original_milestone_id": "milestone-event-03-3c2b0dbb65d4", "promotion_basis": "PHASE1_RECOMPUTED"}
+{"event_id": "event-04", "evidence_status": "VERIFIED_EXISTING", "fast_node_id": "fast-event-04-M03", "original_milestone_id": "milestone-event-04-abc104cc4aa0", "promotion_basis": "PHASE1_RECOMPUTED"}
+{"event_id": "event-05", "evidence_status": "VERIFIED_EXISTING", "fast_node_id": "fast-event-05-M02", "original_milestone_id": "milestone-event-05-4d0e10c71b19", "promotion_basis": "PHASE1_RECOMPUTED"}
+{"event_id": "event-05", "evidence_status": "VERIFIED_EXISTING", "fast_node_id": "fast-event-05-M03", "original_milestone_id": "milestone-event-05-d12ca8adba7a", "promotion_basis": "PHASE1_RECOMPUTED"}
+{"event_id": "event-06", "evidence_status": "VERIFIED_EXISTING", "fast_node_id": "fast-event-06-M03", "original_milestone_id": "milestone-event-06-8de7f47124a8", "promotion_basis": "PHASE1_RECOMPUTED"}
+{"event_id": "event-07", "evidence_status": "VERIFIED_EXISTING", "fast_node_id": "fast-event-07-M01", "original_milestone_id": "milestone-event-07-5505bb622d95", "promotion_basis": "PHASE1_RECOMPUTED"}
+{"event_id": "event-08", "evidence_status": "VERIFIED_EXISTING", "fast_node_id": "fast-event-08-M04", "original_milestone_id": "milestone-event-08-3e6e93e33155", "promotion_basis": "PHASE1_RECOMPUTED"}
+{"event_id": "event-09", "evidence_status": "VERIFIED_EXISTING", "fast_node_id": "fast-event-09-M03", "original_milestone_id": "milestone-event-09-7b9407830781", "promotion_basis": "PHASE1_RECOMPUTED"}
+{"event_id": "event-10", "evidence_status": "VERIFIED_EXISTING", "fast_node_id": "fast-event-10-M02", "original_milestone_id": "milestone-event-10-30c54387a6e6", "promotion_basis": "PHASE1_RECOMPUTED"}
+{"event_id": "event-10", "evidence_status": "VERIFIED_EXISTING", "fast_node_id": "fast-event-10-M03", "original_milestone_id": "milestone-event-10-87a14b1556ae", "promotion_basis": "PHASE1_RECOMPUTED"}

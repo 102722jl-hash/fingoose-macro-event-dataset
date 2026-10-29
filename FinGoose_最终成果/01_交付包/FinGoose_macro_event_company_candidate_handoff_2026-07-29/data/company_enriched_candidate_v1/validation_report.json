@@ -1,0 +1,21 @@
+{
+  "candidate_ready": true,
+  "checks": {
+    "all_identity_metadata_populated": true,
+    "event_02_company_sources_verified": true,
+    "forecast_company_evidence_cutoff_isolated": true,
+    "formal_ready_false": true,
+    "nine_verified_event_02_metric_facts": true,
+    "thirty_dossiers": true
+  },
+  "dataset_version": "fingoose-macro-event-company-enriched-candidate-v1.0",
+  "errors": [],
+  "formal_blockers": [
+    "COMPANY_EVIDENCE_INCOMPLETE",
+    "PRICE_WINDOWS_PENDING",
+    "FORMAL_REVIEWS_INCOMPLETE",
+    "TWENTY_SEVEN_COMPANIES_REQUIRE_OFFICIAL_ARCHIVES"
+  ],
+  "formal_ready": false,
+  "release_tier": "CANDIDATE"
+}

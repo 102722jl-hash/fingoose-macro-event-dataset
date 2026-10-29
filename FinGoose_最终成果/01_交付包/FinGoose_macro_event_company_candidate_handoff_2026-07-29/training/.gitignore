@@ -1,0 +1,8 @@
+__pycache__/
+.pytest_cache/
+tests/_scratch/
+tests/_workspace_tmp/
+runs/*
+!runs/.gitkeep
+*.pyc
+*.tmp

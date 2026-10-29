@@ -1,0 +1,15 @@
+{
+  "anchor_count": 24,
+  "anchor_status_conflict_count": 0,
+  "binding_count": 111,
+  "binding_status_counts": {
+    "NEEDS_HUMAN_REVIEW": 111
+  },
+  "causal_anchor_count": 14,
+  "counterevidence_disposition_count": 39,
+  "counterevidence_unresolved_count": 0,
+  "formal_ready": false,
+  "hard_failures": [],
+  "observation_anchor_count": 10,
+  "sha_gate": "DEFERRED"
+}

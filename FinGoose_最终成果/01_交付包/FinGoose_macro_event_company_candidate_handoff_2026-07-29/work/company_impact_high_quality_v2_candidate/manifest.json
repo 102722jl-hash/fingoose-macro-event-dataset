@@ -1,0 +1,1192 @@
+{
+  "dataset_version": "fingoose-company-impact-high-quality-v2-candidate",
+  "files": [
+    {
+      "path": "announcement_body_retrieval.jsonl",
+      "sha256": "92d11995dc9be95efd7cb2adc1fa210c86fdcb96f3a283495e229ea375a6b4c1",
+      "size": 31440
+    },
+    {
+      "path": "announcement_body_reviews.jsonl",
+      "sha256": "dcf0a18103a79b529440a42ba76b722d5cb8b9c3374c5f86bc337f4186e1ca30",
+      "size": 84360
+    },
+    {
+      "path": "benchmark_registry.jsonl",
+      "sha256": "e1e93ce28837836dd152cf3022b43e517cac3bb6bdb6e75dfd7efe37cdc2bed0",
+      "size": 712
+    },
+    {
+      "path": "candidate_completion_report.jsonl",
+      "sha256": "45644843ad0a8f57d9443de0191c14e005d69280026d2f2f93d09f17b5003dc6",
+      "size": 5940
+    },
+    {
+      "path": "candidate_completion_summary.json",
+      "sha256": "2edc97dffe9188b82cbfce90c7eb9b3dc1fbbc03cfc06807d80fb92b9167af4d",
+      "size": 794
+    },
+    {
+      "path": "company_announcement_intake.jsonl",
+      "sha256": "e6667b4acafe385009b521c56427a7cfc155d4b1b90e85ca51ef18f84b244967",
+      "size": 11927
+    },
+    {
+      "path": "company_claim_candidates.jsonl",
+      "sha256": "564b68db9aaaa4cb5e085d177ece8124c5e4e577d2f59d139ccb63934925f51e",
+      "size": 44134
+    },
+    {
+      "path": "company_confounder_arguments.jsonl",
+      "sha256": "02a29d8b0a31b4bf56c650f5fab616e95aa6d77d3613589ec3d1888faefc50b1",
+      "size": 74550
+    },
+    {
+      "path": "company_confounder_search_audits.jsonl",
+      "sha256": "09fda59c86831447cddc3940744dda847ca10d43353cce97e95293d83b256829",
+      "size": 33787
+    },
+    {
+      "path": "company_confounders.jsonl",
+      "sha256": "34debf615f5bf5039661e5b73fcbeb27730a6f8a5dbde2679691fcd3f4b7536c",
+      "size": 255517
+    },
+    {
+      "path": "company_counterevidence_reviews.jsonl",
+      "sha256": "22fb042ffa84d781329b6d23d71b8aa1fde84d7cd8db2be016e6f1260fad6a3e",
+      "size": 166947
+    },
+    {
+      "path": "company_dossier_search_audits.jsonl",
+      "sha256": "8c9a70b461a83e36b78eed66225d0e0b136adb8555981bdc2afcda55023a97e9",
+      "size": 5530
+    },
+    {
+      "path": "company_evidence.jsonl",
+      "sha256": "2f53456a0b13778a158dc7e49edae26b3d156e09db28d5980ea8262eddc2ac55",
+      "size": 278506
+    },
+    {
+      "path": "company_market_windows.jsonl",
+      "sha256": "b63c0c9ce9bcc5faa86704b06b207ae3d80874acc47bc2ef63d4363bdcf2c76b",
+      "size": 66335
+    },
+    {
+      "path": "company_master_dossiers.jsonl",
+      "sha256": "19c44222247ac627e2ebb52b8ae4ead07d6113245856580b34a69324dc01c90b",
+      "size": 48907
+    },
+    {
+      "path": "company_registry.jsonl",
+      "sha256": "7e13a98b1e1afb6fdbfc94129faf81f83a0159d195e845edfd600cf94f054125",
+      "size": 3887
+    },
+    {
+      "path": "company_report_extraction_summary.json",
+      "sha256": "c430ed957c46d98203bfab3941f1f9b683b2f82a347ec2864dd561017c46b499",
+      "size": 11104
+    },
+    {
+      "path": "company_report_pages.jsonl",
+      "sha256": "b90cbefa6149ceb68af63cb53ed165662618819d5efad6ec8a4940431aaba642",
+      "size": 29954741
+    },
+    {
+      "path": "confounder_task7_validation.json",
+      "sha256": "c76273680848526e6a6eeb807bdb5dcbfc3da4626c2eaceddac8dbfe6f2c4fc6",
+      "size": 559
+    },
+    {
+      "path": "confounders.jsonl",
+      "sha256": "dca81ff7a14a7e307fbffcaa99e86964dfa5286d4657dbb32034f1a2d4ae7353",
+      "size": 47836
+    },
+    {
+      "path": "direction_assessments.jsonl",
+      "sha256": "dba27ce992407674a3fb07577eff4d55183cd92830b827544fdac121b20333db",
+      "size": 148438
+    },
+    {
+      "path": "direction_candidate_summary.json",
+      "sha256": "9084ddb8669682e0a2482649bdff34975178b0d3d16612d709c6f4e8dcdb72c1",
+      "size": 215
+    },
+    {
+      "path": "direction_reviews.jsonl",
+      "sha256": "9992067b726f5eff29b4760ab1fe201f115a105880b7664dae5602fc8d32bb88",
+      "size": 13539
+    },
+    {
+      "path": "dossier_candidate_summary.json",
+      "sha256": "4c3db9f0ba28e8a5c053326285d02c5bc50755d0518190e855da70cd5a8c5b4a",
+      "size": 368
+    },
+    {
+      "path": "event_company_binding_reviews.jsonl",
+      "sha256": "c839228fe8b891d7635bed7868ae23f53602617c92d78f24f5e2af6e4e0be5dc",
+      "size": 86984
+    },
+    {
+      "path": "event_company_exposures.jsonl",
+      "sha256": "b4a846522f3d39e2154b9dca856a8f5c7c254ae6b1c33f9e6e1103df122ab55c",
+      "size": 35833
+    },
+    {
+      "path": "event_company_map.jsonl",
+      "sha256": "852bf1aae29f09a2ea6c66387bab0c4dfb0cae20007528e5f304a81b7f99ff13",
+      "size": 65382
+    },
+    {
+      "path": "event_company_mechanism_chains.jsonl",
+      "sha256": "c4dea55f35b8130ec453118906a9c7ae7ad9770dd75995114a110777ffb70f47",
+      "size": 116680
+    },
+    {
+      "path": "industry_benchmark_registry.jsonl",
+      "sha256": "3de962457be9d507e444b8fe1cd036c0f893ae724aeb9c87de503828e1408d3e",
+      "size": 7195
+    },
+    {
+      "path": "industry_classification_reviews.jsonl",
+      "sha256": "c99372cb5bcfab94a2fe8a4074b7d6459edf0418e16da880851eae4c6bdddef4",
+      "size": 48908
+    },
+    {
+      "path": "market_source_registry.jsonl",
+      "sha256": "055d711278b54b0a517743cbf82c4b29053b5c7f8d6f79ef651dfbe761385a5b",
+      "size": 22417
+    },
+    {
+      "path": "market_task6_validation.json",
+      "sha256": "b4bf794d381610b44369bdfaa2ab56a009fcaf412e1ba7a92fb8963cecfb3374",
+      "size": 536
+    },
+    {
+      "path": "official_report_gap_report.json",
+      "sha256": "51b551f9bfb910f3a47f0b67a1310c913d4a417ab64d6488ddf4e22012543bb0",
+      "size": 16
+    },
+    {
+      "path": "official_report_intake_summary.json",
+      "sha256": "04663ff5f5813382a8f83cf2e5ec37d7c68a5a9c4a6ef02be5c88010bb62d3a9",
+      "size": 190
+    },
+    {
+      "path": "README.md",
+      "sha256": "aa14c516b6e80748831c376c780a0c769bf7b61fddc083e5a111e10bd4165ddd",
+      "size": 856
+    },
+    {
+      "path": "relative_return_windows.jsonl",
+      "sha256": "d2a7ea825044390cdd678145233b98091ecd5998d3a5595c77bbb28cd9ea51b7",
+      "size": 99670
+    },
+    {
+      "path": "source_intake/000301.SZ.json",
+      "sha256": "deb8174b719b91729c9f89ed03f9a359b4ee8373551a1769e21370e3607c9c61",
+      "size": 6840
+    },
+    {
+      "path": "source_intake/000333.SZ.json",
+      "sha256": "61cf93378c74095d56e1c71432325354749defb473d63c1c21ebe87b40989142",
+      "size": 11891
+    },
+    {
+      "path": "source_intake/002030.SZ.json",
+      "sha256": "08b40b8bd8f78671d9ac6de2807e9835a60caed0f9e2d1d907b66b5d30aea0b7",
+      "size": 7266
+    },
+    {
+      "path": "source_intake/002432.SZ.json",
+      "sha256": "3440f8766d37879491ccec643d818434be77094647349722ee4418f9c87ecbde",
+      "size": 6830
+    },
+    {
+      "path": "source_intake/002475.SZ.json",
+      "sha256": "fcb4eb3d708ee65c31b2f38f775c28c650b88048e52dad6572610f30b7da6b5d",
+      "size": 8530
+    },
+    {
+      "path": "source_intake/300059.SZ.json",
+      "sha256": "f9c445eef1d524ccd67ceff2eb89503bf607a8e74397e14b3f0fcb30de2c7e09",
+      "size": 6954
+    },
+    {
+      "path": "source_intake/300482.SZ.json",
+      "sha256": "250f91bb28f68773401d74b33dcfa31a2549c00dc28cf12923f37fa3b0854801",
+      "size": 6990
+    },
+    {
+      "path": "source_intake/600009.SH.json",
+      "sha256": "f9ec7c347d6aba0cf4a9cbe751da5c10d131906e222621d9551fb9dcd66adfcd",
+      "size": 6866
+    },
+    {
+      "path": "source_intake/600028.SH.json",
+      "sha256": "7ca7174f127bf8e75e73477225c8ba0cdb2ad90b76cf5fe46b11d525ee52708f",
+      "size": 8590
+    },
+    {
+      "path": "source_intake/600036.SH.json",
+      "sha256": "bd12a463dac8f1585943edb286cfece5521abfd925b3f0ab7f995a6bbe442dc5",
+      "size": 7157
+    },
+    {
+      "path": "source_intake/600048.SH.json",
+      "sha256": "bdd1a05ac9af9e05afe63b008202fbfccde41cff4539d26595d9a07bb0144004",
+      "size": 7706
+    },
+    {
+      "path": "source_intake/600346.SH.json",
+      "sha256": "a0b53557c88f05e1ff66072b2d11c109ea849360f2cc86b4454cebf11ced8120",
+      "size": 7738
+    },
+    {
+      "path": "source_intake/600754.SH.json",
+      "sha256": "ee2a6b6a26b4ed7da393281b10fe92c3a9630ef6ee2d07bd744193e15c12c434",
+      "size": 6930
+    },
+    {
+      "path": "source_intake/601012.SH.json",
+      "sha256": "39e75ee55a19d4c82f7ef64c46f15e8c6a8410d96abb55ba02e9ed3c5700bdf9",
+      "size": 6938
+    },
+    {
+      "path": "source_intake/601021.SH.json",
+      "sha256": "e7d9e5d34f59f024caeb33be22e0fcee38ef71f44df94d00e194e59c54cebe50",
+      "size": 7094
+    },
+    {
+      "path": "source_intake/601111.SH.json",
+      "sha256": "e323a172f8f3119633b370e9ac31d26f5f962ecba11073a9b48cb691b2b8c080",
+      "size": 6860
+    },
+    {
+      "path": "source_intake/601211.SH.json",
+      "sha256": "05ffe6762591348dacf5971e4581dd440b56ab4aaf105a742758afb8ee29c9d8",
+      "size": 7511
+    },
+    {
+      "path": "source_intake/601233.SH.json",
+      "sha256": "5004cd26040c8f46893c45f14ce141a99abbe21079712203a4a25cb464010103",
+      "size": 6866
+    },
+    {
+      "path": "source_intake/601318.SH.json",
+      "sha256": "8676eceb64f37a56493f62919a7248596d7e9c31294a8a8a7822d54c058210cf",
+      "size": 10480
+    },
+    {
+      "path": "source_intake/601857.SH.json",
+      "sha256": "6c3aa47de95307db2c7983d2c8df801c1b96501a9ce24d3a5a1f84c3c8bbe5ca",
+      "size": 5395
+    },
+    {
+      "path": "source_intake/601919.SH.json",
+      "sha256": "c108c617ba806e18db70f565fec98e4cbb2e20b92192c4924b42ce0844b2080a",
+      "size": 7084
+    },
+    {
+      "path": "source_intake/601988.SH.json",
+      "sha256": "f14584819836d06a936a32311610f98e218feb7d9e5e4604380297df28487a0c",
+      "size": 9111
+    },
+    {
+      "path": "source_intake/688235.SH.json",
+      "sha256": "a075247e4620acf5b8a3886e844f603c580a67946733c8f71629c5d70cabbedd",
+      "size": 4564
+    },
+    {
+      "path": "source_manifest_seed.jsonl",
+      "sha256": "8a0b7cde3a5961dc580bab646dbd43c0434668c9fc6ce38590103c14bc8835e3",
+      "size": 31963
+    },
+    {
+      "path": "sources/000301.SZ__2021__annual_report.pdf",
+      "sha256": "1e9c7f9affbe07382b72afc09dba4b02932d062a2df49fdc4c74a8ba161d06c2",
+      "size": 32356879
+    },
+    {
+      "path": "sources/000301.SZ__2022-H1__interim_report.pdf",
+      "sha256": "1d9b85ef2b9b2c922bda9e45c98508cb56d812cc734e6a52a22a22bd05965eb4",
+      "size": 12491041
+    },
+    {
+      "path": "sources/000333.SZ__2023__annual_report.pdf",
+      "sha256": "22f4915d91ada74a37eab8d074aef4c15420f3b1a8b5f5bd5777c00f97d58b86",
+      "size": 6617110
+    },
+    {
+      "path": "sources/000333.SZ__2024-H1__interim_report.pdf",
+      "sha256": "29987795727aa66db08035eb9eff80eaf5622940fadcf05d44bca31cd2f47521",
+      "size": 4215064
+    },
+    {
+      "path": "sources/002030.SZ__2018__annual_report.pdf",
+      "sha256": "18768ecb1ad950d2d748100b4910a51a398b606937b73fb2100807827cdbc92b",
+      "size": 2395423
+    },
+    {
+      "path": "sources/002030.SZ__2019-H1__interim_report.pdf",
+      "sha256": "24879510bb012ddee4f93526caed0d2a106122b7c1887eb4f3452d3d82be7a69",
+      "size": 1188836
+    },
+    {
+      "path": "sources/002432.SZ__2021__annual_report.pdf",
+      "sha256": "320622392406a9d0510185cc19a7f711c997c533c6c0fbcd9f1149b3e9a89749",
+      "size": 3643014
+    },
+    {
+      "path": "sources/002432.SZ__2022-H1__interim_report.pdf",
+      "sha256": "344f0165f1a33e2200e784c98c3ba629272694e222feaaaad7e6e95f9d8af860",
+      "size": 3775526
+    },
+    {
+      "path": "sources/002475.SZ__2023__annual_report.pdf",
+      "sha256": "631d4d331124b052a1c0bf9b5e2414f53866ec9c595fd8d8c9047c8dd24f6b66",
+      "size": 10427619
+    },
+    {
+      "path": "sources/002475.SZ__2024-H1__interim_report.pdf",
+      "sha256": "1acad953d35a632da1e1001ca3d0cd986513899884dd166c54c2995ff51b22b6",
+      "size": 1274307
+    },
+    {
+      "path": "sources/300059.SZ__2023__annual_report.pdf",
+      "sha256": "a0351fa1c1a676aeef55d2c7fda466a2ed431dc3dc79ef44ef58f943727d1fcb",
+      "size": 4917979
+    },
+    {
+      "path": "sources/300059.SZ__2024-H1__interim_report.pdf",
+      "sha256": "70f2716a42b50f7a58a77c80106ed6ae98129f414093bc5586798599e094a1fb",
+      "size": 4615089
+    },
+    {
+      "path": "sources/300482.SZ__2021__annual_report.pdf",
+      "sha256": "06859f7db1a7dc9efb9d69c44ecdee63c5b43c4d0e2fe8063ec242fc19d6c841",
+      "size": 5585782
+    },
+    {
+      "path": "sources/300482.SZ__2022-H1__interim_report.pdf",
+      "sha256": "ea3def1f7a28918fba938564c78f4bd35b177c5a8a30439f7072d08121a8a9f2",
+      "size": 2412624
+    },
+    {
+      "path": "sources/600009.SH__2018__annual_report.pdf",
+      "sha256": "2f959364793d6229dcc184f318f74af35499359262fafd0c308cfae170273a2b",
+      "size": 2363035
+    },
+    {
+      "path": "sources/600009.SH__2019-H1__interim_report.pdf",
+      "sha256": "4d291eb6de4650b22aa1faf4da42e4351e732666eeeaff1abac745f17b8cc34a",
+      "size": 2207007
+    },
+    {
+      "path": "sources/600028.SH__2021__annual_report.pdf",
+      "sha256": "e817ce294301cee71434bb763f0c9f87dc497cbef2190680526b00f141f384f3",
+      "size": 4692257
+    },
+    {
+      "path": "sources/600028.SH__2022-H1__interim_report.pdf",
+      "sha256": "2e9fbca726fe58c0ffe680173270ddfd830e2b888527dffa4c68c9e3883138dc",
+      "size": 4680860
+    },
+    {
+      "path": "sources/600036.SH__2020__annual_report.pdf",
+      "sha256": "abd5d644da2edc40f34550d5b775e09ae25f226b381c5316806e760950662d67",
+      "size": 13862820
+    },
+    {
+      "path": "sources/600036.SH__2021-H1__interim_report.pdf",
+      "sha256": "c3729514e0a3af7921a69cba55bb01c2e534f595d6e079e739b6bc937bef4800",
+      "size": 1969773
+    },
+    {
+      "path": "sources/600048.SH__2023__annual_report.pdf",
+      "sha256": "d106465e50d2a96c7d93a486f183ce8d91f50a3da42e168abc2633f6acbc726f",
+      "size": 4704316
+    },
+    {
+      "path": "sources/600048.SH__2024-H1__interim_report.pdf",
+      "sha256": "e681f3552fe772589226cb9ed2be79bb88af80097c78dee3568fc92b13c512b6",
+      "size": 4148802
+    },
+    {
+      "path": "sources/600346.SH__2020__annual_report.pdf",
+      "sha256": "93abb9d541d3c3cbf4b84c7d570bb40537b0a7e7e745881bcb73ee60e3f43d2f",
+      "size": 7163289
+    },
+    {
+      "path": "sources/600346.SH__2021-H1__interim_report.pdf",
+      "sha256": "c9775a8fe703f494257e7916b7824778d230767622f1613bff51af2062742bde",
+      "size": 4482640
+    },
+    {
+      "path": "sources/600754.SH__2021__annual_report.pdf",
+      "sha256": "34f5344f6bed1323058f949c73bdc835ede0cd8571f16846ec09859bbbf1b8f3",
+      "size": 5305181
+    },
+    {
+      "path": "sources/600754.SH__2022-H1__interim_report.pdf",
+      "sha256": "96705add2a4c48ef114f97ee24aa2e6f0969d2b07b0d0931ee32d691b30fc818",
+      "size": 4507054
+    },
+    {
+      "path": "sources/601012.SH__2020__annual_report.pdf",
+      "sha256": "ce15c0f2aad3d5ba943fe21edcfea000faf1338002f3e5045ef5439a66346b2d",
+      "size": 5132167
+    },
+    {
+      "path": "sources/601012.SH__2021-H1__interim_report.pdf",
+      "sha256": "b058071cde9aa6446ccc0fd276310863d9c3e93b5b9319304a9b48d1d7785f85",
+      "size": 3848147
+    },
+    {
+      "path": "sources/601021.SH__2022__annual_report.pdf",
+      "sha256": "da72ff5abbec8f5e92065e25cb582f356261fabe16b1b755a7b49e136eb61d8e",
+      "size": 4141652
+    },
+    {
+      "path": "sources/601021.SH__2023-H1__interim_report.pdf",
+      "sha256": "93257f4aa1dcf8a53f211849ec083a03e980d052dcd00010c299e95fb245688a",
+      "size": 3066379
+    },
+    {
+      "path": "sources/601111.SH__2018__annual_report.pdf",
+      "sha256": "ee58a5bc0946eb83aceb102bbec01cfe4c689e10973b24fe4a8358e6215282c0",
+      "size": 12044928
+    },
+    {
+      "path": "sources/601111.SH__2019-H1__interim_report.pdf",
+      "sha256": "74dd389a3b56e434d16b606f066a364ce931448e1207fba1f76183bebdeecc64",
+      "size": 4590359
+    },
+    {
+      "path": "sources/601211.SH__2022__annual_report.pdf",
+      "sha256": "bdf096ef273410b8dd190abc0bbf97a479c0792ac6ef1a3b41c20a51dbcb522d",
+      "size": 7101287
+    },
+    {
+      "path": "sources/601211.SH__2023-H1__interim_report.pdf",
+      "sha256": "4c76a2a795070534d5e24e8aa5d6674f872f418a1d5e551d91cb814118744529",
+      "size": 15221961
+    },
+    {
+      "path": "sources/601233.SH__2020__annual_report.pdf",
+      "sha256": "b31091c753ef18a1d051f99048db905203afa84379ce12574f188c06d36354bb",
+      "size": 4069987
+    },
+    {
+      "path": "sources/601233.SH__2021-H1__interim_report.pdf",
+      "sha256": "4c3b0a207633d1a562328a5c26cd5b3e2c59b876b1cb26615329fe64daee0dbe",
+      "size": 3331292
+    },
+    {
+      "path": "sources/601318.SH__2020__annual_report.pdf",
+      "sha256": "ae0fc7998f69dbbf9c080fdc6b796240e9dec3afe66c9aff850d09bf227c63e8",
+      "size": 7982999
+    },
+    {
+      "path": "sources/601318.SH__2021-H1__interim_report.pdf",
+      "sha256": "7c3379dc57c75c23a91d1a61d64e7eb0077fcbe40a0a04d2f7fad765f75dfe64",
+      "size": 5766120
+    },
+    {
+      "path": "sources/601857.SH__2020__annual_report.pdf",
+      "sha256": "7aac267c1db1fd0ef0b51f02b587ad679a2501ebde874937cf57efd6628cd56b",
+      "size": 2383273
+    },
+    {
+      "path": "sources/601857.SH__2021-H1__interim_report.pdf",
+      "sha256": "79ee809c14aa7322f6e4698bf6b50eef0f1e13f36ec8dfce5b8be06bdf9f5a94",
+      "size": 1171541
+    },
+    {
+      "path": "sources/601919.SH__2022__annual_report.pdf",
+      "sha256": "fe91b14d74f44c5e4a05756ca90a9918dc64b6a7f967795072be21aedcb18dfb",
+      "size": 4381734
+    },
+    {
+      "path": "sources/601919.SH__2023-H1__interim_report.pdf",
+      "sha256": "5426f821465e617533dbe0ac44134ef8d41527b5be6b2ac6f1ac900481d011c6",
+      "size": 3439096
+    },
+    {
+      "path": "sources/601988.SH__2022__annual_report.pdf",
+      "sha256": "64545fe2b27ddbfb41cbe51c67546f9e7f339abbe09a3c71936ddbe12eda3f06",
+      "size": 8293945
+    },
+    {
+      "path": "sources/601988.SH__2023-H1__interim_report.pdf",
+      "sha256": "30c24623896df649cd04dc7bd5c6393cb22444afbae0cba9f86bcc347fd0fe07",
+      "size": 6687032
+    },
+    {
+      "path": "sources/688235.SH__2021__annual_report.pdf",
+      "sha256": "9752394ccabde8d6a2001cf7e48b526cd981ef757e4fa772b761f363289a8f8e",
+      "size": 4975850
+    },
+    {
+      "path": "sources/688235.SH__2022-H1__interim_report.pdf",
+      "sha256": "791189855476529caa3236c706e88f071209f4dd2a9bbe8cbcafb264c42f57c4",
+      "size": 4282088
+    },
+    {
+      "path": "sources/company_announcements/event-company-0715414f11c07699.json",
+      "sha256": "e7dd70791267b74a61cd955156e702476eb1df212e1fd49bf15c42a290fe2e02",
+      "size": 22338
+    },
+    {
+      "path": "sources/company_announcements/event-company-0c835d2965eeb116.json",
+      "sha256": "4a53827157aacf3987eda62d9fe2ea26fc803a3daacdafd4c1edab66aac43364",
+      "size": 20560
+    },
+    {
+      "path": "sources/company_announcements/event-company-1068a13369152765.json",
+      "sha256": "8da2d9a77d486d2a707ad8ebc5ca338da47090cfdc45e6f0d0f7519fdf495a0f",
+      "size": 22657
+    },
+    {
+      "path": "sources/company_announcements/event-company-13b5c18e0ab50923.json",
+      "sha256": "cf755fae2165ab74a5e9acf3b7605ed9f985c9e859e772c7ca5b6502b6a37b6f",
+      "size": 5750
+    },
+    {
+      "path": "sources/company_announcements/event-company-16d3d11b4c2f9ba3.json",
+      "sha256": "a122afc8eece30aa945dee0f688b398b4dbfff7d85b6610a985a686d50a972e5",
+      "size": 17694
+    },
+    {
+      "path": "sources/company_announcements/event-company-2105a5ff3e2565d8.json",
+      "sha256": "4585a8f3b738905ce1e0aa90cbd0a6fae34011d54840cecbfc80d5e7c47b2f41",
+      "size": 15429
+    },
+    {
+      "path": "sources/company_announcements/event-company-26c2f41532061e78.json",
+      "sha256": "04163dff821086e9da9f735b0177ef19f59410f5b2dcee6446f46a5498056a88",
+      "size": 5537
+    },
+    {
+      "path": "sources/company_announcements/event-company-345601542713958d.json",
+      "sha256": "c568f2df89e5bcb2fc1a8e575bebbad72b09dc7e3432c325d6d262316c684612",
+      "size": 2839
+    },
+    {
+      "path": "sources/company_announcements/event-company-37d460219952da91.json",
+      "sha256": "a16e71183a77cddef4181a3547be4ea2887001528dcaf07101efcc4fc0ab51ac",
+      "size": 8322
+    },
+    {
+      "path": "sources/company_announcements/event-company-3b9df0fb4b9ac4e2.json",
+      "sha256": "5942b91af913d42dc1d246c7108f120cf610b9abbad98d914e3265ad4e59f54b",
+      "size": 12706
+    },
+    {
+      "path": "sources/company_announcements/event-company-4a2b172e1a1dd5da.json",
+      "sha256": "1248aa74c6123931edefd48b0f74063c19717fc964455c1c1219f8d704f0cb9d",
+      "size": 1059
+    },
+    {
+      "path": "sources/company_announcements/event-company-51179659541e499c.json",
+      "sha256": "23d8c3156bcf1c6bf56c395bf221a46de3576915857928ced3e5b1a813d28fa6",
+      "size": 4539
+    },
+    {
+      "path": "sources/company_announcements/event-company-58730738f87198c8.json",
+      "sha256": "766baa06604be9120b586e30e7864f7c854843e639b4ad133c3ae092c7b92c5d",
+      "size": 12093
+    },
+    {
+      "path": "sources/company_announcements/event-company-7726b71e8ca4e23c.json",
+      "sha256": "1d3382ab0c151eef3781d50664b4edebdaea8fad26092ab31f32c1557f02e981",
+      "size": 23761
+    },
+    {
+      "path": "sources/company_announcements/event-company-7e154bf631a758b0.json",
+      "sha256": "d4868c0b4567f2b2f3f016fe60b78c4326a3021f71ad72747764d883d3f1397d",
+      "size": 6405
+    },
+    {
+      "path": "sources/company_announcements/event-company-916b0c4072978e42.json",
+      "sha256": "8472cc96cd8738cf730b39d590526f4cc11579be0d10339e23b7844ecc8611f3",
+      "size": 22966
+    },
+    {
+      "path": "sources/company_announcements/event-company-965cd854127bd0c3.json",
+      "sha256": "a5c1cddf29201403d6dfeaa6d3b94105899f5affce7bc82c43d5bbebea55b10d",
+      "size": 401
+    },
+    {
+      "path": "sources/company_announcements/event-company-9909472fbec58647.json",
+      "sha256": "db31cb5768df754d1c6b6601e3e608c48864c63956423235e6d9a18dc98c1668",
+      "size": 23257
+    },
+    {
+      "path": "sources/company_announcements/event-company-a6545dbfa9b4b106.json",
+      "sha256": "5fe768f28706d95f3a318671dfc444d95aa8ea097a59c3ba700f115d8d9501b2",
+      "size": 14007
+    },
+    {
+      "path": "sources/company_announcements/event-company-b252e2baceae364f.json",
+      "sha256": "ffe01503d1fef4f7dc8bf06b1e181d6972af34c7ca73b773795b8c187782ecb6",
+      "size": 1882
+    },
+    {
+      "path": "sources/company_announcements/event-company-c38f24b569091b37.json",
+      "sha256": "4a1696d55e5c9dc052c29da30e168ebf7c3afae24ad73a260a3bbe3ed76a999b",
+      "size": 6906
+    },
+    {
+      "path": "sources/company_announcements/event-company-c765530c7f3f6a41.json",
+      "sha256": "66555513c42ac738bbb1de6d9ddc384c6d2bf0551241e66fd3d69bbe6c45fc35",
+      "size": 7547
+    },
+    {
+      "path": "sources/company_announcements/event-company-cd296dd44bec6448.json",
+      "sha256": "c46624313d78ac8b15523950fdb52a2b7b1c2141ea342032ba2362fe0f0e3d0a",
+      "size": 3909
+    },
+    {
+      "path": "sources/company_announcements/event-company-d1bd3c58baabb91f.json",
+      "sha256": "c42d24c9a21e6cd8d65c98d9f13a3ec4964ae9962bd6d6fa6e4dd598491a8ff2",
+      "size": 4387
+    },
+    {
+      "path": "sources/company_announcements/event-company-df4365c2f77893d2.json",
+      "sha256": "e963d3213115fd995220b8c1b6383ff3577fe642f04ea970e7e782d03af31386",
+      "size": 1118
+    },
+    {
+      "path": "sources/company_announcements/event-company-e3077cde91f10643.json",
+      "sha256": "cc33540a0f597fb456b143a443f38e6b162efe4e2dd3e1bcad22899619c69a10",
+      "size": 23725
+    },
+    {
+      "path": "sources/company_announcements/event-company-e60e47505f536eb0.json",
+      "sha256": "455c9948c6bc6bba176ad753051008e21c60263ff3a80f9c74a08d1672aacb48",
+      "size": 1946
+    },
+    {
+      "path": "sources/company_announcements/event-company-e69b41223defc9f2.json",
+      "sha256": "5dcc15c13f986afefec9c5c27e51725fbcde46d7d9681a20ef4dd5b82ae13430",
+      "size": 6495
+    },
+    {
+      "path": "sources/company_announcements/event-company-e9b69e235d6ca13c.json",
+      "sha256": "4d2d0fc87beec1f546071ded3fca7817b252cb5b6761f98c712ec4373282ba5e",
+      "size": 46413
+    },
+    {
+      "path": "sources/company_announcements/event-company-f4a0a74fca57becb.json",
+      "sha256": "bc9a407a1912521cd24f964c01250fdd1462f827f22f1b6b7fd1b0a2fe93f640",
+      "size": 22850
+    },
+    {
+      "path": "sources/company_announcements/pdf/1207440623.pdf",
+      "sha256": "6ee364a1fc503185142cb0fd59f575c8e4cc16d91eca33f7ebae7e0e9302ac0a",
+      "size": 141506
+    },
+    {
+      "path": "sources/company_announcements/pdf/1207440624.pdf",
+      "sha256": "e213e21f667fe29e586100fe34eb6e3c45d736e7aa0f4341523fd337e671639b",
+      "size": 141465
+    },
+    {
+      "path": "sources/company_announcements/pdf/1212457275.pdf",
+      "sha256": "e4f36884eb42c004e133dad9e67886b9b755a517b8863b05214bc0a61ff8d351",
+      "size": 153010
+    },
+    {
+      "path": "sources/company_announcements/pdf/1212501451.pdf",
+      "sha256": "ed04d394979a7ad6b90be1d18fe0bcae8b1b7fb489daee1881eb3ccc930c1c6d",
+      "size": 208261
+    },
+    {
+      "path": "sources/company_announcements/pdf/1212501452.pdf",
+      "sha256": "70d55a2c38349e285f62e4c2aea85995f56a523ef95161e42a2df411ce797ef4",
+      "size": 534176
+    },
+    {
+      "path": "sources/company_announcements/pdf/1212501453.pdf",
+      "sha256": "7e5a278a104da7235c86fba4b51b87d2fa09b8f8fbfef139a5bda436db6dbaa2",
+      "size": 517848
+    },
+    {
+      "path": "sources/company_announcements/pdf/1212501454.pdf",
+      "sha256": "855b79b6887bb8d7ffbb9a58797027ba11b1c298adf5c1ed8f66cd2352c9c07f",
+      "size": 417238
+    },
+    {
+      "path": "sources/company_announcements/pdf/1212511737.pdf",
+      "sha256": "7c0d43814bbc853770847162c615620d2037814f01b3c75de8eb72e9d64f184e",
+      "size": 162535
+    },
+    {
+      "path": "sources/company_announcements/pdf/1212533712.pdf",
+      "sha256": "bd68e3d9968e4355171393a2d3b8c59c7494238aaa46dbdbb893cb674d5e4836",
+      "size": 453673
+    },
+    {
+      "path": "sources/company_announcements/pdf/1212533713.pdf",
+      "sha256": "f5d6c0f8fde45dd19915583cc035cfafc53d2dabe344463905154e98681b1c76",
+      "size": 276688
+    },
+    {
+      "path": "sources/company_announcements/pdf/1212547953.pdf",
+      "sha256": "dca5da33e71b69e315f7d3c728bb208845d5716f57a3479fb87f98653a7e6ad9",
+      "size": 151592
+    },
+    {
+      "path": "sources/company_announcements/pdf/1212547954.pdf",
+      "sha256": "962eb2bfc63dd365dd5c5b34a0101de89d31cae92a91b998be072528effe94fe",
+      "size": 426040
+    },
+    {
+      "path": "sources/company_announcements/pdf/1212548103.pdf",
+      "sha256": "bea58f90e5ea708f344a5bccc64e8bbcf9091f1c5849920f55e4fb35ec1667ac",
+      "size": 373284
+    },
+    {
+      "path": "sources/company_announcements/pdf/1212564637.pdf",
+      "sha256": "3db4df481b0bbfc11cf009be23453dad3f9e0c31516c0bcb79ebf49002ab126b",
+      "size": 200327
+    },
+    {
+      "path": "sources/company_announcements/pdf/1212565325.pdf",
+      "sha256": "046a1aebbe93092284c3fa842c594ead0d97b6a8acd35a56c848bbbe57fd619e",
+      "size": 174746
+    },
+    {
+      "path": "sources/company_announcements/pdf/1212591152.pdf",
+      "sha256": "0956f0bb6742471b3f9ab0353f7b5a9841c5ce18512b02f1c51c5e0404ffd4a9",
+      "size": 174898
+    },
+    {
+      "path": "sources/company_announcements/pdf/1212623343.pdf",
+      "sha256": "2a98f082b8a7045423f316c3a248d9fd559494a25d7dbab59267b1a947ced4db",
+      "size": 378086
+    },
+    {
+      "path": "sources/company_announcements/pdf/1212625118.pdf",
+      "sha256": "bcbcf1938fe210fe223a86d1a50d4dffc6f8dcd33cbb936cbf4efb42a784dcda",
+      "size": 577592
+    },
+    {
+      "path": "sources/company_announcements/pdf/1212630931.pdf",
+      "sha256": "6d4de954b0deb265d25c2eb47ec0de25989b75fc240206e1797c4072725ec0b3",
+      "size": 189217
+    },
+    {
+      "path": "sources/company_announcements/pdf/1212641391.pdf",
+      "sha256": "d6603b64316914c162d71362574a73d94a3bec00d1d496feba513b1984b007b5",
+      "size": 205923
+    },
+    {
+      "path": "sources/company_announcements/pdf/1212649116.pdf",
+      "sha256": "212215abb7a3d0c76915ea340deebe400d908b08e2e45800ccc69a650e725d03",
+      "size": 200444
+    },
+    {
+      "path": "sources/company_announcements/pdf/1213939469.pdf",
+      "sha256": "beed9fe2f578a77e62561c4d5854bd366db66c97ddc879ef165533755c31323f",
+      "size": 326795
+    },
+    {
+      "path": "sources/company_announcements/pdf/1213940040.pdf",
+      "sha256": "20fd3617e84628e41acaeedd4b000262ebb2ea8be1ef0cf417dcd0921f22d095",
+      "size": 170925
+    },
+    {
+      "path": "sources/company_announcements/pdf/1213999174.pdf",
+      "sha256": "50a4dfa9288f15b059255ada20df9915ac31aa95b2e8782173435fa7893f6e1f",
+      "size": 153667
+    },
+    {
+      "path": "sources/company_announcements/pdf/1215303005.pdf",
+      "sha256": "f088fbb1707ed36588fa8ecf696a17e2cbfc137503d17a6f8ea3afafe6c75cc5",
+      "size": 240733
+    },
+    {
+      "path": "sources/company_announcements/pdf/1215316348.pdf",
+      "sha256": "3699ce47661228402a798e28b76948764c5c846b3b6dba489b492d4d40894a85",
+      "size": 462724
+    },
+    {
+      "path": "sources/company_announcements/pdf/1215439588.pdf",
+      "sha256": "bae94c10c08447c77951440abb47da4bc14c5e0fa3ecc72397013c6f51ba017b",
+      "size": 320989
+    },
+    {
+      "path": "sources/company_announcements/pdf/1215439589.pdf",
+      "sha256": "7447e5e0aac049d549891adb70d887b19afd7a8e320d057804b841ff2d9d68bb",
+      "size": 759294
+    },
+    {
+      "path": "sources/company_announcements/pdf/1217998025.pdf",
+      "sha256": "e1d9e21381f1026e1e93c18eb2f272f1e20d1291f672412a50c9d3d25db89a7d",
+      "size": 399292
+    },
+    {
+      "path": "sources/company_announcements/pdf/1217999617.pdf",
+      "sha256": "6c6bfb0ab1fb6f0807b94257e47bb1fabe12221ce2c4c3820783c57d205bdd4a",
+      "size": 334948
+    },
+    {
+      "path": "sources/company_announcements/pdf/1218004098.pdf",
+      "sha256": "6f7be770446734280270477878d947988b0abd2fcb22f908a091a9fdebf69040",
+      "size": 376871
+    },
+    {
+      "path": "sources/company_announcements/pdf/1218048653.pdf",
+      "sha256": "d38bf1f7ed6be457d35dea9e6bd53aeaf0d6c400ab5ff85792909c07764097af",
+      "size": 375493
+    },
+    {
+      "path": "sources/company_announcements/pdf/1218230425.pdf",
+      "sha256": "5814543a90f93a54df1852f51a96dd2dd7d91b6f425509e38e9ae7f040f8662a",
+      "size": 379827
+    },
+    {
+      "path": "sources/company_announcements/pdf/1218241746.pdf",
+      "sha256": "f827b96ca0ea078f3e66927cc9740ade74394f8aa5611ba3014acb7d1f71c251",
+      "size": 405031
+    },
+    {
+      "path": "sources/company_announcements/pdf/1219502430.pdf",
+      "sha256": "60344cad507f79e01dc445315cfdb537628ec10d947e1f2f7044197fd253efcd",
+      "size": 619711
+    },
+    {
+      "path": "sources/company_announcements/pdf/1219595205.pdf",
+      "sha256": "8017e45c41b3a35e7a86684345ae3af89d8820f5d05419f23e5ecfda2228a088",
+      "size": 123776
+    },
+    {
+      "path": "sources/company_announcements/pdf/1219595206.pdf",
+      "sha256": "7cad59944297be29dced9b5df9f378ba646c560f28d1669b41d8688a51c79784",
+      "size": 542633
+    },
+    {
+      "path": "sources/company_announcements/pdf/1221276884.pdf",
+      "sha256": "6a22b3a7956f4098429d0d924d01d39bb9c93dec68e50e3ef68279c5f570e1c7",
+      "size": 246514
+    },
+    {
+      "path": "sources/company_announcements/pdf/1221396793.pdf",
+      "sha256": "3056e13f70dfcb0d8dc9a8d3910b3e638619f09f2b69233258502db7305bfb9e",
+      "size": 226145
+    },
+    {
+      "path": "sources/company_announcements/pdf/1221419581.pdf",
+      "sha256": "60affa6ffb58024fd8ecd483d33e2cd842cbd820502f784ffe90a297ed54395e",
+      "size": 160366
+    },
+    {
+      "path": "sources/company_announcements/pdf/1221475580.pdf",
+      "sha256": "16da2f8820bb64f8062838003f19f9938e004157edd98fe16368019c88a9e60f",
+      "size": 143870
+    },
+    {
+      "path": "sources/company_announcements/pdf/1223412441.pdf",
+      "sha256": "c03958ee3c70ef064d2e86191c3c985c8e30b46f192d9f39b8c252ba65d8be43",
+      "size": 173881
+    },
+    {
+      "path": "sources/company_announcements/pdf/1223412443.pdf",
+      "sha256": "45ec93c69f2ab6ead06bef928159f7125d6aa64ea9228a5a7da9553c1ebe0ef2",
+      "size": 247751
+    },
+    {
+      "path": "sources/company_announcements/pdf/1223412457.pdf",
+      "sha256": "eae31bfcfce02b4a92ef879474cc9e321cf3f311f528fdfcaacb47164d07ce46",
+      "size": 509993
+    },
+    {
+      "path": "sources/company_announcements/pdf/1223412460.pdf",
+      "sha256": "275fa6eff7a6d74d8e35c6a983df2fdf011b1c2377ddc95eefe2798b2d32f23b",
+      "size": 605681
+    },
+    {
+      "path": "sources/company_announcements/pdf/1223426514.pdf",
+      "sha256": "b418e013caa71f8d158e585bf4ae9b06acc980b6fdcc3217ad148189dd3458af",
+      "size": 90583
+    },
+    {
+      "path": "sources/company_announcements/pdf/1223444055.pdf",
+      "sha256": "c4266456e66e871c5158d2438cc1189d3b6df0df1c8f3000a2213c94945826e2",
+      "size": 229939
+    },
+    {
+      "path": "sources/company_announcements/text/1207440623.txt",
+      "sha256": "0b669fbf63c1cb1bcdd47e10f9c4bceba30e5b7f2c0285f408b9408943494c7f",
+      "size": 1431
+    },
+    {
+      "path": "sources/company_announcements/text/1207440624.txt",
+      "sha256": "11262761544814046f1d953f7bd7d41751e1137e70782cfe3b04d60a22b05ee3",
+      "size": 1428
+    },
+    {
+      "path": "sources/company_announcements/text/1212457275.txt",
+      "sha256": "364203990dcc1e8c489540cc6de8af0a3535f87676b4fc5035c386fc91dbb630",
+      "size": 2411
+    },
+    {
+      "path": "sources/company_announcements/text/1212501451.txt",
+      "sha256": "9feacc3f3d58d88356201f3f9ca7d99072a7a7f87a8421ec3b339757b4183488",
+      "size": 4995
+    },
+    {
+      "path": "sources/company_announcements/text/1212501452.txt",
+      "sha256": "dd76a892b8618fa1526ff32f351064fe95c6c33d05d0dd26531f4c78e8581441",
+      "size": 45389
+    },
+    {
+      "path": "sources/company_announcements/text/1212501453.txt",
+      "sha256": "ccba09d67212ac2e8457161e56c36f5521769e1881f47c700b1fcb23acd8378d",
+      "size": 31508
+    },
+    {
+      "path": "sources/company_announcements/text/1212501454.txt",
+      "sha256": "e94436047fe77d1be358160a36c1be7e2474e235ebf3ebf517240854454fa2e0",
+      "size": 29956
+    },
+    {
+      "path": "sources/company_announcements/text/1212511737.txt",
+      "sha256": "85cf40ad4d104a65a90c3a9c2d6904a726752eaafcbc95e6234ade7fa00a7081",
+      "size": 2209
+    },
+    {
+      "path": "sources/company_announcements/text/1212533712.txt",
+      "sha256": "7b35ce43183d395e21181abc1454327d1ac798f1bc79c4a06673192a51b3b90e",
+      "size": 4670
+    },
+    {
+      "path": "sources/company_announcements/text/1212533713.txt",
+      "sha256": "0f63640237596a9f1358a333e92212417e2407003ab691c86337a3451e30cfd3",
+      "size": 15345
+    },
+    {
+      "path": "sources/company_announcements/text/1212547953.txt",
+      "sha256": "7f2fd467ac3928a422f66b6599a6215a716903b2afb76cead9e326f12a9e44e1",
+      "size": 1953
+    },
+    {
+      "path": "sources/company_announcements/text/1212547954.txt",
+      "sha256": "9ea40ab500ee13e65386a67669c8b0e7c2029e4e53e31890d484f9f8c9c28eea",
+      "size": 1695
+    },
+    {
+      "path": "sources/company_announcements/text/1212548103.txt",
+      "sha256": "5db710e310c87cdd34e33ad4384380570b7f09ca81f7e1a42afbb77ddaf68192",
+      "size": 3710
+    },
+    {
+      "path": "sources/company_announcements/text/1212564637.txt",
+      "sha256": "fc4615718a1bdae74f79811e1409bcfb2fec79098ab822abced757029cd0527e",
+      "size": 2411
+    },
+    {
+      "path": "sources/company_announcements/text/1212565325.txt",
+      "sha256": "8f46f31dc01ce57c674f0a107c5845f6ea5be11a25729733b2dbbf91c2682e88",
+      "size": 2740
+    },
+    {
+      "path": "sources/company_announcements/text/1212591152.txt",
+      "sha256": "aeffed1f71077fc1a0d750c43b31ca1aef4a543af5a17878a59594b634e29698",
+      "size": 2261
+    },
+    {
+      "path": "sources/company_announcements/text/1212623343.txt",
+      "sha256": "d3572471fc0205efb2658e184c1c5f8f6a185920e2363dc63a80105411eacc26",
+      "size": 15076
+    },
+    {
+      "path": "sources/company_announcements/text/1212625118.txt",
+      "sha256": "33e86c8f69de5289ec25a5475cdd04660f04f7b987b4a24bba12b604ec099331",
+      "size": 28307
+    },
+    {
+      "path": "sources/company_announcements/text/1212630931.txt",
+      "sha256": "035f0987cf9dc42dc8f900299e01d23ce452472e0cc679898ff371a753da0261",
+      "size": 2216
+    },
+    {
+      "path": "sources/company_announcements/text/1212641391.txt",
+      "sha256": "984f395c8f739f4e4fe27ba72e301ef85485459fc727237f1c6c6997e0ef11d1",
+      "size": 3712
+    },
+    {
+      "path": "sources/company_announcements/text/1212649116.txt",
+      "sha256": "c233943eaa32489603150377a74e520e916e403bc957546545777ada10d360de",
+      "size": 2414
+    },
+    {
+      "path": "sources/company_announcements/text/1213939469.txt",
+      "sha256": "31284f1982ed9f06cfbcd37b2b76f8718010bea81c350f71ff4bd4ea6b13cceb",
+      "size": 2137
+    },
+    {
+      "path": "sources/company_announcements/text/1213940040.txt",
+      "sha256": "ac0163ac7a1eb605bb5aa668881cce53701e0f8180ec041de6b308ef57052576",
+      "size": 2836
+    },
+    {
+      "path": "sources/company_announcements/text/1213999174.txt",
+      "sha256": "6132057966266c1f83b16355de2a0be2b4a90a625ac20935ba7b86e372e474eb",
+      "size": 2472
+    },
+    {
+      "path": "sources/company_announcements/text/1215303005.txt",
+      "sha256": "c6289549c4c3eed9654ceb260414ecd4c88302840bea6160346682bf56052161",
+      "size": 2111
+    },
+    {
+      "path": "sources/company_announcements/text/1215316348.txt",
+      "sha256": "30746a8098a9a0bf690c9f6439f75ee1edd34e648d5f1d174c5afb1b3dc8a49a",
+      "size": 19752
+    },
+    {
+      "path": "sources/company_announcements/text/1215439588.txt",
+      "sha256": "52e4efa2ef153d8cdedd89c4611f621a05b3f6ae66a40b55cafbe7b2007d6ec5",
+      "size": 3504
+    },
+    {
+      "path": "sources/company_announcements/text/1215439589.txt",
+      "sha256": "94fa024a24494325d5938f2513220404d4ec27e7137feeea43baca42d3bf70f6",
+      "size": 13773
+    },
+    {
+      "path": "sources/company_announcements/text/1217998025.txt",
+      "sha256": "f6adcd0ff89dc055bcc1c77eba538fb42fb692c1f635b126d6315fb5cb387480",
+      "size": 3159
+    },
+    {
+      "path": "sources/company_announcements/text/1217999617.txt",
+      "sha256": "f2e367b2005d56bea2d525a99cdccc69a40324e200cb9428c6ea3e52ebddea06",
+      "size": 3557
+    },
+    {
+      "path": "sources/company_announcements/text/1218004098.txt",
+      "sha256": "4c26213ecadbc88c12189ed9e30c769caf913aa60e2ebc5f8e29be348fe42de3",
+      "size": 1854
+    },
+    {
+      "path": "sources/company_announcements/text/1218048653.txt",
+      "sha256": "09d66dee71ab541b2378665cdec3ce1a810affa3b545481d7a8f00b58625a751",
+      "size": 1784
+    },
+    {
+      "path": "sources/company_announcements/text/1218230425.txt",
+      "sha256": "423ca6c57dc35dda5de3894cefd3a0e7fe9cdf1a236900a9dc23c35ad5da35fd",
+      "size": 2105
+    },
+    {
+      "path": "sources/company_announcements/text/1218241746.txt",
+      "sha256": "0804bdeb940beb33890faddacd3154b281c23f85b477f480de472eefa54eb69b",
+      "size": 3164
+    },
+    {
+      "path": "sources/company_announcements/text/1219502430.txt",
+      "sha256": "d110bad4528fd5bb89890fab6cd9586d1d40473485d7fbb08ac5bd71577f9efe",
+      "size": 2797
+    },
+    {
+      "path": "sources/company_announcements/text/1219595205.txt",
+      "sha256": "aa61e3b84045914325e3fa1fbcd14f22b5c2ee32181b1f3d13ba68e48a9a13f8",
+      "size": 1429
+    },
+    {
+      "path": "sources/company_announcements/text/1219595206.txt",
+      "sha256": "428af0d8a689ece95e345993fcda1f189b26031e05b826ff1c4d923c6fb2350d",
+      "size": 8262
+    },
+    {
+      "path": "sources/company_announcements/text/1221276884.txt",
+      "sha256": "debc2a7d746c8cdd4843ff36bfed1ee2c596df850126f997a0c09bcf53d907b7",
+      "size": 1400
+    },
+    {
+      "path": "sources/company_announcements/text/1221396793.txt",
+      "sha256": "65f7bde766977dea61d0fcfdb4305bcaf73083426511942bd56287a397135555",
+      "size": 1295
+    },
+    {
+      "path": "sources/company_announcements/text/1221419581.txt",
+      "sha256": "2e6f31027239413330f96044d0ae9ab4e725f63b8e2867b4c2101682a314d3b1",
+      "size": 1399
+    },
+    {
+      "path": "sources/company_announcements/text/1221475580.txt",
+      "sha256": "69c224d4b91cfee663c8a5e07627ce42ab409201d44f71938f38016124e9db6f",
+      "size": 1300
+    },
+    {
+      "path": "sources/company_announcements/text/1223412441.txt",
+      "sha256": "ba488a1d066f4c570b010c5c788c2f29d17e8496511e040e4550782643126d46",
+      "size": 3043
+    },
+    {
+      "path": "sources/company_announcements/text/1223412443.txt",
+      "sha256": "bb9a7efd9dbbfefd4153a1b442e578ed4f8630bcf48586036fb4fa42b947ed50",
+      "size": 3902
+    },
+    {
+      "path": "sources/company_announcements/text/1223412457.txt",
+      "sha256": "f212c69a16f3a5e47958562f83221f5c098598bce65db68488b22cc0fed56621",
+      "size": 8670
+    },
+    {
+      "path": "sources/company_announcements/text/1223412460.txt",
+      "sha256": "ccc50874027d78ae35539ea5fba604e4e2c835fa1df43fbf217a2bb979b95b92",
+      "size": 41420
+    },
+    {
+      "path": "sources/company_announcements/text/1223426514.txt",
+      "sha256": "8b47eabb190278b874f78755bf353cf94535781cec7cea10f7998eb1a2a97683",
+      "size": 3687
+    },
+    {
+      "path": "sources/company_announcements/text/1223444055.txt",
+      "sha256": "7af8e6fa4b3396a7b43766e52d5bc2d1f6aef843a484b07f88237400c099c2ef",
+      "size": 2135
+    },
+    {
+      "path": "sources/csi300_daily_eastmoney_20191202_20250630.json",
+      "sha256": "63ac3a7ecfdea7a73fa1f9c888112ade033ebdf7a4442741636ed64350752b95",
+      "size": 125424
+    },
+    {
+      "path": "sources/industry_classification/StockClassifyUse_stock_2026-08-02.xls",
+      "sha256": "d0f92b795b3364da303d72c5a0464a79d7e4710c4b53f26f7fb510e8106c8843",
+      "size": 1162752
+    },
+    {
+      "path": "summary.json",
+      "sha256": "911ec7709d4d1ad38d91e130b6374d5fefd1eb6f4dc0bf5a39205518ebd65c65",
+      "size": 2025
+    },
+    {
+      "path": "trading_status_reviews.jsonl",
+      "sha256": "a2940b7b3b1f49dca35c1e57af8c94f6c70e76f7f64f9443efbc9090951e4a45",
+      "size": 113451
+    },
+    {
+      "path": "ui/index.html",
+      "sha256": "3af713600a6d9b498c6e3ee6d9257ce7420f9d2ae80bbdc0a2f89f8e63941917",
+      "size": 75310
+    },
+    {
+      "path": "ui/ui_data_bundle.js",
+      "sha256": "ae9dc24ad928e64d851b386c4d2175f5eddd49d2535d27554fa39964316a74ee",
+      "size": 4168432
+    },
+    {
+      "path": "validation_report.json",
+      "sha256": "f96d393b682753239dacc08b6a9540c1cd1cabf77a8e3c4002db2311200bf892",
+      "size": 2053
+    }
+  ],
+  "formal_ready": false,
+  "sha_gate": "DEFERRED"
+}

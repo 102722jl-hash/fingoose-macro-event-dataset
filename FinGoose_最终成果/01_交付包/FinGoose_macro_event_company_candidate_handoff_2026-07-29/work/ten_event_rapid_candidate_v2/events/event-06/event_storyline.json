@@ -1,0 +1,126 @@
+{
+  "event_id": "event-06",
+  "title": "OPEC+ 宣布额外自愿减产",
+  "ordering_basis": "CURATED_STORY_SEQUENCE",
+  "steps": [
+    {
+      "story_step_id": "story-event-06-01",
+      "sequence": 1,
+      "phase": "PRECONDITION",
+      "title_cn": "银行动荡后的油价回落构成候选背景",
+      "narrative_cn": "银行动荡后的油价回落构成候选背景。事件状态由“油价受需求与金融压力共同影响”转为“供给政策敏感度可能上升但待补证”，后续观察应使用新的阶段基准。",
+      "before_state_cn": "油价受需求与金融压力共同影响",
+      "after_state_cn": "供给政策敏感度可能上升但待补证",
+      "significance_cn": "该步骤建立冲击发生前的约束条件，并重新界定原油供给、通胀传导与全球增长的观察窗口与传导条件。",
+      "evidence_node_ids": [
+        "fast-event-06-M01"
+      ],
+      "period_start": null,
+      "period_end": null,
+      "time_precision": "UNKNOWN",
+      "evidence_status": "PENDING_EVIDENCE",
+      "evidence_boundary_cn": "核心事实仍待补证，当前只保留候选叙事，不进入干净归因评分。",
+      "activated_path_ids": [],
+      "amplified_path_ids": [],
+      "weakened_path_ids": [],
+      "market_series_ids": []
+    },
+    {
+      "story_step_id": "story-event-06-02",
+      "sequence": 2,
+      "phase": "PRECONDITION",
+      "title_cn": "冲击前石油基线得到官方展望支持",
+      "narrative_cn": "冲击前石油基线得到官方展望支持。事件状态由“供给政策敏感度可能上升但待补证”转为“冲击前供需基线可以独立观察”，后续观察应使用新的阶段基准。",
+      "before_state_cn": "供给政策敏感度可能上升但待补证",
+      "after_state_cn": "冲击前供需基线可以独立观察",
+      "significance_cn": "该步骤建立冲击发生前的约束条件，并重新界定原油供给、通胀传导与全球增长的观察窗口与传导条件。",
+      "evidence_node_ids": [
+        "fast-event-06-M02"
+      ],
+      "period_start": "2023-03-07T17:00:00+00:00",
+      "period_end": "2023-03-07T17:00:00+00:00",
+      "time_precision": "TIMESTAMP",
+      "evidence_status": "SUPPORTED",
+      "evidence_boundary_cn": "关联证据支持事件事实；前后状态与阶段意义属于可追溯的研究归纳。",
+      "activated_path_ids": [],
+      "amplified_path_ids": [],
+      "weakened_path_ids": [],
+      "market_series_ids": []
+    },
+    {
+      "story_step_id": "story-event-06-03",
+      "sequence": 3,
+      "phase": "INITIAL_SHOCK",
+      "title_cn": "OPEC+ 宣布额外自愿减产",
+      "narrative_cn": "OPEC+ 宣布额外自愿减产。事件状态由“冲击前供需基线可以独立观察”转为“额外减产改变近端供给预期”，后续观察应使用新的阶段基准。",
+      "before_state_cn": "冲击前供需基线可以独立观察",
+      "after_state_cn": "额外减产改变近端供给预期",
+      "significance_cn": "该步骤改变事件性质并启动核心市场重定价，并重新界定原油供给、通胀传导与全球增长的观察窗口与传导条件。",
+      "evidence_node_ids": [
+        "fast-event-06-M03"
+      ],
+      "period_start": "2023-04-03T09:00:00+00:00",
+      "period_end": "2023-04-03T09:00:00+00:00",
+      "time_precision": "TIMESTAMP",
+      "evidence_status": "SUPPORTED",
+      "evidence_boundary_cn": "关联证据支持事件事实；前后状态与阶段意义属于可追溯的研究归纳。",
+      "activated_path_ids": [
+        "event-06-P-oil-supply",
+        "event-06-P-inflation-pass-through",
+        "event-06-P-global-growth"
+      ],
+      "amplified_path_ids": [],
+      "weakened_path_ids": [],
+      "market_series_ids": [
+        "DCOILBRENTEU",
+        "DCOILWTICO",
+        "SP500",
+        "DEXCHUS"
+      ]
+    },
+    {
+      "story_step_id": "story-event-06-04",
+      "sequence": 4,
+      "phase": "ESCALATION",
+      "title_cn": "沙特追加每日一百万桶减产",
+      "narrative_cn": "沙特追加每日一百万桶减产。事件状态由“额外减产改变近端供给预期”转为“沙特加码提高收紧承诺持续性”，后续观察应使用新的阶段基准。",
+      "before_state_cn": "额外减产改变近端供给预期",
+      "after_state_cn": "沙特加码提高收紧承诺持续性",
+      "significance_cn": "该步骤扩大冲击范围或提高传导强度，并重新界定原油供给、通胀传导与全球增长的观察窗口与传导条件。",
+      "evidence_node_ids": [
+        "fast-event-06-M04"
+      ],
+      "period_start": "2023-06-04",
+      "period_end": "2023-06-04",
+      "time_precision": "DATE",
+      "evidence_status": "SUPPORTED",
+      "evidence_boundary_cn": "关联证据支持事件事实；前后状态与阶段意义属于可追溯的研究归纳。",
+      "activated_path_ids": [],
+      "amplified_path_ids": [],
+      "weakened_path_ids": [],
+      "market_series_ids": []
+    },
+    {
+      "story_step_id": "story-event-06-05",
+      "sequence": 5,
+      "phase": "EASING",
+      "title_cn": "OPEC+ 公布逐步退出自愿减产安排",
+      "narrative_cn": "OPEC+ 公布逐步退出自愿减产安排。事件状态由“沙特加码提高收紧承诺持续性”转为“退出路径使供应恢复速度可被评估”，后续观察应使用新的阶段基准。",
+      "before_state_cn": "沙特加码提高收紧承诺持续性",
+      "after_state_cn": "退出路径使供应恢复速度可被评估",
+      "significance_cn": "该步骤削弱先前冲击但不代表影响立即消失，并重新界定原油供给、通胀传导与全球增长的观察窗口与传导条件。",
+      "evidence_node_ids": [
+        "fast-event-06-M05"
+      ],
+      "period_start": "2024-06-02",
+      "period_end": "2024-06-02",
+      "time_precision": "DATE",
+      "evidence_status": "SUPPORTED",
+      "evidence_boundary_cn": "关联证据支持事件事实；前后状态与阶段意义属于可追溯的研究归纳。",
+      "activated_path_ids": [],
+      "amplified_path_ids": [],
+      "weakened_path_ids": [],
+      "market_series_ids": []
+    }
+  ]
+}

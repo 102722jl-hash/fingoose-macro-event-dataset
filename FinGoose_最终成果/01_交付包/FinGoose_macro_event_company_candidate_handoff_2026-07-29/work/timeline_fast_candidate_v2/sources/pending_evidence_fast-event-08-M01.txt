@@ -1,0 +1,14 @@
+EVIDENCE SPEC (snapshot not retrievable automatically - manual drop-in required)
+NODE: fast-event-08-M01
+OFFICIAL_URL: https://www.boj.or.jp/en/mopo/mpmdeci/mpo_2023/mp230728a.htm
+PUBLISHER: Bank of Japan
+
+VERBATIM QUOTE (target):
+  "greater flexibility"
+
+OCCURRED_AT: 2023-07-28T03:00:00Z (Asia/Tokyo (UTC+9))
+  locator: BOJ statement 28 Jul 2023: 'The Bank will conduct Yield Curve Control with greater flexibility ... offer to purchase 10-year JGBs at 1.0 percent.'
+FIRST_PUBLIC_AT: 2023-07-28T03:00:00Z (Asia/Tokyo (UTC+9))
+  locator: BOJ mpo_2023 monetary policy statement published 28 Jul 2023.
+
+FACT: The Bank of Japan allowed greater flexibility in Yield Curve Control (YCC), offering to buy 10-year JGBs at 1.0% - the normalization precursor.

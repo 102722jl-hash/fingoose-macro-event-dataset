@@ -1,0 +1,20 @@
+{
+  "availability_audit_id": "mysql-industry-market-availability-audit-2026-08-04",
+  "checked_at": "2026-08-04T09:08:26.1084608+08:00",
+  "database": "workspace",
+  "query_type": "READ_ONLY_METADATA_AUDIT",
+  "matched_tables": [
+    "ccommodityfutureseodprices_202607231545"
+  ],
+  "shenwan_index_history_available": false,
+  "csi300_history_available": false,
+  "a_share_history_available": false,
+  "reason_codes": [
+    "SHENWAN_INDEX_HISTORY_NOT_AVAILABLE",
+    "CSI300_HISTORY_NOT_AVAILABLE_IN_LICENSED_DATABASE"
+  ],
+  "gap_status": "OPEN",
+  "execution_authenticity_status": "LOCAL_READ_ONLY_QUERY_NO_SIGNED_LOG",
+  "credentials_included": false,
+  "licence_status": "NO_MATCHED_LICENSED_SERIES"
+}

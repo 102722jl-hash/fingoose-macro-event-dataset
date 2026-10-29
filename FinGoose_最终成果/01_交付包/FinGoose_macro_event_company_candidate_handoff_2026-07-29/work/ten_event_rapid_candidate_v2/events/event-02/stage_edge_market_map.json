@@ -1,0 +1,59 @@
+{
+  "event_id": "event-02",
+  "mapping_rule": "node -> rule-matched core paths -> preselected core series",
+  "node_mappings": [
+    {
+      "fast_node_id": "fast-event-02-M01",
+      "phase": "PRECONDITION",
+      "node_action": "OBSERVES",
+      "path_ids": [],
+      "series_ids": [],
+      "market_window_status": "PENDING_EVIDENCE"
+    },
+    {
+      "fast_node_id": "fast-event-02-M02",
+      "phase": "PRECONDITION",
+      "node_action": "AMPLIFIES",
+      "path_ids": [],
+      "series_ids": [],
+      "market_window_status": "SAME_DAY_UNRESOLVED"
+    },
+    {
+      "fast_node_id": "fast-event-02-M03",
+      "phase": "INITIAL_SHOCK",
+      "node_action": "STARTS",
+      "path_ids": [
+        "event-02-P-energy-supply",
+        "event-02-P-inflation-rates",
+        "event-02-P-risk-appetite"
+      ],
+      "series_ids": [
+        "DCOILBRENTEU",
+        "DHHNGSP",
+        "SP500",
+        "VIXCLS"
+      ],
+      "market_window_status": "PRIMARY_ANCHOR"
+    },
+    {
+      "fast_node_id": "fast-event-02-M04",
+      "phase": "POLICY_RESPONSE",
+      "node_action": "AMPLIFIES",
+      "path_ids": [],
+      "series_ids": [],
+      "market_window_status": "SAME_DAY_UNRESOLVED"
+    },
+    {
+      "fast_node_id": "fast-event-02-M05",
+      "phase": "POLICY_RESPONSE",
+      "node_action": "AMPLIFIES",
+      "path_ids": [
+        "event-02-P-sanctions-trade"
+      ],
+      "series_ids": [
+        "DCOILBRENTEU"
+      ],
+      "market_window_status": "OUTSIDE_PRIMARY_ANCHOR_WINDOW"
+    }
+  ]
+}

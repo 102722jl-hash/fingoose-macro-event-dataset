@@ -1,0 +1,1034 @@
+{
+  "dataset_version": "fingoose-event-01-industry-closure-v2-candidate",
+  "event_id": "event-01",
+  "event_title_zh": "WHO 宣布 COVID-19 构成全球大流行",
+  "anchor_node_id": "fast-event-01-M04",
+  "profiles": [
+    {
+      "event_industry_mapping_id": "event-industry-event-01-801150",
+      "event_id": "event-01",
+      "event_title_zh": "WHO 宣布 COVID-19 构成全球大流行",
+      "anchor_node_id": "fast-event-01-M04",
+      "classification_edition": "SW2014",
+      "sw1_id": "801150",
+      "sw1_name_at_event": "医药生物",
+      "display_name_zh": "医药生物",
+      "impact_tier": "CORE_DIRECT",
+      "segment_labels_zh": [
+        "体外诊断",
+        "检测试剂",
+        "医疗服务"
+      ],
+      "driver_series_id": "event01-driver-test-kit-approvals",
+      "driver_name_zh": "COVID-19 检测试剂获批数量",
+      "driver_unit_zh": "个",
+      "horizon_directions": {
+        "IMMEDIATE": "MIXED",
+        "SHORT_TERM": "POSITIVE",
+        "MEDIUM_TERM": "MIXED"
+      },
+      "condition_zh": "检测需求能够转化为已获准入产品的产量和销售，且增量收入超过常规诊疗收缩。",
+      "invalidation_condition_zh": "公司缺少获批产品或常规诊疗停滞、价格下调和扩产成本抵消检测增量。",
+      "mechanism_steps": [
+        {
+          "step_number": 1,
+          "step_type": "EVENT_FACT",
+          "statement_class": "SOURCE_FACT",
+          "statement_zh": "2020年3月11日，WHO 宣布 COVID-19 已可被定性为全球大流行。",
+          "evidence_ids": [
+            "event01-who-pandemic"
+          ]
+        },
+        {
+          "step_number": 2,
+          "step_type": "BEHAVIOR_OR_POLICY_CHANGE",
+          "statement_class": "SOURCE_FACT",
+          "statement_zh": "中国第六版诊疗方案将新型冠状病毒核酸检测阳性列为确诊所需的病原学证据，检测成为诊疗流程中的关键环节。",
+          "evidence_ids": [
+            "event01-gov-diagnosis-v6"
+          ]
+        },
+        {
+          "step_number": 3,
+          "step_type": "OBSERVABLE_DRIVER",
+          "statement_class": "SOURCE_FACT",
+          "statement_zh": "截至2020年3月30日，国家药监局应急审批23个新冠病毒检测试剂，其中核酸检测试剂15个、抗体检测试剂8个。",
+          "evidence_ids": [
+            "event01-nmpa-test-kits"
+          ]
+        },
+        {
+          "step_number": 4,
+          "step_type": "INDUSTRY_OPERATING_VARIABLE",
+          "statement_class": "SOURCE_FACT",
+          "statement_zh": "审批数量和诊疗规则共同约束可销售试剂范围，并影响试剂准入、产量与实际检测量。",
+          "evidence_ids": [
+            "event01-gov-diagnosis-v6",
+            "event01-nmpa-test-kits"
+          ]
+        },
+        {
+          "step_number": 5,
+          "step_type": "INDUSTRY_REVENUE_OR_COST_VARIABLE",
+          "statement_class": "RESEARCH_INFERENCE",
+          "statement_zh": "已获批检测企业可能获得试剂收入和产能利用率提升，但医院常规诊疗收缩会压低其他业务收入并改变毛利结构。",
+          "evidence_ids": [],
+          "premise_step_numbers": [
+            2,
+            3,
+            4
+          ],
+          "condition_zh": "企业拥有对应获批产品和可兑现产能。",
+          "invalidation_zh": "未获批、价格快速下降或常规业务损失更大。"
+        },
+        {
+          "step_number": 6,
+          "step_type": "DIRECTION_ASSESSMENT",
+          "statement_class": "RESEARCH_INFERENCE",
+          "statement_zh": "即时影响混合，短期对具备核酸检测准入和产能的企业偏正，中期随检测价格、竞争和常规诊疗恢复转为混合。",
+          "evidence_ids": [],
+          "premise_step_numbers": [
+            3,
+            4,
+            5
+          ],
+          "condition_zh": "检测试剂收入增量可持续兑现。",
+          "invalidation_zh": "需求回落或供给扩张导致量价同时转弱。"
+        },
+        {
+          "step_number": 7,
+          "step_type": "PRICE_CONFOUNDER_AND_COUNTEREVIDENCE",
+          "statement_class": "CALCULATED_FACT",
+          "statement_zh": "使用申万医药生物指数相对沪深300窗口验证市场反应；国内疫情进程和审批早于 WHO 定性，价格窗口不能单独证明因果。",
+          "evidence_ids": []
+        }
+      ],
+      "review_status": "NEEDS_HUMAN_REVIEW",
+      "formal_ready": false,
+      "sha_gate": "DEFERRED",
+      "confounders": [
+        {
+          "confounder_id": "event01-confounder-801150",
+          "event_zh": "中国国内疫情、检测试剂审批与常规诊疗变化早于 WHO 全球大流行定性",
+          "affected_windows": [
+            "T_MINUS_1",
+            "T0",
+            "D1",
+            "D3",
+            "D5",
+            "D20"
+          ],
+          "severity": "MATERIAL",
+          "mechanism_overlap": "检测需求和试剂准入已在国内防控阶段形成，同时常规门诊与手术收缩。",
+          "alternative_explanation_zh": "医药行业表现可能来自国内审批节奏和诊疗结构变化，而不是 WHO 定性本身。",
+          "counterevidence_zh": [
+            "WHO 定性仍可能改变海外检测需求和全球风险认知。"
+          ],
+          "attribution_limit_zh": "只能解释为公共卫生冲击阶段的行业反应，不能将窗口收益完全归因于 WHO 单一节点。",
+          "evidence_ids": [
+            "event01-gov-diagnosis-v6",
+            "event01-nmpa-test-kits"
+          ],
+          "challenge_set_only": true
+        }
+      ]
+    },
+    {
+      "event_industry_mapping_id": "event-industry-event-01-801170",
+      "event_id": "event-01",
+      "event_title_zh": "WHO 宣布 COVID-19 构成全球大流行",
+      "anchor_node_id": "fast-event-01-M04",
+      "classification_edition": "SW2014",
+      "sw1_id": "801170",
+      "sw1_name_at_event": "交通运输",
+      "display_name_zh": "交通运输",
+      "impact_tier": "CORE_DIRECT",
+      "segment_labels_zh": [
+        "航空",
+        "机场"
+      ],
+      "driver_series_id": "event01-driver-air-rpk",
+      "driver_name_zh": "航空旅客收入客公里（RPK）同比",
+      "driver_unit_zh": "%",
+      "horizon_directions": {
+        "IMMEDIATE": "NEGATIVE",
+        "SHORT_TERM": "NEGATIVE",
+        "MEDIUM_TERM": "MIXED"
+      },
+      "condition_zh": "旅行限制和居民主动减少出行持续压低航班与旅客量。",
+      "invalidation_condition_zh": "限制快速解除、国内客流替代或政策补贴足以覆盖停航损失。",
+      "mechanism_steps": [
+        {
+          "step_number": 1,
+          "step_type": "EVENT_FACT",
+          "statement_class": "SOURCE_FACT",
+          "statement_zh": "2020年3月11日，WHO 宣布 COVID-19 构成全球大流行。",
+          "evidence_ids": [
+            "event01-who-pandemic"
+          ]
+        },
+        {
+          "step_number": 2,
+          "step_type": "BEHAVIOR_OR_POLICY_CHANGE",
+          "statement_class": "SOURCE_FACT",
+          "statement_zh": "各经济体扩大入境、边境和航班限制，居民也主动减少跨境与国内出行。",
+          "evidence_ids": [
+            "event01-unwto-restrictions"
+          ]
+        },
+        {
+          "step_number": 3,
+          "step_type": "OBSERVABLE_DRIVER",
+          "statement_class": "SOURCE_FACT",
+          "statement_zh": "IATA 记录2020年3月全球航空 RPK 同比下降52.9%，中国国内 RPK 同比下降65.5%。",
+          "evidence_ids": [
+            "event01-iata-mar-rpk"
+          ]
+        },
+        {
+          "step_number": 4,
+          "step_type": "INDUSTRY_OPERATING_VARIABLE",
+          "statement_class": "SOURCE_FACT",
+          "statement_zh": "旅客量下降传导至航班量、客座率和机场旅客吞吐量，压低航空与机场核心经营利用率。",
+          "evidence_ids": [
+            "event01-iata-mar-rpk",
+            "event01-caac-2020"
+          ]
+        },
+        {
+          "step_number": 5,
+          "step_type": "INDUSTRY_REVENUE_OR_COST_VARIABLE",
+          "statement_class": "RESEARCH_INFERENCE",
+          "statement_zh": "客运收入、机场航空性及非航空性收入下降，而飞机折旧、租赁和机场固定成本难以同步收缩。",
+          "evidence_ids": [],
+          "premise_step_numbers": [
+            2,
+            3,
+            4
+          ],
+          "condition_zh": "运力削减慢于旅客需求下滑。",
+          "invalidation_zh": "补贴、货运增长或成本重谈覆盖客运损失。"
+        },
+        {
+          "step_number": 6,
+          "step_type": "DIRECTION_ASSESSMENT",
+          "statement_class": "RESEARCH_INFERENCE",
+          "statement_zh": "即时和短期对航空机场偏负，中期取决于限制解除速度、需求修复和行业供给出清。",
+          "evidence_ids": [],
+          "premise_step_numbers": [
+            3,
+            4,
+            5
+          ],
+          "condition_zh": "客流收缩持续。",
+          "invalidation_zh": "客流恢复显著快于市场预期。"
+        },
+        {
+          "step_number": 7,
+          "step_type": "PRICE_CONFOUNDER_AND_COUNTEREVIDENCE",
+          "statement_class": "CALCULATED_FACT",
+          "statement_zh": "以申万交通运输指数和沪深300共同交易日验证；旅行限制在 WHO 定性前已实施，油价下跌又降低航空燃油成本，构成方向相反的竞争解释。",
+          "evidence_ids": []
+        }
+      ],
+      "review_status": "NEEDS_HUMAN_REVIEW",
+      "formal_ready": false,
+      "sha_gate": "DEFERRED",
+      "confounders": [
+        {
+          "confounder_id": "event01-confounder-801170",
+          "event_zh": "多国旅行限制和中国国内交通管控在 WHO 定性前已经生效",
+          "affected_windows": [
+            "T_MINUS_1",
+            "T0",
+            "D1",
+            "D3",
+            "D5",
+            "D20"
+          ],
+          "severity": "MATERIAL",
+          "mechanism_overlap": "旅行限制与居民主动减少出行同时压低航班、客座率和机场吞吐量。",
+          "alternative_explanation_zh": "客运数据下降主要由各地限制政策累计造成，WHO 节点可能只是确认而非首次冲击。",
+          "counterevidence_zh": [
+            "全球大流行定性可能触发更多国家同步升级限制。",
+            "原油价格下跌降低航空燃油成本，方向相反。"
+          ],
+          "attribution_limit_zh": "价格窗口只能验证综合冲击，不能分离 WHO 定性、旅行限制和油价变化。",
+          "evidence_ids": [
+            "event01-unwto-restrictions",
+            "event01-iata-mar-rpk",
+            "event01-eia-mar20-steo"
+          ],
+          "challenge_set_only": true
+        }
+      ]
+    },
+    {
+      "event_industry_mapping_id": "event-industry-event-01-801210",
+      "event_id": "event-01",
+      "event_title_zh": "WHO 宣布 COVID-19 构成全球大流行",
+      "anchor_node_id": "fast-event-01-M04",
+      "classification_edition": "SW2014",
+      "sw1_id": "801210",
+      "sw1_name_at_event": "休闲服务",
+      "display_name_zh": "社会服务",
+      "impact_tier": "CORE_DIRECT",
+      "segment_labels_zh": [
+        "酒店",
+        "旅游",
+        "景区"
+      ],
+      "driver_series_id": "event01-driver-domestic-tourists",
+      "driver_name_zh": "国内旅游人次同比",
+      "driver_unit_zh": "%",
+      "horizon_directions": {
+        "IMMEDIATE": "NEGATIVE",
+        "SHORT_TERM": "NEGATIVE",
+        "MEDIUM_TERM": "MIXED"
+      },
+      "condition_zh": "跨境和本地旅游活动持续受限。",
+      "invalidation_condition_zh": "本地休闲需求快速替代跨境需求并带动入住率恢复。",
+      "mechanism_steps": [
+        {
+          "step_number": 1,
+          "step_type": "EVENT_FACT",
+          "statement_class": "SOURCE_FACT",
+          "statement_zh": "2020年3月11日，WHO 宣布 COVID-19 构成全球大流行。",
+          "evidence_ids": [
+            "event01-who-pandemic"
+          ]
+        },
+        {
+          "step_number": 2,
+          "step_type": "BEHAVIOR_OR_POLICY_CHANGE",
+          "statement_class": "SOURCE_FACT",
+          "statement_zh": "旅行限制、景区关闭和居民规避聚集共同压缩跨境与本地旅游活动。",
+          "evidence_ids": [
+            "event01-unwto-restrictions"
+          ]
+        },
+        {
+          "step_number": 3,
+          "step_type": "OBSERVABLE_DRIVER",
+          "statement_class": "SOURCE_FACT",
+          "statement_zh": "2020年一季度国内旅游人次2.95亿，同比下降83.4%。",
+          "evidence_ids": [
+            "event01-mct-tourism-2020"
+          ]
+        },
+        {
+          "step_number": 4,
+          "step_type": "INDUSTRY_OPERATING_VARIABLE",
+          "statement_class": "SOURCE_FACT",
+          "statement_zh": "旅游人次骤降直接压低酒店预订、入住率、景区客流和旅行社订单。",
+          "evidence_ids": [
+            "event01-mct-tourism-2020"
+          ]
+        },
+        {
+          "step_number": 5,
+          "step_type": "INDUSTRY_REVENUE_OR_COST_VARIABLE",
+          "statement_class": "RESEARCH_INFERENCE",
+          "statement_zh": "房费、旅游团费和门票收入收缩，租赁、折旧及人工等固定支出使利润降幅可能大于收入降幅。",
+          "evidence_ids": [],
+          "premise_step_numbers": [
+            2,
+            3,
+            4
+          ],
+          "condition_zh": "固定成本占比较高且客流低位持续。",
+          "invalidation_zh": "快速复业、费用减免或资产轻型模式显著缓冲。"
+        },
+        {
+          "step_number": 6,
+          "step_type": "DIRECTION_ASSESSMENT",
+          "statement_class": "RESEARCH_INFERENCE",
+          "statement_zh": "即时和短期偏负；中期随限制解除和被压抑需求释放转为混合。",
+          "evidence_ids": [],
+          "premise_step_numbers": [
+            3,
+            4,
+            5
+          ],
+          "condition_zh": "旅游限制持续。",
+          "invalidation_zh": "本地和国内旅游提前恢复。"
+        },
+        {
+          "step_number": 7,
+          "step_type": "PRICE_CONFOUNDER_AND_COUNTEREVIDENCE",
+          "statement_class": "CALCULATED_FACT",
+          "statement_zh": "以事件日名称“休闲服务”的申万指数对比沪深300；国内旅游在 WHO 定性前已明显收缩，窗口包含提前反应。",
+          "evidence_ids": []
+        }
+      ],
+      "review_status": "NEEDS_HUMAN_REVIEW",
+      "formal_ready": false,
+      "sha_gate": "DEFERRED",
+      "confounders": [
+        {
+          "confounder_id": "event01-confounder-801210",
+          "event_zh": "国内旅游活动在 WHO 定性前已因本地防控大幅收缩",
+          "affected_windows": [
+            "T_MINUS_1",
+            "T0",
+            "D1",
+            "D3",
+            "D5",
+            "D20"
+          ],
+          "severity": "MATERIAL",
+          "mechanism_overlap": "景区关闭、跨区流动限制和居民风险规避共同影响酒店及旅游客流。",
+          "alternative_explanation_zh": "一季度旅游降幅反映此前数周累计冲击，不能视为 3 月 11 日单日新增影响。",
+          "counterevidence_zh": [
+            "全球定性可能进一步推迟跨境旅游恢复。"
+          ],
+          "attribution_limit_zh": "仅能识别旅游限制阶段的综合行业压力。",
+          "evidence_ids": [
+            "event01-unwto-restrictions",
+            "event01-mct-tourism-2020"
+          ],
+          "challenge_set_only": true
+        }
+      ]
+    },
+    {
+      "event_industry_mapping_id": "event-industry-event-01-801200",
+      "event_id": "event-01",
+      "event_title_zh": "WHO 宣布 COVID-19 构成全球大流行",
+      "anchor_node_id": "fast-event-01-M04",
+      "classification_edition": "SW2014",
+      "sw1_id": "801200",
+      "sw1_name_at_event": "商业贸易",
+      "display_name_zh": "商贸零售",
+      "impact_tier": "SECOND_ORDER",
+      "segment_labels_zh": [
+        "线下零售",
+        "购物中心",
+        "线上迁移"
+      ],
+      "driver_series_id": "event01-driver-retail-sales",
+      "driver_name_zh": "社会消费品零售总额同比",
+      "driver_unit_zh": "%",
+      "horizon_directions": {
+        "IMMEDIATE": "NEGATIVE",
+        "SHORT_TERM": "NEGATIVE",
+        "MEDIUM_TERM": "MIXED"
+      },
+      "condition_zh": "线下客流下降且线上渠道不足以补偿。",
+      "invalidation_condition_zh": "线上销售、必选消费和租金减免充分对冲。",
+      "mechanism_steps": [
+        {
+          "step_number": 1,
+          "step_type": "EVENT_FACT",
+          "statement_class": "SOURCE_FACT",
+          "statement_zh": "2020年3月11日，WHO 宣布 COVID-19 构成全球大流行。",
+          "evidence_ids": [
+            "event01-who-pandemic"
+          ]
+        },
+        {
+          "step_number": 2,
+          "step_type": "BEHAVIOR_OR_POLICY_CHANGE",
+          "statement_class": "SOURCE_FACT",
+          "statement_zh": "居民减少线下聚集和非必要到店消费，零售需求向线上及必选品迁移。",
+          "evidence_ids": [
+            "event01-nbs-retail-mar"
+          ]
+        },
+        {
+          "step_number": 3,
+          "step_type": "OBSERVABLE_DRIVER",
+          "statement_class": "SOURCE_FACT",
+          "statement_zh": "2020年3月社会消费品零售总额26450亿元，同比下降15.8%，餐饮收入降幅更大。",
+          "evidence_ids": [
+            "event01-nbs-retail-mar"
+          ]
+        },
+        {
+          "step_number": 4,
+          "step_type": "INDUSTRY_OPERATING_VARIABLE",
+          "statement_class": "SOURCE_FACT",
+          "statement_zh": "零售总额和分业态数据反映门店客流、同店销售、线上迁移与库存周转的分化。",
+          "evidence_ids": [
+            "event01-nbs-retail-mar"
+          ]
+        },
+        {
+          "step_number": 5,
+          "step_type": "INDUSTRY_REVENUE_OR_COST_VARIABLE",
+          "statement_class": "RESEARCH_INFERENCE",
+          "statement_zh": "线下零售收入下降并产生租金减免、促销和库存损失压力，线上能力强或必选品占比高的企业相对抗压。",
+          "evidence_ids": [],
+          "premise_step_numbers": [
+            2,
+            3,
+            4
+          ],
+          "condition_zh": "到店需求收缩超过线上增量。",
+          "invalidation_zh": "线上履约和必选品增长覆盖门店损失。"
+        },
+        {
+          "step_number": 6,
+          "step_type": "DIRECTION_ASSESSMENT",
+          "statement_class": "RESEARCH_INFERENCE",
+          "statement_zh": "即时和短期对以线下可选消费为主的行业偏负，中期因线上能力和品类结构而混合。",
+          "evidence_ids": [],
+          "premise_step_numbers": [
+            3,
+            4,
+            5
+          ],
+          "condition_zh": "线下消费限制延续。",
+          "invalidation_zh": "客流快速恢复或渠道迁移成功。"
+        },
+        {
+          "step_number": 7,
+          "step_type": "PRICE_CONFOUNDER_AND_COUNTEREVIDENCE",
+          "statement_class": "CALCULATED_FACT",
+          "statement_zh": "以事件日名称“商业贸易”的申万指数对比沪深300；居民收入预期、线上零售结构和国内防控节奏均可能主导行业表现。",
+          "evidence_ids": []
+        }
+      ],
+      "review_status": "NEEDS_HUMAN_REVIEW",
+      "formal_ready": false,
+      "sha_gate": "DEFERRED",
+      "confounders": [
+        {
+          "confounder_id": "event01-confounder-801200",
+          "event_zh": "国内管控、居民收入预期和线上迁移共同改变零售需求",
+          "affected_windows": [
+            "T_MINUS_1",
+            "T0",
+            "D1",
+            "D3",
+            "D5",
+            "D20"
+          ],
+          "severity": "MATERIAL",
+          "mechanism_overlap": "到店客流下降、收入预期走弱和线上替代同时影响同店销售及库存。",
+          "alternative_explanation_zh": "行业价格变化可能由国内复工节奏和线上渠道差异主导。",
+          "counterevidence_zh": [
+            "必选消费和线上零售可能对冲线下可选消费下降。"
+          ],
+          "attribution_limit_zh": "不能用单一行业指数代表所有零售业态，也不能归因于 WHO 单一节点。",
+          "evidence_ids": [
+            "event01-nbs-retail-mar"
+          ],
+          "challenge_set_only": true
+        }
+      ]
+    },
+    {
+      "event_industry_mapping_id": "event-industry-event-01-801760",
+      "event_id": "event-01",
+      "event_title_zh": "WHO 宣布 COVID-19 构成全球大流行",
+      "anchor_node_id": "fast-event-01-M04",
+      "classification_edition": "SW2014",
+      "sw1_id": "801760",
+      "sw1_name_at_event": "传媒",
+      "display_name_zh": "传媒",
+      "impact_tier": "SECOND_ORDER",
+      "segment_labels_zh": [
+        "影视院线",
+        "电影制作",
+        "线上娱乐"
+      ],
+      "driver_series_id": "event01-driver-cinema-status",
+      "driver_name_zh": "影院营业与票房状态",
+      "driver_unit_zh": "状态/亿元",
+      "horizon_directions": {
+        "IMMEDIATE": "NEGATIVE",
+        "SHORT_TERM": "NEGATIVE",
+        "MEDIUM_TERM": "MIXED"
+      },
+      "condition_zh": "聚集活动限制导致影院持续停业。",
+      "invalidation_condition_zh": "线上娱乐收入增长足以覆盖院线和内容损失。",
+      "mechanism_steps": [
+        {
+          "step_number": 1,
+          "step_type": "EVENT_FACT",
+          "statement_class": "SOURCE_FACT",
+          "statement_zh": "2020年3月11日，WHO 宣布 COVID-19 构成全球大流行。",
+          "evidence_ids": [
+            "event01-who-pandemic"
+          ]
+        },
+        {
+          "step_number": 2,
+          "step_type": "BEHAVIOR_OR_POLICY_CHANGE",
+          "statement_class": "SOURCE_FACT",
+          "statement_zh": "疫情防控使全国影院暂停营业，电影制作、发行与宣传活动同步停滞。",
+          "evidence_ids": [
+            "event01-film-covid-meeting"
+          ]
+        },
+        {
+          "step_number": 3,
+          "step_type": "OBSERVABLE_DRIVER",
+          "statement_class": "SOURCE_FACT",
+          "statement_zh": "影院营业状态、观影人次和票房收入在停业期接近冻结，地区材料进一步显示票房大幅下降。",
+          "evidence_ids": [
+            "event01-film-covid-meeting",
+            "event01-film-guangdong"
+          ]
+        },
+        {
+          "step_number": 4,
+          "step_type": "INDUSTRY_OPERATING_VARIABLE",
+          "statement_class": "SOURCE_FACT",
+          "statement_zh": "影院营业率、排片数量、观影人次和新片供给共同决定院线经营恢复。",
+          "evidence_ids": [
+            "event01-film-covid-meeting"
+          ]
+        },
+        {
+          "step_number": 5,
+          "step_type": "INDUSTRY_REVENUE_OR_COST_VARIABLE",
+          "statement_class": "RESEARCH_INFERENCE",
+          "statement_zh": "票房分账和广告收入下降，而影院租赁、折旧及人员成本仍需承担；线上视频和游戏板块可能反向受益。",
+          "evidence_ids": [],
+          "premise_step_numbers": [
+            2,
+            3,
+            4
+          ],
+          "condition_zh": "影院业务占比较高。",
+          "invalidation_zh": "线上业务收入足以覆盖线下损失。"
+        },
+        {
+          "step_number": 6,
+          "step_type": "DIRECTION_ASSESSMENT",
+          "statement_class": "RESEARCH_INFERENCE",
+          "statement_zh": "即时和短期对影视院线偏负，对综合传媒行业则因线上业务受益而存在分化；中期为混合。",
+          "evidence_ids": [],
+          "premise_step_numbers": [
+            3,
+            4,
+            5
+          ],
+          "condition_zh": "院线停业持续且内容延期。",
+          "invalidation_zh": "影院快速复业或线上业务占比高。"
+        },
+        {
+          "step_number": 7,
+          "step_type": "PRICE_CONFOUNDER_AND_COUNTEREVIDENCE",
+          "statement_class": "CALCULATED_FACT",
+          "statement_zh": "申万传媒指数包含游戏、广告和互联网媒体，不能把指数涨跌直接等同于院线影响；需同时登记线上娱乐的反向机制。",
+          "evidence_ids": []
+        }
+      ],
+      "review_status": "NEEDS_HUMAN_REVIEW",
+      "formal_ready": false,
+      "sha_gate": "DEFERRED",
+      "confounders": [
+        {
+          "confounder_id": "event01-confounder-801760",
+          "event_zh": "中国影院在 2020 年 1 月已经停业，WHO 节点不是首次冲击",
+          "affected_windows": [
+            "T_MINUS_1",
+            "T0",
+            "D1",
+            "D3",
+            "D5",
+            "D20"
+          ],
+          "severity": "MATERIAL",
+          "mechanism_overlap": "影院停业和内容延期早于全球定性，线上娱乐又可能形成反向收益。",
+          "alternative_explanation_zh": "院线经营压力主要来自国内早期停业，传媒指数还受游戏和互联网媒体影响。",
+          "counterevidence_zh": [
+            "全球疫情扩散继续影响进口影片、制作和宣发恢复。"
+          ],
+          "attribution_limit_zh": "指数窗口不能代表纯院线机制，只能作为综合传媒验证。",
+          "evidence_ids": [
+            "event01-film-covid-meeting",
+            "event01-film-guangdong"
+          ],
+          "challenge_set_only": true
+        }
+      ]
+    },
+    {
+      "event_industry_mapping_id": "event-industry-event-01-801020",
+      "event_id": "event-01",
+      "event_title_zh": "WHO 宣布 COVID-19 构成全球大流行",
+      "anchor_node_id": "fast-event-01-M04",
+      "classification_edition": "SW2014",
+      "sw1_id": "801020",
+      "sw1_name_at_event": "采掘",
+      "display_name_zh": "采掘",
+      "impact_tier": "SECOND_ORDER",
+      "segment_labels_zh": [
+        "石油石化细分暴露",
+        "原油需求",
+        "炼化"
+      ],
+      "driver_series_id": "event01-driver-wti-demand",
+      "driver_name_zh": "全球原油需求预测与 WTI 价格",
+      "driver_unit_zh": "百万桶/日、美元/桶",
+      "horizon_directions": {
+        "IMMEDIATE": "NEGATIVE",
+        "SHORT_TERM": "NEGATIVE",
+        "MEDIUM_TERM": "MIXED"
+      },
+      "condition_zh": "需求损失大于主要产油国协调减产。",
+      "invalidation_condition_zh": "主要产油国快速减产或库存去化。",
+      "mechanism_steps": [
+        {
+          "step_number": 1,
+          "step_type": "EVENT_FACT",
+          "statement_class": "SOURCE_FACT",
+          "statement_zh": "2020年3月11日，WHO 宣布 COVID-19 构成全球大流行。",
+          "evidence_ids": [
+            "event01-who-pandemic"
+          ]
+        },
+        {
+          "step_number": 2,
+          "step_type": "BEHAVIOR_OR_POLICY_CHANGE",
+          "statement_class": "SOURCE_FACT",
+          "statement_zh": "旅行、运输和工业活动预期同步下降；同时 OPEC 与俄罗斯协调破裂放大短期供给压力。",
+          "evidence_ids": [
+            "event01-eia-mar20-steo"
+          ]
+        },
+        {
+          "step_number": 3,
+          "step_type": "OBSERVABLE_DRIVER",
+          "statement_class": "SOURCE_FACT",
+          "statement_zh": "EIA 下调原油需求与价格预期，市场关注库存上升和 WTI 现货价格下行。",
+          "evidence_ids": [
+            "event01-eia-mar20-steo"
+          ]
+        },
+        {
+          "step_number": 4,
+          "step_type": "INDUSTRY_OPERATING_VARIABLE",
+          "statement_class": "SOURCE_FACT",
+          "statement_zh": "需求预期下降传导至炼厂开工、成品油需求、商业库存和油气产量调整。",
+          "evidence_ids": [
+            "event01-eia-mar20-steo"
+          ]
+        },
+        {
+          "step_number": 5,
+          "step_type": "INDUSTRY_REVENUE_OR_COST_VARIABLE",
+          "statement_class": "RESEARCH_INFERENCE",
+          "statement_zh": "上游实现油价和现金流承压；炼化企业还受产品价差、库存损益和低价原料收益的双向影响。",
+          "evidence_ids": [],
+          "premise_step_numbers": [
+            2,
+            3,
+            4
+          ],
+          "condition_zh": "油价与需求持续低迷。",
+          "invalidation_zh": "减产、低成本资源或炼化价差改善对冲。"
+        },
+        {
+          "step_number": 6,
+          "step_type": "DIRECTION_ASSESSMENT",
+          "statement_class": "RESEARCH_INFERENCE",
+          "statement_zh": "即时和短期对采掘中的油气暴露偏负，中期取决于减产、库存和炼化价差，方向混合。",
+          "evidence_ids": [],
+          "premise_step_numbers": [
+            3,
+            4,
+            5
+          ],
+          "condition_zh": "需求冲击主导。",
+          "invalidation_zh": "供给收缩快于需求下降。"
+        },
+        {
+          "step_number": 7,
+          "step_type": "PRICE_CONFOUNDER_AND_COUNTEREVIDENCE",
+          "statement_class": "CALCULATED_FACT",
+          "statement_zh": "801020 在事件日名称为“采掘”，包含煤炭等非石油业务；油价战是重大并发冲击，行业指数不能作为纯疫情或纯石油石化验证。",
+          "evidence_ids": []
+        }
+      ],
+      "review_status": "NEEDS_HUMAN_REVIEW",
+      "formal_ready": false,
+      "sha_gate": "DEFERRED",
+      "confounders": [
+        {
+          "confounder_id": "event01-confounder-801020",
+          "event_zh": "2020 年 3 月 6 日 OPEC+ 协调破裂及沙特与俄罗斯价格战",
+          "affected_windows": [
+            "T_MINUS_1",
+            "T0",
+            "D1",
+            "D3",
+            "D5",
+            "D20"
+          ],
+          "severity": "DOMINANT",
+          "mechanism_overlap": "供给扩张预期与疫情需求下降同时压低油价并推高库存。",
+          "alternative_explanation_zh": "价格战可能主导原油和采掘行业窗口，疫情只是并行的需求冲击。",
+          "counterevidence_zh": [
+            "全球旅行与工业活动收缩对中期需求仍有独立影响。"
+          ],
+          "attribution_limit_zh": "样本仅进入挑战集，不进入干净疫情归因主分数。",
+          "evidence_ids": [
+            "event01-eia-mar20-steo"
+          ],
+          "challenge_set_only": true
+        }
+      ]
+    },
+    {
+      "event_industry_mapping_id": "event-industry-event-01-801750",
+      "event_id": "event-01",
+      "event_title_zh": "WHO 宣布 COVID-19 构成全球大流行",
+      "anchor_node_id": "fast-event-01-M04",
+      "classification_edition": "SW2014",
+      "sw1_id": "801750",
+      "sw1_name_at_event": "计算机",
+      "display_name_zh": "计算机",
+      "impact_tier": "CONDITIONAL",
+      "segment_labels_zh": [
+        "云服务",
+        "远程办公",
+        "在线协作"
+      ],
+      "driver_series_id": "event01-driver-software-revenue",
+      "driver_name_zh": "软件业务收入与在线服务使用",
+      "driver_unit_zh": "亿元/用户数",
+      "horizon_directions": {
+        "IMMEDIATE": "POSITIVE",
+        "SHORT_TERM": "POSITIVE",
+        "MEDIUM_TERM": "MIXED"
+      },
+      "condition_zh": "远程需求能转化为收费产品并持续。",
+      "invalidation_condition_zh": "免费服务占比高、客户削减 IT 预算或线下恢复过快。",
+      "mechanism_steps": [
+        {
+          "step_number": 1,
+          "step_type": "EVENT_FACT",
+          "statement_class": "SOURCE_FACT",
+          "statement_zh": "2020年3月11日，WHO 宣布 COVID-19 构成全球大流行。",
+          "evidence_ids": [
+            "event01-who-pandemic"
+          ]
+        },
+        {
+          "step_number": 2,
+          "step_type": "BEHAVIOR_OR_POLICY_CHANGE",
+          "statement_class": "SOURCE_FACT",
+          "statement_zh": "企业、学校和居民将办公、教学与服务活动迁移到线上，远程协作和云资源需求上升。",
+          "evidence_ids": [
+            "event01-miit-software-2020"
+          ]
+        },
+        {
+          "step_number": 3,
+          "step_type": "OBSERVABLE_DRIVER",
+          "statement_class": "SOURCE_FACT",
+          "statement_zh": "软件业务收入、云服务使用量、在线协作席位和活跃用户可用于观测需求兑现。",
+          "evidence_ids": [
+            "event01-miit-software-2020"
+          ]
+        },
+        {
+          "step_number": 4,
+          "step_type": "INDUSTRY_OPERATING_VARIABLE",
+          "statement_class": "SOURCE_FACT",
+          "statement_zh": "云资源使用、在线协作席位、续费率和新增订单反映计算机行业的实际经营增量。",
+          "evidence_ids": [
+            "event01-miit-software-2020"
+          ]
+        },
+        {
+          "step_number": 5,
+          "step_type": "INDUSTRY_REVENUE_OR_COST_VARIABLE",
+          "statement_class": "RESEARCH_INFERENCE",
+          "statement_zh": "收费订阅和云资源收入可能增加，同时服务器扩容、带宽、获客及免费试用会抬升成本。",
+          "evidence_ids": [],
+          "premise_step_numbers": [
+            2,
+            3,
+            4
+          ],
+          "condition_zh": "使用增长转化为付费和续费。",
+          "invalidation_zh": "免费需求占主导或企业预算收缩。"
+        },
+        {
+          "step_number": 6,
+          "step_type": "DIRECTION_ASSESSMENT",
+          "statement_class": "RESEARCH_INFERENCE",
+          "statement_zh": "即时和短期对云与远程办公细分偏正，中期取决于付费转化和疫情后留存，方向混合。",
+          "evidence_ids": [],
+          "premise_step_numbers": [
+            3,
+            4,
+            5
+          ],
+          "condition_zh": "付费转化成立。",
+          "invalidation_zh": "使用量增长不产生收入。"
+        },
+        {
+          "step_number": 7,
+          "step_type": "PRICE_CONFOUNDER_AND_COUNTEREVIDENCE",
+          "statement_class": "CALCULATED_FACT",
+          "statement_zh": "工信部年度数据仅作事后验证，不能证明事件时点的即时需求；宽松流动性和成长股估值也可能主导计算机指数。",
+          "evidence_ids": []
+        }
+      ],
+      "review_status": "NEEDS_HUMAN_REVIEW",
+      "formal_ready": false,
+      "sha_gate": "DEFERRED",
+      "confounders": [
+        {
+          "confounder_id": "event01-confounder-801750",
+          "event_zh": "全球权益抛售与流动性宽松同远程办公需求方向相反",
+          "affected_windows": [
+            "T_MINUS_1",
+            "T0",
+            "D1",
+            "D3",
+            "D5",
+            "D20"
+          ],
+          "severity": "MATERIAL",
+          "mechanism_overlap": "风险偏好下降压低成长估值，远程办公需求提升经营预期，紧急降息又改变贴现率。",
+          "alternative_explanation_zh": "计算机指数可能由估值与流动性主导，而不是远程需求兑现。",
+          "counterevidence_zh": [
+            "软件业务与在线服务使用仍可提供经营层验证。"
+          ],
+          "attribution_limit_zh": "价格只能验证净结果，不能替代使用量、订单和付费转化证据。",
+          "evidence_ids": [
+            "event01-fed-mar03",
+            "event01-fed-mar15",
+            "event01-miit-software-2020"
+          ],
+          "challenge_set_only": true
+        }
+      ]
+    },
+    {
+      "event_industry_mapping_id": "event-industry-event-01-801120",
+      "event_id": "event-01",
+      "event_title_zh": "WHO 宣布 COVID-19 构成全球大流行",
+      "anchor_node_id": "fast-event-01-M04",
+      "classification_edition": "SW2014",
+      "sw1_id": "801120",
+      "sw1_name_at_event": "食品饮料",
+      "display_name_zh": "食品饮料",
+      "impact_tier": "CONDITIONAL",
+      "segment_labels_zh": [
+        "餐饮供应链",
+        "家庭消费",
+        "必选消费"
+      ],
+      "driver_series_id": "event01-driver-food-beverage-retail",
+      "driver_name_zh": "餐饮收入与食品饮料零售同比",
+      "driver_unit_zh": "%",
+      "horizon_directions": {
+        "IMMEDIATE": "MIXED",
+        "SHORT_TERM": "NEGATIVE",
+        "MEDIUM_TERM": "MIXED"
+      },
+      "condition_zh": "餐饮渠道损失大于家庭消费和必选品增量。",
+      "invalidation_condition_zh": "家庭渠道补库与必选消费充分补偿餐饮渠道。",
+      "mechanism_steps": [
+        {
+          "step_number": 1,
+          "step_type": "EVENT_FACT",
+          "statement_class": "SOURCE_FACT",
+          "statement_zh": "2020年3月11日，WHO 宣布 COVID-19 构成全球大流行。",
+          "evidence_ids": [
+            "event01-who-pandemic"
+          ]
+        },
+        {
+          "step_number": 2,
+          "step_type": "BEHAVIOR_OR_POLICY_CHANGE",
+          "statement_class": "SOURCE_FACT",
+          "statement_zh": "外出就餐和宴席场景收缩，消费向居家、商超和必选食品迁移。",
+          "evidence_ids": [
+            "event01-nbs-retail-mar"
+          ]
+        },
+        {
+          "step_number": 3,
+          "step_type": "OBSERVABLE_DRIVER",
+          "statement_class": "SOURCE_FACT",
+          "statement_zh": "2020年3月餐饮收入同比下降46.8%，限额以上粮油食品类增长19.2%，饮料类增长6.3%。",
+          "evidence_ids": [
+            "event01-nbs-retail-mar"
+          ]
+        },
+        {
+          "step_number": 4,
+          "step_type": "INDUSTRY_OPERATING_VARIABLE",
+          "statement_class": "SOURCE_FACT",
+          "statement_zh": "餐饮渠道销量、家庭渠道补库、产品结构和渠道库存出现显著分化。",
+          "evidence_ids": [
+            "event01-nbs-retail-mar"
+          ]
+        },
+        {
+          "step_number": 5,
+          "step_type": "INDUSTRY_REVENUE_OR_COST_VARIABLE",
+          "statement_class": "RESEARCH_INFERENCE",
+          "statement_zh": "餐饮占比高的酒类和供应链企业收入承压，家庭渠道占比较高的必选食品可能受益；促销和渠道调整改变毛利率。",
+          "evidence_ids": [],
+          "premise_step_numbers": [
+            2,
+            3,
+            4
+          ],
+          "condition_zh": "渠道暴露差异显著。",
+          "invalidation_zh": "企业快速切换渠道或经销商补库存对冲。"
+        },
+        {
+          "step_number": 6,
+          "step_type": "DIRECTION_ASSESSMENT",
+          "statement_class": "RESEARCH_INFERENCE",
+          "statement_zh": "即时影响混合，短期整体偏负但内部高度分化，中期随渠道恢复与库存消化转为混合。",
+          "evidence_ids": [],
+          "premise_step_numbers": [
+            3,
+            4,
+            5
+          ],
+          "condition_zh": "餐饮渠道损失占主导。",
+          "invalidation_zh": "家庭渠道增长和提价完全覆盖。"
+        },
+        {
+          "step_number": 7,
+          "step_type": "PRICE_CONFOUNDER_AND_COUNTEREVIDENCE",
+          "statement_class": "CALCULATED_FACT",
+          "statement_zh": "食品饮料指数内部品类差异大；防御属性、流动性宽松和龙头估值变化均可能与疫情经营冲击竞争解释。",
+          "evidence_ids": []
+        }
+      ],
+      "review_status": "NEEDS_HUMAN_REVIEW",
+      "formal_ready": false,
+      "sha_gate": "DEFERRED",
+      "confounders": [
+        {
+          "confounder_id": "event01-confounder-801120",
+          "event_zh": "餐饮渠道下降与家庭食品消费增加方向相反",
+          "affected_windows": [
+            "T_MINUS_1",
+            "T0",
+            "D1",
+            "D3",
+            "D5",
+            "D20"
+          ],
+          "severity": "MATERIAL",
+          "mechanism_overlap": "餐饮收缩压低部分品类，居家囤货和必选消费提高另一些品类销量。",
+          "alternative_explanation_zh": "行业净表现取决于企业渠道和品类结构，统一方向可能掩盖内部差异。",
+          "counterevidence_zh": [
+            "餐饮、粮油食品和饮料分项显示方向确有分化。"
+          ],
+          "attribution_limit_zh": "只能给出条件性行业方向，不对所有食品饮料公司统一归因。",
+          "evidence_ids": [
+            "event01-nbs-retail-mar"
+          ],
+          "challenge_set_only": true
+        }
+      ]
+    }
+  ]
+}

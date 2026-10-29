@@ -1,0 +1,27 @@
+{
+  "dataset_version": "fingoose-event-industry-impact-v1.0",
+  "files": [
+    {
+      "path": "event_industry_impact_candidates.jsonl",
+      "record_count": 43,
+      "sha256": "9e2248a1e4309b66c357a0e7bdb4939dcd3bc58c6fe69ade2b00adfc75b78aec"
+    },
+    {
+      "path": "validation_report.json",
+      "record_count": 1,
+      "sha256": "8289bf2272eba105333bf5ceb56cd21bb8e667a5355a917903ffabad2dc33891"
+    },
+    {
+      "path": "summary.json",
+      "record_count": 1,
+      "sha256": "a7fc68d0c0545501b872d1549407548280adff7e9b097016700b76cee89e14b9"
+    },
+    {
+      "path": "README.md",
+      "record_count": 1,
+      "sha256": "dfcb0083cacc9afc9a6c2ab47cb10dc5d6f9618e684173c113e075ec476af309"
+    }
+  ],
+  "formal_ready": false,
+  "release_tier": "CANDIDATE"
+}

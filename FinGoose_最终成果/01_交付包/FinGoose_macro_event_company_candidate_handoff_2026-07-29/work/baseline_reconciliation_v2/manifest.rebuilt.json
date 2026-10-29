@@ -1,0 +1,62 @@
+{
+  "counts": {
+    "cases": 10,
+    "episodes": 21,
+    "events": 10,
+    "graphs": 10,
+    "labels": 10,
+    "milestones": 21,
+    "windows": 40
+  },
+  "dataset_version": "fingoose-macro-event-attribution-v2.0",
+  "files": [
+    {
+      "path": "benchmark_cases.jsonl",
+      "record_count": 10,
+      "sha256": "e6286a5ef28635276560559fda21d81858f9520d9dab4e7530cf0e77edc6a68d"
+    },
+    {
+      "path": "event_episodes.jsonl",
+      "record_count": 21,
+      "sha256": "32626f4dd798c315ee1529581e31165369826c4119c5fd51fa82442623b4349b"
+    },
+    {
+      "path": "event_milestones.jsonl",
+      "record_count": 21,
+      "sha256": "2fafc57e304f810ef24c65c7248de487e711574108b179231e3f9ff869048d8a"
+    },
+    {
+      "path": "hidden/benchmark_labels.jsonl",
+      "record_count": 10,
+      "sha256": "9961ad93ecf612ba4e1fa77ffc99d5ebb2d265047cf7f4ed27db7e6a71ed2b05"
+    },
+    {
+      "path": "market_windows.jsonl",
+      "record_count": 40,
+      "sha256": "6ce70097f2199ba85cbb2ad09b5b9e7e570fdcd526b10688237faf466227996b"
+    },
+    {
+      "path": "source_manifest.jsonl",
+      "record_count": 20,
+      "sha256": "1297748c74ea62205c96b0eb85269f8520568738b7f4d43f9fb4fcbd8f8ddf85"
+    },
+    {
+      "path": "summary.json",
+      "record_count": 18,
+      "sha256": "ef1a0bfdd9db43558c0026b07fc59e9d076bfb8a42427e6ef0adc7ba694405f5"
+    },
+    {
+      "path": "transmission_graphs.jsonl",
+      "record_count": 10,
+      "sha256": "1f1e33f2ec25e6fb66a04b03d3c7defd10e54618f995c17936d11e61ef1cf37f"
+    },
+    {
+      "path": "validation_report.json",
+      "record_count": 43,
+      "sha256": "03cfcd3da8c2b3aa4b9430dca69f85926113091cd3dda6de17cc11e01c0dae71"
+    }
+  ],
+  "generated_at": "2026-07-30T05:10:08.987588+00:00",
+  "release_tier": "CANDIDATE",
+  "schema_version": "2020-12"
+}

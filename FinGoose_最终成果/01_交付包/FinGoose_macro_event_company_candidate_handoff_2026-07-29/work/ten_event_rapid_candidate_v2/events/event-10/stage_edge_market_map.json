@@ -1,0 +1,55 @@
+{
+  "event_id": "event-10",
+  "mapping_rule": "node -> rule-matched core paths -> preselected core series",
+  "node_mappings": [
+    {
+      "fast_node_id": "fast-event-10-M01",
+      "phase": "PRECONDITION",
+      "node_action": "OBSERVES",
+      "path_ids": [],
+      "series_ids": [],
+      "market_window_status": "PENDING_EVIDENCE"
+    },
+    {
+      "fast_node_id": "fast-event-10-M02",
+      "phase": "INITIAL_SHOCK",
+      "node_action": "STARTS",
+      "path_ids": [
+        "event-10-P-trade-costs",
+        "event-10-P-inflation-rates",
+        "event-10-P-global-growth-risk"
+      ],
+      "series_ids": [
+        "DEXCHUS",
+        "DGS10",
+        "DTWEXBGS",
+        "SP500"
+      ],
+      "market_window_status": "PRIMARY_ANCHOR"
+    },
+    {
+      "fast_node_id": "fast-event-10-M03",
+      "phase": "ESCALATION",
+      "node_action": "AMPLIFIES",
+      "path_ids": [],
+      "series_ids": [],
+      "market_window_status": "SAME_DAY_UNRESOLVED"
+    },
+    {
+      "fast_node_id": "fast-event-10-M04",
+      "phase": "POLICY_RESPONSE",
+      "node_action": "AMPLIFIES",
+      "path_ids": [],
+      "series_ids": [],
+      "market_window_status": "PENDING_EVIDENCE"
+    },
+    {
+      "fast_node_id": "fast-event-10-M05",
+      "phase": "EASING",
+      "node_action": "WEAKENS",
+      "path_ids": [],
+      "series_ids": [],
+      "market_window_status": "PENDING_EVIDENCE"
+    }
+  ]
+}

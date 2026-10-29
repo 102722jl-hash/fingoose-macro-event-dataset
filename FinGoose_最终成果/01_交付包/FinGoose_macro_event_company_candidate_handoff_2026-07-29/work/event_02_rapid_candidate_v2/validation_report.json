@@ -1,0 +1,23 @@
+{
+  "dataset_version": "fingoose-event-02-rapid-candidate-v2.0",
+  "release_tier": "RAPID_CANDIDATE",
+  "formal_ready": false,
+  "production_dataset_modified": false,
+  "sha_gate": "DEFERRED_BY_USER_FOR_RAPID_CANDIDATE",
+  "event_count": 1,
+  "timeline_node_count": 5,
+  "verified_node_count": 4,
+  "pending_evidence_count": 1,
+  "core_path_count": 4,
+  "confirmed_path_count": 0,
+  "market_series_count": 5,
+  "hard_failures": [],
+  "warnings": [
+    "fast-event-02-M01 remains PENDING_EVIDENCE and does not activate scored edges.",
+    "M03 and M04 are SAME_DAY_UNRESOLVED at daily frequency.",
+    "T0 and D1 are aliases of the same daily close, not independent observations.",
+    "DGS10 is an expanded rate proxy, not a pure inflation-expectations measure.",
+    "Mechanism sources published after the primary window are excluded from prediction-visible evidence.",
+    "D3/D5/D20 are challenge-only because material or dominant confounders overlap."
+  ]
+}

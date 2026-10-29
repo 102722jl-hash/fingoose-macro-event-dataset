@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-07-31",
+  "expected_event_count": 10,
+  "actual_event_count": 10,
+  "records_per_event": {
+    "event-01": 5,
+    "event-02": 5,
+    "event-03": 5,
+    "event-04": 5,
+    "event-05": 5,
+    "event-06": 5,
+    "event-07": 5,
+    "event-08": 5,
+    "event-09": 5,
+    "event-10": 5
+  },
+  "total_records": 50,
+  "all_price_selection_used_false": true,
+  "seed_count": 30,
+  "pending_selection_count": 20,
+  "checks": {
+    "event_count_ok": true,
+    "each_event_has_5": true,
+    "total_50": true,
+    "no_fabricated_ts_code": true
+  },
+  "flags": [
+    "DATE_RANGE_CONFLICT: design §4.2 (T0-40mo~T0+2mo) vs earlier request draft earlier start dates; using design rule, needs sign-off.",
+    "EVENT09_T0_FIXED: 2024-09-24 per design doc.",
+    "PENDING_COMPANIES: 20 slots require pre-event evidence; not yet selected.",
+    "SW_INDUSTRY_HISTORY: event-day effective 申万一级 must be filled; no 2026 backfill.",
+    "VENDOR_DATA_NEEDED: raw prices require licensed source (Wind/Choice/CSMAR)."
+  ]
+}

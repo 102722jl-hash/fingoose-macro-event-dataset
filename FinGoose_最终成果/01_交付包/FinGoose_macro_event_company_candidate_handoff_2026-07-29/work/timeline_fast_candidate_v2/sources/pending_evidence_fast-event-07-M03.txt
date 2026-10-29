@@ -1,0 +1,14 @@
+EVIDENCE SPEC (snapshot not retrievable automatically - manual drop-in required)
+NODE: fast-event-07-M03
+OFFICIAL_URL: https://www.imo.org/en/MediaCentre/PressBriefings/pages/Red-Sea-statement.aspx
+PUBLISHER: International Maritime Organization
+
+VERBATIM QUOTE (target):
+  "Galaxy Leader"
+
+OCCURRED_AT: 2023-11-19T00:00:00Z (UTC)
+  locator: IMO press briefing: reference to the seizure of the merchant vessel Galaxy Leader by Houthis in the Southern Red Sea.
+FIRST_PUBLIC_AT: 2023-11-19T00:00:00Z (UTC)
+  locator: IMO Media Centre press briefing published Nov 2023.
+
+FACT: IMO spotlighted the seizure of the merchant vessel Galaxy Leader by the Houthis in the Southern Red Sea - the shipping-risk escalation of the conflict.

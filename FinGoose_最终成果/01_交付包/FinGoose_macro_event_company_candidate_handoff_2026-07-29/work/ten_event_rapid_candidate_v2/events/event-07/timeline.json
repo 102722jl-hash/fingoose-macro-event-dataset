@@ -1,0 +1,174 @@
+{
+  "event_id": "event-07",
+  "title": "2023 年 10 月中东冲突与航运风险升级",
+  "release_tier": "RAPID_CANDIDATE",
+  "formal_ready": false,
+  "primary_anchor_fast_node_id": "fast-event-07-M01",
+  "nodes": [
+    {
+      "anchor_role": "PRIMARY",
+      "event_id": "event-07",
+      "evidence_status": "VERIFIED_EXISTING",
+      "fact": "The same-day UN statement documents the attacks and escalation.",
+      "fast_node_id": "fast-event-07-M01",
+      "first_public_at": "2023-10-07T12:00:00+00:00",
+      "gap_reason": "联合国同日声明支持事件事实，但未单独证明 06:00Z 的精确发生时刻；需补带时间戳的一手公告。",
+      "impact_tags": [
+        "GEOPOLITICAL_RISK",
+        "ENERGY_SUPPLY",
+        "SAFE_HAVEN_DEMAND"
+      ],
+      "node_action": "STARTS",
+      "occurred_at": "2023-10-07T06:00:00+00:00",
+      "original_milestone_id": "milestone-event-07-5505bb622d95",
+      "phase": "INITIAL_SHOCK",
+      "promotion_eligible": false,
+      "sequence": 1,
+      "source_ids": [
+        "event07-un"
+      ],
+      "status": "PROPOSED",
+      "visibility": "PUBLIC_PREDICTION",
+      "linked_path_ids": [
+        "event-07-P-energy-supply",
+        "event-07-P-risk-appetite",
+        "event-07-P-safe-haven"
+      ],
+      "impact_summary": "Verified milestone; linked paths are rule-projected candidates."
+    },
+    {
+      "anchor_role": "SECONDARY",
+      "event_id": "event-07",
+      "evidence_status": "VERIFIED_EXISTING",
+      "fact": "The report describes oil conditions by the D3 cutoff.",
+      "fast_node_id": "fast-event-07-M02",
+      "first_public_at": "2023-10-11T16:00:00+00:00",
+      "gap_reason": null,
+      "impact_tags": [
+        "GEOPOLITICAL_RISK",
+        "ENERGY_SUPPLY",
+        "SAFE_HAVEN_DEMAND"
+      ],
+      "node_action": "OBSERVES",
+      "occurred_at": "2023-10-11T16:00:00+00:00",
+      "original_milestone_id": "milestone-event-07-019c05c801b0",
+      "phase": "ESCALATION",
+      "promotion_eligible": true,
+      "sequence": 2,
+      "source_ids": [
+        "event07-eia-steo"
+      ],
+      "status": "PROPOSED",
+      "visibility": "PUBLIC_PREDICTION",
+      "linked_path_ids": [],
+      "impact_summary": "Verified milestone; linked paths are rule-projected candidates."
+    },
+    {
+      "anchor_role": "SECONDARY",
+      "checklist": {
+        "p1_one_to_one_link": true,
+        "p2_quote_locator": true,
+        "p3_occurred_at": true,
+        "p4_first_public_at": true,
+        "p5_snapshot_sha": true,
+        "p6_semantic": true,
+        "p7_expected_type": "UNKNOWN",
+        "package_complete": true
+      },
+      "event_id": "event-07",
+      "evidence_status": "VERIFIED_EXISTING",
+      "fact": "On 19 November 2023 Houthi forces seized the cargo ship Galaxy Leader in the Red Sea, opening the Red Sea shipping-attack escalation that the IMO Secretary-General subsequently condemned — a conflict-phase amplification of the Red Sea shipping-risk event.",
+      "fast_node_id": "fast-event-07-M03",
+      "first_public_at": "2023-11-19T00:00:00Z",
+      "gap_reason": null,
+      "impact_tags": [
+        "GEOPOLITICAL_RISK",
+        "ENERGY_SUPPLY"
+      ],
+      "label": "Red Sea shipping attack (Galaxy Leader)",
+      "node_action": "AMPLIFIES",
+      "occurred_at": "2023-11-19T00:00:00Z",
+      "original_milestone_id": null,
+      "phase": "ESCALATION",
+      "promotion_eligible": false,
+      "sequence": 3,
+      "source_ids": [
+        "supplemental-fast-event-07-M03"
+      ],
+      "status": "PROPOSED",
+      "visibility": "UNRESOLVED",
+      "linked_path_ids": [],
+      "impact_summary": "Verified milestone; linked paths are rule-projected candidates."
+    },
+    {
+      "anchor_role": "SECONDARY",
+      "event_id": "event-07",
+      "evidence_status": "VERIFIED_EXISTING",
+      "fact": "U.S. DoD established Operation Prosperity Guardian, a multinational Red Sea navigation-security initiative (Dec 18, 2023).",
+      "fast_node_id": "fast-event-07-M04",
+      "first_public_at": "2023-12-18T17:00:00Z",
+      "gap_reason": null,
+      "impact_tags": [
+        "SHIPPING_DISRUPTION",
+        "ENERGY_SUPPLY"
+      ],
+      "node_action": "AMPLIFIES",
+      "occurred_at": "2023-12-18T17:00:00Z",
+      "original_milestone_id": null,
+      "phase": "SECONDARY_SHOCK",
+      "promotion_eligible": false,
+      "sequence": 4,
+      "source_ids": [
+        "supplemental-fast-event-07-M04"
+      ],
+      "status": "PROPOSED",
+      "visibility": "PUBLIC_PREDICTION",
+      "linked_path_ids": [
+        "event-07-P-shipping-disruption"
+      ],
+      "impact_summary": "Verified milestone; linked paths are rule-projected candidates."
+    },
+    {
+      "anchor_role": "SECONDARY",
+      "checklist": {
+        "p1_one_to_one_link": true,
+        "p2_quote_locator": true,
+        "p3_occurred_at": true,
+        "p4_first_public_at": true,
+        "p5_snapshot_sha": true,
+        "p6_semantic": true,
+        "p7_expected_type": "UNKNOWN",
+        "package_complete": true
+      },
+      "event_id": "event-07",
+      "evidence_status": "PENDING_EVIDENCE",
+      "fact": "On 11–12 January 2024 the U.S. and U.K. conducted joint airstrikes against Houthi targets in Yemen in response to Red Sea shipping attacks — a policy-response escalation.",
+      "fast_node_id": "fast-event-07-M05",
+      "first_public_at": null,
+      "gap_reason": "OFFICIAL_SNAPSHOT_MISSING: a semantically matched official snapshot must independently support the fact, occurred_at, and first_public_at before promotion.",
+      "impact_tags": [
+        "SHIPPING_DISRUPTION",
+        "GEOPOLITICAL_RISK"
+      ],
+      "label": "US-UK strikes on Yemen",
+      "node_action": "WEAKENS",
+      "occurred_at": null,
+      "original_milestone_id": null,
+      "phase": "POLICY_RESPONSE",
+      "promotion_eligible": false,
+      "sequence": 5,
+      "source_ids": [],
+      "status": "PROPOSED",
+      "visibility": "UNRESOLVED",
+      "linked_path_ids": [],
+      "impact_summary": "Pending evidence; no scored path is activated."
+    }
+  ],
+  "daily_resolution": {
+    "status": "UNIQUE_DAILY_ANCHOR",
+    "groups": []
+  },
+  "ordering_basis": "CURATED_SEQUENCE",
+  "chronology_warnings": [],
+  "chronology_status": "CURATED_SEQUENCE_CHRONOLOGICAL"
+}

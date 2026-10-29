@@ -1,0 +1,131 @@
+{
+  "event_id": "event-01",
+  "title": "WHO 宣布 COVID-19 构成全球大流行",
+  "ordering_basis": "CURATED_STORY_SEQUENCE",
+  "steps": [
+    {
+      "story_step_id": "story-event-01-01",
+      "sequence": 1,
+      "phase": "PRECONDITION",
+      "title_cn": "国际公共卫生风险被正式确认",
+      "narrative_cn": "国际公共卫生风险被正式确认。事件状态由“疫情仍主要被视为局部公共卫生事件”转为“跨境公共卫生协调成为必要条件”，后续观察应使用新的阶段基准。",
+      "before_state_cn": "疫情仍主要被视为局部公共卫生事件",
+      "after_state_cn": "跨境公共卫生协调成为必要条件",
+      "significance_cn": "该步骤建立冲击发生前的约束条件，并重新界定全球需求、风险偏好与流动性压力的观察窗口与传导条件。",
+      "evidence_node_ids": [
+        "fast-event-01-M01"
+      ],
+      "period_start": "2020-01-30T20:50:00Z",
+      "period_end": "2020-01-30T20:50:00Z",
+      "time_precision": "TIMESTAMP",
+      "evidence_status": "SUPPORTED",
+      "evidence_boundary_cn": "关联证据支持事件事实；前后状态与阶段意义属于可追溯的研究归纳。",
+      "activated_path_ids": [],
+      "amplified_path_ids": [],
+      "weakened_path_ids": [],
+      "market_series_ids": []
+    },
+    {
+      "story_step_id": "story-event-01-02",
+      "sequence": 2,
+      "phase": "ESCALATION",
+      "title_cn": "欧洲封控使经济冲击显性化",
+      "narrative_cn": "欧洲封控使经济冲击显性化。事件状态由“跨境公共卫生协调成为必要条件”转为“欧洲活动限制使需求冲击可观察”，后续观察应使用新的阶段基准。",
+      "before_state_cn": "跨境公共卫生协调成为必要条件",
+      "after_state_cn": "欧洲活动限制使需求冲击可观察",
+      "significance_cn": "该步骤扩大冲击范围或提高传导强度，并重新界定全球需求、风险偏好与流动性压力的观察窗口与传导条件。",
+      "evidence_node_ids": [
+        "fast-event-01-M02"
+      ],
+      "period_start": "2020-03-09",
+      "period_end": "2020-03-09",
+      "time_precision": "DATE",
+      "evidence_status": "SUPPORTED",
+      "evidence_boundary_cn": "关联证据支持事件事实；前后状态与阶段意义属于可追溯的研究归纳。",
+      "activated_path_ids": [],
+      "amplified_path_ids": [],
+      "weakened_path_ids": [],
+      "market_series_ids": []
+    },
+    {
+      "story_step_id": "story-event-01-03",
+      "sequence": 3,
+      "phase": "INITIAL_SHOCK",
+      "title_cn": "WHO 将 COVID-19 定性为全球大流行",
+      "narrative_cn": "WHO 将 COVID-19 定性为全球大流行。事件状态由“欧洲活动限制使需求冲击可观察”转为“全球市场同步评估需求、风险偏好和流动性”，后续观察应使用新的阶段基准。",
+      "before_state_cn": "欧洲活动限制使需求冲击可观察",
+      "after_state_cn": "全球市场同步评估需求、风险偏好和流动性",
+      "significance_cn": "该步骤改变事件性质并启动核心市场重定价，并重新界定全球需求、风险偏好与流动性压力的观察窗口与传导条件。",
+      "evidence_node_ids": [
+        "fast-event-01-M04"
+      ],
+      "period_start": "2020-03-11T16:30:00+00:00",
+      "period_end": "2020-03-11T16:30:00+00:00",
+      "time_precision": "TIMESTAMP",
+      "evidence_status": "SUPPORTED",
+      "evidence_boundary_cn": "关联证据支持事件事实；前后状态与阶段意义属于可追溯的研究归纳。",
+      "activated_path_ids": [
+        "event-01-P-pandemic-risk-appetite",
+        "event-01-P-pandemic-oil-demand",
+        "event-01-P-pandemic-safe-haven"
+      ],
+      "amplified_path_ids": [],
+      "weakened_path_ids": [],
+      "market_series_ids": [
+        "SP500",
+        "VIXCLS",
+        "DCOILWTICO",
+        "DEXCHUS"
+      ]
+    },
+    {
+      "story_step_id": "story-event-01-04",
+      "sequence": 4,
+      "phase": "ESCALATION",
+      "title_cn": "官方疫情报告补充全球扩散确认",
+      "narrative_cn": "官方疫情报告补充全球扩散确认。事件状态由“全球市场同步评估需求、风险偏好和流动性”转为“全球大流行定性获得进一步官方材料支撑”，后续观察应使用新的阶段基准。",
+      "before_state_cn": "全球市场同步评估需求、风险偏好和流动性",
+      "after_state_cn": "全球大流行定性获得进一步官方材料支撑",
+      "significance_cn": "该步骤扩大冲击范围或提高传导强度，并重新界定全球需求、风险偏好与流动性压力的观察窗口与传导条件。",
+      "evidence_node_ids": [
+        "fast-event-01-M03"
+      ],
+      "period_start": "2020-03-11T19:00:00Z",
+      "period_end": "2020-03-11T19:00:00Z",
+      "time_precision": "TIMESTAMP",
+      "evidence_status": "SUPPORTED",
+      "evidence_boundary_cn": "关联证据支持事件事实；前后状态与阶段意义属于可追溯的研究归纳。",
+      "activated_path_ids": [],
+      "amplified_path_ids": [],
+      "weakened_path_ids": [],
+      "market_series_ids": []
+    },
+    {
+      "story_step_id": "story-event-01-05",
+      "sequence": 5,
+      "phase": "RESOLUTION",
+      "title_cn": "WHO 结束 PHEIC，事件进入常态化管理",
+      "narrative_cn": "WHO 结束 PHEIC，事件进入常态化管理。事件状态由“全球大流行定性获得进一步官方材料支撑”转为“紧急状态结束并转入常态化管理”，后续观察应使用新的阶段基准。",
+      "before_state_cn": "全球大流行定性获得进一步官方材料支撑",
+      "after_state_cn": "紧急状态结束并转入常态化管理",
+      "significance_cn": "该步骤标志事件进入结束或常态化管理阶段，并重新界定全球需求、风险偏好与流动性压力的观察窗口与传导条件。",
+      "evidence_node_ids": [
+        "fast-event-01-M05"
+      ],
+      "period_start": "2023-05-05",
+      "period_end": "2023-05-05",
+      "time_precision": "DATE",
+      "evidence_status": "SUPPORTED",
+      "evidence_boundary_cn": "关联证据支持事件事实；前后状态与阶段意义属于可追溯的研究归纳。",
+      "activated_path_ids": [],
+      "amplified_path_ids": [
+        "event-01-P-pandemic-policy-response"
+      ],
+      "weakened_path_ids": [],
+      "market_series_ids": [
+        "SP500",
+        "VIXCLS"
+      ]
+    }
+  ]
+}

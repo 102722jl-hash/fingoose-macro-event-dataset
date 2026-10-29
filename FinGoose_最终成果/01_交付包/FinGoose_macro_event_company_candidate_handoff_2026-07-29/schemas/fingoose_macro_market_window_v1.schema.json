@@ -1,0 +1,80 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://fingoose.local/schemas/fingoose_macro_market_window_v1.schema.json",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["market_window_id", "dataset_version", "event_id", "series", "observation_source", "alignment", "metric_type", "change_unit", "baseline", "t0_session", "estimation", "windows"],
+  "properties": {
+    "market_window_id": {"type": "string", "pattern": "^event-[0-9]{2}-[a-z0-9-]+$"},
+    "dataset_version": {"const": "fingoose-macro-event-attribution-v1.0"},
+    "event_id": {"type": "string", "pattern": "^event-[0-9]{2}$"},
+    "series": {
+      "type": "object", "additionalProperties": false,
+      "required": ["series_id", "series_name", "scope", "metric_type"],
+      "properties": {
+        "series_id": {"type": "string", "minLength": 1},
+        "series_name": {"type": "string", "minLength": 1},
+        "scope": {"enum": ["global", "china"]},
+        "metric_type": {"enum": ["price_return_pct", "fx_return_pct", "yield_basis_points"]},
+        "quote_convention": {"const": "LOCAL_CURRENCY_PER_USD"}
+      }
+    },
+    "observation_source": {
+      "type": "object", "additionalProperties": false,
+      "required": ["path", "sha256"],
+      "properties": {
+        "path": {"type": "string", "minLength": 1},
+        "sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"}
+      }
+    },
+    "alignment": {
+      "type": "object", "additionalProperties": false,
+      "required": ["baseline_session", "t0_session"],
+      "properties": {
+        "baseline_session": {"type": "string", "format": "date"},
+        "t0_session": {"type": "string", "format": "date"}
+      }
+    },
+    "metric_type": {"enum": ["price_return_pct", "fx_return_pct", "yield_basis_points"]},
+    "change_unit": {"enum": ["percent", "basis_points"]},
+    "baseline": {"$ref": "#/$defs/observation"},
+    "t0_session": {"type": "string", "format": "date"},
+    "estimation": {
+      "type": "object", "additionalProperties": false,
+      "required": ["window", "observation_count", "daily_change_stddev"],
+      "properties": {
+        "window": {"const": "PREVIOUS_60_SESSIONS"},
+        "observation_count": {"type": "integer", "minimum": 2, "maximum": 60},
+        "daily_change_stddev": {"type": "number", "minimum": 0}
+      }
+    },
+    "windows": {
+      "type": "object", "additionalProperties": false,
+      "required": ["D1", "D3", "D5", "D20", "M3"],
+      "properties": {
+        "D1": {"$ref": "#/$defs/window"},
+        "D3": {"$ref": "#/$defs/window"},
+        "D5": {"$ref": "#/$defs/window"},
+        "D20": {"$ref": "#/$defs/window"},
+        "M3": {"anyOf": [{"type": "null"}, {"$ref": "#/$defs/window"}]}
+      }
+    }
+  },
+  "$defs": {
+    "observation": {
+      "type": "object", "additionalProperties": false,
+      "required": ["date", "value"],
+      "properties": {"date": {"type": "string", "format": "date"}, "value": {"type": "number"}}
+    },
+    "window": {
+      "type": "object", "additionalProperties": false,
+      "required": ["end_date", "end_value", "change", "abnormal_score"],
+      "properties": {
+        "end_date": {"type": "string", "format": "date"},
+        "end_value": {"type": "number"},
+        "change": {"type": "number"},
+        "abnormal_score": {"anyOf": [{"type": "null"}, {"type": "number"}]}
+      }
+    }
+  }
+}

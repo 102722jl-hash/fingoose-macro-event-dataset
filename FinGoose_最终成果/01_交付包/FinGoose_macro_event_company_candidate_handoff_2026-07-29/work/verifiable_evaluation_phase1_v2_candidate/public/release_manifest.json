@@ -1,0 +1,7 @@
+{
+  "allowlist": [
+    "benchmark_cases.jsonl"
+  ],
+  "contains_hidden_labels": false,
+  "package": "PUBLIC_BENCHMARK_INPUT"
+}

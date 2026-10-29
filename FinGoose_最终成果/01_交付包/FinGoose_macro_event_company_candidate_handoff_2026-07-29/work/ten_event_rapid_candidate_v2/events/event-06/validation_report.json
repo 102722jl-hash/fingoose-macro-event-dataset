@@ -1,0 +1,9 @@
+{
+  "event_id": "event-06",
+  "release_tier": "RAPID_CANDIDATE",
+  "formal_ready": false,
+  "sha_gate": "DEFERRED_BY_USER_FOR_RAPID_CANDIDATE",
+  "hard_failures": [],
+  "chronology_status": "CURATED_SEQUENCE_CHRONOLOGICAL",
+  "chronology_warnings": []
+}

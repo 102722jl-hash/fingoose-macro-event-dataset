@@ -1,0 +1,126 @@
+{
+  "event_id": "event-08",
+  "title": "日本央行结束负利率政策",
+  "ordering_basis": "CURATED_STORY_SEQUENCE",
+  "steps": [
+    {
+      "story_step_id": "story-event-08-01",
+      "sequence": 1,
+      "phase": "PRECONDITION",
+      "title_cn": "收益率曲线控制先行放宽",
+      "narrative_cn": "收益率曲线控制先行放宽。事件状态由“超宽松仍以负利率和收益率控制为核心”转为“长端控制提高灵活性且正常化预期升温”，后续观察应使用新的阶段基准。",
+      "before_state_cn": "超宽松仍以负利率和收益率控制为核心",
+      "after_state_cn": "长端控制提高灵活性且正常化预期升温",
+      "significance_cn": "该步骤建立冲击发生前的约束条件，并重新界定日元利差、日本利率与全球套息交易风险的观察窗口与传导条件。",
+      "evidence_node_ids": [
+        "fast-event-08-M01"
+      ],
+      "period_start": "2023-07-28T03:00:00Z",
+      "period_end": "2023-07-28T03:00:00Z",
+      "time_precision": "TIMESTAMP",
+      "evidence_status": "SUPPORTED",
+      "evidence_boundary_cn": "关联证据支持事件事实；前后状态与阶段意义属于可追溯的研究归纳。",
+      "activated_path_ids": [],
+      "amplified_path_ids": [],
+      "weakened_path_ids": [],
+      "market_series_ids": []
+    },
+    {
+      "story_step_id": "story-event-08-02",
+      "sequence": 2,
+      "phase": "PRECONDITION",
+      "title_cn": "政策展望建立正常化前基线",
+      "narrative_cn": "政策展望建立正常化前基线。事件状态由“长端控制提高灵活性且正常化预期升温”转为“政策决定前条件获得官方基线”，后续观察应使用新的阶段基准。",
+      "before_state_cn": "长端控制提高灵活性且正常化预期升温",
+      "after_state_cn": "政策决定前条件获得官方基线",
+      "significance_cn": "该步骤建立冲击发生前的约束条件，并重新界定日元利差、日本利率与全球套息交易风险的观察窗口与传导条件。",
+      "evidence_node_ids": [
+        "fast-event-08-M02"
+      ],
+      "period_start": "2024-01-23T06:00:00+00:00",
+      "period_end": "2024-01-23T06:00:00+00:00",
+      "time_precision": "TIMESTAMP",
+      "evidence_status": "SUPPORTED",
+      "evidence_boundary_cn": "关联证据支持事件事实；前后状态与阶段意义属于可追溯的研究归纳。",
+      "activated_path_ids": [],
+      "amplified_path_ids": [],
+      "weakened_path_ids": [],
+      "market_series_ids": []
+    },
+    {
+      "story_step_id": "story-event-08-03",
+      "sequence": 3,
+      "phase": "INITIAL_SHOCK",
+      "title_cn": "日本央行正式结束负利率框架",
+      "narrative_cn": "日本央行正式结束负利率框架。事件状态由“政策决定前条件获得官方基线”转为“负利率政策正式结束”，后续观察应使用新的阶段基准。",
+      "before_state_cn": "政策决定前条件获得官方基线",
+      "after_state_cn": "负利率政策正式结束",
+      "significance_cn": "该步骤改变事件性质并启动核心市场重定价，并重新界定日元利差、日本利率与全球套息交易风险的观察窗口与传导条件。",
+      "evidence_node_ids": [
+        "fast-event-08-M03"
+      ],
+      "period_start": "2024-03-19T03:00:00Z",
+      "period_end": "2024-03-19T03:00:00Z",
+      "time_precision": "TIMESTAMP",
+      "evidence_status": "SUPPORTED",
+      "evidence_boundary_cn": "关联证据支持事件事实；前后状态与阶段意义属于可追溯的研究归纳。",
+      "activated_path_ids": [],
+      "amplified_path_ids": [],
+      "weakened_path_ids": [],
+      "market_series_ids": []
+    },
+    {
+      "story_step_id": "story-event-08-04",
+      "sequence": 4,
+      "phase": "INITIAL_SHOCK",
+      "title_cn": "短端政策利率转正成为市场主锚点",
+      "narrative_cn": "短端政策利率转正成为市场主锚点。事件状态由“负利率政策正式结束”转为“市场以主锚点重定价利差和日元”，后续观察应使用新的阶段基准。",
+      "before_state_cn": "负利率政策正式结束",
+      "after_state_cn": "市场以主锚点重定价利差和日元",
+      "significance_cn": "该步骤改变事件性质并启动核心市场重定价，并重新界定日元利差、日本利率与全球套息交易风险的观察窗口与传导条件。",
+      "evidence_node_ids": [
+        "fast-event-08-M04"
+      ],
+      "period_start": "2024-03-19T03:00:00+00:00",
+      "period_end": "2024-03-19T03:00:00+00:00",
+      "time_precision": "TIMESTAMP",
+      "evidence_status": "SUPPORTED",
+      "evidence_boundary_cn": "关联证据支持事件事实；前后状态与阶段意义属于可追溯的研究归纳。",
+      "activated_path_ids": [
+        "event-08-P-yen-rate-differential",
+        "event-08-P-japan-rates",
+        "event-08-P-global-risk"
+      ],
+      "amplified_path_ids": [],
+      "weakened_path_ids": [],
+      "market_series_ids": [
+        "DEXJPUS",
+        "DGS10",
+        "SP500",
+        "DEXCHUS"
+      ]
+    },
+    {
+      "story_step_id": "story-event-08-05",
+      "sequence": 5,
+      "phase": "SECONDARY_SHOCK",
+      "title_cn": "日经暴跌与套息交易调整形成二次冲击",
+      "narrative_cn": "日经暴跌与套息交易调整形成二次冲击。事件状态由“市场以主锚点重定价利差和日元”转为“风险资产与套息交易出现二次调整”，后续观察应使用新的阶段基准。",
+      "before_state_cn": "市场以主锚点重定价利差和日元",
+      "after_state_cn": "风险资产与套息交易出现二次调整",
+      "significance_cn": "该步骤形成需要与首次冲击分开观察的新分支，并重新界定日元利差、日本利率与全球套息交易风险的观察窗口与传导条件。",
+      "evidence_node_ids": [
+        "fast-event-08-M05"
+      ],
+      "period_start": "2024-08-05T06:00:00Z",
+      "period_end": "2024-08-05T06:00:00Z",
+      "time_precision": "TIMESTAMP",
+      "evidence_status": "PARTIALLY_SUPPORTED",
+      "evidence_boundary_cn": "关联证据支持核心事实；精确时刻或部分阶段解释仍需补证。",
+      "activated_path_ids": [],
+      "amplified_path_ids": [],
+      "weakened_path_ids": [],
+      "market_series_ids": []
+    }
+  ]
+}

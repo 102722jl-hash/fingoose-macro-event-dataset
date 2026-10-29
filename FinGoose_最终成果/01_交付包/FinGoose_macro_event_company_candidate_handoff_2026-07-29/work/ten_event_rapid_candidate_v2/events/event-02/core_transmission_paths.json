@@ -1,0 +1,257 @@
+{
+  "event_id": "event-02",
+  "release_tier": "RAPID_CANDIDATE",
+  "paths": [
+    {
+      "path_id": "event-02-P-energy-supply",
+      "event_id": "event-02",
+      "activation_phases": [
+        "INITIAL_SHOCK"
+      ],
+      "activation_actions": [
+        "STARTS"
+      ],
+      "activation_tags": [
+        "ENERGY_SUPPLY"
+      ],
+      "chain": [
+        "GEOPOLITICAL_CONFLICT",
+        "ENERGY_SUPPLY",
+        "EVENT-02_ENERGY_SUPPLY",
+        "DCOILBRENTEU|DHHNGSP"
+      ],
+      "asset_series_ids": [
+        "DCOILBRENTEU",
+        "DHHNGSP"
+      ],
+      "expected_direction": {
+        "IMMEDIATE": "UP",
+        "SHORT_TERM": "UP",
+        "MEDIUM_TERM": "MIXED"
+      },
+      "lag": {
+        "minimum": "P0D",
+        "maximum": "P20D"
+      },
+      "conditions": [
+        "主锚点事实未被官方实质更正。",
+        "ENERGY_SUPPLY 渠道在所选窗口内仍具经济相关性。"
+      ],
+      "invalidation_conditions": [
+        "政策响应或后续事件成为窗口内主导冲击。",
+        "冲突前能源紧张、后续制裁与政策利率重估会竞争解释。"
+      ],
+      "counterevidence": [
+        "冲突前能源紧张、后续制裁与政策利率重估会竞争解释。"
+      ],
+      "selection_status": "CORE_REVIEWED",
+      "confirmation_status": "PROPOSED",
+      "review_basis": "AI_DESK_REVIEW_NO_HUMAN_CONFIRMATION",
+      "name": "战争冲击推高能源供应风险",
+      "anchor_fast_node_ids": [
+        "fast-event-02-M03"
+      ],
+      "unverified_candidate_anchor_ids": [],
+      "anchor_evidence_status": "VERIFIED_EXISTING",
+      "scoring_eligible": true,
+      "event_fact_evidence": [
+        "event02-nato-statement"
+      ],
+      "mechanism_evidence": [
+        {
+          "source_id": "mechanism-event-02-fed-ukraine",
+          "evidence_scope": "POST_EVENT_MECHANISM_CORROBORATION",
+          "prediction_use": "EXCLUDED_TO_PREVENT_LEAKAGE"
+        }
+      ]
+    },
+    {
+      "path_id": "event-02-P-inflation-rates",
+      "event_id": "event-02",
+      "activation_phases": [
+        "INITIAL_SHOCK"
+      ],
+      "activation_actions": [
+        "STARTS"
+      ],
+      "activation_tags": [
+        "INFLATION_EXPECTATIONS"
+      ],
+      "chain": [
+        "ENERGY_PRICE_SHOCK",
+        "INFLATION_EXPECTATIONS",
+        "EVENT-02_INFLATION_RATES",
+        "DCOILBRENTEU"
+      ],
+      "asset_series_ids": [
+        "DCOILBRENTEU"
+      ],
+      "expected_direction": {
+        "IMMEDIATE": "UP",
+        "SHORT_TERM": "UP",
+        "MEDIUM_TERM": "MIXED"
+      },
+      "lag": {
+        "minimum": "P0D",
+        "maximum": "P20D"
+      },
+      "conditions": [
+        "主锚点事实未被官方实质更正。",
+        "INFLATION_EXPECTATIONS 渠道在所选窗口内仍具经济相关性。"
+      ],
+      "invalidation_conditions": [
+        "政策响应或后续事件成为窗口内主导冲击。",
+        "冲突前能源紧张、后续制裁与政策利率重估会竞争解释。"
+      ],
+      "counterevidence": [
+        "冲突前能源紧张、后续制裁与政策利率重估会竞争解释。"
+      ],
+      "selection_status": "CORE_REVIEWED",
+      "confirmation_status": "PROPOSED",
+      "review_basis": "AI_DESK_REVIEW_NO_HUMAN_CONFIRMATION",
+      "name": "能源涨价经通胀预期影响利率",
+      "anchor_fast_node_ids": [
+        "fast-event-02-M03"
+      ],
+      "unverified_candidate_anchor_ids": [],
+      "anchor_evidence_status": "VERIFIED_EXISTING",
+      "scoring_eligible": true,
+      "event_fact_evidence": [
+        "event02-nato-statement"
+      ],
+      "mechanism_evidence": [
+        {
+          "source_id": "mechanism-event-02-fed-ukraine",
+          "evidence_scope": "POST_EVENT_MECHANISM_CORROBORATION",
+          "prediction_use": "EXCLUDED_TO_PREVENT_LEAKAGE"
+        }
+      ]
+    },
+    {
+      "path_id": "event-02-P-risk-appetite",
+      "event_id": "event-02",
+      "activation_phases": [
+        "INITIAL_SHOCK"
+      ],
+      "activation_actions": [
+        "STARTS"
+      ],
+      "activation_tags": [
+        "RISK_APPETITE"
+      ],
+      "chain": [
+        "GEOPOLITICAL_CONFLICT",
+        "RISK_APPETITE",
+        "EVENT-02_RISK_APPETITE",
+        "VIXCLS|SP500"
+      ],
+      "asset_series_ids": [
+        "VIXCLS",
+        "SP500"
+      ],
+      "expected_direction": {
+        "IMMEDIATE": "VIX_UP__SP500_DOWN",
+        "SHORT_TERM": "MIXED",
+        "MEDIUM_TERM": "MIXED"
+      },
+      "lag": {
+        "minimum": "P0D",
+        "maximum": "P20D"
+      },
+      "conditions": [
+        "主锚点事实未被官方实质更正。",
+        "RISK_APPETITE 渠道在所选窗口内仍具经济相关性。"
+      ],
+      "invalidation_conditions": [
+        "政策响应或后续事件成为窗口内主导冲击。",
+        "冲突前能源紧张、后续制裁与政策利率重估会竞争解释。"
+      ],
+      "counterevidence": [
+        "冲突前能源紧张、后续制裁与政策利率重估会竞争解释。"
+      ],
+      "selection_status": "CORE_REVIEWED",
+      "confirmation_status": "PROPOSED",
+      "review_basis": "AI_DESK_REVIEW_NO_HUMAN_CONFIRMATION",
+      "name": "地缘尾部风险冲击股票与波动率",
+      "anchor_fast_node_ids": [
+        "fast-event-02-M03"
+      ],
+      "unverified_candidate_anchor_ids": [],
+      "anchor_evidence_status": "VERIFIED_EXISTING",
+      "scoring_eligible": true,
+      "event_fact_evidence": [
+        "event02-nato-statement"
+      ],
+      "mechanism_evidence": [
+        {
+          "source_id": "mechanism-event-02-fed-ukraine",
+          "evidence_scope": "POST_EVENT_MECHANISM_CORROBORATION",
+          "prediction_use": "EXCLUDED_TO_PREVENT_LEAKAGE"
+        }
+      ]
+    },
+    {
+      "path_id": "event-02-P-sanctions-trade",
+      "event_id": "event-02",
+      "activation_phases": [
+        "POLICY_RESPONSE"
+      ],
+      "activation_actions": [
+        "AMPLIFIES"
+      ],
+      "activation_tags": [
+        "DOLLAR_LIQUIDITY",
+        "ENERGY_SUPPLY"
+      ],
+      "chain": [
+        "SANCTIONS",
+        "ENERGY_TRADE",
+        "EVENT-02_SANCTIONS_TRADE",
+        "DCOILBRENTEU"
+      ],
+      "asset_series_ids": [
+        "DCOILBRENTEU"
+      ],
+      "expected_direction": {
+        "IMMEDIATE": "MIXED",
+        "SHORT_TERM": "MIXED",
+        "MEDIUM_TERM": "MIXED"
+      },
+      "lag": {
+        "minimum": "P0D",
+        "maximum": "P20D"
+      },
+      "conditions": [
+        "主锚点事实未被官方实质更正。",
+        "ENERGY_TRADE 渠道在所选窗口内仍具经济相关性。"
+      ],
+      "invalidation_conditions": [
+        "政策响应或后续事件成为窗口内主导冲击。",
+        "冲突前能源紧张、后续制裁与政策利率重估会竞争解释。"
+      ],
+      "counterevidence": [
+        "冲突前能源紧张、后续制裁与政策利率重估会竞争解释。"
+      ],
+      "selection_status": "CORE_REVIEWED",
+      "confirmation_status": "PROPOSED",
+      "review_basis": "AI_DESK_REVIEW_NO_HUMAN_CONFIRMATION",
+      "name": "制裁与能源贸易摩擦影响供应连续性",
+      "anchor_fast_node_ids": [
+        "fast-event-02-M05"
+      ],
+      "unverified_candidate_anchor_ids": [],
+      "anchor_evidence_status": "VERIFIED_EXISTING",
+      "scoring_eligible": true,
+      "event_fact_evidence": [
+        "supplemental-fast-event-02-M05"
+      ],
+      "mechanism_evidence": [
+        {
+          "source_id": "mechanism-event-02-fed-ukraine",
+          "evidence_scope": "POST_EVENT_MECHANISM_CORROBORATION",
+          "prediction_use": "EXCLUDED_TO_PREVENT_LEAKAGE"
+        }
+      ]
+    }
+  ]
+}

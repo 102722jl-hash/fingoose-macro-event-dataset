@@ -1,0 +1,55 @@
+{
+  "acceptance_errors": [],
+  "active_contracts": [
+    "i2609"
+  ],
+  "adapter_version": "fingoose-wind-iron-ore-v0.1",
+  "continuous_record_count": 10,
+  "contract_history_count": 116,
+  "contracts_per_day": {
+    "2026-07-09": 11,
+    "2026-07-10": 11,
+    "2026-07-13": 11,
+    "2026-07-14": 11,
+    "2026-07-15": 12,
+    "2026-07-16": 12,
+    "2026-07-17": 12,
+    "2026-07-20": 12,
+    "2026-07-21": 12,
+    "2026-07-22": 12
+  },
+  "dataset_version": "fingoose-wind-iron-ore-candidate-v0.2",
+  "dates": [
+    "2026-07-09",
+    "2026-07-10",
+    "2026-07-13",
+    "2026-07-14",
+    "2026-07-15",
+    "2026-07-16",
+    "2026-07-17",
+    "2026-07-20",
+    "2026-07-21",
+    "2026-07-22"
+  ],
+  "display_allowed": false,
+  "forecast_labels_generated": false,
+  "formal_dce_track_complete": false,
+  "latest_contract_record_count": 116,
+  "latest_manifest_count": 3,
+  "license_scope": "unknown",
+  "manifest_history_count": 3,
+  "p0_status": "blocked",
+  "quality_flags": [
+    "VENDOR_SOURCE_NOT_OFFICIAL",
+    "LICENSE_SCOPE_UNKNOWN",
+    "TRADING_CALENDAR_UNVERIFIED"
+  ],
+  "raw_target_record_count": 120,
+  "redistribution_allowed": false,
+  "rejected_record_count": 4,
+  "roll_event_count": 1,
+  "source_data_row_count": 8352249,
+  "source_track": "wind_vendor_candidate",
+  "status": "research_candidate",
+  "validation_errors": []
+}

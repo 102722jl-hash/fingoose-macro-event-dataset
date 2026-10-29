@@ -1,0 +1,33 @@
+{
+  "dataset_version": "fingoose-unified-sft-v1",
+  "event_to_split": {
+    "event-01": "train",
+    "event-02": "train",
+    "event-03": "train",
+    "event-04": "train",
+    "event-05": "train",
+    "event-06": "train",
+    "event-07": "train",
+    "event-08": "train",
+    "event-09": "validation",
+    "event-10": "test"
+  },
+  "splits": {
+    "test": [
+      "event-10"
+    ],
+    "train": [
+      "event-01",
+      "event-02",
+      "event-03",
+      "event-04",
+      "event-05",
+      "event-06",
+      "event-07",
+      "event-08"
+    ],
+    "validation": [
+      "event-09"
+    ]
+  }
+}

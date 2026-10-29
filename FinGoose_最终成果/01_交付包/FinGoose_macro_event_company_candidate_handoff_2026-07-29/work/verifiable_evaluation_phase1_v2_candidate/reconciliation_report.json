@@ -1,0 +1,30 @@
+{
+  "binding_status_counts": {
+    "NEEDS_HUMAN_REVIEW": 111
+  },
+  "company_exposure_gap_count": 30,
+  "formal_ready": false,
+  "industry_human_review_count": 43,
+  "input_timeline_baseline": {
+    "pending": 8,
+    "verified": 42
+  },
+  "limitations": [
+    "111 dynamic bindings require edge-level human review",
+    "43 industry directions require human review",
+    "30 broad-market benchmarks unavailable",
+    "30 event-date Shenwan index benchmarks unavailable",
+    "30 official company exposure dossiers remain open",
+    "Graph construction and direction tracks are blocked until scoring labels are human-reviewed.",
+    "Public evidence documents use node-level first_public_at; independent per-document publication timestamps remain incomplete.",
+    "MySQL audit is internally reproducible but has no signed execution log; execution authenticity remains unverified.",
+    "25 source snapshots lack SHA-256; SHA gate remains deferred."
+  ],
+  "old_promotable_count": 18,
+  "output_timeline_baseline": {
+    "pending": 0,
+    "verified": 50
+  },
+  "recomputed_promotable_count": 13,
+  "semantic_replacement_count": 10
+}

@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FinGoose · 金融宏观事件可审计高质量数据集</title>
+<style>
+  :root{
+    --bg:#0b1020; --bg2:#121a33; --card:#16203c; --line:#25325c;
+    --txt:#e8ecf8; --dim:#9aa8c7; --acc:#4f8cff; --acc2:#22d3a8;
+    --warn:#ffb020; --bad:#ff6b6b; --ok:#22d3a8;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{
+    background:radial-gradient(1200px 600px at 15% -10%,#1b2957 0%,transparent 60%),
+               radial-gradient(900px 500px at 90% 0%,#123b3a 0%,transparent 55%),
+               var(--bg);
+    color:var(--txt);
+    font-family:"Segoe UI","PingFang SC","Microsoft YaHei",-apple-system,sans-serif;
+    line-height:1.7; -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:1140px;margin:0 auto;padding:0 24px 80px}
+  header{padding:72px 0 40px;border-bottom:1px solid var(--line)}
+  .kicker{color:var(--acc2);letter-spacing:.22em;font-size:12px;font-weight:700;text-transform:uppercase}
+  h1{font-size:44px;line-height:1.2;margin:14px 0 10px;font-weight:800;letter-spacing:-.5px}
+  h1 span{background:linear-gradient(90deg,#4f8cff,#22d3a8);-webkit-background-clip:text;background-clip:text;color:transparent}
+  .lede{color:var(--dim);font-size:17px;max-width:820px}
+  .meta{margin-top:22px;display:flex;flex-wrap:wrap;gap:10px}
+  .chip{background:#16203c;border:1px solid var(--line);border-radius:999px;padding:6px 14px;font-size:13px;color:var(--dim)}
+  h2{font-size:26px;margin:64px 0 6px;font-weight:750;letter-spacing:-.2px}
+  h2 .n{color:var(--acc);font-weight:800;margin-right:10px;font-variant-numeric:tabular-nums}
+  .sub{color:var(--dim);font-size:15px;margin-bottom:26px}
+  .grid{display:grid;gap:16px}
+  .g4{grid-template-columns:repeat(4,1fr)}
+  .g3{grid-template-columns:repeat(3,1fr)}
+  .g2{grid-template-columns:repeat(2,1fr)}
+  @media(max-width:900px){.g4,.g3,.g2{grid-template-columns:1fr 1fr}}
+  @media(max-width:620px){.g4,.g3,.g2{grid-template-columns:1fr}h1{font-size:32px}}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:20px 22px}
+  .stat{text-align:left}
+  .stat .v{font-size:34px;font-weight:800;letter-spacing:-1px;font-variant-numeric:tabular-nums}
+  .stat .l{color:var(--dim);font-size:13px;margin-top:4px}
+  .stat .v.a{color:var(--acc)} .stat .v.b{color:var(--acc2)}
+  .stat .v.c{color:var(--warn)} .stat .v.d{color:#c99cff}
+
+  /* timeline */
+  .tl{position:relative;margin:10px 0 0;padding-left:26px}
+  .tl:before{content:"";position:absolute;left:7px;top:6px;bottom:6px;width:2px;background:linear-gradient(180deg,var(--bad),var(--warn),var(--acc),var(--acc2))}
+  .ti{position:relative;padding:0 0 26px 20px}
+  .ti:before{content:"";position:absolute;left:-25px;top:7px;width:12px;height:12px;border-radius:50%;background:var(--bg);border:3px solid var(--dim)}
+  .ti.bad:before{border-color:var(--bad)} .ti.warn:before{border-color:var(--warn)}
+  .ti.acc:before{border-color:var(--acc)} .ti.ok:before{border-color:var(--acc2)}
+  .ti h3{font-size:17px;font-weight:700}
+  .ti .tag{display:inline-block;font-size:11px;font-weight:700;letter-spacing:.06em;border-radius:6px;padding:2px 8px;margin-left:8px;vertical-align:2px}
+  .tag.bad{background:#3a1c22;color:#ff8f8f;border:1px solid #62202c}
+  .tag.warn{background:#3a2f14;color:#ffcd6b;border:1px solid #664d15}
+  .tag.acc{background:#16264d;color:#8ab4ff;border:1px solid #27407a}
+  .tag.ok{background:#0f3229;color:#5ff0c4;border:1px solid #1c5c4a}
+  .ti p{color:var(--dim);font-size:14px;margin-top:4px}
+  .ti .why{color:#cbd6f2;font-size:13.5px;margin-top:6px;border-left:2px solid var(--line);padding-left:10px}
+  .ti .why b{color:var(--warn)}
+
+  table{width:100%;border-collapse:collapse;font-size:14px;margin-top:8px}
+  th,td{text-align:left;padding:11px 12px;border-bottom:1px solid var(--line);vertical-align:top}
+  th{color:var(--dim);font-weight:600;font-size:12.5px;letter-spacing:.04em;text-transform:uppercase}
+  tr:last-child td{border-bottom:none}
+  td.rej{color:#ff9b9b}
+  code{font-family:"Cascadia Code",Consolas,monospace;background:#0e1730;border:1px solid var(--line);border-radius:5px;padding:1px 6px;font-size:12.5px;color:#a9c7ff}
+  pre{background:#0a1226;border:1px solid var(--line);border-radius:12px;padding:16px 18px;overflow:auto;font-family:"Cascadia Code",Consolas,monospace;font-size:12.5px;color:#cfe0ff;line-height:1.65}
+  .pill{display:inline-block;font-size:11.5px;font-weight:700;border-radius:6px;padding:2px 9px}
+  .pill.ok{background:#0f3229;color:#5ff0c4} .pill.no{background:#3a1c22;color:#ff8f8f}
+  .pill.mid{background:#3a2f14;color:#ffcd6b}
+  .flow{display:flex;flex-wrap:wrap;align-items:stretch;gap:10px;margin-top:14px}
+  .fl{flex:1 1 180px;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px}
+  .fl .t{color:var(--acc2);font-size:12px;font-weight:700;letter-spacing:.06em}
+  .fl .h{font-size:16px;font-weight:700;margin:6px 0 4px}
+  .fl .d{color:var(--dim);font-size:13px}
+  .arrow{align-self:center;color:var(--acc);font-size:20px;font-weight:800}
+  .callout{border-left:3px solid var(--acc);background:#101a33;border-radius:0 12px 12px 0;padding:16px 20px;color:var(--dim);font-size:14.5px}
+  .callout b{color:var(--txt)}
+  .callout.warn{border-left-color:var(--warn)}
+  .callout.ok{border-left-color:var(--acc2)}
+  .two{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+  @media(max-width:760px){.two{grid-template-columns:1fr}}
+  .boxok{border:1px solid #1c5c4a;background:#0f2620;border-radius:14px;padding:20px}
+  .boxno{border:1px solid #5c2b2b;background:#2a1618;border-radius:14px;padding:20px}
+  .boxok h3{color:#5ff0c4;font-size:16px} .boxno h3{color:#ff9b9b;font-size:16px}
+  ul{margin:10px 0 0 18px;color:var(--dim);font-size:14px} li{margin:5px 0}
+  .num{display:inline-flex;align-items:center;justify-content:center;min-width:22px;height:22px;border-radius:6px;background:#16264d;color:#8ab4ff;font-size:12px;font-weight:800;margin-right:8px}
+  footer{margin-top:70px;padding-top:24px;border-top:1px solid var(--line);color:#6b7ba0;font-size:13px}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <div class="kicker">Project Showcase · 最终成果梳理</div>
+  <h1>FinGoose · <span>金融宏观事件驱动的可审计高质量数据集</span></h1>
+  <p class="lede">
+    从宏观事件出发，逐层推导到行业影响、公司影响，并最终沉淀为可审计的事件研究问答——
+    全部样本都带可追溯的证据链与门禁状态，再把这套方法论整体封装成一个可复用的 Skill。
+    本页同时说明：每一步<strong>靠哪些内容实现</strong>，以及<strong>为什么这样做、而不采用别的做法</strong>。
+  </p>
+  <div class="meta">
+    <span class="chip">主线：宏观事件 → 传导机制 → 行业影响 → 公司影响 → 事件研究问答</span>
+    <span class="chip">最终路线：统一 SFT（放弃 DPO / GRPO / RLVR）</span>
+    <span class="chip">来源政策：public_official_only</span>
+  </div>
+</header>
+
+<h2><span class="n">01</span>最终成果一览</h2>
+<p class="sub">以下指标均来自本目录内交付包的实际校验结果，可复现。</p>
+<div class="grid g4">
+  <div class="card stat"><div class="v a">10</div><div class="l">宏观事件（unified_events.jsonl）</div></div>
+  <div class="card stat"><div class="v b">157</div><div class="l">统一 SFT 样本（sft_dataset.jsonl）</div></div>
+  <div class="card stat"><div class="v d">4</div><div class="l">统一任务类型</div></div>
+  <div class="card stat"><div class="v c">124/16/17</div><div class="l">train / validation / test 切分</div></div>
+</div>
+<div class="grid g4" style="margin-top:16px">
+  <div class="card stat"><div class="v b">0</div><div class="l">数据集校验错误 / 警告</div></div>
+  <div class="card stat"><div class="v a">ready=true</div><div class="l">QLoRA 训练 dry-run 结果</div></div>
+  <div class="card stat"><div class="v a">1</div><div class="l">封装完成的 Skill</div></div>
+  <div class="card stat"><div class="v b">1</div><div class="l">formal_ready 正式数据集</div></div>
+</div>
+
+<h2><span class="n">02</span>路线演进：一路修正出来的最终版本</h2>
+<p class="sub">项目经历过多次路线推翻与重建。每个被放弃的路线，都对应一个明确被否决的理由。</p>
+<div class="tl">
+  <div class="ti bad">
+    <h3>v0.1 Canonical 100<span class="tag bad">早期路线 · 已废弃</span></h3>
+    <p>通用高质量样本的初始形态：只追求"样本看起来高质量"，没有把研究过程结构化。</p>
+    <div class="why"><b>为什么放弃：</b>缺乏"宏观事件 → 行业 → 公司"的因果分层，无法回答"这个结论从哪条证据来"，可审计性不足——而可审计正是本项目的核心目标。</div>
+  </div>
+  <div class="ti bad">
+    <h3>v0.1 五类 RLVR 试点<span class="tag bad">方向修正</span></h3>
+    <p>尝试用 RLVR（可验证奖励的强化学习）来训练金融推理。</p>
+    <div class="why"><b>为什么放弃：</b>RLVR 需要一个能自动判定对错的奖励信号；而金融因果结论没有可靠的自动判分器，奖励机制反而会强化"自信但错误"的答案。与本项目"证据边界优先"的目标直接冲突。</div>
+  </div>
+  <div class="ti warn">
+    <h3>v0.2 双轨数据集（含商品行情）<span class="tag warn">部分保留</span></h3>
+    <p>尝试「宏观事件 + 商品主连行情」双轨结构，商品行情派生数据保留在 <code>data/commodity_market_v0_2</code>。</p>
+    <div class="why"><b>为什么收窄：</b>商品主连行情不能替代股票交易日历，双轨会让"事件 → 公司"的主线被行情细节稀释；因此把商品行情降级为辅助轨道，主线收敛为宏观事件研究。</div>
+  </div>
+  <div class="ti warn">
+    <h3>v0.3 公开官方来源研究候选版<span class="tag warn">演进中</span></h3>
+    <p>确立 <code>public_official_only</code> 来源政策，禁用 Wind / 东方财富 / 新浪 / 同花顺 / 雪球。</p>
+    <div class="why"><b>为什么这样定：</b>商业终端数据有许可限制、且外部无法复核；改为只用可公开复核的官方来源（政府、央行、交易所、公司公告），每条事实都要求"原文 + 定位 + URL"三要素，才能被第三方审计。</div>
+  </div>
+  <div class="ti acc">
+    <h3>最终交接包（2026-07-29 打包 / 2026-08-06 更新）<span class="tag acc">当前版本</span></h3>
+    <p>统一为四层主线 + 统一 SFT：市场归因正式集 v1.0（formal_ready）+ 宏观事件公司影响候选集 v2 + 可审计推理链 + Skill 封装。</p>
+    <div class="why"><b>为什么收敛到这版：</b>把"证据 → 推理 → 结论"显式建模成可校验的数据结构，并让训练产物由主数据确定性重建，从流程上消除"结论无据""数据漂移""信息泄漏"三类问题。</div>
+  </div>
+  <div class="ti ok">
+    <h3>训练栈定型<span class="tag ok">已验收</span></h3>
+    <p>Qwen2.5-3B-Instruct · 4-bit NF4 QLoRA；dry-run 输出 <code>ready=true</code>，切分 124/16/17。</p>
+    <div class="why"><b>为什么选它：</b>目标硬件是 RTX 4060 Laptop 8GB 显存，全量微调不可行、7B 也无法稳定运行；3B + 4-bit QLoRA 是在该硬件上唯一能稳定落地的基线配置。</div>
+  </div>
+</div>
+
+<h2><span class="n">03</span>四层主线架构</h2>
+<p class="sub">每层都是上游的推导结果，且必须满足对应的门禁才允许进入下一层。</p>
+<div class="flow">
+  <div class="fl"><div class="t">LAYER 1</div><div class="h">宏观事件</div><div class="d">10 个事件的结构化定义与时间线</div></div>
+  <div class="arrow">→</div>
+  <div class="fl"><div class="t">LAYER 2</div><div class="h">传导机制</div><div class="d">事件 → 行业的时间线与传导链条</div></div>
+  <div class="arrow">→</div>
+  <div class="fl"><div class="t">LAYER 3</div><div class="h">行业影响</div><div class="d">受益/受损方向与强度的可证伪判断</div></div>
+  <div class="arrow">→</div>
+  <div class="fl"><div class="t">LAYER 4</div><div class="h">公司影响 / 问答</div><div class="d">公司级归因与事件研究问答</div></div>
+</div>
+<div class="callout" style="margin-top:16px">
+  <b>为什么不直接从宏观证据预测公司收入？</b> 项目最初的设想就是"用宏观证据直接预测公司利润"，但这条路径无法审计、也无法证伪。
+  改为四层主线后，每一步都必须显式给出<b>中间机制</b>（事件改变了什么变量 → 变量如何影响经营 → 经营如何落到财务），
+  任何一环缺证据都会被门禁拦下，而不是被"跳步"成一个看起来很确定的结论。行业方向也<b>不允许直接等同于公司方向</b>。
+</div>
+
+<h2><span class="n">04</span>统一 SFT：四类任务</h2>
+<p class="sub">最终放弃 DPO / GRPO / RLVR，把全部监督信号统一成 157 条 SFT 样本。</p>
+<table>
+  <thead><tr><th>任务类型</th><th>样本数</th><th>说明</th><th>涉及层</th></tr></thead>
+  <tbody>
+    <tr><td><code>EVENT_ANALYSIS</code></td><td>10</td><td>宏观事件本体分析</td><td>Layer 1</td></tr>
+    <tr><td><code>INDUSTRY_IMPACT</code></td><td>77</td><td>事件对行业的影响方向与传导</td><td>Layer 2 / 3</td></tr>
+    <tr><td><code>COMPANY_IMPACT</code></td><td>30</td><td>事件对公司的影响与归因</td><td>Layer 4</td></tr>
+    <tr><td><code>EVENT_QA</code></td><td>40</td><td>事件研究问答</td><td>Layer 4</td></tr>
+    <tr><td><b>合计</b></td><td><b>157</b></td><td colspan="2">按事件划分切分：train 124（event-01~08）/ validation 16（event-09）/ test 17（event-10）</td></tr>
+  </tbody>
+</table>
+<div class="callout" style="margin-top:16px">
+  <b>为什么把四类任务合成一个文件、用 <code>split</code> 字段区分？</b> 而不是拆成 train/val/test 三个文件：
+  因为四类任务都由同一个 <code>event_id</code> 派生，合并存放才能保证"同一事件的所有样本永远待在同一个 split"，
+  从结构上杜绝事件级数据泄漏；拆分文件反而容易让同一事件的样本散落各处。
+</div>
+
+<h2><span class="n">05</span>关键设计决策：为什么这样做，而不是别的做法</h2>
+<p class="sub">下表是项目中最关键的取舍。每一项都对应一个被明确放弃的替代方案，以及放弃它的技术理由。</p>
+<table>
+  <thead><tr><th style="width:130px">决策点</th><th style="width:210px">采用方案</th><th style="width:190px">放弃的替代方案</th><th>为什么这样做</th></tr></thead>
+  <tbody>
+    <tr>
+      <td>训练范式</td>
+      <td>统一监督微调 SFT（HF/TRL <code>messages</code>）</td>
+      <td><span class="pill no">DPO / GRPO / RLVR</span></td>
+      <td>监督信号是"带证据边界的标准答案"，属于示范学习；金融因果无可靠自动判分器，RLVR 的奖励会把"自信但错误"的结论一起奖励。</td>
+    </tr>
+    <tr>
+      <td>数据切分</td>
+      <td>按 <code>event_id</code> 事件级切分（8/1/1）</td>
+      <td><span class="pill no">按样本随机切分</span></td>
+      <td>同一事件的行业/公司/问答样本高度相关，随机切分会把 test 事件的上下文泄进 train，使评测虚高。</td>
+    </tr>
+    <tr>
+      <td>来源范围</td>
+      <td>仅 T1/T2 官方可复核来源</td>
+      <td><span class="pill no">Wind / 东财 / 新浪 / 同花顺 / 雪球</span></td>
+      <td>商业终端有许可限制且外部不可复核；审计要求每条事实具备"原文 + 定位 + URL"，必须能被第三方独立验证。</td>
+    </tr>
+    <tr>
+      <td>不确定性</td>
+      <td>fail-closed：未达 <code>IDENTIFIED</code> 一律 <code>ABSTAIN</code></td>
+      <td><span class="pill no">直接给出方向/结论</span></td>
+      <td>金融因果很难被严格识别；宁可在证据不足时弃权，也不把"行情同步"写成"因果"。这是防止模型学会编造确定性的关键。</td>
+    </tr>
+    <tr>
+      <td>时间策略</td>
+      <td>双时钟：事前推理 / 事后验证分离</td>
+      <td><span class="pill no">单一时间线用全部资料</span></td>
+      <td>防止把事后公告、事后行情回填成"事前可见事实"；否则训练数据里会出现未来信息泄漏。</td>
+    </tr>
+    <tr>
+      <td>证据表达</td>
+      <td>完整推理链存 metadata，messages 只放精简推导</td>
+      <td><span class="pill no">扁平 evidence_ids 列表</span></td>
+      <td>扁平 ID 说不清"哪条证据支撑哪个节点、哪条路径支撑最终结论"；分层后既保证可审计，又保证可训练。</td>
+    </tr>
+    <tr>
+      <td>数据维护</td>
+      <td>确定性重建：同输入 → 相同 SHA-256</td>
+      <td><span class="pill no">手工分别维护两份 JSONL</span></td>
+      <td>手工维护必然发生漂移；由主数据 + 配置确定性生成，才能让验证报告对文件做哈希绑定、让结果可复现。</td>
+    </tr>
+    <tr>
+      <td>训练配置</td>
+      <td>Qwen2.5-3B-Instruct · 4-bit NF4 QLoRA</td>
+      <td><span class="pill no">全量微调 / 7B 基线</span></td>
+      <td>目标硬件为 RTX 4060 Laptop 8GB；全量微调装不下，7B 只能作实验配置、不能作为验收基线。</td>
+    </tr>
+    <tr>
+      <td>能力沉淀</td>
+      <td>封装为 Skill（统一 CLI + 严格闭环策略）</td>
+      <td><span class="pill no">一次性脚本 / 只交文档</span></td>
+      <td>方法论要可复用、可版本化、可被新任务独立调用；Skill 能用前向测试验证"换个事件是否仍能跑通"。</td>
+    </tr>
+    <tr>
+      <td>发布状态</td>
+      <td>formal / candidate / 待人工复核 分级分离</td>
+      <td><span class="pill no">统一标记"已完成"</span></td>
+      <td>结构完整 ≠ 证据完备 ≠ 因果成立；候选数据不得自动升级为正式发布，避免"看起来齐了就算合格"。</td>
+    </tr>
+    <tr>
+      <td>旧路线处理</td>
+      <td>全部归档，绝不删除</td>
+      <td><span class="pill no">直接删除 / 原地覆盖</span></td>
+      <td>路线纠偏的过程本身就是成果的一部分；保留归档既能展示思路演进，也让任何结论都可回溯。</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2><span class="n">06</span>实现方式：靠哪些内容与机制落地</h2>
+<p class="sub">每一项能力都对应具体的模块、脚本或契约文件，而不是只停留在设计描述里。</p>
+<table>
+  <thead><tr><th style="width:150px">能力</th><th style="width:330px">实现载体</th><th>关键机制</th></tr></thead>
+  <tbody>
+    <tr>
+      <td>统一主数据装配</td>
+      <td><code>training/fingoose_training/unified_builder.py</code><br><code>training/scripts/build_unified_dataset.py</code></td>
+      <td>以 <code>event_id</code> 为第一关联键；无法解析的外键直接报错阻断，不静默丢弃。</td>
+    </tr>
+    <tr>
+      <td>SFT 样本投影</td>
+      <td><code>.../sft_projector.py</code><br><code>training/scripts/build_sft_dataset.py</code></td>
+      <td>由主数据确定性投影为标准三角色 <code>messages</code>；训练器只对 messages 计算损失。</td>
+    </tr>
+    <tr>
+      <td>事件级切分</td>
+      <td><code>.../splits.py</code> · <code>training/data/split_manifest.json</code></td>
+      <td>用显式清单固定分区，不依赖每次运行随机划分；同事件同 split。</td>
+    </tr>
+    <tr>
+      <td>证据链编译</td>
+      <td><code>.../reasoning_chain.py</code></td>
+      <td>生成四类任务推理链、执行节点状态传播、维护节点与证据的双向引用。</td>
+    </tr>
+    <tr>
+      <td>证据闭环</td>
+      <td><code>.../evidence_closure.py</code> · <code>references/evidence-gates.md</code></td>
+      <td>校验"原文 / 定位 / URL"三要素；同一证据关键字段冲突时 fail-closed。</td>
+    </tr>
+    <tr>
+      <td>因果识别</td>
+      <td><code>.../causal_identification.py</code> · <code>references/causal-gates.md</code></td>
+      <td>严格布尔门禁；非 <code>IDENTIFIED</code> 时必须 <code>ABSTAIN</code>，字符串真值不能替代。</td>
+    </tr>
+    <tr>
+      <td>行情计算</td>
+      <td><code>.../market_enrichment.py</code> · <code>references/market-formulas.md</code></td>
+      <td>窗口 <code>T-1/T0/D1/D3/D5/D20</code> 可回算；缺值时标记 <code>DATA_MISSING</code>，禁止补零。</td>
+    </tr>
+    <tr>
+      <td>发布门禁</td>
+      <td><code>.../validation.py</code> · <code>training/scripts/validate_dataset.py</code> → <code>validation_report.json</code></td>
+      <td>要求 0 errors / 0 warnings，并把报告与三个核心文件的 SHA-256 绑定。</td>
+    </tr>
+    <tr>
+      <td>训练入口</td>
+      <td><code>training/scripts/train_sft.py</code> · <code>configs/sft_qlora_3b.json</code></td>
+      <td>启动前校验显存 / CUDA / 依赖 / 数据再放行；4-bit NF4 + 梯度检查点。</td>
+    </tr>
+    <tr>
+      <td>问答与内容渲染</td>
+      <td><code>.../answer_renderer.py</code> · <code>.../research_content.py</code> · <code>.../ui_reference.py</code></td>
+      <td>四类任务的分段回答渲染，以及向 UI 输出时的数据引用与稳定性。</td>
+    </tr>
+    <tr>
+      <td>Skill 流水线</td>
+      <td><code>skills/building-auditable-macro-datasets/scripts/macro_dataset_pipeline.py</code></td>
+      <td>统一 CLI：<code>discover / audit / enrich / build / validate / reproduce</code>，阶段间只传显式产物。</td>
+    </tr>
+    <tr>
+      <td>来源抽取与运行审计</td>
+      <td><code>.../scripts/source_extractors.py</code> · <code>.../scripts/audit_outputs.py</code></td>
+      <td>分层检索（搜索 → 正文提取 → 浏览器回退）；按响应字节 SHA-256 命名快照。</td>
+    </tr>
+    <tr>
+      <td>策略与契约</td>
+      <td><code>.../references/*.md</code>（7 篇）</td>
+      <td>把字段契约、公式、门禁从主上下文移出，按需读取，避免上下文冗余。</td>
+    </tr>
+    <tr>
+      <td>版本化 UI</td>
+      <td><code>work/company_impact_high_quality_v2_candidate/ui/</code><br><code>index.html</code> + <code>ui_data_bundle.js</code> + <code>release_manifest.json</code></td>
+      <td>只替换数据 bundle，不重构既有栏目；旧版本冻结为不可变基线。</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2><span class="n">07</span>可审计与门禁机制</h2>
+<p class="sub">这是项目最核心的方法论资产：没有证据不下结论，因果未识别一律弃权。</p>
+<div class="two">
+  <div class="card">
+    <h3 style="font-size:16px;margin-bottom:8px">门禁状态</h3>
+    <table>
+      <tr><td><span class="pill ok">formal_ready</span></td><td>达到正式集发布标准</td></tr>
+      <tr><td><span class="pill mid">candidate_ready</span></td><td>候选集可达标，但未正式发布</td></tr>
+      <tr><td><span class="pill mid">CANDIDATE_SFT_ELIGIBLE</span></td><td>可进入 SFT 候选</td></tr>
+      <tr><td><span class="pill no">NEEDS_HUMAN_REVIEW</span></td><td>需人工复核</td></tr>
+      <tr><td><span class="pill no">ABSTAIN</span></td><td>因果未识别 → 一律弃权</td></tr>
+    </table>
+  </div>
+  <div class="card">
+    <h3 style="font-size:16px;margin-bottom:8px">规范推理链 metadata v1</h3>
+    <ul>
+      <li><code>reasoning_chain</code>：可追溯的推理步骤（节点 + 边）</li>
+      <li><code>evidence_registry</code>：证据登记表</li>
+      <li><code>conclusion_lineage</code>：结论谱系（结论从哪条证据来）</li>
+      <li>节点状态：VERIFIED_SOURCE / EVIDENCE_MISSING / SUPPORTED_INFERENCE / INFERENCE_ONLY / CALCULATED_ONLY / CUTOFF_BLOCKED</li>
+      <li>消息长度门禁：三条 messages 总字符数 ≤ 2000</li>
+    </ul>
+  </div>
+</div>
+<div class="callout warn" style="margin-top:16px">
+  <b>为什么要做门禁，而不是"人工看一眼觉得没问题就发布"？</b>
+  因为可审计的对象必须能被机器重复校验。门禁把"合格"翻译成一组确定性的布尔条件
+  （四类任务齐全、事件不跨 split、无隐藏标签、无硬截断、外键可解析、SHA 一致），
+  任何一条不满足就直接阻断发布——这样"是否合格"不依赖某个人的判断，也不会随版本漂移。
+</div>
+<div class="callout" style="margin-top:16px">
+  <b>来源政策：</b>仅允许公开官方来源（交易所、监管、官方统计、上市公司公告等）；
+  明确禁用 Wind、东方财富、新浪、同花顺、雪球等非公开/非官方来源。
+  受限数据边界记录在交付包的 <code>restricted/</code> 目录。
+</div>
+
+<h2><span class="n">08</span>Skill 封装：把方法论沉淀成可复用能力</h2>
+<p class="sub">这是「整理成了 skill」的具体成果，位于交付包 <code>skills/building-auditable-macro-datasets/</code>。</p>
+<div class="grid g3">
+  <div class="card">
+    <div class="fl" style="border:none;background:transparent;padding:0">
+      <div class="t">SKILL.md</div>
+      <div class="h" style="font-size:15px">统一 CLI + 10 步工作流</div>
+      <div class="d">入口 <code>scripts/macro_dataset_pipeline.py</code>，闭环策略 <code>strict-claim-closure-v2</code>；只放触发条件、门禁、路由，细节下沉到 references 与 scripts。</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="fl" style="border:none;background:transparent;padding:0">
+      <div class="t">references / 7 篇</div>
+      <div class="h" style="font-size:15px">策略与契约</div>
+      <div class="d">causal-gates · evidence-gates · source-policy · temporal-policy · market-formulas · data-contracts · ui-integration-contract</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="fl" style="border:none;background:transparent;padding:0">
+      <div class="t">tests / 9 个</div>
+      <div class="h" style="font-size:15px">闭环与门禁自检</div>
+      <div class="d">严格闭环、门禁、来源抽取、包一致性、run ledger、发现与缺口扫描、离线复现。</div>
+    </div>
+  </div>
+</div>
+<div class="callout ok" style="margin-top:16px">
+  <b>为什么把"严格闭环"写成策略而不是默认放行？</b> 因为最容易出错的地方正是"自称已完成"。
+  <code>strict-claim-closure-v2</code> 不接受节点自报 <code>CLOSED</code>：每个行业七步节点必须声明
+  <code>DIRECT_FACT</code> / <code>PREMISE_SUPPORT</code> / <code>CALCULATED_LINEAGE</code> / <code>NEGATIVE_SEARCH_AUDIT</code>
+  之一并留下节点级定位与双向引用；行情必须能被重新计算复核。凡是模板化文本、悬空引用、补零行情、假 <code>CLOSED</code>，一律进隔离区。
+</div>
+
+<h2><span class="n">09</span>验收证据（可复现）</h2>
+<p class="sub">以下命令在交付包根目录执行，结果为本目录整理后实测。</p>
+<pre>$env:PYTHONPATH = (Resolve-Path 'training').Path
+
+python training/scripts/build_unified_dataset.py --config training/configs/dataset.json
+  → wrote 10 unified events to training/data/unified_events.jsonl
+
+python training/scripts/build_sft_dataset.py     --config training/configs/dataset.json
+  → wrote 157 SFT samples to training/data/sft_dataset.jsonl
+
+python training/scripts/validate_dataset.py      --config training/configs/dataset.json
+  → validation passed: 0 errors, 0 warnings
+
+python training/scripts/train_sft.py --config training/configs/sft_qlora_3b.json --dry-run
+  → {"ready": true, "model_name_or_path": "Qwen/Qwen2.5-3B-Instruct",
+     "four_bit": true, "sample_counts": {"train":124,"validation":16,"test":17}}</pre>
+<div class="callout" style="margin-top:16px">
+  <b>确定性校验：</b>连续两次执行 <code>build_sft_dataset.py</code>，<code>sft_dataset.jsonl</code> 的 SHA-256 完全一致
+  （<code>15e75818…bb363</code>），说明数据集构建是可复现的。
+</div>
+
+<h2><span class="n">10</span>目录整理结果：哪些必要、哪些非必要</h2>
+<p class="sub">整理只做「移动」，未删除任何文件；归档内容随时可取回。</p>
+<div class="two">
+  <div class="boxok">
+    <h3>✔ 必要 · 最终成果（保留在 01_交付包）</h3>
+    <ul>
+      <li>交付包根目录文档与脚本（HANDOFF_CURRENT / README / VERIFY / START_UI 等）</li>
+      <li><code>code/</code> 构建脚本 130 个</li>
+      <li><code>training/</code> 统一 SFT 训练区 185 个（数据 + 模块 + 脚本 + 测试 + 配置）</li>
+      <li><code>skills/building-auditable-macro-datasets/</code> Skill 封装 23 个</li>
+      <li><code>data/</code> 6 个数据集版本（含唯一 formal_ready 正式集）</li>
+      <li><code>docs/</code> 设计规格 72 个 · <code>schemas/</code> 数据契约 21 个 · <code>configs/</code> 27 个</li>
+      <li><code>tests/</code> 端到端测试 109 个</li>
+      <li><code>work/</code> 各阶段候选成果 790 个（含<b>主 UI</b>）</li>
+    </ul>
+  </div>
+  <div class="boxno">
+    <h3>✘ 非必要 · 已归档（02 / 03）</h3>
+    <ul>
+      <li><code>02_归档_历史路线/</code>：v0.1~v0.3 旧路线的脚本 / 测试 / schema / 配置 / 交接文档 / 原始数据资源（约 1675 文件）</li>
+      <li><code>03_归档_临时产物/</code>：缓存与中间产物
+        <ul>
+          <li>交付包内缓存（<code>__pycache__</code> / <code>.pytest_cache</code> / <code>.test-tmp</code> / <code>*.orig</code> 等）</li>
+          <li>work 中间运行产物 <code>skill_research_runs</code> 等（约 11.6 GB，体量最大）</li>
+          <li>根目录 pytest 临时目录与缓存</li>
+          <li>原始交付包 zip 备份</li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+</div>
+<div class="callout" style="margin-top:16px">
+  <b>整理规模：</b>交付包由 <b>12.1 GB / 6701 文件</b> 精简为 <b>约 503 MB / 1489 文件</b>；
+  移出内容全部进入归档目录，无任何删除。整理后重建与训练 dry-run 均通过。
+</div>
+
+<h2><span class="n">11</span>如何查看这个项目</h2>
+<table>
+  <tr><th style="width:230px">想看什么</th><th>从哪里开始</th></tr>
+  <tr><td>项目整体状态与验收结论</td><td><code>01_交付包/…/HANDOFF_CURRENT_2026-08-06.md</code></td></tr>
+  <tr><td>设计决策与取舍（本页第 05 章的原始出处）</td><td><code>01_交付包/…/docs/superpowers/specs/</code>（SFT 训练、发布门禁、推理链、Skill 四篇设计）</td></tr>
+  <tr><td>项目演示界面</td><td><code>01_交付包/…/work/company_impact_high_quality_v2_candidate/ui/index.html</code>（或运行 <code>START_UI.ps1</code>）</td></tr>
+  <tr><td>方法论与 Skill</td><td><code>01_交付包/…/skills/building-auditable-macro-datasets/SKILL.md</code></td></tr>
+  <tr><td>训练数据集与框架</td><td><code>01_交付包/…/training/README.md</code> + <code>training/data/</code></td></tr>
+  <tr><td>路线演进与纠错过程</td><td><code>02_归档_历史路线/文档_旧交接/</code></td></tr>
+  <tr><td>必要/非必要文件明细</td><td><code>00_总览/FinGoose_文件清单.csv</code></td></tr>
+</table>
+
+<footer>
+  FinGoose · 宏观事件可审计高质量数据集 · 最终成果梳理页<br>
+  数据指纹（sft_dataset.jsonl SHA-256）：15e7581897e274ce556b9aeecee21de24208fa36fe83e501a5dbf205f22bb363
+</footer>
+
+</div>
+</body>
+</html>

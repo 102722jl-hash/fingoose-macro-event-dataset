@@ -1,0 +1,127 @@
+{
+  "event_id": "event-04",
+  "title": "中国发布防疫优化措施并转向重新开放",
+  "ordering_basis": "CURATED_STORY_SEQUENCE",
+  "steps": [
+    {
+      "story_step_id": "story-event-04-01",
+      "sequence": 1,
+      "phase": "PRECONDITION",
+      "title_cn": "二十条措施建立防疫优化基线",
+      "narrative_cn": "二十条措施建立防疫优化基线。事件状态由“防疫政策仍以严格控制为主”转为“政策开始转向优化执行”，后续观察应使用新的阶段基准。",
+      "before_state_cn": "防疫政策仍以严格控制为主",
+      "after_state_cn": "政策开始转向优化执行",
+      "significance_cn": "该步骤建立冲击发生前的约束条件，并重新界定中国增长、大宗商品需求、人民币与全球风险偏好的观察窗口与传导条件。",
+      "evidence_node_ids": [
+        "fast-event-04-M01"
+      ],
+      "period_start": "2022-11-11",
+      "period_end": "2022-11-11",
+      "time_precision": "DATE",
+      "evidence_status": "SUPPORTED",
+      "evidence_boundary_cn": "关联证据支持事件事实；前后状态与阶段意义属于可追溯的研究归纳。",
+      "activated_path_ids": [],
+      "amplified_path_ids": [],
+      "weakened_path_ids": [],
+      "market_series_ids": []
+    },
+    {
+      "story_step_id": "story-event-04-02",
+      "sequence": 2,
+      "phase": "PRECONDITION",
+      "title_cn": "官方表述释放政策转向信号",
+      "narrative_cn": "官方表述释放政策转向信号。事件状态由“政策开始转向优化执行”转为“市场获得更清晰的转向预期”，后续观察应使用新的阶段基准。",
+      "before_state_cn": "政策开始转向优化执行",
+      "after_state_cn": "市场获得更清晰的转向预期",
+      "significance_cn": "该步骤建立冲击发生前的约束条件，并重新界定中国增长、大宗商品需求、人民币与全球风险偏好的观察窗口与传导条件。",
+      "evidence_node_ids": [
+        "fast-event-04-M02"
+      ],
+      "period_start": "2022-11-30",
+      "period_end": "2022-11-30",
+      "time_precision": "DATE",
+      "evidence_status": "SUPPORTED",
+      "evidence_boundary_cn": "关联证据支持事件事实；前后状态与阶段意义属于可追溯的研究归纳。",
+      "activated_path_ids": [],
+      "amplified_path_ids": [],
+      "weakened_path_ids": [],
+      "market_series_ids": []
+    },
+    {
+      "story_step_id": "story-event-04-03",
+      "sequence": 3,
+      "phase": "INITIAL_SHOCK",
+      "title_cn": "十条优化措施启动重新开放主线",
+      "narrative_cn": "十条优化措施启动重新开放主线。事件状态由“市场获得更清晰的转向预期”转为“重新开放成为增长与风险偏好主线”，后续观察应使用新的阶段基准。",
+      "before_state_cn": "市场获得更清晰的转向预期",
+      "after_state_cn": "重新开放成为增长与风险偏好主线",
+      "significance_cn": "该步骤改变事件性质并启动核心市场重定价，并重新界定中国增长、大宗商品需求、人民币与全球风险偏好的观察窗口与传导条件。",
+      "evidence_node_ids": [
+        "fast-event-04-M03"
+      ],
+      "period_start": "2022-12-08",
+      "period_end": "2022-12-08",
+      "time_precision": "DATE",
+      "evidence_status": "PARTIALLY_SUPPORTED",
+      "evidence_boundary_cn": "关联证据支持核心事实；精确时刻或部分阶段解释仍需补证。",
+      "activated_path_ids": [
+        "event-04-P-china-growth",
+        "event-04-P-commodity-demand",
+        "event-04-P-risk-appetite",
+        "event-04-P-yuan-repricing"
+      ],
+      "amplified_path_ids": [],
+      "weakened_path_ids": [],
+      "market_series_ids": [
+        "SP500",
+        "DCOILWTICO",
+        "VIXCLS",
+        "DEXCHUS"
+      ]
+    },
+    {
+      "story_step_id": "story-event-04-04",
+      "sequence": 4,
+      "phase": "ESCALATION",
+      "title_cn": "出行与活动变化提供次日验证",
+      "narrative_cn": "出行与活动变化提供次日验证。事件状态由“重新开放成为增长与风险偏好主线”转为“实际活动开始验证政策影响”，后续观察应使用新的阶段基准。",
+      "before_state_cn": "重新开放成为增长与风险偏好主线",
+      "after_state_cn": "实际活动开始验证政策影响",
+      "significance_cn": "该步骤扩大冲击范围或提高传导强度，并重新界定中国增长、大宗商品需求、人民币与全球风险偏好的观察窗口与传导条件。",
+      "evidence_node_ids": [
+        "fast-event-04-M04"
+      ],
+      "period_start": "2022-12-08T10:05:00+08:00",
+      "period_end": "2022-12-08T10:05:00+08:00",
+      "time_precision": "TIMESTAMP",
+      "evidence_status": "SUPPORTED",
+      "evidence_boundary_cn": "关联证据支持事件事实；前后状态与阶段意义属于可追溯的研究归纳。",
+      "activated_path_ids": [],
+      "amplified_path_ids": [],
+      "weakened_path_ids": [],
+      "market_series_ids": []
+    },
+    {
+      "story_step_id": "story-event-04-05",
+      "sequence": 5,
+      "phase": "RESOLUTION",
+      "title_cn": "乙类乙管确认退出清零框架",
+      "narrative_cn": "乙类乙管确认退出清零框架。事件状态由“实际活动开始验证政策影响”转为“防疫制度完成结构性退出”，后续观察应使用新的阶段基准。",
+      "before_state_cn": "实际活动开始验证政策影响",
+      "after_state_cn": "防疫制度完成结构性退出",
+      "significance_cn": "该步骤标志事件进入结束或常态化管理阶段，并重新界定中国增长、大宗商品需求、人民币与全球风险偏好的观察窗口与传导条件。",
+      "evidence_node_ids": [
+        "fast-event-04-M05"
+      ],
+      "period_start": "2022-12-27",
+      "period_end": "2022-12-27",
+      "time_precision": "DATE",
+      "evidence_status": "SUPPORTED",
+      "evidence_boundary_cn": "关联证据支持事件事实；前后状态与阶段意义属于可追溯的研究归纳。",
+      "activated_path_ids": [],
+      "amplified_path_ids": [],
+      "weakened_path_ids": [],
+      "market_series_ids": []
+    }
+  ]
+}

@@ -1,0 +1,232 @@
+{
+  "event_id": "event-02",
+  "release_tier": "RAPID_CANDIDATE",
+  "confirmation_policy": "Only human-reviewed edges may later become CONFIRMED.",
+  "paths": [
+    {
+      "selection_status": "CORE_REVIEWED",
+      "confirmation_status": "PROPOSED",
+      "review_basis": "AI_DESK_REVIEW_NO_HUMAN_CONFIRMATION",
+      "path_id": "event-02-P01-energy-supply",
+      "name": "冲突升级 → 能源供应风险 → 原油与天然气",
+      "anchor_fast_node_ids": [
+        "fast-event-02-M02",
+        "fast-event-02-M03",
+        "fast-event-02-M04"
+      ],
+      "chain": [
+        "GEOPOLITICAL_CONFLICT",
+        "ENERGY_SUPPLY",
+        "PHYSICAL_SUPPLY_RISK",
+        "DCOILBRENTEU|DHHNGSP"
+      ],
+      "asset_series_ids": [
+        "DCOILBRENTEU",
+        "DHHNGSP"
+      ],
+      "expected_direction": {
+        "IMMEDIATE": "UP",
+        "SHORT_TERM": "UP",
+        "MEDIUM_TERM": "MIXED"
+      },
+      "lag": {
+        "minimum": "P0D",
+        "maximum": "P20D"
+      },
+      "conditions": [
+        "俄罗斯能源供应中断概率上升",
+        "替代供应短期不足",
+        "需求预期未快速坍塌"
+      ],
+      "invalidation_conditions": [
+        "能源出口保持完全可用",
+        "替代供应或需求下修压过供应风险"
+      ],
+      "event_fact_evidence": [
+        "supplemental-fast-event-02-M02",
+        "event02-nato-statement"
+      ],
+      "mechanism_evidence": [
+        {
+          "source_id": "mechanism-ecb-eb-2022-04",
+          "evidence_scope": "POST_EVENT_MECHANISM_CORROBORATION",
+          "prediction_use": "EXCLUDED_TO_PREVENT_LEAKAGE"
+        },
+        {
+          "source_id": "mechanism-imf-2022-03-15",
+          "evidence_scope": "POST_EVENT_MECHANISM_CORROBORATION",
+          "prediction_use": "EXCLUDED_TO_PREVENT_LEAKAGE"
+        }
+      ],
+      "counterevidence": [
+        "能源价格和供应紧张在入侵前已存在，不能把全部涨幅归因于单一节点。"
+      ]
+    },
+    {
+      "selection_status": "CORE_REVIEWED",
+      "confirmation_status": "PROPOSED",
+      "review_basis": "AI_DESK_REVIEW_NO_HUMAN_CONFIRMATION",
+      "path_id": "event-02-P02-inflation-rates",
+      "name": "能源冲击 → 通胀预期 → 利率重新定价",
+      "anchor_fast_node_ids": [
+        "fast-event-02-M03",
+        "fast-event-02-M04"
+      ],
+      "chain": [
+        "ENERGY_PRICE_SHOCK",
+        "INFLATION_EXPECTATIONS",
+        "POLICY_RATE_EXPECTATIONS",
+        "DGS10"
+      ],
+      "asset_series_ids": [
+        "DGS10"
+      ],
+      "expected_direction": {
+        "IMMEDIATE": "MIXED",
+        "SHORT_TERM": "UP",
+        "MEDIUM_TERM": "UP"
+      },
+      "lag": {
+        "minimum": "P0D",
+        "maximum": "P20D"
+      },
+      "conditions": [
+        "能源涨价被认为具有持续性",
+        "央行反应函数重视通胀失锚风险"
+      ],
+      "invalidation_conditions": [
+        "避险买盘压低长端收益率",
+        "增长冲击压过通胀渠道",
+        "政策指引转鸽"
+      ],
+      "event_fact_evidence": [
+        "event02-nato-statement"
+      ],
+      "mechanism_evidence": [
+        {
+          "source_id": "mechanism-imf-2022-03-15",
+          "evidence_scope": "POST_EVENT_MECHANISM_CORROBORATION",
+          "prediction_use": "EXCLUDED_TO_PREVENT_LEAKAGE"
+        },
+        {
+          "source_id": "mechanism-fed-2022-05-27",
+          "evidence_scope": "POST_EVENT_MECHANISM_CORROBORATION",
+          "prediction_use": "EXCLUDED_TO_PREVENT_LEAKAGE"
+        }
+      ],
+      "counterevidence": [
+        "DGS10 不是纯通胀预期序列，同时承载实际利率与避险需求，因此只作为扩展代理。"
+      ]
+    },
+    {
+      "selection_status": "CORE_REVIEWED",
+      "confirmation_status": "PROPOSED",
+      "review_basis": "AI_DESK_REVIEW_NO_HUMAN_CONFIRMATION",
+      "path_id": "event-02-P03-risk-appetite",
+      "name": "尾部风险上升 → 风险规避 → VIX 与股票",
+      "anchor_fast_node_ids": [
+        "fast-event-02-M03",
+        "fast-event-02-M04"
+      ],
+      "chain": [
+        "GEOPOLITICAL_TAIL_RISK",
+        "RISK_APPETITE",
+        "VOLATILITY_AND_EQUITY_REPRICING",
+        "VIXCLS|SP500"
+      ],
+      "asset_series_ids": [
+        "VIXCLS",
+        "SP500"
+      ],
+      "expected_direction": {
+        "IMMEDIATE": "VIX_UP__SP500_DOWN",
+        "SHORT_TERM": "VIX_UP__SP500_DOWN",
+        "MEDIUM_TERM": "MIXED"
+      },
+      "lag": {
+        "minimum": "P0D",
+        "maximum": "P5D"
+      },
+      "conditions": [
+        "冲突范围与制裁后果仍不确定",
+        "风险资产尚未完全计价"
+      ],
+      "invalidation_conditions": [
+        "冲突迅速受控",
+        "政策宽松预期或超预期盈利主导市场"
+      ],
+      "event_fact_evidence": [
+        "event02-nato-statement"
+      ],
+      "mechanism_evidence": [
+        {
+          "source_id": "mechanism-fed-2022-05-27",
+          "evidence_scope": "POST_EVENT_MECHANISM_CORROBORATION",
+          "prediction_use": "EXCLUDED_TO_PREVENT_LEAKAGE"
+        },
+        {
+          "source_id": "mechanism-stlouisfed-2022-q4",
+          "evidence_scope": "POST_EVENT_MECHANISM_CORROBORATION",
+          "prediction_use": "EXCLUDED_TO_PREVENT_LEAKAGE"
+        }
+      ],
+      "counterevidence": [
+        "2022-02-24 美股收盘反弹且 VIX 低于前一日，说明日内反转和美联储路径重估可压过初始风险规避。"
+      ]
+    },
+    {
+      "selection_status": "CORE_REVIEWED",
+      "confirmation_status": "PROPOSED",
+      "review_basis": "AI_DESK_REVIEW_NO_HUMAN_CONFIRMATION",
+      "path_id": "event-02-P04-sanctions-trade",
+      "name": "制裁与价格上限 → 能源贸易摩擦 → 供给与收入双目标",
+      "anchor_fast_node_ids": [
+        "fast-event-02-M05"
+      ],
+      "chain": [
+        "PRICE_CAP_POLICY",
+        "ENERGY_TRADE_FRICTION",
+        "SUPPLY_CONTINUITY_VS_REVENUE_RESTRICTION",
+        "DCOILBRENTEU"
+      ],
+      "asset_series_ids": [
+        "DCOILBRENTEU"
+      ],
+      "expected_direction": {
+        "IMMEDIATE": "MIXED",
+        "SHORT_TERM": "MIXED",
+        "MEDIUM_TERM": "MIXED"
+      },
+      "lag": {
+        "minimum": "P0D",
+        "maximum": "P20D"
+      },
+      "conditions": [
+        "价格上限执行具有约束力",
+        "俄罗斯供应反应与第三方规避行为可观测"
+      ],
+      "invalidation_conditions": [
+        "上限缺乏执行力",
+        "全球需求或 OPEC+ 供给成为主导因素"
+      ],
+      "event_fact_evidence": [
+        "supplemental-fast-event-02-M05"
+      ],
+      "mechanism_evidence": [
+        {
+          "source_id": "mechanism-imf-2022-03-15",
+          "evidence_scope": "POST_EVENT_MECHANISM_CORROBORATION",
+          "prediction_use": "EXCLUDED_TO_PREVENT_LEAKAGE"
+        },
+        {
+          "source_id": "mechanism-ecb-eb-2022-04",
+          "evidence_scope": "POST_EVENT_MECHANISM_CORROBORATION",
+          "prediction_use": "EXCLUDED_TO_PREVENT_LEAKAGE"
+        }
+      ],
+      "counterevidence": [
+        "该政策同时追求限制俄方收入与维持全球供应，方向不能预设为单边上涨或下跌。"
+      ]
+    }
+  ]
+}

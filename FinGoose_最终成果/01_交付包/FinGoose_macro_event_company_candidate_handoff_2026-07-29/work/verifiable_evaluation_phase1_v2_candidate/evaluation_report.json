@@ -1,0 +1,37 @@
+{
+  "composite_scoring_policy": "FORBIDDEN",
+  "direction_scoring_label_count": 0,
+  "example_events": [
+    "event-02",
+    "event-03",
+    "event-04"
+  ],
+  "graph_scoring_label_count": 0,
+  "hidden_event_count": 7,
+  "tracks": {
+    "DIRECTION_AND_REFUSAL": {
+      "hard_failure_scope": [
+        "NON_RECOMPUTABLE_VALUE",
+        "CONFOUNDING_GATE_BYPASS"
+      ],
+      "score": "direction_accuracy_and_refusal_accuracy",
+      "status": "BLOCKED_NO_SCORING_LABELS"
+    },
+    "GRAPH_CONSTRUCTION": {
+      "hard_failure_scope": [
+        "CAUSAL_LABEL_FROM_OBSERVATION_ANCHOR",
+        "FORBIDDEN_REVIEW_STATE"
+      ],
+      "score": "edge_precision_recall_and_path_field_accuracy",
+      "status": "BLOCKED_NO_SCORING_LABELS"
+    },
+    "TIMELINE_RECONSTRUCTION": {
+      "hard_failure_scope": [
+        "FABRICATED_SOURCE",
+        "D3_LEAKAGE"
+      ],
+      "score": "node_precision_recall_and_phase_accuracy",
+      "status": "READY"
+    }
+  }
+}

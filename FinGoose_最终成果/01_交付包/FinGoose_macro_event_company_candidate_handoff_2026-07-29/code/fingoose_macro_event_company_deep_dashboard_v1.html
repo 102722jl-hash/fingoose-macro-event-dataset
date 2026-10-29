@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>FinGoose 事件—公司传导工作台</title>
+  <link rel="stylesheet" href="/fingoose_macro_event_company_deep_dashboard_v1.css">
+</head>
+<body>
+  <header class="app-header">
+    <div>
+      <p class="eyebrow">FINGOOSE · 只读候选审计</p>
+      <h1>事件—公司影响传导工作台</h1>
+    </div>
+    <div class="release-flags">
+      <span class="flag formal">市场正式归档</span>
+      <span class="flag candidate">公司候选数据</span>
+    </div>
+  </header>
+
+  <section class="filters" aria-label="数据筛选">
+    <label>事件<select id="event-filter"></select></label>
+    <label>公司<input id="company-filter" type="search" placeholder="代码或名称"></label>
+    <label>关联标签<select id="association-filter"><option value="">全部</option></select></label>
+    <label>影响方向<select id="direction-filter"><option value="">全部</option></select></label>
+    <label>证据状态<select id="evidence-filter"><option value="">全部</option></select></label>
+    <label>审核状态<select id="review-filter"><option value="">全部</option></select></label>
+    <button id="reset-filters" type="button">重置</button>
+  </section>
+
+  <nav class="view-tabs" aria-label="工作台视图">
+    <button class="view-tab active" data-view="overview">数据集概览</button>
+    <button class="view-tab" data-view="market">市场归因</button>
+    <button class="view-tab" data-view="company">公司影响</button>
+    <button class="view-tab" data-view="reviews">审核记录</button>
+  </nav>
+
+  <main>
+    <section id="overview-view" class="view active" aria-labelledby="overview-heading">
+      <div class="section-heading">
+        <div><p class="section-kicker">DATASET</p><h2 id="overview-heading">数据集概览</h2></div>
+        <p id="overview-status" class="muted">正在加载归档摘要…</p>
+      </div>
+      <div id="summary-metrics" class="metric-grid"></div>
+      <div class="event-band">
+        <div>
+          <p class="section-kicker">CURRENT EVENT</p>
+          <h3 id="event-title">—</h3>
+          <p id="event-meta" class="muted"></p>
+        </div>
+        <div id="event-source-status" class="status-stack"></div>
+      </div>
+      <div id="formal-blockers" class="notice"></div>
+    </section>
+
+    <section id="market-view" class="view" aria-labelledby="market-heading">
+      <div class="section-heading">
+        <div><p class="section-kicker">MARKET ATTRIBUTION</p><h2 id="market-heading">市场归因</h2></div>
+        <select id="market-sample-select" aria-label="市场样本"></select>
+      </div>
+      <div id="market-sample-summary" class="sample-summary"></div>
+      <div id="market-step-nav" class="step-nav" role="tablist" aria-label="六步市场推理"></div>
+      <article id="market-step-content" class="detail-surface"></article>
+      <details id="audit-area" class="audit-area">
+        <summary>事后审计区：D20、隐藏标签与审核记录</summary>
+        <div id="market-audit-content"></div>
+      </details>
+    </section>
+
+    <section id="company-view" class="view" aria-labelledby="company-heading">
+      <div class="section-heading">
+        <div><p class="section-kicker">COMPANY IMPACT</p><h2 id="company-heading">公司影响</h2></div>
+        <div id="company-count" class="count-badge">0 家</div>
+      </div>
+      <div id="company-selector" class="company-selector"></div>
+      <div id="company-identity" class="company-identity"></div>
+      <div class="chain-intro"><span>市场六步推理</span><b>→</b><span>行业变量桥梁</span><b>→</b><span>公司七节点传导链</span></div>
+      <div id="company-chain" class="company-chain" aria-label="公司七节点传导链"></div>
+      <div class="company-panels">
+        <section><h3>经营与财务指标</h3><div id="company-metrics"></div></section>
+        <section><h3>个股与沪深 300 辅助窗口</h3><div id="company-stock"></div></section>
+        <section><h3>归因与预测输出</h3><div id="company-outputs"></div></section>
+        <section><h3>证据缺口与审核</h3><div id="company-review"></div></section>
+      </div>
+      <details class="audit-area">
+        <summary>公司事后审计区：隐藏结果与标签</summary>
+        <div id="company-audit-content"></div>
+      </details>
+    </section>
+
+    <section id="reviews-view" class="view" aria-labelledby="reviews-heading">
+      <div class="section-heading">
+        <div><p class="section-kicker">REVIEW LOG</p><h2 id="reviews-heading">审核记录</h2></div>
+        <span class="muted">市场与公司记录只读展示</span>
+      </div>
+      <div id="review-list" class="review-list"></div>
+    </section>
+  </main>
+
+  <aside id="evidence-drawer" class="drawer" aria-hidden="true" aria-labelledby="drawer-title">
+    <div class="drawer-head"><h2 id="drawer-title">节点证据</h2><button id="drawer-close" type="button" aria-label="关闭">×</button></div>
+    <div id="chain-node-detail" class="drawer-content"></div>
+  </aside>
+  <div id="drawer-scrim" class="scrim" hidden></div>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+  <script src="/fingoose_macro_event_company_deep_dashboard_v1.js" defer></script>
+</body>
+</html>

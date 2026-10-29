@@ -1,0 +1,12 @@
+EVIDENCE SPEC (snapshot not retrievable automatically - manual drop-in required)
+NODE: fast-event-04-M01
+OFFICIAL_URL: http://www.nhc.gov.cn/xcs/zhengcwj/202211/k101.shtml
+PUBLISHER: National Health Commission of China (NHC)
+
+VERBATIM QUOTE (target):
+  "党中央对进一步优化防控工作的二十条措施作出重要部署……对密切接触者调整为“5天集中隔离+3天居家隔离”……"
+
+OCCURRED_AT: 2022-11-11T00:00:00+08:00 (Asia/Shanghai (UTC+8))
+FIRST_PUBLIC_AT: 2022-11-11T00:00:00+08:00 (Asia/Shanghai (UTC+8))
+
+FACT: China released the "20 measures" optimizing COVID-19 controls (Nov 11 2022) - the pre-escalation policy baseline before the Dec 2022 pivot.

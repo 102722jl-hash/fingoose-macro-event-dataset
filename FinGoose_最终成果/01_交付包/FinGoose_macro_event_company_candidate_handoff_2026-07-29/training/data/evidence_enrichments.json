@@ -1,0 +1,19 @@
+{
+  "schema_version": "evidence-enrichment-v1",
+  "records": [
+    {
+      "event_id": "event-01",
+      "evidence_id": "event01-who-sitrep51",
+      "title": "Coronavirus disease 2019 (COVID-19) Situation Report - 51",
+      "publisher": "World Health Organization",
+      "published_at": "2020-03-11T12:00:00+00:00",
+      "original_quote": "WHO therefore have made the assessment that COVID-19 can be characterized as a pandemic.",
+      "locator": "page=1, HIGHLIGHTS, bullet 1",
+      "source_url": "https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200311-sitrep-51-covid-19.pdf",
+      "snapshot_path": "evidence_snapshots/macro_event_attribution_v1/sources/event01_who_sitrep51.pdf",
+      "snapshot_sha256": "32faca6b029c10c8d99d5985c47dc4c017060d09bfd1e1dccfeb29886d730269",
+      "review_status": "SOURCE_TEXT_LOCATOR_VERIFIED",
+      "formal_ready": false
+    }
+  ]
+}

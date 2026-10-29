@@ -1,0 +1,554 @@
+{
+    "dataset_version":  "fingoose-event-02-10-industry-driver-payloads-v2-candidate",
+    "selection_policy":  "PRE_REGISTERED_MECHANISM_ALIGNED_OFFICIAL_OBSERVATIONS_ONLY",
+    "payloads":  [
+                     {
+                         "event_industry_mapping_id":  "event-industry-event-02-801960",
+                         "source_id":  "event02-eia-oil-100",
+                         "source_status":  "AVAILABLE",
+                         "frequency":  "EVENT_OBSERVATION",
+                         "observations":  [
+                                              {
+                                                  "observed_at":  "2022-03-04",
+                                                  "metric_code":  "CRUDE_OIL_PRICE_THRESHOLD_USD_PER_BARREL",
+                                                  "value":  100,
+                                                  "unit":  "美元/桶"
+                                              }
+                                          ]
+                     },
+                     {
+                         "event_industry_mapping_id":  "event-industry-event-02-801160",
+                         "source_id":  "event02-eia-oil-100",
+                         "source_status":  "AVAILABLE",
+                         "frequency":  "EVENT_OBSERVATION",
+                         "observations":  [
+                                              {
+                                                  "observed_at":  "2022-03-04",
+                                                  "metric_code":  "CRUDE_OIL_PRICE_THRESHOLD_USD_PER_BARREL",
+                                                  "value":  100,
+                                                  "unit":  "美元/桶"
+                                              }
+                                          ]
+                     },
+                     {
+                         "event_industry_mapping_id":  "event-industry-event-02-801740",
+                         "source_id":  "event02-sipri-spending",
+                         "source_status":  "AVAILABLE",
+                         "frequency":  "EVENT_OBSERVATION",
+                         "observations":  [
+                                              {
+                                                  "observed_at":  "2023-04-24",
+                                                  "metric_code":  "EUROPE_MILITARY_SPENDING_YOY_PERCENT",
+                                                  "value":  13,
+                                                  "unit":  "百分比"
+                                              }
+                                          ]
+                     },
+                     {
+                         "event_industry_mapping_id":  "event-industry-event-02-801010",
+                         "source_id":  "event02-fao-food-index",
+                         "source_status":  "AVAILABLE",
+                         "frequency":  "EVENT_OBSERVATION",
+                         "observations":  [
+                                              {
+                                                  "observed_at":  "2022-04-08",
+                                                  "metric_code":  "FAO_CEREAL_PRICE_INDEX_MOM_PERCENT",
+                                                  "value":  17.1,
+                                                  "unit":  "百分比"
+                                              }
+                                          ]
+                     },
+                     {
+                         "event_industry_mapping_id":  "event-industry-event-03-801780",
+                         "source_id":  "event03-fomc-hike",
+                         "source_status":  "AVAILABLE",
+                         "frequency":  "EVENT_OBSERVATION",
+                         "observations":  [
+                                              {
+                                                  "observed_at":  "2022-03-16T18:00:00Z",
+                                                  "metric_code":  "FED_FUNDS_TARGET_UPPER_BOUND_PERCENT",
+                                                  "value":  0.5,
+                                                  "unit":  "百分比"
+                                              }
+                                          ]
+                     },
+                     {
+                         "event_industry_mapping_id":  "event-industry-event-03-801790",
+                         "source_id":  "event03-fomc-hike",
+                         "source_status":  "AVAILABLE",
+                         "frequency":  "EVENT_OBSERVATION",
+                         "observations":  [
+                                              {
+                                                  "observed_at":  "2022-03-16T18:00:00Z",
+                                                  "metric_code":  "FED_FUNDS_TARGET_UPPER_BOUND_PERCENT",
+                                                  "value":  0.5,
+                                                  "unit":  "百分比"
+                                              }
+                                          ]
+                     },
+                     {
+                         "event_industry_mapping_id":  "event-industry-event-03-801180",
+                         "source_id":  "event03-fomc-hike",
+                         "source_status":  "AVAILABLE",
+                         "frequency":  "EVENT_OBSERVATION",
+                         "observations":  [
+                                              {
+                                                  "observed_at":  "2022-03-16T18:00:00Z",
+                                                  "metric_code":  "FED_FUNDS_TARGET_UPPER_BOUND_PERCENT",
+                                                  "value":  0.5,
+                                                  "unit":  "百分比"
+                                              }
+                                          ]
+                     },
+                     {
+                         "event_industry_mapping_id":  "event-industry-event-03-801730",
+                         "source_id":  "event03-fomc-hike",
+                         "source_status":  "AVAILABLE",
+                         "frequency":  "EVENT_OBSERVATION",
+                         "observations":  [
+                                              {
+                                                  "observed_at":  "2022-03-16T18:00:00Z",
+                                                  "metric_code":  "FED_FUNDS_TARGET_UPPER_BOUND_PERCENT",
+                                                  "value":  0.5,
+                                                  "unit":  "百分比"
+                                              }
+                                          ]
+                     },
+                     {
+                         "event_industry_mapping_id":  "event-industry-event-03-801080",
+                         "source_id":  "event03-fomc-hike",
+                         "source_status":  "AVAILABLE",
+                         "frequency":  "EVENT_OBSERVATION",
+                         "observations":  [
+                                              {
+                                                  "observed_at":  "2022-03-16T18:00:00Z",
+                                                  "metric_code":  "FED_FUNDS_TARGET_UPPER_BOUND_PERCENT",
+                                                  "value":  0.5,
+                                                  "unit":  "百分比"
+                                              }
+                                          ]
+                     },
+                     {
+                         "event_industry_mapping_id":  "event-industry-event-03-801150",
+                         "source_id":  "event03-fomc-hike",
+                         "source_status":  "AVAILABLE",
+                         "frequency":  "EVENT_OBSERVATION",
+                         "observations":  [
+                                              {
+                                                  "observed_at":  "2022-03-16T18:00:00Z",
+                                                  "metric_code":  "FED_FUNDS_TARGET_UPPER_BOUND_PERCENT",
+                                                  "value":  0.5,
+                                                  "unit":  "百分比"
+                                              }
+                                          ]
+                     },
+                     {
+                         "event_industry_mapping_id":  "event-industry-event-03-801050",
+                         "source_id":  "event03-fomc-hike",
+                         "source_status":  "AVAILABLE",
+                         "frequency":  "EVENT_OBSERVATION",
+                         "observations":  [
+                                              {
+                                                  "observed_at":  "2022-03-16T18:00:00Z",
+                                                  "metric_code":  "FED_FUNDS_TARGET_UPPER_BOUND_PERCENT",
+                                                  "value":  0.5,
+                                                  "unit":  "百分比"
+                                              }
+                                          ]
+                     },
+                     {
+                         "event_industry_mapping_id":  "event-industry-event-03-801880",
+                         "source_id":  "event03-fomc-hike",
+                         "source_status":  "AVAILABLE",
+                         "frequency":  "EVENT_OBSERVATION",
+                         "observations":  [
+                                              {
+                                                  "observed_at":  "2022-03-16T18:00:00Z",
+                                                  "metric_code":  "FED_FUNDS_TARGET_UPPER_BOUND_PERCENT",
+                                                  "value":  0.5,
+                                                  "unit":  "百分比"
+                                              }
+                                          ]
+                     },
+                     {
+                         "event_industry_mapping_id":  "event-industry-event-04-801200",
+                         "source_id":  "event04-nbs-retail",
+                         "source_status":  "AVAILABLE",
+                         "frequency":  "EVENT_OBSERVATION",
+                         "observations":  [
+                                              {
+                                                  "observed_at":  "2023-03-15",
+                                                  "metric_code":  "DINING_REVENUE_YOY_PERCENT",
+                                                  "value":  9.2,
+                                                  "unit":  "百分比"
+                                              }
+                                          ]
+                     },
+                     {
+                         "event_industry_mapping_id":  "event-industry-event-04-801120",
+                         "source_id":  "event04-nbs-retail",
+                         "source_status":  "AVAILABLE",
+                         "frequency":  "EVENT_OBSERVATION",
+                         "observations":  [
+                                              {
+                                                  "observed_at":  "2023-03-15",
+                                                  "metric_code":  "DINING_REVENUE_YOY_PERCENT",
+                                                  "value":  9.2,
+                                                  "unit":  "百分比"
+                                              }
+                                          ]
+                     },
+                     {
+                         "event_industry_mapping_id":  "event-industry-event-04-801170",
+                         "source_id":  "event04-mct-tourism",
+                         "source_status":  "AVAILABLE",
+                         "frequency":  "EVENT_OBSERVATION",
+                         "observations":  [
+                                              {
+                                                  "observed_at":  "2024-02-09",
+                                                  "metric_code":  "Q1_DOMESTIC_TRIPS_YOY_PERCENT",
+                                                  "value":  46.5,
+                                                  "unit":  "百分比"
+                                              }
+                                          ]
+                     },
+                     {
+                         "event_industry_mapping_id":  "event-industry-event-04-801210",
+                         "source_id":  "event04-mct-tourism",
+                         "source_status":  "AVAILABLE",
+                         "frequency":  "EVENT_OBSERVATION",
+                         "observations":  [
+                                              {
+                                                  "observed_at":  "2024-02-09",
+                                                  "metric_code":  "Q1_DOMESTIC_TRIPS_YOY_PERCENT",
+                                                  "value":  46.5,
+                                                  "unit":  "百分比"
+                                              }
+                                          ]
+                     },
+                     {
+                         "event_industry_mapping_id":  "event-industry-event-05-801780",
+                         "source_id":  "event05-fed-svb-review",
+                         "source_status":  "AVAILABLE",
+                         "frequency":  "EVENT_OBSERVATION",
+                         "observations":  [
+                                              {
+                                                  "observed_at":  "2023-03-09",
+                                                  "metric_code":  "SVB_DEPOSIT_OUTFLOW_USD_BILLION",
+                                                  "value":  40,
+                                                  "unit":  "十亿美元"
+                                              }
+                                          ]
+                     },
+                     {
+                         "event_industry_mapping_id":  "event-industry-event-07-801170",
+                         "source_id":  "event07-eia-bunker",
+                         "source_status":  "AVAILABLE",
+                         "frequency":  "EVENT_OBSERVATION",
+                         "observations":  [
+                                              {
+                                                  "observed_at":  "2024-06-05",
+                                                  "metric_code":  "CAPE_DETOUR_TRANSIT_TIME_MIDPOINT_WEEKS",
+                                                  "value":  2.5,
+                                                  "unit":  "周"
+                                              }
+                                          ]
+                     },
+                     {
+                         "event_industry_mapping_id":  "event-industry-event-07-801080",
+                         "source_id":  "event07-eia-bunker",
+                         "source_status":  "AVAILABLE",
+                         "frequency":  "EVENT_OBSERVATION",
+                         "observations":  [
+                                              {
+                                                  "observed_at":  "2024-06-05",
+                                                  "metric_code":  "CAPE_DETOUR_TRANSIT_TIME_MIDPOINT_WEEKS",
+                                                  "value":  2.5,
+                                                  "unit":  "周"
+                                              }
+                                          ]
+                     },
+                     {
+                         "event_industry_mapping_id":  "event-industry-event-07-801880",
+                         "source_id":  "event07-eia-bunker",
+                         "source_status":  "AVAILABLE",
+                         "frequency":  "EVENT_OBSERVATION",
+                         "observations":  [
+                                              {
+                                                  "observed_at":  "2024-06-05",
+                                                  "metric_code":  "CAPE_DETOUR_TRANSIT_TIME_MIDPOINT_WEEKS",
+                                                  "value":  2.5,
+                                                  "unit":  "周"
+                                              }
+                                          ]
+                     },
+                     {
+                         "event_industry_mapping_id":  "event-industry-event-07-801110",
+                         "source_id":  "event07-eia-bunker",
+                         "source_status":  "AVAILABLE",
+                         "frequency":  "EVENT_OBSERVATION",
+                         "observations":  [
+                                              {
+                                                  "observed_at":  "2024-06-05",
+                                                  "metric_code":  "CAPE_DETOUR_TRANSIT_TIME_MIDPOINT_WEEKS",
+                                                  "value":  2.5,
+                                                  "unit":  "周"
+                                              }
+                                          ]
+                     },
+                     {
+                         "event_industry_mapping_id":  "event-industry-event-07-801890",
+                         "source_id":  "event07-eia-bunker",
+                         "source_status":  "AVAILABLE",
+                         "frequency":  "EVENT_OBSERVATION",
+                         "observations":  [
+                                              {
+                                                  "observed_at":  "2024-06-05",
+                                                  "metric_code":  "CAPE_DETOUR_TRANSIT_TIME_MIDPOINT_WEEKS",
+                                                  "value":  2.5,
+                                                  "unit":  "周"
+                                              }
+                                          ]
+                     },
+                     {
+                         "event_industry_mapping_id":  "event-industry-event-07-801030",
+                         "source_id":  "event07-eia-bunker",
+                         "source_status":  "AVAILABLE",
+                         "frequency":  "EVENT_OBSERVATION",
+                         "observations":  [
+                                              {
+                                                  "observed_at":  "2024-06-05",
+                                                  "metric_code":  "CAPE_DETOUR_TRANSIT_TIME_MIDPOINT_WEEKS",
+                                                  "value":  2.5,
+                                                  "unit":  "周"
+                                              }
+                                          ]
+                     },
+                     {
+                         "event_industry_mapping_id":  "event-industry-event-09-801780",
+                         "source_id":  "event09-xinhua-rrr",
+                         "source_status":  "AVAILABLE",
+                         "frequency":  "EVENT_OBSERVATION",
+                         "observations":  [
+                                              {
+                                                  "observed_at":  "2024-09-27T08:10:59+08:00",
+                                                  "metric_code":  "RRR_CHANGE_PERCENTAGE_POINTS",
+                                                  "value":  "-0.5",
+                                                  "unit":  "百分点"
+                                              }
+                                          ]
+                     },
+                     {
+                         "event_industry_mapping_id":  "event-industry-event-09-801790",
+                         "source_id":  "event09-xinhua-rrr",
+                         "source_status":  "AVAILABLE",
+                         "frequency":  "EVENT_OBSERVATION",
+                         "observations":  [
+                                              {
+                                                  "observed_at":  "2024-09-27T08:10:59+08:00",
+                                                  "metric_code":  "RRR_CHANGE_PERCENTAGE_POINTS",
+                                                  "value":  "-0.5",
+                                                  "unit":  "百分点"
+                                              }
+                                          ]
+                     },
+                     {
+                         "event_industry_mapping_id":  "event-industry-event-09-801180",
+                         "source_id":  "event09-pbc-q2",
+                         "source_status":  "AVAILABLE",
+                         "frequency":  "EVENT_OBSERVATION",
+                         "observations":  [
+                                              {
+                                                  "observed_at":  "2024-08-09T18:34:00+08:00",
+                                                  "metric_code":  "AFFORDABLE_HOUSING_RELENDING_RMB_100M",
+                                                  "value":  3000,
+                                                  "unit":  "亿元"
+                                              }
+                                          ]
+                     },
+                     {
+                         "event_industry_mapping_id":  "event-industry-event-09-801710",
+                         "source_id":  "event09-pbc-q2",
+                         "source_status":  "AVAILABLE",
+                         "frequency":  "EVENT_OBSERVATION",
+                         "observations":  [
+                                              {
+                                                  "observed_at":  "2024-08-09T18:34:00+08:00",
+                                                  "metric_code":  "AFFORDABLE_HOUSING_RELENDING_RMB_100M",
+                                                  "value":  3000,
+                                                  "unit":  "亿元"
+                                              }
+                                          ]
+                     },
+                     {
+                         "event_industry_mapping_id":  "event-industry-event-09-801140",
+                         "source_id":  "event09-pbc-q2",
+                         "source_status":  "AVAILABLE",
+                         "frequency":  "EVENT_OBSERVATION",
+                         "observations":  [
+                                              {
+                                                  "observed_at":  "2024-08-09T18:34:00+08:00",
+                                                  "metric_code":  "AFFORDABLE_HOUSING_RELENDING_RMB_100M",
+                                                  "value":  3000,
+                                                  "unit":  "亿元"
+                                              }
+                                          ]
+                     },
+                     {
+                         "event_industry_mapping_id":  "event-industry-event-09-801110",
+                         "source_id":  "event09-pbc-q2",
+                         "source_status":  "AVAILABLE",
+                         "frequency":  "EVENT_OBSERVATION",
+                         "observations":  [
+                                              {
+                                                  "observed_at":  "2024-08-09T18:34:00+08:00",
+                                                  "metric_code":  "AFFORDABLE_HOUSING_RELENDING_RMB_100M",
+                                                  "value":  3000,
+                                                  "unit":  "亿元"
+                                              }
+                                          ]
+                     },
+                     {
+                         "event_industry_mapping_id":  "event-industry-event-09-801720",
+                         "source_id":  "event09-pbc-q2",
+                         "source_status":  "AVAILABLE",
+                         "frequency":  "EVENT_OBSERVATION",
+                         "observations":  [
+                                              {
+                                                  "observed_at":  "2024-08-09T18:34:00+08:00",
+                                                  "metric_code":  "AFFORDABLE_HOUSING_RELENDING_RMB_100M",
+                                                  "value":  3000,
+                                                  "unit":  "亿元"
+                                              }
+                                          ]
+                     },
+                     {
+                         "event_industry_mapping_id":  "event-industry-event-10-801080",
+                         "source_id":  "event10-whitehouse-order",
+                         "source_status":  "AVAILABLE",
+                         "frequency":  "EVENT_OBSERVATION",
+                         "observations":  [
+                                              {
+                                                  "observed_at":  "2025-04-02T21:37:45Z",
+                                                  "metric_code":  "BASE_ADDITIONAL_TARIFF_RATE_PERCENT",
+                                                  "value":  10,
+                                                  "unit":  "百分比"
+                                              }
+                                          ]
+                     },
+                     {
+                         "event_industry_mapping_id":  "event-industry-event-10-801110",
+                         "source_id":  "event10-whitehouse-order",
+                         "source_status":  "AVAILABLE",
+                         "frequency":  "EVENT_OBSERVATION",
+                         "observations":  [
+                                              {
+                                                  "observed_at":  "2025-04-02T21:37:45Z",
+                                                  "metric_code":  "BASE_ADDITIONAL_TARIFF_RATE_PERCENT",
+                                                  "value":  10,
+                                                  "unit":  "百分比"
+                                              }
+                                          ]
+                     },
+                     {
+                         "event_industry_mapping_id":  "event-industry-event-10-801730",
+                         "source_id":  "event10-whitehouse-order",
+                         "source_status":  "AVAILABLE",
+                         "frequency":  "EVENT_OBSERVATION",
+                         "observations":  [
+                                              {
+                                                  "observed_at":  "2025-04-02T21:37:45Z",
+                                                  "metric_code":  "BASE_ADDITIONAL_TARIFF_RATE_PERCENT",
+                                                  "value":  10,
+                                                  "unit":  "百分比"
+                                              }
+                                          ]
+                     },
+                     {
+                         "event_industry_mapping_id":  "event-industry-event-10-801130",
+                         "source_id":  "event10-whitehouse-order",
+                         "source_status":  "AVAILABLE",
+                         "frequency":  "EVENT_OBSERVATION",
+                         "observations":  [
+                                              {
+                                                  "observed_at":  "2025-04-02T21:37:45Z",
+                                                  "metric_code":  "BASE_ADDITIONAL_TARIFF_RATE_PERCENT",
+                                                  "value":  10,
+                                                  "unit":  "百分比"
+                                              }
+                                          ]
+                     },
+                     {
+                         "event_industry_mapping_id":  "event-industry-event-10-801890",
+                         "source_id":  "event10-whitehouse-order",
+                         "source_status":  "AVAILABLE",
+                         "frequency":  "EVENT_OBSERVATION",
+                         "observations":  [
+                                              {
+                                                  "observed_at":  "2025-04-02T21:37:45Z",
+                                                  "metric_code":  "BASE_ADDITIONAL_TARIFF_RATE_PERCENT",
+                                                  "value":  10,
+                                                  "unit":  "百分比"
+                                              }
+                                          ]
+                     },
+                     {
+                         "event_industry_mapping_id":  "event-industry-event-10-801880",
+                         "source_id":  "event10-whitehouse-order",
+                         "source_status":  "AVAILABLE",
+                         "frequency":  "EVENT_OBSERVATION",
+                         "observations":  [
+                                              {
+                                                  "observed_at":  "2025-04-02T21:37:45Z",
+                                                  "metric_code":  "BASE_ADDITIONAL_TARIFF_RATE_PERCENT",
+                                                  "value":  10,
+                                                  "unit":  "百分比"
+                                              }
+                                          ]
+                     },
+                     {
+                         "event_industry_mapping_id":  "event-industry-event-10-801170",
+                         "source_id":  "event10-whitehouse-order",
+                         "source_status":  "AVAILABLE",
+                         "frequency":  "EVENT_OBSERVATION",
+                         "observations":  [
+                                              {
+                                                  "observed_at":  "2025-04-02T21:37:45Z",
+                                                  "metric_code":  "BASE_ADDITIONAL_TARIFF_RATE_PERCENT",
+                                                  "value":  10,
+                                                  "unit":  "百分比"
+                                              }
+                                          ]
+                     },
+                     {
+                         "event_industry_mapping_id":  "event-industry-event-10-801030",
+                         "source_id":  "event10-whitehouse-order",
+                         "source_status":  "AVAILABLE",
+                         "frequency":  "EVENT_OBSERVATION",
+                         "observations":  [
+                                              {
+                                                  "observed_at":  "2025-04-02T21:37:45Z",
+                                                  "metric_code":  "BASE_ADDITIONAL_TARIFF_RATE_PERCENT",
+                                                  "value":  10,
+                                                  "unit":  "百分比"
+                                              }
+                                          ]
+                     },
+                     {
+                         "event_industry_mapping_id":  "event-industry-event-10-801010",
+                         "source_id":  "event10-whitehouse-order",
+                         "source_status":  "AVAILABLE",
+                         "frequency":  "EVENT_OBSERVATION",
+                         "observations":  [
+                                              {
+                                                  "observed_at":  "2025-04-02T21:37:45Z",
+                                                  "metric_code":  "BASE_ADDITIONAL_TARIFF_RATE_PERCENT",
+                                                  "value":  10,
+                                                  "unit":  "百分比"
+                                              }
+                                          ]
+                     }
+                 ],
+    "formal_ready":  false,
+    "sha_gate":  "DEFERRED"
+}

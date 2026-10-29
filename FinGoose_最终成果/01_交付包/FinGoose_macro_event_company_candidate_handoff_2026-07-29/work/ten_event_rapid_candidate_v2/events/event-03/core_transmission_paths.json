@@ -1,0 +1,260 @@
+{
+  "event_id": "event-03",
+  "release_tier": "RAPID_CANDIDATE",
+  "paths": [
+    {
+      "path_id": "event-03-P-rate-expectations",
+      "event_id": "event-03",
+      "activation_phases": [
+        "INITIAL_SHOCK"
+      ],
+      "activation_actions": [
+        "STARTS"
+      ],
+      "activation_tags": [
+        "RATE_EXPECTATIONS"
+      ],
+      "chain": [
+        "RATE_HIKE",
+        "RATE_EXPECTATIONS",
+        "EVENT-03_RATE_EXPECTATIONS",
+        "DGS10"
+      ],
+      "asset_series_ids": [
+        "DGS10"
+      ],
+      "expected_direction": {
+        "IMMEDIATE": "UP",
+        "SHORT_TERM": "UP",
+        "MEDIUM_TERM": "MIXED"
+      },
+      "lag": {
+        "minimum": "P0D",
+        "maximum": "P20D"
+      },
+      "conditions": [
+        "主锚点事实未被官方实质更正。",
+        "RATE_EXPECTATIONS 渠道在所选窗口内仍具经济相关性。"
+      ],
+      "invalidation_conditions": [
+        "政策响应或后续事件成为窗口内主导冲击。",
+        "会议前指引与同期通胀数据可能已提前完成部分定价。"
+      ],
+      "counterevidence": [
+        "会议前指引与同期通胀数据可能已提前完成部分定价。"
+      ],
+      "selection_status": "CORE_REVIEWED",
+      "confirmation_status": "PROPOSED",
+      "review_basis": "AI_DESK_REVIEW_NO_HUMAN_CONFIRMATION",
+      "name": "政策利率路径带动国债收益率重定价",
+      "anchor_fast_node_ids": [
+        "fast-event-03-M03"
+      ],
+      "unverified_candidate_anchor_ids": [],
+      "anchor_evidence_status": "VERIFIED_EXISTING",
+      "scoring_eligible": true,
+      "event_fact_evidence": [
+        "event03-fomc",
+        "supplemental-fast-event-03-M03"
+      ],
+      "mechanism_evidence": [
+        {
+          "source_id": "mechanism-event-03-fed-transmission",
+          "evidence_scope": "MECHANISM_PRIOR",
+          "prediction_use": "AVAILABLE_AT_ANCHOR"
+        }
+      ]
+    },
+    {
+      "path_id": "event-03-P-equity-duration",
+      "event_id": "event-03",
+      "activation_phases": [
+        "INITIAL_SHOCK"
+      ],
+      "activation_actions": [
+        "STARTS"
+      ],
+      "activation_tags": [
+        "DISCOUNT_RATE"
+      ],
+      "chain": [
+        "RATE_HIKE",
+        "DISCOUNT_RATE",
+        "EVENT-03_EQUITY_DURATION",
+        "SP500"
+      ],
+      "asset_series_ids": [
+        "SP500"
+      ],
+      "expected_direction": {
+        "IMMEDIATE": "DOWN",
+        "SHORT_TERM": "DOWN",
+        "MEDIUM_TERM": "MIXED"
+      },
+      "lag": {
+        "minimum": "P0D",
+        "maximum": "P20D"
+      },
+      "conditions": [
+        "主锚点事实未被官方实质更正。",
+        "DISCOUNT_RATE 渠道在所选窗口内仍具经济相关性。"
+      ],
+      "invalidation_conditions": [
+        "政策响应或后续事件成为窗口内主导冲击。",
+        "会议前指引与同期通胀数据可能已提前完成部分定价。"
+      ],
+      "counterevidence": [
+        "会议前指引与同期通胀数据可能已提前完成部分定价。"
+      ],
+      "selection_status": "CORE_REVIEWED",
+      "confirmation_status": "PROPOSED",
+      "review_basis": "AI_DESK_REVIEW_NO_HUMAN_CONFIRMATION",
+      "name": "贴现率上升压低权益久期估值",
+      "anchor_fast_node_ids": [
+        "fast-event-03-M03"
+      ],
+      "unverified_candidate_anchor_ids": [],
+      "anchor_evidence_status": "VERIFIED_EXISTING",
+      "scoring_eligible": true,
+      "event_fact_evidence": [
+        "event03-fomc",
+        "supplemental-fast-event-03-M03"
+      ],
+      "mechanism_evidence": [
+        {
+          "source_id": "mechanism-event-03-fed-transmission",
+          "evidence_scope": "MECHANISM_PRIOR",
+          "prediction_use": "AVAILABLE_AT_ANCHOR"
+        }
+      ]
+    },
+    {
+      "path_id": "event-03-P-dollar-liquidity",
+      "event_id": "event-03",
+      "activation_phases": [
+        "INITIAL_SHOCK"
+      ],
+      "activation_actions": [
+        "STARTS"
+      ],
+      "activation_tags": [
+        "DOLLAR_LIQUIDITY"
+      ],
+      "chain": [
+        "RATE_HIKE",
+        "DOLLAR_LIQUIDITY",
+        "EVENT-03_DOLLAR_LIQUIDITY",
+        "DTWEXBGS|DEXCHUS"
+      ],
+      "asset_series_ids": [
+        "DTWEXBGS",
+        "DEXCHUS"
+      ],
+      "expected_direction": {
+        "IMMEDIATE": "UP",
+        "SHORT_TERM": "UP",
+        "MEDIUM_TERM": "MIXED"
+      },
+      "lag": {
+        "minimum": "P0D",
+        "maximum": "P20D"
+      },
+      "conditions": [
+        "主锚点事实未被官方实质更正。",
+        "DOLLAR_LIQUIDITY 渠道在所选窗口内仍具经济相关性。"
+      ],
+      "invalidation_conditions": [
+        "政策响应或后续事件成为窗口内主导冲击。",
+        "会议前指引与同期通胀数据可能已提前完成部分定价。"
+      ],
+      "counterevidence": [
+        "会议前指引与同期通胀数据可能已提前完成部分定价。"
+      ],
+      "selection_status": "CORE_REVIEWED",
+      "confirmation_status": "PROPOSED",
+      "review_basis": "AI_DESK_REVIEW_NO_HUMAN_CONFIRMATION",
+      "name": "利差与美元流动性推动美元走强",
+      "anchor_fast_node_ids": [
+        "fast-event-03-M03"
+      ],
+      "unverified_candidate_anchor_ids": [],
+      "anchor_evidence_status": "VERIFIED_EXISTING",
+      "scoring_eligible": true,
+      "event_fact_evidence": [
+        "event03-fomc",
+        "supplemental-fast-event-03-M03"
+      ],
+      "mechanism_evidence": [
+        {
+          "source_id": "mechanism-event-03-fed-transmission",
+          "evidence_scope": "MECHANISM_PRIOR",
+          "prediction_use": "AVAILABLE_AT_ANCHOR"
+        }
+      ]
+    },
+    {
+      "path_id": "event-03-P-growth-expectations",
+      "event_id": "event-03",
+      "activation_phases": [
+        "INITIAL_SHOCK"
+      ],
+      "activation_actions": [
+        "STARTS"
+      ],
+      "activation_tags": [
+        "RATE_EXPECTATIONS"
+      ],
+      "chain": [
+        "RATE_HIKE",
+        "FINANCIAL_CONDITIONS",
+        "EVENT-03_GROWTH_EXPECTATIONS",
+        "SP500|DGS10"
+      ],
+      "asset_series_ids": [
+        "SP500",
+        "DGS10"
+      ],
+      "expected_direction": {
+        "IMMEDIATE": "MIXED",
+        "SHORT_TERM": "DOWN",
+        "MEDIUM_TERM": "DOWN"
+      },
+      "lag": {
+        "minimum": "P0D",
+        "maximum": "P20D"
+      },
+      "conditions": [
+        "主锚点事实未被官方实质更正。",
+        "FINANCIAL_CONDITIONS 渠道在所选窗口内仍具经济相关性。"
+      ],
+      "invalidation_conditions": [
+        "政策响应或后续事件成为窗口内主导冲击。",
+        "会议前指引与同期通胀数据可能已提前完成部分定价。"
+      ],
+      "counterevidence": [
+        "会议前指引与同期通胀数据可能已提前完成部分定价。"
+      ],
+      "selection_status": "CORE_REVIEWED",
+      "confirmation_status": "PROPOSED",
+      "review_basis": "AI_DESK_REVIEW_NO_HUMAN_CONFIRMATION",
+      "name": "金融条件收紧压低增长预期",
+      "anchor_fast_node_ids": [
+        "fast-event-03-M03"
+      ],
+      "unverified_candidate_anchor_ids": [],
+      "anchor_evidence_status": "VERIFIED_EXISTING",
+      "scoring_eligible": true,
+      "event_fact_evidence": [
+        "event03-fomc",
+        "supplemental-fast-event-03-M03"
+      ],
+      "mechanism_evidence": [
+        {
+          "source_id": "mechanism-event-03-fed-transmission",
+          "evidence_scope": "MECHANISM_PRIOR",
+          "prediction_use": "AVAILABLE_AT_ANCHOR"
+        }
+      ]
+    }
+  ]
+}

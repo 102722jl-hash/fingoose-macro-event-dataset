@@ -1,0 +1,98 @@
+{
+  "dataset_version": "fingoose-macro-event-attribution-v2.0",
+  "files": [
+    {
+      "path": "README_V2.md",
+      "sha256": "677904d4e53489001e37d6c5b49090f12883f842b88466cc2f83a5670deeb366",
+      "size_bytes": 4186
+    },
+    {
+      "path": "START_UI_V2.ps1",
+      "sha256": "be7bbbb5a099d1fec6755319b9c4c67fd6b759f0479b1df57159cb35620228b3",
+      "size_bytes": 457
+    },
+    {
+      "path": "code/fingoose_macro_event_attribution_v2.py",
+      "sha256": "e17874b2afea7fef45b8e0a2910a0ddff2cf3777b92aaf47b322b2558d1228c4",
+      "size_bytes": 19240
+    },
+    {
+      "path": "code/build_fingoose_macro_event_attribution_v2.py",
+      "sha256": "cf5e0ed0ccb9cef0706aebe6ed6b271bb6bc77894e99bbc0df9601d76028c82d",
+      "size_bytes": 40157
+    },
+    {
+      "path": "code/fingoose_macro_event_v2_dashboard.py",
+      "sha256": "8e2d64e7e9d720e9ebb6be818df0ce3fad8e977a4a96c89505d9a48ec67e7c2c",
+      "size_bytes": 14090
+    },
+    {
+      "path": "code/fingoose_macro_event_v2_dashboard.html",
+      "sha256": "4e48991d2079c07bfcaecf7bc406234834797378e0477550186028ac1dfc01d3",
+      "size_bytes": 6143
+    },
+    {
+      "path": "code/fingoose_macro_event_v2_dashboard.css",
+      "sha256": "07378c803b5c17f924f58a9bfa9f5648c87978742c82130de38bf32c1f3ffd79",
+      "size_bytes": 16788
+    },
+    {
+      "path": "code/fingoose_macro_event_v2_dashboard.js",
+      "sha256": "b131139745c5428a6f191e1ec968dd12a665d4ffd3dc826e586b59a8c9dded8b",
+      "size_bytes": 24838
+    },
+    {
+      "path": "schemas/fingoose_macro_event_milestone_v2.schema.json",
+      "sha256": "01b4164aab9e4636781954a6b92000274f2fb299d635465dd5acf8c373c03fd2",
+      "size_bytes": 3026
+    },
+    {
+      "path": "schemas/fingoose_macro_event_episode_v2.schema.json",
+      "sha256": "ad158cf71501805ce7e907b840fac0ef80c149acee74d980988746169c152b82",
+      "size_bytes": 1168
+    },
+    {
+      "path": "schemas/fingoose_macro_transmission_graph_v2.schema.json",
+      "sha256": "280bcd72f14680341fb52f3d898cd8f34d9d4c3c6dbc5204e315ad34a9df5733",
+      "size_bytes": 4100
+    },
+    {
+      "path": "schemas/fingoose_macro_market_window_v2.schema.json",
+      "sha256": "9a9f402b1309391d8c873cc534be6f985d4fb60ba954940150665b2b6d7125d8",
+      "size_bytes": 4344
+    },
+    {
+      "path": "schemas/fingoose_macro_benchmark_case_v2.schema.json",
+      "sha256": "2f466189c4fe0256dd2ebcd2d7535627932b9d5c525ae43d3a54ba7683645ab9",
+      "size_bytes": 1653
+    },
+    {
+      "path": "schemas/fingoose_macro_benchmark_label_v2.schema.json",
+      "sha256": "a5823878e6f0475c2beac6ecb91060bc1d65d51e3464553694c558bb8493b9f0",
+      "size_bytes": 1363
+    },
+    {
+      "path": "tests/test_fingoose_macro_event_attribution_v2.py",
+      "sha256": "151361729717d9f22bb12dbff653ce82cd9f671d355f6f0b99d3b3dbb926f214",
+      "size_bytes": 19942
+    },
+    {
+      "path": "tests/test_build_fingoose_macro_event_attribution_v2.py",
+      "sha256": "c62d92ce743f58d91f32e94599428913829eb5a5126acefffacfb3c326703617",
+      "size_bytes": 13244
+    },
+    {
+      "path": "tests/test_fingoose_macro_event_v2_dashboard.py",
+      "sha256": "c266a19a2020e20ae883af57d3591e7254e6049c2f38696359bf0afc8f5481de",
+      "size_bytes": 6812
+    },
+    {
+      "path": "data/market_event_attribution_v2_candidate/manifest.json",
+      "sha256": "3c0cd2d56aed32ac518231fb855dc69dc23c37f73e5b645ff1b84e4bdb48f4d1",
+      "size_bytes": 1862
+    }
+  ],
+  "formal_ready": false,
+  "generated_at": "2026-07-30T05:10:09.000725+00:00",
+  "release_tier": "CANDIDATE"
+}

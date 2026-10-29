@@ -1,0 +1,31 @@
+{
+  "attribution_sample_count": 30,
+  "candidate_ready": true,
+  "candidate_registry_count": 30,
+  "candidate_sample_count": 60,
+  "company_dossier_count": 30,
+  "company_metric_fact_count": 120,
+  "company_stock_window_count": 30,
+  "dataset_version": "fingoose-macro-event-company-candidate-v1.0",
+  "event_count": 10,
+  "evidence_gap_count": 180,
+  "forecast_sample_count": 30,
+  "formal_blockers": [
+    "COMPANY_EVIDENCE_INCOMPLETE",
+    "PRICE_WINDOWS_PENDING",
+    "GOLD_LABELS_PENDING",
+    "FORMAL_REVIEWS_INCOMPLETE"
+  ],
+  "formal_ready": false,
+  "hidden_label_count": 60,
+  "hidden_outcome_count": 30,
+  "partial_evidence_dossier_count": 30,
+  "pending_evidence_dossier_count": 30,
+  "rejected_count": 0,
+  "rejected_dossier_count": 0,
+  "release_tier": "CANDIDATE",
+  "review_count": 30,
+  "second_review_required_count": 30,
+  "source_count": 20,
+  "verified_dossier_count": 0
+}

@@ -1,0 +1,17 @@
+{
+  "blocking_gates": [],
+  "dataset_version": "fingoose-macro-event-attribution-v1.0",
+  "formal_ready": true,
+  "human_work_remaining": {
+    "initial_reviews": 0,
+    "second_reviews": 0
+  },
+  "review_batches": {
+    "review-batch-01-pilot": 8,
+    "review-batch-02": 12,
+    "review-batch-03": 12,
+    "review-batch-04": 8
+  },
+  "review_handbook_path": "docs/fingoose_macro_event_review_handbook_v1.md",
+  "status": "FORMAL_READY"
+}

@@ -1,0 +1,11 @@
+EVIDENCE SPEC (snapshot not retrievable automatically - manual drop-in required)
+NODE: fast-event-05-M03
+OFFICIAL_URL: https://www.snb.ch/en/mmr/reference/pre_20230315/source/pre_20230315.en.html
+PUBLISHER: Swiss National Bank (SNB)
+
+VERBATIM QUOTE (target):
+  "The SNB will provide Credit Suisse with a public liquidity backstop of up to CHF 50 billion."
+
+OCCURRED_AT: 2023-03-16T06:00:00Z (Europe/Zurich UTC+1)
+FIRST_PUBLIC_AT: 2023-03-15T21:00:00Z (Europe/Zurich UTC+1)
+FACT: The Swiss National Bank announced a public liquidity backstop of up to CHF 50 billion for Credit Suisse - the preemptive official support before the UBS takeover.

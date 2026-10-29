@@ -1,0 +1,75 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://fingoose.local/schemas/fingoose_macro_transmission_graph_v2.schema.json",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["graph_id", "dataset_version", "release_tier", "event_id", "as_of_at", "milestone_ids", "nodes", "edges"],
+  "properties": {
+    "graph_id": {"type": "string", "pattern": "^graph-event-[0-9]{2}-[a-f0-9]{12}$"},
+    "dataset_version": {"const": "fingoose-macro-event-attribution-v2.0"},
+    "release_tier": {"const": "CANDIDATE"},
+    "event_id": {"type": "string", "pattern": "^event-[0-9]{2}$"},
+    "as_of_at": {"type": "string", "format": "date-time"},
+    "milestone_ids": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"type": "string", "pattern": "^milestone-event-[0-9]{2}-[a-f0-9]{12}$"}},
+    "nodes": {"type": "array", "minItems": 4, "items": {"$ref": "#/$defs/node"}},
+    "edges": {"type": "array", "minItems": 3, "items": {"$ref": "#/$defs/edge"}}
+  },
+  "$defs": {
+    "node": {
+      "type": "object", "additionalProperties": false,
+      "required": ["node_id", "layer", "label"],
+      "properties": {
+        "node_id": {"type": "string", "pattern": "^[a-z0-9][a-z0-9-]*$"},
+        "layer": {"enum": ["shock", "channel", "intermediate", "asset"]},
+        "label": {"type": "string", "minLength": 1}
+      }
+    },
+    "direction": {"enum": ["UP", "DOWN", "MIXED", "FLAT", "UNKNOWN"]},
+    "evidence": {
+      "type": "object", "additionalProperties": false,
+      "required": ["evidence_id", "published_at", "source_tier"],
+      "properties": {
+        "evidence_id": {"type": "string", "minLength": 1},
+        "published_at": {"type": "string", "format": "date-time"},
+        "source_tier": {"enum": ["A", "B", "C", "D"]}
+      }
+    },
+    "review": {
+      "type": "object", "additionalProperties": false,
+      "required": ["reviewer_id", "reviewed_at", "decision", "notes"],
+      "properties": {
+        "reviewer_id": {"type": "string", "minLength": 1},
+        "reviewed_at": {"type": "string", "format": "date-time"},
+        "decision": {"enum": ["CONFIRMED", "REJECTED"]},
+        "notes": {"type": "string", "minLength": 1}
+      }
+    },
+    "edge": {
+      "type": "object", "additionalProperties": false,
+      "required": ["edge_id", "from_node_id", "to_node_id", "anchor_milestone_id", "expected_path", "lag", "conditions", "invalidation_conditions", "evidence", "counterevidence", "status", "confidence", "review"],
+      "properties": {
+        "edge_id": {"type": "string", "pattern": "^[a-z0-9][a-z0-9-]*$"},
+        "from_node_id": {"type": "string", "minLength": 1},
+        "to_node_id": {"type": "string", "minLength": 1},
+        "anchor_milestone_id": {"type": "string", "pattern": "^milestone-event-[0-9]{2}-[a-f0-9]{12}$"},
+        "expected_path": {
+          "type": "object", "additionalProperties": false,
+          "required": ["IMMEDIATE", "SHORT_TERM", "MEDIUM_TERM"],
+          "properties": {"IMMEDIATE": {"$ref": "#/$defs/direction"}, "SHORT_TERM": {"$ref": "#/$defs/direction"}, "MEDIUM_TERM": {"$ref": "#/$defs/direction"}}
+        },
+        "lag": {
+          "type": "object", "additionalProperties": false,
+          "required": ["minimum", "maximum"],
+          "properties": {"minimum": {"type": "string", "pattern": "^P"}, "maximum": {"type": "string", "pattern": "^P"}}
+        },
+        "conditions": {"type": "array", "minItems": 1, "items": {"type": "string", "minLength": 1}},
+        "invalidation_conditions": {"type": "array", "minItems": 1, "items": {"type": "string", "minLength": 1}},
+        "evidence": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/evidence"}},
+        "counterevidence": {"type": "array", "items": {"type": "string", "minLength": 1}},
+        "status": {"enum": ["PROPOSED", "CONFIRMED", "REJECTED"]},
+        "confidence": {"type": "number", "minimum": 0, "maximum": 1},
+        "review": {"oneOf": [{"type": "null"}, {"$ref": "#/$defs/review"}]}
+      }
+    }
+  }
+}

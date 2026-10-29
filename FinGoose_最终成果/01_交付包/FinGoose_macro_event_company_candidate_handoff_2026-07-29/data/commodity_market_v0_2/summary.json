@@ -1,0 +1,711 @@
+{
+  "acceptance_errors": [
+    "not all four commodities are complete"
+  ],
+  "adapter_version": "fingoose-official-exchange-adapter-v0.2",
+  "all_revision_record_count": 352,
+  "complete_commodities": [
+    "CU",
+    "AU",
+    "SC"
+  ],
+  "constraints": {
+    "formal_forecast_minimum_history_days": 60,
+    "minimum_contracts_per_commodity_day": 2,
+    "minimum_total_latest_contract_records": 80,
+    "snapshot_is_research_only": true
+  },
+  "continuous_record_count": 30,
+  "dataset_version": "fingoose-commodity-real-snapshot-v0.2",
+  "dates": [
+    "2026-07-09",
+    "2026-07-10",
+    "2026-07-13",
+    "2026-07-14",
+    "2026-07-15",
+    "2026-07-16",
+    "2026-07-17",
+    "2026-07-20",
+    "2026-07-21",
+    "2026-07-22"
+  ],
+  "display_allowed": false,
+  "forecast_labels_generated": false,
+  "latest_contract_record_count": 352,
+  "latest_manifest_count": 42,
+  "license_scope": "unknown",
+  "manifest_count": 42,
+  "manifest_history_count": 42,
+  "p0_status": "blocked",
+  "per_commodity": {
+    "AU": {
+      "complete": true,
+      "contract_record_count": 77,
+      "date_count": 10,
+      "dates": [
+        "2026-07-09",
+        "2026-07-10",
+        "2026-07-13",
+        "2026-07-14",
+        "2026-07-15",
+        "2026-07-16",
+        "2026-07-17",
+        "2026-07-20",
+        "2026-07-21",
+        "2026-07-22"
+      ],
+      "exchange": "SHFE",
+      "minimum_two_contracts_each_day": true
+    },
+    "CU": {
+      "complete": true,
+      "contract_record_count": 120,
+      "date_count": 10,
+      "dates": [
+        "2026-07-09",
+        "2026-07-10",
+        "2026-07-13",
+        "2026-07-14",
+        "2026-07-15",
+        "2026-07-16",
+        "2026-07-17",
+        "2026-07-20",
+        "2026-07-21",
+        "2026-07-22"
+      ],
+      "exchange": "SHFE",
+      "minimum_two_contracts_each_day": true
+    },
+    "I": {
+      "complete": false,
+      "contract_record_count": 0,
+      "date_count": 0,
+      "dates": [],
+      "exchange": "DCE",
+      "minimum_two_contracts_each_day": false
+    },
+    "SC": {
+      "complete": true,
+      "contract_record_count": 155,
+      "date_count": 10,
+      "dates": [
+        "2026-07-09",
+        "2026-07-10",
+        "2026-07-13",
+        "2026-07-14",
+        "2026-07-15",
+        "2026-07-16",
+        "2026-07-17",
+        "2026-07-20",
+        "2026-07-21",
+        "2026-07-22"
+      ],
+      "exchange": "INE",
+      "minimum_two_contracts_each_day": true
+    }
+  },
+  "redistribution_allowed": false,
+  "rejected": [
+    {
+      "commodity_code": "CU",
+      "exchange": "SHFE",
+      "reason": "non_contract_or_aggregate",
+      "row_index": 12,
+      "trade_date": "2026-07-09"
+    },
+    {
+      "commodity_code": "AU",
+      "contract_code": "au2607",
+      "exchange": "SHFE",
+      "reason": "missing OPENPRICE",
+      "row_index": 117,
+      "trade_date": "2026-07-09"
+    },
+    {
+      "commodity_code": "AU",
+      "exchange": "SHFE",
+      "reason": "non_contract_or_aggregate",
+      "row_index": 125,
+      "trade_date": "2026-07-09"
+    },
+    {
+      "commodity_code": "CU",
+      "exchange": "SHFE",
+      "reason": "non_contract_or_aggregate",
+      "row_index": 12,
+      "trade_date": "2026-07-10"
+    },
+    {
+      "commodity_code": "AU",
+      "contract_code": "au2607",
+      "exchange": "SHFE",
+      "reason": "missing OPENPRICE",
+      "row_index": 117,
+      "trade_date": "2026-07-10"
+    },
+    {
+      "commodity_code": "AU",
+      "exchange": "SHFE",
+      "reason": "non_contract_or_aggregate",
+      "row_index": 125,
+      "trade_date": "2026-07-10"
+    },
+    {
+      "commodity_code": "CU",
+      "exchange": "SHFE",
+      "reason": "non_contract_or_aggregate",
+      "row_index": 12,
+      "trade_date": "2026-07-13"
+    },
+    {
+      "commodity_code": "AU",
+      "exchange": "SHFE",
+      "reason": "non_contract_or_aggregate",
+      "row_index": 125,
+      "trade_date": "2026-07-13"
+    },
+    {
+      "commodity_code": "CU",
+      "exchange": "SHFE",
+      "reason": "non_contract_or_aggregate",
+      "row_index": 12,
+      "trade_date": "2026-07-14"
+    },
+    {
+      "commodity_code": "AU",
+      "contract_code": "au2607",
+      "exchange": "SHFE",
+      "reason": "missing OPENPRICE",
+      "row_index": 117,
+      "trade_date": "2026-07-14"
+    },
+    {
+      "commodity_code": "AU",
+      "exchange": "SHFE",
+      "reason": "non_contract_or_aggregate",
+      "row_index": 125,
+      "trade_date": "2026-07-14"
+    },
+    {
+      "commodity_code": "CU",
+      "exchange": "SHFE",
+      "reason": "non_contract_or_aggregate",
+      "row_index": 12,
+      "trade_date": "2026-07-15"
+    },
+    {
+      "commodity_code": "AU",
+      "exchange": "SHFE",
+      "reason": "non_contract_or_aggregate",
+      "row_index": 125,
+      "trade_date": "2026-07-15"
+    },
+    {
+      "commodity_code": "CU",
+      "exchange": "SHFE",
+      "reason": "non_contract_or_aggregate",
+      "row_index": 12,
+      "trade_date": "2026-07-16"
+    },
+    {
+      "commodity_code": "AU",
+      "exchange": "SHFE",
+      "reason": "non_contract_or_aggregate",
+      "row_index": 125,
+      "trade_date": "2026-07-16"
+    },
+    {
+      "commodity_code": "CU",
+      "exchange": "SHFE",
+      "reason": "non_contract_or_aggregate",
+      "row_index": 12,
+      "trade_date": "2026-07-17"
+    },
+    {
+      "commodity_code": "AU",
+      "exchange": "SHFE",
+      "reason": "non_contract_or_aggregate",
+      "row_index": 125,
+      "trade_date": "2026-07-17"
+    },
+    {
+      "commodity_code": "CU",
+      "exchange": "SHFE",
+      "reason": "non_contract_or_aggregate",
+      "row_index": 12,
+      "trade_date": "2026-07-20"
+    },
+    {
+      "commodity_code": "AU",
+      "exchange": "SHFE",
+      "reason": "non_contract_or_aggregate",
+      "row_index": 125,
+      "trade_date": "2026-07-20"
+    },
+    {
+      "commodity_code": "CU",
+      "exchange": "SHFE",
+      "reason": "non_contract_or_aggregate",
+      "row_index": 12,
+      "trade_date": "2026-07-21"
+    },
+    {
+      "commodity_code": "AU",
+      "exchange": "SHFE",
+      "reason": "non_contract_or_aggregate",
+      "row_index": 125,
+      "trade_date": "2026-07-21"
+    },
+    {
+      "commodity_code": "CU",
+      "exchange": "SHFE",
+      "reason": "non_contract_or_aggregate",
+      "row_index": 12,
+      "trade_date": "2026-07-22"
+    },
+    {
+      "commodity_code": "AU",
+      "exchange": "SHFE",
+      "reason": "non_contract_or_aggregate",
+      "row_index": 125,
+      "trade_date": "2026-07-22"
+    },
+    {
+      "commodity_code": "SC",
+      "contract_code": "sc2707",
+      "exchange": "INE",
+      "reason": "missing OPENPRICE",
+      "row_index": 11,
+      "trade_date": "2026-07-09"
+    },
+    {
+      "commodity_code": "SC",
+      "contract_code": "sc2803",
+      "exchange": "INE",
+      "reason": "missing OPENPRICE",
+      "row_index": 14,
+      "trade_date": "2026-07-09"
+    },
+    {
+      "commodity_code": "SC",
+      "contract_code": "sc2809",
+      "exchange": "INE",
+      "reason": "missing OPENPRICE",
+      "row_index": 16,
+      "trade_date": "2026-07-09"
+    },
+    {
+      "commodity_code": "SC",
+      "contract_code": "sc2812",
+      "exchange": "INE",
+      "reason": "missing OPENPRICE",
+      "row_index": 17,
+      "trade_date": "2026-07-09"
+    },
+    {
+      "commodity_code": "SC",
+      "contract_code": "sc2903",
+      "exchange": "INE",
+      "reason": "missing OPENPRICE",
+      "row_index": 18,
+      "trade_date": "2026-07-09"
+    },
+    {
+      "commodity_code": "SC",
+      "exchange": "INE",
+      "reason": "non_contract_or_aggregate",
+      "row_index": 20,
+      "trade_date": "2026-07-09"
+    },
+    {
+      "commodity_code": "SC",
+      "contract_code": "sc2706",
+      "exchange": "INE",
+      "reason": "missing OPENPRICE",
+      "row_index": 10,
+      "trade_date": "2026-07-10"
+    },
+    {
+      "commodity_code": "SC",
+      "contract_code": "sc2707",
+      "exchange": "INE",
+      "reason": "missing OPENPRICE",
+      "row_index": 11,
+      "trade_date": "2026-07-10"
+    },
+    {
+      "commodity_code": "SC",
+      "contract_code": "sc2803",
+      "exchange": "INE",
+      "reason": "missing OPENPRICE",
+      "row_index": 14,
+      "trade_date": "2026-07-10"
+    },
+    {
+      "commodity_code": "SC",
+      "contract_code": "sc2806",
+      "exchange": "INE",
+      "reason": "missing OPENPRICE",
+      "row_index": 15,
+      "trade_date": "2026-07-10"
+    },
+    {
+      "commodity_code": "SC",
+      "exchange": "INE",
+      "reason": "non_contract_or_aggregate",
+      "row_index": 20,
+      "trade_date": "2026-07-10"
+    },
+    {
+      "commodity_code": "SC",
+      "contract_code": "sc2705",
+      "exchange": "INE",
+      "reason": "missing OPENPRICE",
+      "row_index": 9,
+      "trade_date": "2026-07-13"
+    },
+    {
+      "commodity_code": "SC",
+      "contract_code": "sc2707",
+      "exchange": "INE",
+      "reason": "missing OPENPRICE",
+      "row_index": 11,
+      "trade_date": "2026-07-13"
+    },
+    {
+      "commodity_code": "SC",
+      "contract_code": "sc2709",
+      "exchange": "INE",
+      "reason": "missing OPENPRICE",
+      "row_index": 12,
+      "trade_date": "2026-07-13"
+    },
+    {
+      "commodity_code": "SC",
+      "contract_code": "sc2803",
+      "exchange": "INE",
+      "reason": "missing OPENPRICE",
+      "row_index": 14,
+      "trade_date": "2026-07-13"
+    },
+    {
+      "commodity_code": "SC",
+      "contract_code": "sc2806",
+      "exchange": "INE",
+      "reason": "missing OPENPRICE",
+      "row_index": 15,
+      "trade_date": "2026-07-13"
+    },
+    {
+      "commodity_code": "SC",
+      "contract_code": "sc2809",
+      "exchange": "INE",
+      "reason": "missing OPENPRICE",
+      "row_index": 16,
+      "trade_date": "2026-07-13"
+    },
+    {
+      "commodity_code": "SC",
+      "contract_code": "sc2812",
+      "exchange": "INE",
+      "reason": "missing OPENPRICE",
+      "row_index": 17,
+      "trade_date": "2026-07-13"
+    },
+    {
+      "commodity_code": "SC",
+      "contract_code": "sc2903",
+      "exchange": "INE",
+      "reason": "missing OPENPRICE",
+      "row_index": 18,
+      "trade_date": "2026-07-13"
+    },
+    {
+      "commodity_code": "SC",
+      "contract_code": "sc2906",
+      "exchange": "INE",
+      "reason": "missing OPENPRICE",
+      "row_index": 19,
+      "trade_date": "2026-07-13"
+    },
+    {
+      "commodity_code": "SC",
+      "exchange": "INE",
+      "reason": "non_contract_or_aggregate",
+      "row_index": 20,
+      "trade_date": "2026-07-13"
+    },
+    {
+      "commodity_code": "SC",
+      "contract_code": "sc2707",
+      "exchange": "INE",
+      "reason": "missing OPENPRICE",
+      "row_index": 11,
+      "trade_date": "2026-07-14"
+    },
+    {
+      "commodity_code": "SC",
+      "contract_code": "sc2709",
+      "exchange": "INE",
+      "reason": "missing OPENPRICE",
+      "row_index": 12,
+      "trade_date": "2026-07-14"
+    },
+    {
+      "commodity_code": "SC",
+      "contract_code": "sc2803",
+      "exchange": "INE",
+      "reason": "missing OPENPRICE",
+      "row_index": 14,
+      "trade_date": "2026-07-14"
+    },
+    {
+      "commodity_code": "SC",
+      "contract_code": "sc2806",
+      "exchange": "INE",
+      "reason": "missing OPENPRICE",
+      "row_index": 15,
+      "trade_date": "2026-07-14"
+    },
+    {
+      "commodity_code": "SC",
+      "contract_code": "sc2903",
+      "exchange": "INE",
+      "reason": "missing OPENPRICE",
+      "row_index": 18,
+      "trade_date": "2026-07-14"
+    },
+    {
+      "commodity_code": "SC",
+      "contract_code": "sc2906",
+      "exchange": "INE",
+      "reason": "missing OPENPRICE",
+      "row_index": 19,
+      "trade_date": "2026-07-14"
+    },
+    {
+      "commodity_code": "SC",
+      "exchange": "INE",
+      "reason": "non_contract_or_aggregate",
+      "row_index": 20,
+      "trade_date": "2026-07-14"
+    },
+    {
+      "commodity_code": "SC",
+      "contract_code": "sc2707",
+      "exchange": "INE",
+      "reason": "missing OPENPRICE",
+      "row_index": 11,
+      "trade_date": "2026-07-15"
+    },
+    {
+      "commodity_code": "SC",
+      "contract_code": "sc2803",
+      "exchange": "INE",
+      "reason": "missing OPENPRICE",
+      "row_index": 14,
+      "trade_date": "2026-07-15"
+    },
+    {
+      "commodity_code": "SC",
+      "contract_code": "sc2806",
+      "exchange": "INE",
+      "reason": "missing OPENPRICE",
+      "row_index": 15,
+      "trade_date": "2026-07-15"
+    },
+    {
+      "commodity_code": "SC",
+      "contract_code": "sc2903",
+      "exchange": "INE",
+      "reason": "missing OPENPRICE",
+      "row_index": 18,
+      "trade_date": "2026-07-15"
+    },
+    {
+      "commodity_code": "SC",
+      "contract_code": "sc2906",
+      "exchange": "INE",
+      "reason": "missing OPENPRICE",
+      "row_index": 19,
+      "trade_date": "2026-07-15"
+    },
+    {
+      "commodity_code": "SC",
+      "exchange": "INE",
+      "reason": "non_contract_or_aggregate",
+      "row_index": 20,
+      "trade_date": "2026-07-15"
+    },
+    {
+      "commodity_code": "SC",
+      "contract_code": "sc2707",
+      "exchange": "INE",
+      "reason": "missing OPENPRICE",
+      "row_index": 11,
+      "trade_date": "2026-07-16"
+    },
+    {
+      "commodity_code": "SC",
+      "contract_code": "sc2709",
+      "exchange": "INE",
+      "reason": "missing OPENPRICE",
+      "row_index": 12,
+      "trade_date": "2026-07-16"
+    },
+    {
+      "commodity_code": "SC",
+      "contract_code": "sc2806",
+      "exchange": "INE",
+      "reason": "missing OPENPRICE",
+      "row_index": 15,
+      "trade_date": "2026-07-16"
+    },
+    {
+      "commodity_code": "SC",
+      "contract_code": "sc2809",
+      "exchange": "INE",
+      "reason": "missing OPENPRICE",
+      "row_index": 16,
+      "trade_date": "2026-07-16"
+    },
+    {
+      "commodity_code": "SC",
+      "contract_code": "sc2903",
+      "exchange": "INE",
+      "reason": "missing OPENPRICE",
+      "row_index": 18,
+      "trade_date": "2026-07-16"
+    },
+    {
+      "commodity_code": "SC",
+      "contract_code": "sc2906",
+      "exchange": "INE",
+      "reason": "missing OPENPRICE",
+      "row_index": 19,
+      "trade_date": "2026-07-16"
+    },
+    {
+      "commodity_code": "SC",
+      "exchange": "INE",
+      "reason": "non_contract_or_aggregate",
+      "row_index": 20,
+      "trade_date": "2026-07-16"
+    },
+    {
+      "commodity_code": "SC",
+      "exchange": "INE",
+      "reason": "non_contract_or_aggregate",
+      "row_index": 20,
+      "trade_date": "2026-07-17"
+    },
+    {
+      "commodity_code": "SC",
+      "exchange": "INE",
+      "reason": "non_contract_or_aggregate",
+      "row_index": 20,
+      "trade_date": "2026-07-20"
+    },
+    {
+      "commodity_code": "SC",
+      "contract_code": "sc2707",
+      "exchange": "INE",
+      "reason": "missing OPENPRICE",
+      "row_index": 11,
+      "trade_date": "2026-07-21"
+    },
+    {
+      "commodity_code": "SC",
+      "contract_code": "sc2803",
+      "exchange": "INE",
+      "reason": "missing OPENPRICE",
+      "row_index": 14,
+      "trade_date": "2026-07-21"
+    },
+    {
+      "commodity_code": "SC",
+      "contract_code": "sc2806",
+      "exchange": "INE",
+      "reason": "missing OPENPRICE",
+      "row_index": 15,
+      "trade_date": "2026-07-21"
+    },
+    {
+      "commodity_code": "SC",
+      "contract_code": "sc2809",
+      "exchange": "INE",
+      "reason": "missing OPENPRICE",
+      "row_index": 16,
+      "trade_date": "2026-07-21"
+    },
+    {
+      "commodity_code": "SC",
+      "exchange": "INE",
+      "reason": "non_contract_or_aggregate",
+      "row_index": 20,
+      "trade_date": "2026-07-21"
+    },
+    {
+      "commodity_code": "SC",
+      "contract_code": "sc2707",
+      "exchange": "INE",
+      "reason": "missing OPENPRICE",
+      "row_index": 11,
+      "trade_date": "2026-07-22"
+    },
+    {
+      "commodity_code": "SC",
+      "contract_code": "sc2803",
+      "exchange": "INE",
+      "reason": "missing OPENPRICE",
+      "row_index": 14,
+      "trade_date": "2026-07-22"
+    },
+    {
+      "commodity_code": "SC",
+      "contract_code": "sc2806",
+      "exchange": "INE",
+      "reason": "missing OPENPRICE",
+      "row_index": 15,
+      "trade_date": "2026-07-22"
+    },
+    {
+      "commodity_code": "SC",
+      "contract_code": "sc2812",
+      "exchange": "INE",
+      "reason": "missing OPENPRICE",
+      "row_index": 17,
+      "trade_date": "2026-07-22"
+    },
+    {
+      "commodity_code": "SC",
+      "contract_code": "sc2903",
+      "exchange": "INE",
+      "reason": "missing OPENPRICE",
+      "row_index": 18,
+      "trade_date": "2026-07-22"
+    },
+    {
+      "commodity_code": "SC",
+      "contract_code": "sc2906",
+      "exchange": "INE",
+      "reason": "missing OPENPRICE",
+      "row_index": 19,
+      "trade_date": "2026-07-22"
+    },
+    {
+      "commodity_code": "SC",
+      "exchange": "INE",
+      "reason": "non_contract_or_aggregate",
+      "row_index": 20,
+      "trade_date": "2026-07-22"
+    },
+    {
+      "exchange": "DCE",
+      "reason": "DCE manual daily files or contract_metadata.csv are missing"
+    }
+  ],
+  "roll_event_count": 7,
+  "status": "blocked",
+  "validation_errors": []
+}

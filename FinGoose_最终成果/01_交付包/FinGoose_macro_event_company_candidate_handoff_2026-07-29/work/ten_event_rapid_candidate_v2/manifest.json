@@ -1,0 +1,13 @@
+{
+  "dataset_version": "fingoose-ten-event-rapid-candidate-v2.0",
+  "release_tier": "RAPID_CANDIDATE",
+  "formal_ready": false,
+  "counts": {
+    "events": 10,
+    "timeline_nodes": 50,
+    "core_paths": 35,
+    "core_market_series": 40,
+    "extension_market_series": 1
+  },
+  "sha_gate": "DEFERRED_BY_USER_FOR_RAPID_CANDIDATE"
+}

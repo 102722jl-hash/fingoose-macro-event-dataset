@@ -1,0 +1,41 @@
+[
+  {
+    "source_id": "event10-whitehouse-fact",
+    "event_id": "event-10",
+    "publisher": "The White House",
+    "source_tier": "A",
+    "url": "https://www.whitehouse.gov/fact-sheets/2025/04/fact-sheet-president-donald-j-trump-declares-national-emergency-to-increase-our-competitive-edge-protect-our-sovereignty-and-strengthen-our-national-and-economic-security/",
+    "published_at": "2025-04-02T21:19:04+00:00",
+    "title": "Fact sheet on reciprocal tariffs",
+    "locator": "Fact sheet on reciprocal tariffs",
+    "quote": null,
+    "evidence_scope": "EVENT_FACT_AND_TIME",
+    "visibility": "PUBLIC_PREDICTION",
+    "snapshot_path": "sources/event10_whitehouse_fact.html"
+  },
+  {
+    "source_id": "event10-whitehouse-order",
+    "event_id": "event-10",
+    "publisher": "The White House",
+    "source_tier": "A",
+    "url": "https://www.whitehouse.gov/presidential-actions/2025/04/regulating-imports-with-a-reciprocal-tariff-to-rectify-trade-practices-that-contribute-to-large-and-persistent-annual-united-states-goods-trade-deficits/",
+    "published_at": "2025-04-02T21:37:45+00:00",
+    "title": "Executive order regulating imports with reciprocal tariffs",
+    "locator": "Executive order regulating imports with reciprocal tariffs",
+    "quote": null,
+    "evidence_scope": "EVENT_FACT_AND_TIME",
+    "visibility": "PUBLIC_PREDICTION",
+    "snapshot_path": "sources/event10_whitehouse_eo.html"
+  },
+  {
+    "source_id": "mechanism-event-10-imf-tariffs",
+    "publisher": "International Monetary Fund",
+    "source_tier": "A",
+    "url": "https://www.imf.org/en/blogs/articles/2025/04/22/the-global-economy-enters-a-new-era",
+    "published_at": "2025-04-22",
+    "locator": "Paragraphs on tariff effects on U.S. growth, inflation and trading partners",
+    "quote": "Tariffs lower growth, raise U.S. inflation and act as a negative demand shock for trading partners.",
+    "evidence_scope": "POST_EVENT_MECHANISM_CORROBORATION",
+    "visibility": "HIDDEN_FROM_PRIMARY_PREDICTION"
+  }
+]

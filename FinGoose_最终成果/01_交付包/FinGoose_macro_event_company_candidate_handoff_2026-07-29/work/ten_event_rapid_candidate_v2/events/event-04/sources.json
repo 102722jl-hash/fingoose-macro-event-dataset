@@ -1,0 +1,83 @@
+[
+  {
+    "source_id": "event04-govcn",
+    "event_id": "event-04",
+    "publisher": "State Council of China",
+    "source_tier": "A",
+    "url": "https://www.gov.cn/xinwen/2022-12/08/content_5730637.htm",
+    "published_at": "2022-12-08T08:05:37+08:00",
+    "title": "Official interpretation of the ten measures",
+    "locator": "Official interpretation of the ten measures",
+    "quote": null,
+    "evidence_scope": "EVENT_FACT_AND_TIME",
+    "visibility": "PUBLIC_PREDICTION",
+    "snapshot_path": "sources/event04_govcn.html"
+  },
+  {
+    "source_id": "event04-gz-briefing",
+    "event_id": "event-04",
+    "publisher": "Guangzhou Municipal Government",
+    "source_tier": "A",
+    "url": "https://www.gz.gov.cn/xw/xwfbh/content/post_8700455.html",
+    "published_at": "2022-12-08T10:05:00+08:00",
+    "title": "Implementation briefing on the ten measures",
+    "locator": "Implementation briefing on the ten measures",
+    "quote": null,
+    "evidence_scope": "EVENT_FACT_AND_TIME",
+    "visibility": "PUBLIC_PREDICTION",
+    "snapshot_path": "sources/event04_gz_interpretation.html"
+  },
+  {
+    "source_id": "mechanism-event-04-worldbank-china",
+    "publisher": "World Bank",
+    "source_tier": "A",
+    "url": "https://documents1.worldbank.org/curated/en/099640106102210762/pdf/P17579708f26d5018098840f1ad978bb54b.pdf",
+    "published_at": "2022-06-08",
+    "locator": "China Economic Update sections on lockdowns, growth and commodity trade",
+    "quote": "COVID-related restrictions weakened activity and disrupted trade, production and demand.",
+    "evidence_scope": "MECHANISM_PRIOR",
+    "visibility": "PUBLIC_PREDICTION"
+  },
+  {
+    "source_id": "supplemental-fast-event-04-M01",
+    "event_id": "event-04",
+    "publisher": "National Health Commission of China (NHC)",
+    "source_tier": "A",
+    "url": "https://www.nhc.gov.cn/xcs/zhengcwj/202211/c95de5f0be9b4e49b99517385aa662a0.shtml",
+    "published_at": null,
+    "title": null,
+    "locator": null,
+    "quote": null,
+    "evidence_scope": "EVENT_FACT_AND_TIME",
+    "visibility": "PUBLIC_PREDICTION",
+    "snapshot_path": "sources/nhc_event-04-M01_body.txt"
+  },
+  {
+    "source_id": "supplemental-fast-event-04-M02",
+    "event_id": "event-04",
+    "publisher": "Xinhua News Agency / State Council of China",
+    "source_tier": "A",
+    "url": "https://www.gov.cn/xinwen/2022-11/30/content_5729738.htm",
+    "published_at": null,
+    "title": null,
+    "locator": null,
+    "quote": null,
+    "evidence_scope": "EVENT_FACT_AND_TIME",
+    "visibility": "PUBLIC_PREDICTION",
+    "snapshot_path": "sources/live_fast-event-04-M02.html"
+  },
+  {
+    "source_id": "supplemental-fast-event-04-M05",
+    "event_id": "event-04",
+    "publisher": "State Council of China / General Administration of Customs",
+    "source_tier": "A",
+    "url": "https://www.gov.cn/xinwen/2022-12/28/content_5733988.htm",
+    "published_at": null,
+    "title": null,
+    "locator": null,
+    "quote": null,
+    "evidence_scope": "EVENT_FACT_AND_TIME",
+    "visibility": "PUBLIC_PREDICTION",
+    "snapshot_path": "sources/live_fast-event-04-M05.html"
+  }
+]

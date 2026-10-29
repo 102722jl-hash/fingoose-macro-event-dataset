@@ -1,0 +1,130 @@
+{
+  "event_id": "event-02",
+  "title": "俄罗斯对乌克兰发动全面进攻及后续能源制裁",
+  "ordering_basis": "CURATED_STORY_SEQUENCE",
+  "steps": [
+    {
+      "story_step_id": "story-event-02-01",
+      "sequence": 1,
+      "phase": "PRECONDITION",
+      "title_cn": "低库存与地缘紧张构成脆弱背景",
+      "narrative_cn": "低库存与地缘紧张构成脆弱背景。事件状态由“能源供应脆弱性尚未完成证据闭环”转为“地缘风险可能放大供应敏感度”，后续观察应使用新的阶段基准。",
+      "before_state_cn": "能源供应脆弱性尚未完成证据闭环",
+      "after_state_cn": "地缘风险可能放大供应敏感度",
+      "significance_cn": "该步骤建立冲击发生前的约束条件，并重新界定能源供应、通胀预期与风险偏好的观察窗口与传导条件。",
+      "evidence_node_ids": [
+        "fast-event-02-M01"
+      ],
+      "period_start": null,
+      "period_end": null,
+      "time_precision": "UNKNOWN",
+      "evidence_status": "PENDING_EVIDENCE",
+      "evidence_boundary_cn": "核心事实仍待补证，当前只保留候选叙事，不进入干净归因评分。",
+      "activated_path_ids": [],
+      "amplified_path_ids": [],
+      "weakened_path_ids": [],
+      "market_series_ids": []
+    },
+    {
+      "story_step_id": "story-event-02-02",
+      "sequence": 2,
+      "phase": "INITIAL_SHOCK",
+      "title_cn": "俄罗斯宣布启动军事行动",
+      "narrative_cn": "俄罗斯宣布启动军事行动。事件状态由“地缘风险可能放大供应敏感度”转为“军事行动由预期转为公开宣布”，后续观察应使用新的阶段基准。",
+      "before_state_cn": "地缘风险可能放大供应敏感度",
+      "after_state_cn": "军事行动由预期转为公开宣布",
+      "significance_cn": "该步骤改变事件性质并启动核心市场重定价，并重新界定能源供应、通胀预期与风险偏好的观察窗口与传导条件。",
+      "evidence_node_ids": [
+        "fast-event-02-M02"
+      ],
+      "period_start": "2022-02-24T03:00:00Z",
+      "period_end": "2022-02-24T03:00:00Z",
+      "time_precision": "TIMESTAMP",
+      "evidence_status": "SUPPORTED",
+      "evidence_boundary_cn": "关联证据支持事件事实；前后状态与阶段意义属于可追溯的研究归纳。",
+      "activated_path_ids": [],
+      "amplified_path_ids": [],
+      "weakened_path_ids": [],
+      "market_series_ids": []
+    },
+    {
+      "story_step_id": "story-event-02-03",
+      "sequence": 3,
+      "phase": "INITIAL_SHOCK",
+      "title_cn": "北约确认大规模进攻成为市场主锚点",
+      "narrative_cn": "北约确认大规模进攻成为市场主锚点。事件状态由“军事行动由预期转为公开宣布”转为“大规模进攻获得国际组织公开确认”，后续观察应使用新的阶段基准。",
+      "before_state_cn": "军事行动由预期转为公开宣布",
+      "after_state_cn": "大规模进攻获得国际组织公开确认",
+      "significance_cn": "该步骤改变事件性质并启动核心市场重定价，并重新界定能源供应、通胀预期与风险偏好的观察窗口与传导条件。",
+      "evidence_node_ids": [
+        "fast-event-02-M03"
+      ],
+      "period_start": "2022-02-24T05:00:00+00:00",
+      "period_end": "2022-02-24T05:00:00+00:00",
+      "time_precision": "TIMESTAMP",
+      "evidence_status": "SUPPORTED",
+      "evidence_boundary_cn": "关联证据支持事件事实；前后状态与阶段意义属于可追溯的研究归纳。",
+      "activated_path_ids": [
+        "event-02-P-energy-supply",
+        "event-02-P-inflation-rates",
+        "event-02-P-risk-appetite"
+      ],
+      "amplified_path_ids": [],
+      "weakened_path_ids": [],
+      "market_series_ids": [
+        "DCOILBRENTEU",
+        "DHHNGSP",
+        "VIXCLS",
+        "SP500"
+      ]
+    },
+    {
+      "story_step_id": "story-event-02-04",
+      "sequence": 4,
+      "phase": "POLICY_RESPONSE",
+      "title_cn": "北约启动磋商并加强威慑部署",
+      "narrative_cn": "北约启动磋商并加强威慑部署。事件状态由“大规模进攻获得国际组织公开确认”转为“联盟安全政策开始响应军事冲击”，后续观察应使用新的阶段基准。",
+      "before_state_cn": "大规模进攻获得国际组织公开确认",
+      "after_state_cn": "联盟安全政策开始响应军事冲击",
+      "significance_cn": "该步骤引入可能改变原有传导方向的政策响应，并重新界定能源供应、通胀预期与风险偏好的观察窗口与传导条件。",
+      "evidence_node_ids": [
+        "fast-event-02-M04"
+      ],
+      "period_start": "2022-02-24T05:00:00+00:00",
+      "period_end": "2022-02-24T05:00:00+00:00",
+      "time_precision": "TIMESTAMP",
+      "evidence_status": "SUPPORTED",
+      "evidence_boundary_cn": "关联证据支持事件事实；前后状态与阶段意义属于可追溯的研究归纳。",
+      "activated_path_ids": [],
+      "amplified_path_ids": [],
+      "weakened_path_ids": [],
+      "market_series_ids": []
+    },
+    {
+      "story_step_id": "story-event-02-05",
+      "sequence": 5,
+      "phase": "POLICY_RESPONSE",
+      "title_cn": "俄油价格上限改变能源贸易约束",
+      "narrative_cn": "俄油价格上限改变能源贸易约束。事件状态由“联盟安全政策开始响应军事冲击”转为“制裁与能源贸易规则进入中期定价”，后续观察应使用新的阶段基准。",
+      "before_state_cn": "联盟安全政策开始响应军事冲击",
+      "after_state_cn": "制裁与能源贸易规则进入中期定价",
+      "significance_cn": "该步骤引入可能改变原有传导方向的政策响应，并重新界定能源供应、通胀预期与风险偏好的观察窗口与传导条件。",
+      "evidence_node_ids": [
+        "fast-event-02-M05"
+      ],
+      "period_start": "2022-12-02T16:00:00Z",
+      "period_end": "2022-12-02T16:00:00Z",
+      "time_precision": "TIMESTAMP",
+      "evidence_status": "SUPPORTED",
+      "evidence_boundary_cn": "关联证据支持事件事实；前后状态与阶段意义属于可追溯的研究归纳。",
+      "activated_path_ids": [],
+      "amplified_path_ids": [
+        "event-02-P-sanctions-trade"
+      ],
+      "weakened_path_ids": [],
+      "market_series_ids": [
+        "DCOILBRENTEU"
+      ]
+    }
+  ]
+}

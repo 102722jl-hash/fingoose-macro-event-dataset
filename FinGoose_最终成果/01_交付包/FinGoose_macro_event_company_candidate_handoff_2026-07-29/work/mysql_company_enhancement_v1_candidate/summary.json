@@ -1,0 +1,18 @@
+{
+  "candidate_ready": true,
+  "company_candidate_count": 30,
+  "dataset_version": "fingoose-mysql-company-enhancement-v1.0",
+  "display_allowed": false,
+  "financial_baseline_available_count": 6,
+  "formal_blockers": [
+    "VENDOR_LICENSE_SCOPE_UNKNOWN",
+    "OFFICIAL_COMPANY_EXPOSURE_REQUIRED",
+    "A_SHARE_PRICE_WINDOWS_NOT_AVAILABLE",
+    "INDEPENDENT_REVIEW_REQUIRED"
+  ],
+  "formal_ready": false,
+  "industry_mapped_count": 23,
+  "rating_window_available_count": 28,
+  "redistribution_allowed": false,
+  "release_tier": "VENDOR_CANDIDATE"
+}

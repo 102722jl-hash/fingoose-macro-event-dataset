@@ -1,0 +1,28 @@
+{
+  "candidate_ready": true,
+  "checks": {
+    "candidate_counts": true,
+    "evidence_gaps_explicit": true,
+    "initial_reviewer_fixed": true,
+    "pending_metric_facts": true,
+    "protected_output_roots_not_targeted": true,
+    "public_projection_leakage_free": true,
+    "required_dossier_fields": true,
+    "second_review_triggers_explicit": true,
+    "source_snapshots_hash_verified": true,
+    "structured_transmission_chains": true,
+    "ten_events": true,
+    "three_companies_per_event": true
+  },
+  "dataset_version": "fingoose-macro-event-company-candidate-v1.0",
+  "errors": [],
+  "formal_blockers": [
+    "COMPANY_EVIDENCE_INCOMPLETE",
+    "PRICE_WINDOWS_PENDING",
+    "GOLD_LABELS_PENDING",
+    "FORMAL_REVIEWS_INCOMPLETE"
+  ],
+  "formal_ready": false,
+  "public_projection_leakage_paths": [],
+  "release_tier": "CANDIDATE"
+}

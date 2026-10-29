@@ -1,0 +1,17 @@
+{
+  "company_window_count": 30,
+  "csi300_bar_count": 1351,
+  "csi300_first_date": "2019-12-02",
+  "csi300_last_date": "2025-06-30",
+  "formal_ready": false,
+  "hard_failures": [],
+  "industry_benchmark_status": "DATA_PENDING",
+  "industry_relative_observation_count": 0,
+  "industry_relative_status": "DATA_PENDING",
+  "market_benchmark_id": "CSI300",
+  "market_relative_observation_count": 180,
+  "market_relative_pending_count": 0,
+  "recompute_errors": [],
+  "relative_window_count": 30,
+  "sha_gate": "DEFERRED"
+}

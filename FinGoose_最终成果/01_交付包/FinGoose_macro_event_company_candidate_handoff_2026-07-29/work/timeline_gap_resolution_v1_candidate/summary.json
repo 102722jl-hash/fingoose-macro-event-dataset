@@ -1,0 +1,11 @@
+{
+  "dataset_version": "fingoose-timeline-gap-resolution-v1.0",
+  "formal_ready": false,
+  "promotion_eligible_count": 0,
+  "record_count": 8,
+  "release_tier": "FAST_CANDIDATE_AUDIT",
+  "remaining_pending_count": 8,
+  "snapshot_available_count": 7,
+  "snapshot_hash_match_count": 7,
+  "source_timeline_modified": false
+}

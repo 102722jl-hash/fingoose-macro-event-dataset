@@ -1,0 +1,14 @@
+EVIDENCE SPEC (snapshot not retrievable automatically - manual drop-in required)
+NODE: fast-event-06-M01
+OFFICIAL_URL: https://www.iea.org/reports/oil-market-report-march-2023
+PUBLISHER: International Energy Agency
+
+VERBATIM QUOTE (target):
+  "Prices fell a further $3/bbl in March as macroeconomic worries escalated following the collapse of Silicon Valley Bank"
+
+OCCURRED_AT: 2023-03-15T09:00:00Z (Europe/Paris (UTC+1, CET))
+  locator: IEA OMR March 2023: 'Prices fell a further $3/bbl in March as macroeconomic worries escalated following the collapse of Silicon Valley Bank.'
+FIRST_PUBLIC_AT: 2023-03-15T09:00:00Z (Europe/Paris (UTC+1, CET))
+  locator: IEA Oil Market Report published 15 Mar 2023.
+
+FACT: IEA Oil Market Report (March 2023) documented the banking-turmoil-driven oil sell-off (post-SVB) that framed the supply backdrop ahead of the 2023 Saudi/OPEC+ voluntary cuts.

@@ -1,0 +1,42 @@
+{
+  "config_version": "fingoose-sft-qlora-v1",
+  "experimental": true,
+  "warning": "7B is not a supported baseline on an 8GB RTX 4060 Laptop GPU.",
+  "model_name_or_path": "Qwen/Qwen2.5-7B-Instruct",
+  "dataset_config": "dataset.json",
+  "sft_dataset": "../data/sft_dataset.jsonl",
+  "dataset_manifest": "../data/manifest.json",
+  "validation_report": "../data/validation_report.json",
+  "runs_dir": "../runs",
+  "quantization": {
+    "load_in_4bit": true,
+    "bnb_4bit_quant_type": "nf4",
+    "bnb_4bit_use_double_quant": true,
+    "bnb_4bit_compute_dtype": "bfloat16"
+  },
+  "lora": {
+    "r": 8,
+    "lora_alpha": 16,
+    "lora_dropout": 0.05,
+    "bias": "none",
+    "task_type": "CAUSAL_LM",
+    "target_modules": ["q_proj", "v_proj"]
+  },
+  "training": {
+    "max_seq_length": 1024,
+    "per_device_train_batch_size": 1,
+    "per_device_eval_batch_size": 1,
+    "gradient_accumulation_steps": 32,
+    "gradient_checkpointing": true,
+    "learning_rate": 0.0001,
+    "num_train_epochs": 2,
+    "warmup_ratio": 0.05,
+    "logging_steps": 5,
+    "save_strategy": "epoch",
+    "eval_strategy": "epoch",
+    "bf16": true,
+    "fp16": false,
+    "seed": 20260806,
+    "save_only_model": true
+  }
+}

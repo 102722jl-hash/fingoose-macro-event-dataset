@@ -1,0 +1,380 @@
+{
+  "source_count": 46,
+  "extracted_source_count": 46,
+  "failed_source_count": 0,
+  "page_count": 10553,
+  "nonempty_page_count": 10520,
+  "pdfplumber_fallback_source_count": 5,
+  "sha_gate": "DEFERRED",
+  "formal_ready": false,
+  "sources": [
+    {
+      "source_id": "company-source-19198b79561bd94b",
+      "company_code": "000301.SZ",
+      "page_count": 236,
+      "nonempty_page_count": 235,
+      "status": "EXTRACTED",
+      "extraction_engine": "pypdf"
+    },
+    {
+      "source_id": "company-source-e35ef8e30f61cff1",
+      "company_code": "000301.SZ",
+      "page_count": 169,
+      "nonempty_page_count": 168,
+      "status": "EXTRACTED",
+      "extraction_engine": "pypdf"
+    },
+    {
+      "source_id": "company-source-a4e964130d7f5361",
+      "company_code": "000333.SZ",
+      "page_count": 291,
+      "nonempty_page_count": 291,
+      "status": "EXTRACTED_PDFPLUMBER_FALLBACK",
+      "extraction_engine": "pdfplumber"
+    },
+    {
+      "source_id": "company-source-af603dd6cdcbacac",
+      "company_code": "000333.SZ",
+      "page_count": 212,
+      "nonempty_page_count": 212,
+      "status": "EXTRACTED",
+      "extraction_engine": "pypdf"
+    },
+    {
+      "source_id": "company-source-f7ddd800b1f9b20f",
+      "company_code": "002030.SZ",
+      "page_count": 286,
+      "nonempty_page_count": 286,
+      "status": "EXTRACTED",
+      "extraction_engine": "pypdf"
+    },
+    {
+      "source_id": "company-source-7792eb05ac39a3cf",
+      "company_code": "002030.SZ",
+      "page_count": 224,
+      "nonempty_page_count": 224,
+      "status": "EXTRACTED",
+      "extraction_engine": "pypdf"
+    },
+    {
+      "source_id": "company-source-6cdb7b6f4c31e5d0",
+      "company_code": "002432.SZ",
+      "page_count": 222,
+      "nonempty_page_count": 222,
+      "status": "EXTRACTED",
+      "extraction_engine": "pypdf"
+    },
+    {
+      "source_id": "company-source-20cf07a1ca0af979",
+      "company_code": "002432.SZ",
+      "page_count": 167,
+      "nonempty_page_count": 167,
+      "status": "EXTRACTED",
+      "extraction_engine": "pypdf"
+    },
+    {
+      "source_id": "company-source-f86de009e0e48e18",
+      "company_code": "002475.SZ",
+      "page_count": 260,
+      "nonempty_page_count": 260,
+      "status": "EXTRACTED_PDFPLUMBER_FALLBACK",
+      "extraction_engine": "pdfplumber"
+    },
+    {
+      "source_id": "company-source-4737b5cfd54791bf",
+      "company_code": "002475.SZ",
+      "page_count": 192,
+      "nonempty_page_count": 192,
+      "status": "EXTRACTED",
+      "extraction_engine": "pypdf"
+    },
+    {
+      "source_id": "company-source-fb076f0832157267",
+      "company_code": "300059.SZ",
+      "page_count": 185,
+      "nonempty_page_count": 185,
+      "status": "EXTRACTED",
+      "extraction_engine": "pypdf"
+    },
+    {
+      "source_id": "company-source-2b0fb882b23285c4",
+      "company_code": "300059.SZ",
+      "page_count": 155,
+      "nonempty_page_count": 155,
+      "status": "EXTRACTED",
+      "extraction_engine": "pypdf"
+    },
+    {
+      "source_id": "company-source-79cd8d5c39cbfd50",
+      "company_code": "300482.SZ",
+      "page_count": 239,
+      "nonempty_page_count": 239,
+      "status": "EXTRACTED",
+      "extraction_engine": "pypdf"
+    },
+    {
+      "source_id": "company-source-4b9da8864fd439fc",
+      "company_code": "300482.SZ",
+      "page_count": 178,
+      "nonempty_page_count": 178,
+      "status": "EXTRACTED",
+      "extraction_engine": "pypdf"
+    },
+    {
+      "source_id": "company-source-2f24e1ad5c70c328",
+      "company_code": "600009.SH",
+      "page_count": 139,
+      "nonempty_page_count": 139,
+      "status": "EXTRACTED",
+      "extraction_engine": "pypdf"
+    },
+    {
+      "source_id": "company-source-9db5295b63c76d32",
+      "company_code": "600009.SH",
+      "page_count": 118,
+      "nonempty_page_count": 118,
+      "status": "EXTRACTED",
+      "extraction_engine": "pypdf"
+    },
+    {
+      "source_id": "company-source-a3d044ff9c5a95ad",
+      "company_code": "600028.SH",
+      "page_count": 227,
+      "nonempty_page_count": 227,
+      "status": "EXTRACTED",
+      "extraction_engine": "pypdf"
+    },
+    {
+      "source_id": "company-source-d9fa224bf09556b8",
+      "company_code": "600028.SH",
+      "page_count": 160,
+      "nonempty_page_count": 160,
+      "status": "EXTRACTED",
+      "extraction_engine": "pypdf"
+    },
+    {
+      "source_id": "company-source-e85b6a89fbc02ef0",
+      "company_code": "600036.SH",
+      "page_count": 350,
+      "nonempty_page_count": 350,
+      "status": "EXTRACTED_PDFPLUMBER_FALLBACK",
+      "extraction_engine": "pdfplumber"
+    },
+    {
+      "source_id": "company-source-57779e850dbb415e",
+      "company_code": "600036.SH",
+      "page_count": 241,
+      "nonempty_page_count": 241,
+      "status": "EXTRACTED_PDFPLUMBER_FALLBACK",
+      "extraction_engine": "pdfplumber"
+    },
+    {
+      "source_id": "company-source-ebe41fdb8681aee0",
+      "company_code": "600048.SH",
+      "page_count": 331,
+      "nonempty_page_count": 331,
+      "status": "EXTRACTED",
+      "extraction_engine": "pypdf"
+    },
+    {
+      "source_id": "company-source-e7970de468277f34",
+      "company_code": "600048.SH",
+      "page_count": 289,
+      "nonempty_page_count": 289,
+      "status": "EXTRACTED",
+      "extraction_engine": "pypdf"
+    },
+    {
+      "source_id": "company-source-a43a723cab5f1f81",
+      "company_code": "600346.SH",
+      "page_count": 250,
+      "nonempty_page_count": 250,
+      "status": "EXTRACTED",
+      "extraction_engine": "pypdf"
+    },
+    {
+      "source_id": "company-source-28f01d762f8ba54c",
+      "company_code": "600346.SH",
+      "page_count": 196,
+      "nonempty_page_count": 196,
+      "status": "EXTRACTED",
+      "extraction_engine": "pypdf"
+    },
+    {
+      "source_id": "company-source-26d493a24817da00",
+      "company_code": "600754.SH",
+      "page_count": 279,
+      "nonempty_page_count": 279,
+      "status": "EXTRACTED",
+      "extraction_engine": "pypdf"
+    },
+    {
+      "source_id": "company-source-5a26d1fa73edeba0",
+      "company_code": "600754.SH",
+      "page_count": 226,
+      "nonempty_page_count": 226,
+      "status": "EXTRACTED",
+      "extraction_engine": "pypdf"
+    },
+    {
+      "source_id": "company-source-2cf56c31af58fabb",
+      "company_code": "601012.SH",
+      "page_count": 301,
+      "nonempty_page_count": 301,
+      "status": "EXTRACTED",
+      "extraction_engine": "pypdf"
+    },
+    {
+      "source_id": "company-source-d71ca13a5b9334ed",
+      "company_code": "601012.SH",
+      "page_count": 249,
+      "nonempty_page_count": 249,
+      "status": "EXTRACTED",
+      "extraction_engine": "pypdf"
+    },
+    {
+      "source_id": "company-source-6410a89ec380d2d4",
+      "company_code": "601021.SH",
+      "page_count": 213,
+      "nonempty_page_count": 213,
+      "status": "EXTRACTED",
+      "extraction_engine": "pypdf"
+    },
+    {
+      "source_id": "company-source-502d505dc364c3bb",
+      "company_code": "601021.SH",
+      "page_count": 161,
+      "nonempty_page_count": 161,
+      "status": "EXTRACTED",
+      "extraction_engine": "pypdf"
+    },
+    {
+      "source_id": "company-source-ab90c3823fb67615",
+      "company_code": "601111.SH",
+      "page_count": 230,
+      "nonempty_page_count": 223,
+      "status": "EXTRACTED",
+      "extraction_engine": "pypdf"
+    },
+    {
+      "source_id": "company-source-95acf9b654f6eff6",
+      "company_code": "601111.SH",
+      "page_count": 206,
+      "nonempty_page_count": 203,
+      "status": "EXTRACTED",
+      "extraction_engine": "pypdf"
+    },
+    {
+      "source_id": "company-source-12a660d187cb2ebd",
+      "company_code": "601211.SH",
+      "page_count": 309,
+      "nonempty_page_count": 308,
+      "status": "EXTRACTED",
+      "extraction_engine": "pypdf"
+    },
+    {
+      "source_id": "company-source-7a97a47f5cff2c65",
+      "company_code": "601211.SH",
+      "page_count": 212,
+      "nonempty_page_count": 194,
+      "status": "EXTRACTED",
+      "extraction_engine": "pypdf"
+    },
+    {
+      "source_id": "company-source-09159dc18536f6e1",
+      "company_code": "601233.SH",
+      "page_count": 189,
+      "nonempty_page_count": 189,
+      "status": "EXTRACTED",
+      "extraction_engine": "pypdf"
+    },
+    {
+      "source_id": "company-source-75586afc3b2f4bc3",
+      "company_code": "601233.SH",
+      "page_count": 151,
+      "nonempty_page_count": 151,
+      "status": "EXTRACTED",
+      "extraction_engine": "pypdf"
+    },
+    {
+      "source_id": "company-source-bfb0fb9dbd55f63b",
+      "company_code": "601318.SH",
+      "page_count": 342,
+      "nonempty_page_count": 341,
+      "status": "EXTRACTED",
+      "extraction_engine": "pypdf"
+    },
+    {
+      "source_id": "company-source-5e39fcd9e17bbf0c",
+      "company_code": "601318.SH",
+      "page_count": 192,
+      "nonempty_page_count": 191,
+      "status": "EXTRACTED",
+      "extraction_engine": "pypdf"
+    },
+    {
+      "source_id": "company-source-9d7e337a92b90720",
+      "company_code": "601857.SH",
+      "page_count": 301,
+      "nonempty_page_count": 301,
+      "status": "EXTRACTED",
+      "extraction_engine": "pypdf"
+    },
+    {
+      "source_id": "company-source-eff54aacfa192855",
+      "company_code": "601857.SH",
+      "page_count": 181,
+      "nonempty_page_count": 181,
+      "status": "EXTRACTED",
+      "extraction_engine": "pypdf"
+    },
+    {
+      "source_id": "company-source-45857cfaa42b8be1",
+      "company_code": "601919.SH",
+      "page_count": 228,
+      "nonempty_page_count": 228,
+      "status": "EXTRACTED",
+      "extraction_engine": "pypdf"
+    },
+    {
+      "source_id": "company-source-e450afd1fc69bcf2",
+      "company_code": "601919.SH",
+      "page_count": 174,
+      "nonempty_page_count": 174,
+      "status": "EXTRACTED",
+      "extraction_engine": "pypdf"
+    },
+    {
+      "source_id": "company-source-92db11bc7d3f0ba7",
+      "company_code": "601988.SH",
+      "page_count": 378,
+      "nonempty_page_count": 378,
+      "status": "EXTRACTED_PDFPLUMBER_FALLBACK",
+      "extraction_engine": "pdfplumber"
+    },
+    {
+      "source_id": "company-source-cfbe0189550b651e",
+      "company_code": "601988.SH",
+      "page_count": 206,
+      "nonempty_page_count": 206,
+      "status": "EXTRACTED",
+      "extraction_engine": "pypdf"
+    },
+    {
+      "source_id": "company-source-cfb962a4c6ca25bf",
+      "company_code": "688235.SH",
+      "page_count": 288,
+      "nonempty_page_count": 288,
+      "status": "EXTRACTED",
+      "extraction_engine": "pypdf"
+    },
+    {
+      "source_id": "company-source-4695f751d0684b41",
+      "company_code": "688235.SH",
+      "page_count": 220,
+      "nonempty_page_count": 220,
+      "status": "EXTRACTED",
+      "extraction_engine": "pypdf"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "event_id": "event-06",
+  "clean_attribution_decision": "WINDOW_DEPENDENT",
+  "reason": "全球需求预期、库存变化与成员国产量执行度竞争解释油价。",
+  "by_horizon": {
+    "T0": "MINOR",
+    "D1": "MINOR",
+    "D3": "MATERIAL",
+    "D5": "MATERIAL",
+    "D20": "MATERIAL"
+  },
+  "items": [
+    {
+      "confounder_id": "event-06-C01-overlapping-developments",
+      "level": "MATERIAL",
+      "active_from": "2023-04-03",
+      "description": "全球需求预期、库存变化与成员国产量执行度竞争解释油价。",
+      "affected_path_ids": [
+        "event-06-P-oil-supply",
+        "event-06-P-inflation-pass-through",
+        "event-06-P-global-growth"
+      ],
+      "affected_windows": [
+        "D3",
+        "D5",
+        "D20"
+      ],
+      "evidence_source_ids": [
+        "mechanism-event-06-eia-opec"
+      ]
+    }
+  ]
+}

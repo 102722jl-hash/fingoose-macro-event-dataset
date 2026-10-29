@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>FinGoose &#x5E02;&#x573A;&#x4E8B;&#x4EF6;&#x5DE5;&#x4F5C;&#x53F0; v2</title>
+  <link rel="stylesheet" href="/fingoose_macro_event_v2_dashboard.css">
+  <link rel="icon" href="data:,">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand-block">
+      <span class="brand-mark">FG</span>
+      <div>
+        <strong>FinGoose</strong>
+        <span>&#x5E02;&#x573A;&#x4E8B;&#x4EF6;&#x5F52;&#x56E0;&#x5DE5;&#x4F5C;&#x53F0;</span>
+      </div>
+    </div>
+    <div class="release-status">
+      <span class="status-dot"></span>
+      <span>v2.0 CANDIDATE</span>
+      <span class="divider"></span>
+      <span id="validation-state">&#x6821;&#x9A8C;&#x4E2D;</span>
+    </div>
+  </header>
+
+  <div class="app-shell">
+    <aside class="sidebar">
+      <div class="sidebar-head">
+        <label for="event-search">&#x4E8B;&#x4EF6;&#x5E93;</label>
+        <input id="event-search" type="search" placeholder="&#x641C;&#x7D22;&#x4E8B;&#x4EF6;&#x6216;&#x7F16;&#x53F7;">
+      </div>
+      <nav id="event-list" class="event-list" aria-label="&#x4E8B;&#x4EF6;&#x5217;&#x8868;"></nav>
+      <div class="sidebar-summary">
+        <span><b id="event-count">--</b> &#x4E2A;&#x4E8B;&#x4EF6;</span>
+        <span><b id="window-count">--</b> &#x6761;&#x884C;&#x60C5;&#x5E8F;&#x5217;</span>
+      </div>
+    </aside>
+
+    <main class="workspace">
+      <section class="event-header">
+        <div>
+          <div class="event-kicker">
+            <span id="event-id">EVENT --</span>
+            <span id="event-split" class="badge"></span>
+            <span id="challenge-badge" class="badge warning" hidden></span>
+          </div>
+          <h1 id="event-title">&#x52A0;&#x8F7D;&#x4E2D;</h1>
+          <div id="event-meta" class="event-meta"></div>
+        </div>
+        <div class="asof-block">
+          <span>&#x9884;&#x6D4B;&#x89C2;&#x6D4B;&#x622A;&#x6B62;</span>
+          <strong id="forecast-cutoff">--</strong>
+        </div>
+      </section>
+
+      <section class="timeline-section">
+        <div class="section-heading">
+          <div>
+            <p class="section-index">01</p>
+            <div>
+              <h2>&#x8BC1;&#x636E;&#x65F6;&#x95F4;&#x7EBF;</h2>
+              <p id="timeline-summary"></p>
+            </div>
+          </div>
+          <div id="visibility-filter" class="segmented" role="group" aria-label="&#x65F6;&#x95F4;&#x7EBF;&#x5206;&#x533A;">
+            <button class="active" data-visibility="ALL" type="button">&#x5168;&#x90E8;</button>
+            <button data-visibility="PUBLIC_PREDICTION" type="button">&#x9884;&#x6D4B;&#x53EF;&#x89C1;</button>
+            <button data-visibility="HIDDEN_VALIDATION" type="button">&#x9690;&#x85CF;&#x9A8C;&#x8BC1;</button>
+          </div>
+        </div>
+        <div class="timeline-viewport">
+          <div id="timeline-track" class="timeline-track"></div>
+          <div id="timeline-boundary" class="timeline-boundary">
+            <span>D3 &#x516C;&#x5F00;&#x8FB9;&#x754C;</span>
+          </div>
+        </div>
+      </section>
+
+      <div class="analysis-grid">
+        <section class="graph-section">
+          <div class="section-heading compact">
+            <div>
+              <p class="section-index">02</p>
+              <div>
+                <h2>&#x52A8;&#x6001;&#x4F20;&#x5BFC;&#x5206;&#x652F;</h2>
+                <p id="graph-summary"></p>
+              </div>
+            </div>
+            <div class="graph-legend" aria-label="&#x4F20;&#x5BFC;&#x5C42;&#x7EA7;">
+              <span>&#x51B2;&#x51FB;</span><span>&#x7EDF;&#x4E00;&#x6E20;&#x9053;</span>
+              <span>&#x4E2D;&#x95F4;&#x53D8;&#x91CF;</span><span>&#x8D44;&#x4EA7;</span>
+            </div>
+          </div>
+          <div id="graph-branches" class="graph-branches"></div>
+        </section>
+
+        <aside id="evidence-panel" class="evidence-panel">
+          <div class="panel-title">
+            <span>03</span>
+            <h2>&#x951A;&#x70B9;&#x4E0E;&#x8BC1;&#x636E;</h2>
+          </div>
+          <div id="anchor-detail"></div>
+          <div id="source-detail"></div>
+          <div id="expectation-detail"></div>
+        </aside>
+      </div>
+
+      <section class="market-section">
+        <div class="section-heading">
+          <div>
+            <p class="section-index">04</p>
+            <div>
+              <h2>&#x5206;&#x5E02;&#x573A;&#x884C;&#x60C5;&#x7A97;&#x53E3;</h2>
+              <p>&#x7EDD;&#x5BF9;&#x503C;&#x3001;&#x539F;&#x59CB;&#x53D8;&#x5316;&#x3001;&#x6807;&#x51C6;&#x5316;&#x3001;&#x76F8;&#x5BF9;&#x53D8;&#x5316;&#x4E0E;&#x5386;&#x53F2;&#x5206;&#x4F4D;</p>
+            </div>
+          </div>
+          <div id="market-series-tabs" class="series-tabs"></div>
+        </div>
+
+        <div id="market-hero" class="market-hero"></div>
+        <div class="table-scroll">
+          <table id="window-table" class="window-table">
+            <thead>
+              <tr>
+                <th>&#x7A97;&#x53E3;</th>
+                <th>&#x65E5;&#x671F;</th>
+                <th>&#x7EDD;&#x5BF9;&#x503C;</th>
+                <th>&#x539F;&#x59CB;&#x53D8;&#x5316;</th>
+                <th>&#x6807;&#x51C6;&#x5316;</th>
+                <th>&#x76F8;&#x5BF9;&#x53D8;&#x5316;</th>
+                <th>&#x5386;&#x53F2;&#x5206;&#x4F4D;</th>
+              </tr>
+            </thead>
+            <tbody id="window-table-body"></tbody>
+          </table>
+        </div>
+        <div id="calculation-basis" class="calculation-basis"></div>
+      </section>
+
+      <section id="confounder-panel" class="confounder-panel">
+        <div>
+          <span class="panel-label">&#x6DF7;&#x6742;&#x767B;&#x8BB0;</span>
+          <strong id="confounder-level">--</strong>
+        </div>
+        <p id="confounder-copy"></p>
+        <div id="edge-review-summary"></div>
+      </section>
+    </main>
+  </div>
+
+  <div id="loading-state" class="loading-state">
+    <span></span>
+    <p>&#x6B63;&#x5728;&#x88C5;&#x8F7D; v2 &#x5019;&#x9009;&#x6570;&#x636E;</p>
+  </div>
+
+  <script src="/fingoose_macro_event_v2_dashboard.js"></script>
+</body>
+</html>

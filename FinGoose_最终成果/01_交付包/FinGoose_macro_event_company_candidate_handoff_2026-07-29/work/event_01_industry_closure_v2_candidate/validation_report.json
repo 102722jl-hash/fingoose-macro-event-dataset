@@ -1,0 +1,181 @@
+{
+    "checks":  {
+                   "all_ids_join":  true,
+                   "baseline_directory_not_written":  true,
+                   "chain_count_is_8":  true,
+                   "impact_tiers_are_mutually_exclusive":  true,
+                   "mapping_count_is_8":  true,
+                   "mechanism_node_count_is_56":  true,
+                   "missing_market_values_are_not_zero":  true,
+                   "release_boundary_preserved":  true,
+                   "source_usage_boundaries_are_valid":  true
+               },
+    "dataset_version":  "fingoose-event-01-industry-closure-v2-candidate",
+    "formal_ready":  false,
+    "generated_at":  "2026-08-04T04:39:36.530499+00:00",
+    "manual_spot_checks":  [
+                               {
+                                   "check_type":  "INDEPENDENT_FORMULA_RECOMPUTATION",
+                                   "event_industry_mapping_id":  "event-industry-event-01-801170",
+                                   "industry_name":  "交通运输",
+                                   "windows":  [
+                                                   {
+                                                       "window":  "T_MINUS_1",
+                                                       "actual_date":  "2020-03-11",
+                                                       "formula_inputs":  {
+                                                                              "industry_T_MINUS_1":  2223.85,
+                                                                              "industry_value":  2223.85,
+                                                                              "market_T_MINUS_1":  4028.43,
+                                                                              "market_value":  4028.43
+                                                                          },
+                                                       "recomputed_industry_return":  0,
+                                                       "recomputed_market_return":  0,
+                                                       "recomputed_market_relative_return":  0,
+                                                       "max_abs_error":  0,
+                                                       "passed":  true
+                                                   },
+                                                   {
+                                                       "window":  "T0",
+                                                       "actual_date":  "2020-03-12",
+                                                       "formula_inputs":  {
+                                                                              "industry_T_MINUS_1":  2223.85,
+                                                                              "industry_value":  2176.62,
+                                                                              "market_T_MINUS_1":  4028.43,
+                                                                              "market_value":  3950.91
+                                                                          },
+                                                       "recomputed_industry_return":  -0.021237943206601217,
+                                                       "recomputed_market_return":  -0.019243228751647634,
+                                                       "recomputed_market_relative_return":  -0.0019947144549535833,
+                                                       "max_abs_error":  1.4210854715202004E-14,
+                                                       "passed":  true
+                                                   },
+                                                   {
+                                                       "window":  "D3",
+                                                       "actual_date":  "2020-03-17",
+                                                       "formula_inputs":  {
+                                                                              "industry_T_MINUS_1":  2223.85,
+                                                                              "industry_value":  2058.52,
+                                                                              "market_T_MINUS_1":  4028.43,
+                                                                              "market_value":  3709.68
+                                                                          },
+                                                       "recomputed_industry_return":  -0.074344042988510939,
+                                                       "recomputed_market_return":  -0.079125118222235447,
+                                                       "recomputed_market_relative_return":  0.0047810752337245077,
+                                                       "max_abs_error":  2.8421709430404007E-14,
+                                                       "passed":  true
+                                                   }
+                                               ],
+                                   "tolerance":  1E-10,
+                                   "passed":  true
+                               },
+                               {
+                                   "check_type":  "INDEPENDENT_FORMULA_RECOMPUTATION",
+                                   "event_industry_mapping_id":  "event-industry-event-01-801200",
+                                   "industry_name":  "商贸零售（事件日名称：商业贸易）",
+                                   "windows":  [
+                                                   {
+                                                       "window":  "T_MINUS_1",
+                                                       "actual_date":  "2020-03-11",
+                                                       "formula_inputs":  {
+                                                                              "industry_T_MINUS_1":  3263.3,
+                                                                              "industry_value":  3263.3,
+                                                                              "market_T_MINUS_1":  4028.43,
+                                                                              "market_value":  4028.43
+                                                                          },
+                                                       "recomputed_industry_return":  0,
+                                                       "recomputed_market_return":  0,
+                                                       "recomputed_market_relative_return":  0,
+                                                       "max_abs_error":  0,
+                                                       "passed":  true
+                                                   },
+                                                   {
+                                                       "window":  "T0",
+                                                       "actual_date":  "2020-03-12",
+                                                       "formula_inputs":  {
+                                                                              "industry_T_MINUS_1":  3263.3,
+                                                                              "industry_value":  3209.65,
+                                                                              "market_T_MINUS_1":  4028.43,
+                                                                              "market_value":  3950.91
+                                                                          },
+                                                       "recomputed_industry_return":  -0.0164404130787853,
+                                                       "recomputed_market_return":  -0.019243228751647634,
+                                                       "recomputed_market_relative_return":  0.0028028156728623355,
+                                                       "max_abs_error":  1.4210854715202004E-14,
+                                                       "passed":  true
+                                                   },
+                                                   {
+                                                       "window":  "D3",
+                                                       "actual_date":  "2020-03-17",
+                                                       "formula_inputs":  {
+                                                                              "industry_T_MINUS_1":  3263.3,
+                                                                              "industry_value":  3041.89,
+                                                                              "market_T_MINUS_1":  4028.43,
+                                                                              "market_value":  3709.68
+                                                                          },
+                                                       "recomputed_industry_return":  -0.067848496920295487,
+                                                       "recomputed_market_return":  -0.079125118222235447,
+                                                       "recomputed_market_relative_return":  0.01127662130193996,
+                                                       "max_abs_error":  2.8421709430404007E-14,
+                                                       "passed":  true
+                                                   }
+                                               ],
+                                   "tolerance":  1E-10,
+                                   "passed":  true
+                               },
+                               {
+                                   "check_type":  "INDEPENDENT_FORMULA_RECOMPUTATION",
+                                   "event_industry_mapping_id":  "event-industry-event-01-801020",
+                                   "industry_name":  "采掘（石油石化细分暴露）",
+                                   "windows":  [
+                                                   {
+                                                       "window":  "T_MINUS_1",
+                                                       "actual_date":  "2020-03-11",
+                                                       "formula_inputs":  {
+                                                                              "industry_T_MINUS_1":  2273.68,
+                                                                              "industry_value":  2273.68,
+                                                                              "market_T_MINUS_1":  4028.43,
+                                                                              "market_value":  4028.43
+                                                                          },
+                                                       "recomputed_industry_return":  0,
+                                                       "recomputed_market_return":  0,
+                                                       "recomputed_market_relative_return":  0,
+                                                       "max_abs_error":  0,
+                                                       "passed":  true
+                                                   },
+                                                   {
+                                                       "window":  "T0",
+                                                       "actual_date":  "2020-03-12",
+                                                       "formula_inputs":  {
+                                                                              "industry_T_MINUS_1":  2273.68,
+                                                                              "industry_value":  2225.98,
+                                                                              "market_T_MINUS_1":  4028.43,
+                                                                              "market_value":  3950.91
+                                                                          },
+                                                       "recomputed_industry_return":  -0.020979205517047128,
+                                                       "recomputed_market_return":  -0.019243228751647634,
+                                                       "recomputed_market_relative_return":  -0.001735976765399494,
+                                                       "max_abs_error":  3.4694469519536142E-18,
+                                                       "passed":  true
+                                                   },
+                                                   {
+                                                       "window":  "D3",
+                                                       "actual_date":  "2020-03-17",
+                                                       "formula_inputs":  {
+                                                                              "industry_T_MINUS_1":  2273.68,
+                                                                              "industry_value":  2130.39,
+                                                                              "market_T_MINUS_1":  4028.43,
+                                                                              "market_value":  3709.68
+                                                                          },
+                                                       "recomputed_industry_return":  -0.06302118152070646,
+                                                       "recomputed_market_return":  -0.079125118222235447,
+                                                       "recomputed_market_relative_return":  0.016103936701528987,
+                                                       "max_abs_error":  2.8421709430404007E-14,
+                                                       "passed":  true
+                                                   }
+                                               ],
+                                   "tolerance":  1E-10,
+                                   "passed":  true
+                               }
+                           ],
+    "sha_gate":  "DEFERRED"
+}

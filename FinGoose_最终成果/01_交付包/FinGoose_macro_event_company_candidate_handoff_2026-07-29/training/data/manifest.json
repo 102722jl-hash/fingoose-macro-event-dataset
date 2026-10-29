@@ -1,0 +1,130 @@
+{
+  "artifacts": {
+    "sft_dataset": {
+      "path": "D:\\桌面\\workspace\\codex1\\FinGoose_最终成果\\01_交付包\\FinGoose_macro_event_company_candidate_handoff_2026-07-29\\training\\data\\sft_dataset.jsonl",
+      "sha256": "15e7581897e274ce556b9aeecee21de24208fa36fe83e501a5dbf205f22bb363"
+    },
+    "split_manifest": {
+      "path": "D:\\桌面\\workspace\\codex1\\FinGoose_最终成果\\01_交付包\\FinGoose_macro_event_company_candidate_handoff_2026-07-29\\training\\data\\split_manifest.json",
+      "sha256": "72dd3fef088eb2ff840c2c8b4371d819000203c4d34f21bbb3c4ae7f6dc3d75f"
+    },
+    "unified_events": {
+      "path": "D:\\桌面\\workspace\\codex1\\FinGoose_最终成果\\01_交付包\\FinGoose_macro_event_company_candidate_handoff_2026-07-29\\training\\data\\unified_events.jsonl",
+      "sha256": "4f2dce7fb31ff4171dc1e83edfadcc0db4947aa71d8c67354bdbecf6c328f05d"
+    }
+  },
+  "dataset_version": "fingoose-unified-sft-v1",
+  "event_counts": {
+    "event-01": 16,
+    "event-02": 16,
+    "event-03": 16,
+    "event-04": 16,
+    "event-05": 15,
+    "event-06": 15,
+    "event-07": 15,
+    "event-08": 15,
+    "event-09": 16,
+    "event-10": 17
+  },
+  "record_counts": {
+    "sft_samples": 157,
+    "unified_events": 10
+  },
+  "source_files": {
+    "company_confounders": {
+      "path": "D:\\桌面\\workspace\\codex1\\FinGoose_最终成果\\01_交付包\\FinGoose_macro_event_company_candidate_handoff_2026-07-29\\work\\company_impact_high_quality_v2_candidate\\company_confounders.jsonl",
+      "sha256": "34debf615f5bf5039661e5b73fcbeb27730a6f8a5dbde2679691fcd3f4b7536c"
+    },
+    "company_counterevidence_reviews": {
+      "path": "D:\\桌面\\workspace\\codex1\\FinGoose_最终成果\\01_交付包\\FinGoose_macro_event_company_candidate_handoff_2026-07-29\\work\\company_impact_high_quality_v2_candidate\\company_counterevidence_reviews.jsonl",
+      "sha256": "22fb042ffa84d781329b6d23d71b8aa1fde84d7cd8db2be016e6f1260fad6a3e"
+    },
+    "company_evidence": {
+      "path": "D:\\桌面\\workspace\\codex1\\FinGoose_最终成果\\01_交付包\\FinGoose_macro_event_company_candidate_handoff_2026-07-29\\work\\company_impact_high_quality_v2_candidate\\company_evidence.jsonl",
+      "sha256": "2f53456a0b13778a158dc7e49edae26b3d156e09db28d5980ea8262eddc2ac55"
+    },
+    "company_market_windows": {
+      "path": "D:\\桌面\\workspace\\codex1\\FinGoose_最终成果\\01_交付包\\FinGoose_macro_event_company_candidate_handoff_2026-07-29\\work\\company_impact_high_quality_v2_candidate\\company_market_windows.jsonl",
+      "sha256": "b63c0c9ce9bcc5faa86704b06b207ae3d80874acc47bc2ef63d4363bdcf2c76b"
+    },
+    "company_mechanism_chains": {
+      "path": "D:\\桌面\\workspace\\codex1\\FinGoose_最终成果\\01_交付包\\FinGoose_macro_event_company_candidate_handoff_2026-07-29\\work\\company_impact_high_quality_v2_candidate\\event_company_mechanism_chains.jsonl",
+      "sha256": "c4dea55f35b8130ec453118906a9c7ae7ad9770dd75995114a110777ffb70f47"
+    },
+    "direction_assessments": {
+      "path": "D:\\桌面\\workspace\\codex1\\FinGoose_最终成果\\01_交付包\\FinGoose_macro_event_company_candidate_handoff_2026-07-29\\work\\company_impact_high_quality_v2_candidate\\direction_assessments.jsonl",
+      "sha256": "dba27ce992407674a3fb07577eff4d55183cd92830b827544fdac121b20333db"
+    },
+    "event_company_map": {
+      "path": "D:\\桌面\\workspace\\codex1\\FinGoose_最终成果\\01_交付包\\FinGoose_macro_event_company_candidate_handoff_2026-07-29\\work\\company_impact_high_quality_v2_candidate\\event_company_map.jsonl",
+      "sha256": "852bf1aae29f09a2ea6c66387bab0c4dfb0cae20007528e5f304a81b7f99ff13"
+    },
+    "event_episodes": {
+      "path": "D:\\桌面\\workspace\\codex1\\FinGoose_最终成果\\01_交付包\\FinGoose_macro_event_company_candidate_handoff_2026-07-29\\data\\market_event_attribution_v2_candidate\\event_episodes.jsonl",
+      "sha256": "32626f4dd798c315ee1529581e31165369826c4119c5fd51fa82442623b4349b"
+    },
+    "event_industry_mappings": {
+      "path": "D:\\桌面\\workspace\\codex1\\FinGoose_最终成果\\01_交付包\\FinGoose_macro_event_company_candidate_handoff_2026-07-29\\work\\industry_impact_high_quality_v2_candidate\\event_industry_mappings.jsonl",
+      "sha256": "6c3219f18f8ef67512b70d4fe132dd6dfa2efea694b351ea7ccf924210bdfd47"
+    },
+    "event_milestones": {
+      "path": "D:\\桌面\\workspace\\codex1\\FinGoose_最终成果\\01_交付包\\FinGoose_macro_event_company_candidate_handoff_2026-07-29\\data\\market_event_attribution_v2_candidate\\event_milestones.jsonl",
+      "sha256": "2fafc57e304f810ef24c65c7248de487e711574108b179231e3f9ff869048d8a"
+    },
+    "industry_evidence": {
+      "path": "D:\\桌面\\workspace\\codex1\\FinGoose_最终成果\\01_交付包\\FinGoose_macro_event_company_candidate_handoff_2026-07-29\\work\\industry_impact_high_quality_v2_candidate\\industry_evidence.jsonl",
+      "sha256": "87f3085d970be69a92e9ff226aa835ccdaea7a357b817130557ccf6e20f81979"
+    },
+    "industry_market_windows": {
+      "path": "D:\\桌面\\workspace\\codex1\\FinGoose_最终成果\\01_交付包\\FinGoose_macro_event_company_candidate_handoff_2026-07-29\\work\\industry_impact_high_quality_v2_candidate\\industry_market_windows.jsonl",
+      "sha256": "71afbe2855da6dbec43dc1e8fa6f572904bfc10da3635d033c10d18bbcc2d933"
+    },
+    "industry_mechanism_chains": {
+      "path": "D:\\桌面\\workspace\\codex1\\FinGoose_最终成果\\01_交付包\\FinGoose_macro_event_company_candidate_handoff_2026-07-29\\work\\industry_impact_high_quality_v2_candidate\\industry_mechanism_chains.jsonl",
+      "sha256": "0c491b453809054767ddf399e141e7a4f078058932b6fc8dec2fcfddd5ee31c9"
+    },
+    "macro_market_windows": {
+      "path": "D:\\桌面\\workspace\\codex1\\FinGoose_最终成果\\01_交付包\\FinGoose_macro_event_company_candidate_handoff_2026-07-29\\data\\market_event_attribution_v2_candidate\\market_windows.jsonl",
+      "sha256": "6ce70097f2199ba85cbb2ad09b5b9e7e570fdcd526b10688237faf466227996b"
+    },
+    "macro_sources": {
+      "path": "D:\\桌面\\workspace\\codex1\\FinGoose_最终成果\\01_交付包\\FinGoose_macro_event_company_candidate_handoff_2026-07-29\\data\\market_event_attribution_v2_candidate\\source_manifest.jsonl",
+      "sha256": "1297748c74ea62205c96b0eb85269f8520568738b7f4d43f9fb4fcbd8f8ddf85"
+    },
+    "qa_answers": {
+      "path": "D:\\桌面\\workspace\\codex1\\FinGoose_最终成果\\01_交付包\\FinGoose_macro_event_company_candidate_handoff_2026-07-29\\work\\qa_reasoning_pilot_v2_candidate\\qa_answer_candidates.jsonl",
+      "sha256": "07a26dbabf714a930c66e95cd624736c17633f809563f5b021b1963e465428d0"
+    },
+    "qa_cases": {
+      "path": "D:\\桌面\\workspace\\codex1\\FinGoose_最终成果\\01_交付包\\FinGoose_macro_event_company_candidate_handoff_2026-07-29\\work\\qa_reasoning_pilot_v2_candidate\\qa_cases.jsonl",
+      "sha256": "b9c06927b10edf4315d7af35aa7cf909f6e6f864ef0b56047a83cca609a788e6"
+    },
+    "qa_sources": {
+      "path": "D:\\桌面\\workspace\\codex1\\FinGoose_最终成果\\01_交付包\\FinGoose_macro_event_company_candidate_handoff_2026-07-29\\work\\qa_reasoning_pilot_v2_candidate\\source_fetches.jsonl",
+      "sha256": "b40c4909129af118da7e43b47587cbb4ef735640123dd3c8e963268336f75772"
+    },
+    "trading_status_reviews": {
+      "path": "D:\\桌面\\workspace\\codex1\\FinGoose_最终成果\\01_交付包\\FinGoose_macro_event_company_candidate_handoff_2026-07-29\\work\\company_impact_high_quality_v2_candidate\\trading_status_reviews.jsonl",
+      "sha256": "a2940b7b3b1f49dca35c1e57af8c94f6c70e76f7f64f9443efbc9090951e4a45"
+    },
+    "transmission_graphs": {
+      "path": "D:\\桌面\\workspace\\codex1\\FinGoose_最终成果\\01_交付包\\FinGoose_macro_event_company_candidate_handoff_2026-07-29\\data\\market_event_attribution_v2_candidate\\transmission_graphs.jsonl",
+      "sha256": "1f1e33f2ec25e6fb66a04b03d3c7defd10e54618f995c17936d11e61ef1cf37f"
+    },
+    "ui_reference_bundle": {
+      "path": "D:\\桌面\\workspace\\codex1\\FinGoose_最终成果\\01_交付包\\FinGoose_macro_event_company_candidate_handoff_2026-07-29\\work\\company_impact_high_quality_v2_candidate\\ui\\ui_data_bundle.js",
+      "sha256": "8b0ba82ea0536eb7a4a79b846a5cd2c43877b4d7d78cd512ea70eee43fdd840f"
+    }
+  },
+  "split_counts": {
+    "test": 17,
+    "train": 124,
+    "validation": 16
+  },
+  "task_counts": {
+    "COMPANY_IMPACT": 30,
+    "EVENT_ANALYSIS": 10,
+    "EVENT_QA": 40,
+    "INDUSTRY_IMPACT": 77
+  }
+}

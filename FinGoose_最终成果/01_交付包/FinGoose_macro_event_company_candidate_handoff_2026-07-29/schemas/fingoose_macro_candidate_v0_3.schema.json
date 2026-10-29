@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://fingoose.local/schemas/fingoose_macro_candidate_v0_3.schema.json",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["record_id", "case_group_id", "dataset_version", "status", "formal_sample_generation_allowed", "macro_cutoff_at", "forecast_window", "company", "prediction_type", "instruction", "prediction", "evidence", "counterevidence_ids", "reasoning", "tool_trace"],
+  "properties": {
+    "record_id": {"type": "string", "pattern": "^macro-v0_3-[a-z0-9-]+$"},
+    "case_group_id": {"type": "string", "pattern": "^macro-[0-9]{6}$"},
+    "dataset_version": {"const": "fingoose-research-candidate-v0.3"},
+    "status": {"enum": ["research_candidate", "ready_research_candidate"]},
+    "formal_sample_generation_allowed": {"const": false},
+    "macro_cutoff_at": {"type": "string", "format": "date-time"},
+    "forecast_window": {"type": "object", "additionalProperties": false, "required": ["start_date", "end_date"], "properties": {"start_date": {"const": "2025-05-01"}, "end_date": {"const": "2025-06-30"}}},
+    "company": {"type": "object", "additionalProperties": false, "required": ["company_code", "company_name"], "properties": {"company_code": {"type": "string", "pattern": "^[0-9]{6}\\.(SZ|SH)$"}, "company_name": {"type": "string", "minLength": 1}}},
+    "prediction_type": {"enum": ["industry_transmission", "company_event"]},
+    "instruction": {"type": "string", "minLength": 1},
+    "prediction": {"type": "object", "additionalProperties": false, "required": ["direction", "statement"], "properties": {"direction": {"enum": ["supportive", "mixed", "constrained"]}, "statement": {"type": "string", "minLength": 1}}},
+    "evidence": {"type": "array", "minItems": 6, "items": {"type": "object", "additionalProperties": false, "required": ["evidence_id", "source_id", "source_url", "source_family", "published_at", "model_visible", "source_locator", "text_sha256"], "properties": {"evidence_id": {"type": "string", "minLength": 1}, "source_id": {"type": "string", "minLength": 1}, "source_url": {"type": "string", "format": "uri"}, "source_family": {"type": "string", "minLength": 1}, "published_at": {"type": "string", "format": "date-time"}, "model_visible": {"const": true}, "source_locator": {"type": "string", "minLength": 1}, "text_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"}, "company_code": {"type": "string"}, "report_type": {"type": "string"}, "announcement_date": {"type": "string"}}}},
+    "counterevidence_ids": {"type": "array", "minItems": 1, "items": {"type": "string"}, "uniqueItems": true},
+    "reasoning": {"type": "string", "minLength": 1},
+    "tool_trace": {"type": "array", "items": {"type": "object", "additionalProperties": false, "required": ["tool_name", "evidence_ids"], "properties": {"tool_name": {"const": "official_evidence_selector"}, "evidence_ids": {"type": "array", "minItems": 6, "items": {"type": "string"}}}}}
+  }
+}

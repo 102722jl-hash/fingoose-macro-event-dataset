@@ -1,0 +1,28 @@
+{
+  "profile_version": "macro-dataset-profile-v2",
+  "audit_policy": "strict-claim-closure-v2",
+  "project_root": "../../../..",
+  "dataset_config": "training/configs/dataset.json",
+  "training_config": "training/configs/sft_qlora_3b.json",
+  "base_unified_events": "training/data/unified_events.jsonl",
+  "candidate_work_dir": "work/skill_candidate_runs",
+  "research_runs_dir": "work/skill_research_runs",
+  "industry_min": 5,
+  "industry_max": 10,
+  "company_default": 3,
+  "qa_default": 4,
+  "market_window_keys": ["T_MINUS_1", "T0", "D1", "D3", "D5", "D20"],
+  "split_policy": {
+    "method": "sha256_mod_100",
+    "version": "split-v1",
+    "train_max": 79,
+    "validation_max": 89
+  },
+  "candidate_build_commands": [
+    ["python", "training/scripts/build_sft_dataset.py", "--config", "{run_config}"]
+  ],
+  "validation_commands": [
+    ["python", "training/scripts/validate_dataset.py", "--config", "{run_config}"],
+    ["python", "training/scripts/train_sft.py", "--config", "{run_training_config}", "--dry-run"]
+  ]
+}

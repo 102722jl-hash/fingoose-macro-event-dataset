@@ -1,0 +1,257 @@
+{
+  "event_id": "event-07",
+  "release_tier": "RAPID_CANDIDATE",
+  "paths": [
+    {
+      "path_id": "event-07-P-energy-supply",
+      "event_id": "event-07",
+      "activation_phases": [
+        "INITIAL_SHOCK"
+      ],
+      "activation_actions": [
+        "STARTS"
+      ],
+      "activation_tags": [
+        "ENERGY_SUPPLY"
+      ],
+      "chain": [
+        "MIDDLE_EAST_CONFLICT",
+        "ENERGY_SUPPLY",
+        "EVENT-07_ENERGY_SUPPLY",
+        "DCOILBRENTEU"
+      ],
+      "asset_series_ids": [
+        "DCOILBRENTEU"
+      ],
+      "expected_direction": {
+        "IMMEDIATE": "UP",
+        "SHORT_TERM": "UP",
+        "MEDIUM_TERM": "MIXED"
+      },
+      "lag": {
+        "minimum": "P0D",
+        "maximum": "P20D"
+      },
+      "conditions": [
+        "主锚点事实未被官方实质更正。",
+        "ENERGY_SUPPLY 渠道在所选窗口内仍具经济相关性。"
+      ],
+      "invalidation_conditions": [
+        "政策响应或后续事件成为窗口内主导冲击。",
+        "冲突范围未扩大时，初始风险溢价可能迅速回吐。"
+      ],
+      "counterevidence": [
+        "冲突范围未扩大时，初始风险溢价可能迅速回吐。"
+      ],
+      "selection_status": "CORE_REVIEWED",
+      "confirmation_status": "PROPOSED",
+      "review_basis": "AI_DESK_REVIEW_NO_HUMAN_CONFIRMATION",
+      "name": "冲突扩散风险抬高能源风险溢价",
+      "anchor_fast_node_ids": [
+        "fast-event-07-M01"
+      ],
+      "unverified_candidate_anchor_ids": [],
+      "anchor_evidence_status": "VERIFIED_EXISTING",
+      "scoring_eligible": true,
+      "event_fact_evidence": [
+        "event07-un"
+      ],
+      "mechanism_evidence": [
+        {
+          "source_id": "mechanism-event-07-unctad-shipping",
+          "evidence_scope": "POST_EVENT_MECHANISM_CORROBORATION",
+          "prediction_use": "EXCLUDED_TO_PREVENT_LEAKAGE"
+        }
+      ]
+    },
+    {
+      "path_id": "event-07-P-risk-appetite",
+      "event_id": "event-07",
+      "activation_phases": [
+        "INITIAL_SHOCK"
+      ],
+      "activation_actions": [
+        "STARTS"
+      ],
+      "activation_tags": [
+        "GEOPOLITICAL_RISK"
+      ],
+      "chain": [
+        "MIDDLE_EAST_CONFLICT",
+        "RISK_APPETITE",
+        "EVENT-07_RISK_APPETITE",
+        "VIXCLS|SP500"
+      ],
+      "asset_series_ids": [
+        "VIXCLS",
+        "SP500"
+      ],
+      "expected_direction": {
+        "IMMEDIATE": "VIX_UP__SP500_DOWN",
+        "SHORT_TERM": "MIXED",
+        "MEDIUM_TERM": "MIXED"
+      },
+      "lag": {
+        "minimum": "P0D",
+        "maximum": "P20D"
+      },
+      "conditions": [
+        "主锚点事实未被官方实质更正。",
+        "RISK_APPETITE 渠道在所选窗口内仍具经济相关性。"
+      ],
+      "invalidation_conditions": [
+        "政策响应或后续事件成为窗口内主导冲击。",
+        "冲突范围未扩大时，初始风险溢价可能迅速回吐。"
+      ],
+      "counterevidence": [
+        "冲突范围未扩大时，初始风险溢价可能迅速回吐。"
+      ],
+      "selection_status": "CORE_REVIEWED",
+      "confirmation_status": "PROPOSED",
+      "review_basis": "AI_DESK_REVIEW_NO_HUMAN_CONFIRMATION",
+      "name": "地缘不确定性压低全球风险偏好",
+      "anchor_fast_node_ids": [
+        "fast-event-07-M01"
+      ],
+      "unverified_candidate_anchor_ids": [],
+      "anchor_evidence_status": "VERIFIED_EXISTING",
+      "scoring_eligible": true,
+      "event_fact_evidence": [
+        "event07-un"
+      ],
+      "mechanism_evidence": [
+        {
+          "source_id": "mechanism-event-07-unctad-shipping",
+          "evidence_scope": "POST_EVENT_MECHANISM_CORROBORATION",
+          "prediction_use": "EXCLUDED_TO_PREVENT_LEAKAGE"
+        }
+      ]
+    },
+    {
+      "path_id": "event-07-P-safe-haven",
+      "event_id": "event-07",
+      "activation_phases": [
+        "INITIAL_SHOCK"
+      ],
+      "activation_actions": [
+        "STARTS"
+      ],
+      "activation_tags": [
+        "SAFE_HAVEN_DEMAND"
+      ],
+      "chain": [
+        "MIDDLE_EAST_CONFLICT",
+        "SAFE_HAVEN_DEMAND",
+        "EVENT-07_SAFE_HAVEN",
+        "DEXCHUS"
+      ],
+      "asset_series_ids": [
+        "DEXCHUS"
+      ],
+      "expected_direction": {
+        "IMMEDIATE": "UP",
+        "SHORT_TERM": "MIXED",
+        "MEDIUM_TERM": "MIXED"
+      },
+      "lag": {
+        "minimum": "P0D",
+        "maximum": "P20D"
+      },
+      "conditions": [
+        "主锚点事实未被官方实质更正。",
+        "SAFE_HAVEN_DEMAND 渠道在所选窗口内仍具经济相关性。"
+      ],
+      "invalidation_conditions": [
+        "政策响应或后续事件成为窗口内主导冲击。",
+        "冲突范围未扩大时，初始风险溢价可能迅速回吐。"
+      ],
+      "counterevidence": [
+        "冲突范围未扩大时，初始风险溢价可能迅速回吐。"
+      ],
+      "selection_status": "CORE_REVIEWED",
+      "confirmation_status": "PROPOSED",
+      "review_basis": "AI_DESK_REVIEW_NO_HUMAN_CONFIRMATION",
+      "name": "尾部风险推动美元避险需求",
+      "anchor_fast_node_ids": [
+        "fast-event-07-M01"
+      ],
+      "unverified_candidate_anchor_ids": [],
+      "anchor_evidence_status": "VERIFIED_EXISTING",
+      "scoring_eligible": true,
+      "event_fact_evidence": [
+        "event07-un"
+      ],
+      "mechanism_evidence": [
+        {
+          "source_id": "mechanism-event-07-unctad-shipping",
+          "evidence_scope": "POST_EVENT_MECHANISM_CORROBORATION",
+          "prediction_use": "EXCLUDED_TO_PREVENT_LEAKAGE"
+        }
+      ]
+    },
+    {
+      "path_id": "event-07-P-shipping-disruption",
+      "event_id": "event-07",
+      "activation_phases": [
+        "SECONDARY_SHOCK"
+      ],
+      "activation_actions": [
+        "AMPLIFIES"
+      ],
+      "activation_tags": [
+        "SHIPPING_DISRUPTION",
+        "ENERGY_SUPPLY"
+      ],
+      "chain": [
+        "MIDDLE_EAST_CONFLICT",
+        "SHIPPING_COSTS",
+        "EVENT-07_SHIPPING_DISRUPTION",
+        "DCOILBRENTEU|SP500"
+      ],
+      "asset_series_ids": [
+        "DCOILBRENTEU",
+        "SP500"
+      ],
+      "expected_direction": {
+        "IMMEDIATE": "MIXED",
+        "SHORT_TERM": "OIL_UP__SP500_DOWN",
+        "MEDIUM_TERM": "MIXED"
+      },
+      "lag": {
+        "minimum": "P0D",
+        "maximum": "P20D"
+      },
+      "conditions": [
+        "主锚点事实未被官方实质更正。",
+        "SHIPPING_COSTS 渠道在所选窗口内仍具经济相关性。"
+      ],
+      "invalidation_conditions": [
+        "政策响应或后续事件成为窗口内主导冲击。",
+        "冲突范围未扩大时，初始风险溢价可能迅速回吐。"
+      ],
+      "counterevidence": [
+        "冲突范围未扩大时，初始风险溢价可能迅速回吐。"
+      ],
+      "selection_status": "CORE_REVIEWED",
+      "confirmation_status": "PROPOSED",
+      "review_basis": "AI_DESK_REVIEW_NO_HUMAN_CONFIRMATION",
+      "name": "航运绕行提高运费与供应链成本",
+      "anchor_fast_node_ids": [
+        "fast-event-07-M04"
+      ],
+      "unverified_candidate_anchor_ids": [],
+      "anchor_evidence_status": "VERIFIED_EXISTING",
+      "scoring_eligible": true,
+      "event_fact_evidence": [
+        "supplemental-fast-event-07-M04"
+      ],
+      "mechanism_evidence": [
+        {
+          "source_id": "mechanism-event-07-unctad-shipping",
+          "evidence_scope": "POST_EVENT_MECHANISM_CORROBORATION",
+          "prediction_use": "EXCLUDED_TO_PREVENT_LEAKAGE"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "event_id": "event-10",
+  "release_tier": "RAPID_CANDIDATE",
+  "formal_ready": false,
+  "sha_gate": "DEFERRED_BY_USER_FOR_RAPID_CANDIDATE",
+  "hard_failures": [],
+  "chronology_status": "CURATED_SEQUENCE_WITH_TIMESTAMP_INVERSIONS",
+  "chronology_warnings": [
+    {
+      "type": "CURATED_SEQUENCE_TIMESTAMP_INVERSION",
+      "previous_node_id": "fast-event-10-M02",
+      "previous_first_public_at": "2025-04-02T21:37:45+00:00",
+      "current_node_id": "fast-event-10-M03",
+      "current_first_public_at": "2025-04-02T21:19:04+00:00"
+    }
+  ]
+}

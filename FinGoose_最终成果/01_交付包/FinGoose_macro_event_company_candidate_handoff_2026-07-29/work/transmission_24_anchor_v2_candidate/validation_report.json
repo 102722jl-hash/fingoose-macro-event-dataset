@@ -1,0 +1,32 @@
+{
+  "anchor_count": 24,
+  "binding_count": 111,
+  "causal_anchor_count": 14,
+  "counterevidence_linked_count": 72,
+  "counterevidence_unlinked_count": 39,
+  "event_count": 10,
+  "excluded_pending_evidence_count": 7,
+  "excluded_timeline_node_count": 26,
+  "excluded_unresolvable_verified_count": 19,
+  "formal_ready": false,
+  "graph_count": 10,
+  "hard_failures": [],
+  "input_pending_evidence_count": 8,
+  "input_verified_label_count": 42,
+  "observation_anchor_count": 10,
+  "pinned_anchor_input_status_mismatch_count": 1,
+  "production_dataset_modified": false,
+  "production_sha256": {
+    "event_episodes.jsonl": "32626f4dd798c315ee1529581e31165369826c4119c5fd51fa82442623b4349b",
+    "event_milestones.jsonl": "2fafc57e304f810ef24c65c7248de487e711574108b179231e3f9ff869048d8a",
+    "manifest.json": "3c0cd2d56aed32ac518231fb855dc69dc23c37f73e5b645ff1b84e4bdb48f4d1"
+  },
+  "release_tier": "FAST_CANDIDATE",
+  "warnings": [
+    "ALL_BINDINGS_REMAIN_PROPOSED",
+    "ANCHOR_EVIDENCE_PROVES_FACT_AND_TIME_NOT_CAUSAL_MECHANISM",
+    "UNLINKED_COUNTEREVIDENCE_REQUIRES_FUTURE_REVIEW",
+    "UNRESOLVABLE_VERIFIED_LABELS_EXCLUDED:19",
+    "PINNED_ANCHOR_INPUT_STATUS_MISMATCH:1"
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "dataset_version": "fingoose-event-qa-reasoning-v2-candidate",
+  "prediction_cutoff_policy": "PRIMARY_ANCHOR_PUBLICATION_PLUS_72H_DATE_VALUES_USE_END_OF_DAY_UPPER_BOUND",
+  "events": [
+    {
+      "event_id": "event-01",
+      "title_zh": "WHO 将新冠疫情定性为全球大流行",
+      "anchor_node_id": "fast-event-01-M04",
+      "prediction_cutoff_at": "2020-03-14T16:30:00Z",
+      "questions": {
+        "MAIN_REASONING": "截至信息截止日，WHO 将新冠疫情定性为全球大流行通过哪些渠道影响哪些行业？请按直接影响、二阶传导和条件性影响分类，说明即时、短期和中期方向，并给出行情验证、混杂解释和不能归因的部分。",
+        "EVIDENCE_AUDIT": "哪些结论属于官方来源事实、研究推断、计算事实或拒答？请列出原文、定位符和直达链接。",
+        "MARKET_VALIDATION": "T-1、T0、D1、D3、D5、D20 的行业和沪深 300 行情如何，行情支持、削弱还是无法区分该机制？",
+        "INDUSTRY_COMPANY": "哪些公司在事件前已披露相关业务暴露？请列出支持证据、限制条件、反证、混杂和停复牌状态。"
+      }
+    },
+    {
+      "event_id": "event-02",
+      "title_zh": "俄乌冲突全面升级",
+      "anchor_node_id": "fast-event-02-M03",
+      "prediction_cutoff_at": "2022-02-27T23:59:59.999999Z",
+      "questions": {
+        "MAIN_REASONING": "截至信息截止日，俄乌冲突全面升级通过哪些渠道影响哪些行业？请按直接影响、二阶传导和条件性影响分类，说明即时、短期和中期方向，并给出行情验证、混杂解释和不能归因的部分。",
+        "EVIDENCE_AUDIT": "哪些结论属于官方来源事实、研究推断、计算事实或拒答？请列出原文、定位符和直达链接。",
+        "MARKET_VALIDATION": "T-1、T0、D1、D3、D5、D20 的行业和沪深 300 行情如何，行情支持、削弱还是无法区分该机制？",
+        "INDUSTRY_COMPANY": "哪些公司在事件前已披露相关业务暴露？请列出支持证据、限制条件、反证、混杂和停复牌状态。"
+      }
+    },
+    {
+      "event_id": "event-03",
+      "title_zh": "美联储开启加息周期",
+      "anchor_node_id": "fast-event-03-M03",
+      "prediction_cutoff_at": "2022-03-19T18:00:00Z",
+      "questions": {
+        "MAIN_REASONING": "截至信息截止日，美联储开启加息周期通过哪些渠道影响哪些行业？请按直接影响、二阶传导和条件性影响分类，说明即时、短期和中期方向，并给出行情验证、混杂解释和不能归因的部分。",
+        "EVIDENCE_AUDIT": "哪些结论属于官方来源事实、研究推断、计算事实或拒答？请列出原文、定位符和直达链接。",
+        "MARKET_VALIDATION": "T-1、T0、D1、D3、D5、D20 的行业和沪深 300 行情如何，行情支持、削弱还是无法区分该机制？",
+        "INDUSTRY_COMPANY": "哪些公司在事件前已披露相关业务暴露？请列出支持证据、限制条件、反证、混杂和停复牌状态。"
+      }
+    },
+    {
+      "event_id": "event-04",
+      "title_zh": "中国防疫政策转向",
+      "anchor_node_id": "fast-event-04-M03",
+      "prediction_cutoff_at": "2022-12-10T23:59:59.999999Z",
+      "questions": {
+        "MAIN_REASONING": "截至信息截止日，中国防疫政策转向通过哪些渠道影响哪些行业？请按直接影响、二阶传导和条件性影响分类，说明即时、短期和中期方向，并给出行情验证、混杂解释和不能归因的部分。",
+        "EVIDENCE_AUDIT": "哪些结论属于官方来源事实、研究推断、计算事实或拒答？请列出原文、定位符和直达链接。",
+        "MARKET_VALIDATION": "T-1、T0、D1、D3、D5、D20 的行业和沪深 300 行情如何，行情支持、削弱还是无法区分该机制？",
+        "INDUSTRY_COMPANY": "哪些公司在事件前已披露相关业务暴露？请列出支持证据、限制条件、反证、混杂和停复牌状态。"
+      }
+    },
+    {
+      "event_id": "event-05",
+      "title_zh": "硅谷银行倒闭与银行业冲击",
+      "anchor_node_id": "fast-event-05-M02",
+      "prediction_cutoff_at": "2023-03-13T23:59:59.999999Z",
+      "questions": {
+        "MAIN_REASONING": "截至信息截止日，硅谷银行倒闭与稳定措施通过哪些渠道影响哪些行业？请按直接影响、二阶传导和条件性影响分类，说明即时、短期和中期方向，并给出行情验证、混杂解释和不能归因的部分。",
+        "EVIDENCE_AUDIT": "哪些结论属于官方来源事实、研究推断、计算事实或拒答？请列出原文、定位符和直达链接。",
+        "MARKET_VALIDATION": "T-1、T0、D1、D3、D5、D20 的行业和沪深 300 行情如何，行情支持、削弱还是无法区分该机制？",
+        "INDUSTRY_COMPANY": "哪些公司在事件前已披露相关业务暴露？请列出支持证据、限制条件、反证、混杂和停复牌状态。"
+      }
+    },
+    {
+      "event_id": "event-06",
+      "title_zh": "OPEC+ 意外减产",
+      "anchor_node_id": "fast-event-06-M03",
+      "prediction_cutoff_at": "2023-04-06T23:59:59.999999Z",
+      "questions": {
+        "MAIN_REASONING": "截至信息截止日，OPEC+ 意外减产通过哪些渠道影响哪些行业？请按直接影响、二阶传导和条件性影响分类，说明即时、短期和中期方向，并给出行情验证、混杂解释和不能归因的部分。",
+        "EVIDENCE_AUDIT": "哪些结论属于官方来源事实、研究推断、计算事实或拒答？请列出原文、定位符和直达链接。",
+        "MARKET_VALIDATION": "T-1、T0、D1、D3、D5、D20 的行业和沪深 300 行情如何，行情支持、削弱还是无法区分该机制？",
+        "INDUSTRY_COMPANY": "哪些公司在事件前已披露相关业务暴露？请列出支持证据、限制条件、反证、混杂和停复牌状态。"
+      }
+    },
+    {
+      "event_id": "event-07",
+      "title_zh": "红海航运危机升级",
+      "anchor_node_id": "fast-event-07-M03",
+      "prediction_cutoff_at": "2023-10-10T23:59:59.999999Z",
+      "questions": {
+        "MAIN_REASONING": "截至信息截止日，红海航运危机升级通过哪些渠道影响哪些行业？请按直接影响、二阶传导和条件性影响分类，说明即时、短期和中期方向，并给出行情验证、混杂解释和不能归因的部分。",
+        "EVIDENCE_AUDIT": "哪些结论属于官方来源事实、研究推断、计算事实或拒答？请列出原文、定位符和直达链接。",
+        "MARKET_VALIDATION": "T-1、T0、D1、D3、D5、D20 的行业和沪深 300 行情如何，行情支持、削弱还是无法区分该机制？",
+        "INDUSTRY_COMPANY": "哪些公司在事件前已披露相关业务暴露？请列出支持证据、限制条件、反证、混杂和停复牌状态。"
+      }
+    },
+    {
+      "event_id": "event-08",
+      "title_zh": "日本央行结束负利率",
+      "anchor_node_id": "fast-event-08-M04",
+      "prediction_cutoff_at": "2024-03-22T23:59:59.999999Z",
+      "questions": {
+        "MAIN_REASONING": "截至信息截止日，日本央行结束负利率通过哪些渠道影响哪些行业？请按直接影响、二阶传导和条件性影响分类，说明即时、短期和中期方向，并给出行情验证、混杂解释和不能归因的部分。",
+        "EVIDENCE_AUDIT": "哪些结论属于官方来源事实、研究推断、计算事实或拒答？请列出原文、定位符和直达链接。",
+        "MARKET_VALIDATION": "T-1、T0、D1、D3、D5、D20 的行业和沪深 300 行情如何，行情支持、削弱还是无法区分该机制？",
+        "INDUSTRY_COMPANY": "哪些公司在事件前已披露相关业务暴露？请列出支持证据、限制条件、反证、混杂和停复牌状态。"
+      }
+    },
+    {
+      "event_id": "event-09",
+      "title_zh": "中国一揽子金融支持政策",
+      "anchor_node_id": "fast-event-09-M03",
+      "prediction_cutoff_at": "2024-09-27T09:00:00+08:00",
+      "questions": {
+        "MAIN_REASONING": "截至信息截止日，中国一揽子金融支持政策通过哪些渠道影响哪些行业？请按直接影响、二阶传导和条件性影响分类，说明即时、短期和中期方向，并给出行情验证、混杂解释和不能归因的部分。",
+        "EVIDENCE_AUDIT": "哪些结论属于官方来源事实、研究推断、计算事实或拒答？请列出原文、定位符和直达链接。",
+        "MARKET_VALIDATION": "T-1、T0、D1、D3、D5、D20 的行业和沪深 300 行情如何，行情支持、削弱还是无法区分该机制？",
+        "INDUSTRY_COMPANY": "哪些公司在事件前已披露相关业务暴露？请列出支持证据、限制条件、反证、混杂和停复牌状态。"
+      }
+    },
+    {
+      "event_id": "event-10",
+      "title_zh": "美国对等关税政策公布",
+      "anchor_node_id": "fast-event-10-M02",
+      "prediction_cutoff_at": "2025-04-05T21:19:04Z",
+      "questions": {
+        "MAIN_REASONING": "截至信息截止日，美国对等关税政策公布通过哪些渠道影响哪些行业？请按直接影响、二阶传导和条件性影响分类，说明即时、短期和中期方向，并给出行情验证、混杂解释和不能归因的部分。",
+        "EVIDENCE_AUDIT": "哪些结论属于官方来源事实、研究推断、计算事实或拒答？请列出原文、定位符和直达链接。",
+        "MARKET_VALIDATION": "T-1、T0、D1、D3、D5、D20 的行业和沪深 300 行情如何，行情支持、削弱还是无法区分该机制？",
+        "INDUSTRY_COMPANY": "哪些公司在事件前已披露相关业务暴露？请列出支持证据、限制条件、反证、混杂和停复牌状态。"
+      }
+    }
+  ]
+}

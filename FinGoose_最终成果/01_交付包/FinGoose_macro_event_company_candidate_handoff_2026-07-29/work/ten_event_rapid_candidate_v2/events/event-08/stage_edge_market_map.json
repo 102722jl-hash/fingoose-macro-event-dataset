@@ -1,0 +1,55 @@
+{
+  "event_id": "event-08",
+  "mapping_rule": "node -> rule-matched core paths -> preselected core series",
+  "node_mappings": [
+    {
+      "fast_node_id": "fast-event-08-M01",
+      "phase": "PRECONDITION",
+      "node_action": "OBSERVES",
+      "path_ids": [],
+      "series_ids": [],
+      "market_window_status": "NOT_COMPUTED"
+    },
+    {
+      "fast_node_id": "fast-event-08-M02",
+      "phase": "PRECONDITION",
+      "node_action": "OBSERVES",
+      "path_ids": [],
+      "series_ids": [],
+      "market_window_status": "NOT_COMPUTED"
+    },
+    {
+      "fast_node_id": "fast-event-08-M03",
+      "phase": "PRECONDITION",
+      "node_action": "AMPLIFIES",
+      "path_ids": [],
+      "series_ids": [],
+      "market_window_status": "SAME_DAY_UNRESOLVED"
+    },
+    {
+      "fast_node_id": "fast-event-08-M04",
+      "phase": "INITIAL_SHOCK",
+      "node_action": "STARTS",
+      "path_ids": [
+        "event-08-P-yen-rate-differential",
+        "event-08-P-japan-rates",
+        "event-08-P-global-risk"
+      ],
+      "series_ids": [
+        "DEXCHUS",
+        "DEXJPUS",
+        "DGS10",
+        "SP500"
+      ],
+      "market_window_status": "PRIMARY_ANCHOR"
+    },
+    {
+      "fast_node_id": "fast-event-08-M05",
+      "phase": "ESCALATION",
+      "node_action": "OBSERVES",
+      "path_ids": [],
+      "series_ids": [],
+      "market_window_status": "OUTSIDE_PRIMARY_ANCHOR_WINDOW"
+    }
+  ]
+}

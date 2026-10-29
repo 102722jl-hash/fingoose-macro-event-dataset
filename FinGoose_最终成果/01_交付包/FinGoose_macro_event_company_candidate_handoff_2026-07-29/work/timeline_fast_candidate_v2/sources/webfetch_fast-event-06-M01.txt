@@ -1,0 +1,13 @@
+SOURCE: https://www.iea.org/reports/oil-market-report-march-2023
+RETRIEVED_VIA: WebFetch (second pass, 2026-07-30)
+TITLE: IEA Oil Market Report - March 2023
+PUBLISHER: International Energy Agency
+PUBLISHED: 15 March 2023
+
+Highlights (excerpt):
+- World oil supply leapt 830 kb/d in February to 101.5 mb/d as the US and Canada rebounded strongly from winter storms and other outages.
+- In range-bound trading, crude oil futures fell by about $1/bbl m-o-m in February as optimism surrounding China's reopening faded in the face of the hawkish drift in central bank policy. WTI continued to slump in physical differentials amid ongoing US crude stock builds. Prices fell a further $3/bbl in March as macroeconomic worries escalated following the collapse of Silicon Valley Bank.
+
+The market is caught in the cross-currents of supply outstripping still-lacklustre demand, with stocks building to levels not seen in 18 months. Much of the supply overhang reflects ample Russian barrels racing to re-route to new destinations under the full force of EU embargoes.
+
+OPEC+ crude oil production (Feb 2023 vs target): Total OPEC+ 44.36 mb/d actual vs 42.2 mb/d target - illustrating the pre-existing OPEC+ cut baseline and spare-capacity overhang that framed the 2023 oil-supply shock.

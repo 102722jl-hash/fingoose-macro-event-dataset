@@ -1,0 +1,196 @@
+{
+  "event_id": "event-10",
+  "release_tier": "RAPID_CANDIDATE",
+  "paths": [
+    {
+      "path_id": "event-10-P-trade-costs",
+      "event_id": "event-10",
+      "activation_phases": [
+        "INITIAL_SHOCK"
+      ],
+      "activation_actions": [
+        "STARTS"
+      ],
+      "activation_tags": [
+        "TRADE_COSTS"
+      ],
+      "chain": [
+        "RECIPROCAL_TARIFFS",
+        "TRADE_COSTS",
+        "EVENT-10_TRADE_COSTS",
+        "SP500|DEXCHUS"
+      ],
+      "asset_series_ids": [
+        "SP500",
+        "DEXCHUS"
+      ],
+      "expected_direction": {
+        "IMMEDIATE": "SP500_DOWN",
+        "SHORT_TERM": "SP500_DOWN",
+        "MEDIUM_TERM": "MIXED"
+      },
+      "lag": {
+        "minimum": "P0D",
+        "maximum": "P20D"
+      },
+      "conditions": [
+        "主锚点事实未被官方实质更正。",
+        "TRADE_COSTS 渠道在所选窗口内仍具经济相关性。"
+      ],
+      "invalidation_conditions": [
+        "政策响应或后续事件成为窗口内主导冲击。",
+        "豁免、谈判与报复措施会改变实际税率和传导方向。"
+      ],
+      "counterevidence": [
+        "豁免、谈判与报复措施会改变实际税率和传导方向。"
+      ],
+      "selection_status": "CORE_REVIEWED",
+      "confirmation_status": "PROPOSED",
+      "review_basis": "AI_DESK_REVIEW_NO_HUMAN_CONFIRMATION",
+      "name": "关税提高进口成本与供应链摩擦",
+      "anchor_fast_node_ids": [
+        "fast-event-10-M02"
+      ],
+      "unverified_candidate_anchor_ids": [],
+      "anchor_evidence_status": "VERIFIED_EXISTING",
+      "scoring_eligible": true,
+      "event_fact_evidence": [
+        "event10-whitehouse-order"
+      ],
+      "mechanism_evidence": [
+        {
+          "source_id": "mechanism-event-10-imf-tariffs",
+          "evidence_scope": "POST_EVENT_MECHANISM_CORROBORATION",
+          "prediction_use": "EXCLUDED_TO_PREVENT_LEAKAGE"
+        }
+      ]
+    },
+    {
+      "path_id": "event-10-P-inflation-rates",
+      "event_id": "event-10",
+      "activation_phases": [
+        "INITIAL_SHOCK"
+      ],
+      "activation_actions": [
+        "STARTS"
+      ],
+      "activation_tags": [
+        "INFLATION_EXPECTATIONS"
+      ],
+      "chain": [
+        "RECIPROCAL_TARIFFS",
+        "INFLATION_EXPECTATIONS",
+        "EVENT-10_INFLATION_RATES",
+        "DGS10|DTWEXBGS"
+      ],
+      "asset_series_ids": [
+        "DGS10",
+        "DTWEXBGS"
+      ],
+      "expected_direction": {
+        "IMMEDIATE": "MIXED",
+        "SHORT_TERM": "UP",
+        "MEDIUM_TERM": "MIXED"
+      },
+      "lag": {
+        "minimum": "P0D",
+        "maximum": "P20D"
+      },
+      "conditions": [
+        "主锚点事实未被官方实质更正。",
+        "INFLATION_EXPECTATIONS 渠道在所选窗口内仍具经济相关性。"
+      ],
+      "invalidation_conditions": [
+        "政策响应或后续事件成为窗口内主导冲击。",
+        "豁免、谈判与报复措施会改变实际税率和传导方向。"
+      ],
+      "counterevidence": [
+        "豁免、谈判与报复措施会改变实际税率和传导方向。"
+      ],
+      "selection_status": "CORE_REVIEWED",
+      "confirmation_status": "PROPOSED",
+      "review_basis": "AI_DESK_REVIEW_NO_HUMAN_CONFIRMATION",
+      "name": "关税成本经通胀预期影响利率",
+      "anchor_fast_node_ids": [
+        "fast-event-10-M02"
+      ],
+      "unverified_candidate_anchor_ids": [],
+      "anchor_evidence_status": "VERIFIED_EXISTING",
+      "scoring_eligible": true,
+      "event_fact_evidence": [
+        "event10-whitehouse-order"
+      ],
+      "mechanism_evidence": [
+        {
+          "source_id": "mechanism-event-10-imf-tariffs",
+          "evidence_scope": "POST_EVENT_MECHANISM_CORROBORATION",
+          "prediction_use": "EXCLUDED_TO_PREVENT_LEAKAGE"
+        }
+      ]
+    },
+    {
+      "path_id": "event-10-P-global-growth-risk",
+      "event_id": "event-10",
+      "activation_phases": [
+        "INITIAL_SHOCK"
+      ],
+      "activation_actions": [
+        "STARTS"
+      ],
+      "activation_tags": [
+        "GLOBAL_GROWTH"
+      ],
+      "chain": [
+        "RECIPROCAL_TARIFFS",
+        "GLOBAL_GROWTH",
+        "EVENT-10_GLOBAL_GROWTH_RISK",
+        "SP500|DTWEXBGS|DEXCHUS"
+      ],
+      "asset_series_ids": [
+        "SP500",
+        "DTWEXBGS",
+        "DEXCHUS"
+      ],
+      "expected_direction": {
+        "IMMEDIATE": "RISK_OFF",
+        "SHORT_TERM": "RISK_OFF",
+        "MEDIUM_TERM": "MIXED"
+      },
+      "lag": {
+        "minimum": "P0D",
+        "maximum": "P20D"
+      },
+      "conditions": [
+        "主锚点事实未被官方实质更正。",
+        "GLOBAL_GROWTH 渠道在所选窗口内仍具经济相关性。"
+      ],
+      "invalidation_conditions": [
+        "政策响应或后续事件成为窗口内主导冲击。",
+        "豁免、谈判与报复措施会改变实际税率和传导方向。"
+      ],
+      "counterevidence": [
+        "豁免、谈判与报复措施会改变实际税率和传导方向。"
+      ],
+      "selection_status": "CORE_REVIEWED",
+      "confirmation_status": "PROPOSED",
+      "review_basis": "AI_DESK_REVIEW_NO_HUMAN_CONFIRMATION",
+      "name": "贸易政策不确定性压低全球增长与风险偏好",
+      "anchor_fast_node_ids": [
+        "fast-event-10-M02"
+      ],
+      "unverified_candidate_anchor_ids": [],
+      "anchor_evidence_status": "VERIFIED_EXISTING",
+      "scoring_eligible": true,
+      "event_fact_evidence": [
+        "event10-whitehouse-order"
+      ],
+      "mechanism_evidence": [
+        {
+          "source_id": "mechanism-event-10-imf-tariffs",
+          "evidence_scope": "POST_EVENT_MECHANISM_CORROBORATION",
+          "prediction_use": "EXCLUDED_TO_PREVENT_LEAKAGE"
+        }
+      ]
+    }
+  ]
+}

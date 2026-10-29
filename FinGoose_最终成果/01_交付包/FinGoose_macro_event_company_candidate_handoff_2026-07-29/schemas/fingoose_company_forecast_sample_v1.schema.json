@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://fingoose.local/schemas/fingoose_company_forecast_sample_v1.schema.json",
+  "type": "object",
+  "additionalProperties": true,
+  "required": ["record_id", "dataset_version", "event_id", "company_code", "forecast_as_of_at", "visible_windows", "forecast_labels"],
+  "properties": {
+    "record_id": {"type": "string", "pattern": "^company-forecast-event-[0-9]{2}-[0-9]{6}-(sh|sz)$"},
+    "dataset_version": {"const": "fingoose-macro-event-company-v1.0"},
+    "event_id": {"type": "string", "pattern": "^event-[0-9]{2}$"},
+    "company_code": {"type": "string", "pattern": "^[0-9]{6}\\.(SH|SZ)$"},
+    "forecast_as_of_at": {"type": "string", "format": "date-time"},
+    "visible_windows": {"const": ["D1", "D3"]},
+    "forecast_labels": {
+      "type": "array", "minItems": 3, "maxItems": 3,
+      "items": {"$ref": "#/$defs/forecastLabel"},
+      "allOf": [
+        {"contains": {"properties": {"label_type": {"const": "REVENUE"}}, "required": ["label_type"]}, "minContains": 1, "maxContains": 1},
+        {"contains": {"properties": {"label_type": {"const": "PROFIT"}}, "required": ["label_type"]}, "minContains": 1, "maxContains": 1},
+        {"contains": {"properties": {"label_type": {"const": "OPERATING_CASH_FLOW"}}, "required": ["label_type"]}, "minContains": 1, "maxContains": 1}
+      ]
+    }
+  },
+  "$defs": {
+    "forecastLabel": {
+      "type": "object", "additionalProperties": false,
+      "required": ["label_type", "direction"],
+      "properties": {
+        "label_type": {"enum": ["REVENUE", "PROFIT", "OPERATING_CASH_FLOW"]},
+        "direction": {"enum": ["UP", "DOWN", "UNCERTAIN"]},
+        "confidence": {"enum": ["HIGH", "MEDIUM", "LOW"]}
+      }
+    }
+  }
+}

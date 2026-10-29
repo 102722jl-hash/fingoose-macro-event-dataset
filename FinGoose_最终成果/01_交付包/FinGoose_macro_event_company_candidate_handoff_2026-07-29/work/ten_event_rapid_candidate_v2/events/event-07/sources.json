@@ -1,0 +1,69 @@
+[
+  {
+    "source_id": "event07-eia-steo",
+    "event_id": "event-07",
+    "publisher": "U.S. Energy Information Administration",
+    "source_tier": "A",
+    "url": "https://www.eia.gov/outlooks/steo/archives/oct23.pdf",
+    "published_at": "2023-10-11T16:00:00+00:00",
+    "title": "Short-Term Energy Outlook, October 2023",
+    "locator": "Short-Term Energy Outlook, October 2023",
+    "quote": null,
+    "evidence_scope": "EVENT_FACT_AND_TIME",
+    "visibility": "PUBLIC_PREDICTION",
+    "snapshot_path": "sources/event07_eia_oct23.pdf"
+  },
+  {
+    "source_id": "event07-un",
+    "event_id": "event-07",
+    "publisher": "United Nations",
+    "source_tier": "B",
+    "url": "https://www.un.org/unispal/wp-content/uploads/2023/10/Statement-by-UN-Special-Coordinator-Wennesland-7-October-2023.pdf",
+    "published_at": "2023-10-07T12:00:00+00:00",
+    "title": "UN Special Coordinator statement, 7 October 2023",
+    "locator": "UN Special Coordinator statement, 7 October 2023",
+    "quote": null,
+    "evidence_scope": "EVENT_FACT_AND_TIME",
+    "visibility": "PUBLIC_PREDICTION",
+    "snapshot_path": "sources/event07_un_statement.pdf"
+  },
+  {
+    "source_id": "mechanism-event-07-unctad-shipping",
+    "publisher": "United Nations Conference on Trade and Development",
+    "source_tier": "A",
+    "url": "https://unctad.org/news/red-sea-black-sea-and-panama-canal-three-global-trade-chokepoints-under-pressure",
+    "published_at": "2024-01-26",
+    "locator": "Sections on rerouting, freight costs and energy shipments",
+    "quote": "Disruptions at major trade routes raise shipping distances, freight costs and supply-chain uncertainty.",
+    "evidence_scope": "POST_EVENT_MECHANISM_CORROBORATION",
+    "visibility": "HIDDEN_FROM_PRIMARY_PREDICTION"
+  },
+  {
+    "source_id": "supplemental-fast-event-07-M03",
+    "event_id": "event-07",
+    "publisher": "International Maritime Organization (IMO)",
+    "source_tier": "A",
+    "url": "https://www.imo.org/en/mediacentre/pages/whatsnew-2020.aspx",
+    "published_at": null,
+    "title": null,
+    "locator": null,
+    "quote": null,
+    "evidence_scope": "EVENT_FACT_AND_TIME",
+    "visibility": "PUBLIC_PREDICTION",
+    "snapshot_path": "sources/live_fast-event-07-M03.html"
+  },
+  {
+    "source_id": "supplemental-fast-event-07-M04",
+    "event_id": "event-07",
+    "publisher": "U.S. Department of Defense",
+    "source_tier": "A",
+    "url": "https://www.defense.gov/News/Releases/Release/Article/3621110/statement-by-secretary-of-defense-lloyd-j-austin-iii-on-the-establishment-of-o/",
+    "published_at": null,
+    "title": null,
+    "locator": null,
+    "quote": null,
+    "evidence_scope": "EVENT_FACT_AND_TIME",
+    "visibility": "PUBLIC_PREDICTION",
+    "snapshot_path": "sources/webfetch_fast-event-07-M04.txt"
+  }
+]

@@ -1,0 +1,153 @@
+{
+  "dataset_version": "fingoose-event-02-10-industry-market-registry-v2-candidate",
+  "market_timezone": "Asia/Shanghai",
+  "date_range": {
+    "start_date": "20220101",
+    "end_date": "20250801"
+  },
+  "industry_benchmarks": [
+    {
+      "mapping_id": "event-industry-event-02-801010",
+      "code": "801010",
+      "name_zh": "农林牧渔"
+    },
+    {
+      "mapping_id": "event-industry-event-02-801030",
+      "code": "801030",
+      "name_zh": "基础化工"
+    },
+    {
+      "mapping_id": "event-industry-event-02-801050",
+      "code": "801050",
+      "name_zh": "有色金属"
+    },
+    {
+      "mapping_id": "event-industry-event-03-801080",
+      "code": "801080",
+      "name_zh": "电子"
+    },
+    {
+      "mapping_id": "event-industry-event-07-801110",
+      "code": "801110",
+      "name_zh": "家用电器"
+    },
+    {
+      "mapping_id": "event-industry-event-04-801120",
+      "code": "801120",
+      "name_zh": "食品饮料"
+    },
+    {
+      "mapping_id": "event-industry-event-10-801130",
+      "code": "801130",
+      "name_zh": "纺织服饰"
+    },
+    {
+      "mapping_id": "event-industry-event-09-801140",
+      "code": "801140",
+      "name_zh": "轻工制造"
+    },
+    {
+      "mapping_id": "event-industry-event-03-801150",
+      "code": "801150",
+      "name_zh": "医药生物"
+    },
+    {
+      "mapping_id": "event-industry-event-02-801160",
+      "code": "801160",
+      "name_zh": "公用事业"
+    },
+    {
+      "mapping_id": "event-industry-event-02-801170",
+      "code": "801170",
+      "name_zh": "交通运输"
+    },
+    {
+      "mapping_id": "event-industry-event-03-801180",
+      "code": "801180",
+      "name_zh": "房地产"
+    },
+    {
+      "mapping_id": "event-industry-event-04-801200",
+      "code": "801200",
+      "name_zh": "商贸零售"
+    },
+    {
+      "mapping_id": "event-industry-event-04-801210",
+      "code": "801210",
+      "name_zh": "社会服务"
+    },
+    {
+      "mapping_id": "event-industry-event-09-801710",
+      "code": "801710",
+      "name_zh": "建筑材料"
+    },
+    {
+      "mapping_id": "event-industry-event-09-801720",
+      "code": "801720",
+      "name_zh": "建筑装饰"
+    },
+    {
+      "mapping_id": "event-industry-event-03-801730",
+      "code": "801730",
+      "name_zh": "电力设备"
+    },
+    {
+      "mapping_id": "event-industry-event-02-801740",
+      "code": "801740",
+      "name_zh": "国防军工"
+    },
+    {
+      "mapping_id": "event-industry-event-05-801750",
+      "code": "801750",
+      "name_zh": "计算机"
+    },
+    {
+      "mapping_id": "event-industry-event-04-801760",
+      "code": "801760",
+      "name_zh": "传媒"
+    },
+    {
+      "mapping_id": "event-industry-event-03-801780",
+      "code": "801780",
+      "name_zh": "银行"
+    },
+    {
+      "mapping_id": "event-industry-event-03-801790",
+      "code": "801790",
+      "name_zh": "非银金融"
+    },
+    {
+      "mapping_id": "event-industry-event-03-801880",
+      "code": "801880",
+      "name_zh": "汽车"
+    },
+    {
+      "mapping_id": "event-industry-event-07-801890",
+      "code": "801890",
+      "name_zh": "机械设备"
+    },
+    {
+      "mapping_id": "event-industry-event-02-801950",
+      "code": "801950",
+      "name_zh": "煤炭"
+    },
+    {
+      "mapping_id": "event-industry-event-02-801960",
+      "code": "801960",
+      "name_zh": "石油石化"
+    },
+    {
+      "mapping_id": "event-industry-event-04-801980",
+      "code": "801980",
+      "name_zh": "美容护理"
+    }
+  ],
+  "market_benchmark": {
+    "benchmark_id": "CSI300",
+    "code": "sh000300",
+    "name_zh": "??300"
+  },
+  "selection_basis": "FROZEN_SW1_CODES_BEFORE_MARKET_FETCH",
+  "formal_ready": false,
+  "sha_gate": "DEFERRED"
+}

@@ -1,0 +1,68 @@
+{
+  "handoff_version": "2026-07-29",
+  "dataset_family": "FinGoose macro event-company impact",
+  "market": {
+    "dataset_version": "fingoose-macro-event-attribution-v1.0",
+    "event_count": 10,
+    "sample_count": 40,
+    "single_asset_count": 30,
+    "cross_asset_count": 10,
+    "market_window_count": 40,
+    "source_count": 20,
+    "formal_ready": true,
+    "label_distribution": {
+      "PRIMARY_DRIVER": 5,
+      "CONTRIBUTING_FACTOR": 9,
+      "WEAK_RELATION": 8,
+      "UNSUPPORTED": 18
+    }
+  },
+  "company": {
+    "dataset_version": "fingoose-macro-event-company-enriched-candidate-v1.0",
+    "release_tier": "CANDIDATE",
+    "candidate_ready": true,
+    "formal_ready": false,
+    "event_count": 10,
+    "dossier_count": 30,
+    "attribution_sample_count": 30,
+    "forecast_sample_count": 30,
+    "candidate_sample_count": 60,
+    "metric_fact_count": 120,
+    "verified_metric_fact_count": 9,
+    "evidence_gap_count": 171,
+    "source_count": 26,
+    "second_review_required_count": 30,
+    "association_distribution": {
+      "CONTRIBUTING_ASSOCIATION": 2,
+      "UNSUPPORTED": 28
+    },
+    "direction_distribution": {
+      "UP": 1,
+      "DOWN": 1,
+      "UNCERTAIN": 28
+    },
+    "confidence_distribution": {
+      "MEDIUM": 2,
+      "LOW": 28
+    },
+    "formal_blockers": [
+      "COMPANY_EVIDENCE_INCOMPLETE",
+      "PRICE_WINDOWS_PENDING",
+      "FORMAL_REVIEWS_INCOMPLETE",
+      "TWENTY_SEVEN_COMPANIES_REQUIRE_OFFICIAL_ARCHIVES"
+    ]
+  },
+  "review": {
+    "initial_reviewer_id": "reviewer-user-01",
+    "company_review_unit": "dossier",
+    "uncompleted_second_reviews_must_remain": "SECOND_REVIEW_REQUIRED"
+  },
+  "ui": {
+    "default_market_root": "data/market_event_attribution_v1",
+    "default_company_root": "data/company_enriched_candidate_v1",
+    "language": "zh-CN with archived original text",
+    "read_only": true,
+    "authentication_included": false
+  }
+}
+

@@ -1,0 +1,126 @@
+{
+  "event_id": "event-05",
+  "title": "硅谷银行关闭及银行业压力升级",
+  "ordering_basis": "CURATED_STORY_SEQUENCE",
+  "steps": [
+    {
+      "story_step_id": "story-event-05-01",
+      "sequence": 1,
+      "phase": "PRECONDITION",
+      "title_cn": "证券组合处置暴露流动性压力",
+      "narrative_cn": "证券组合处置暴露流动性压力。事件状态由“银行资产负债表风险尚未成为主线”转为“流动性压力公开暴露但证据不完整”，后续观察应使用新的阶段基准。",
+      "before_state_cn": "银行资产负债表风险尚未成为主线",
+      "after_state_cn": "流动性压力公开暴露但证据不完整",
+      "significance_cn": "该步骤建立冲击发生前的约束条件，并重新界定银行压力、利率重定价、避险需求与风险资产的观察窗口与传导条件。",
+      "evidence_node_ids": [
+        "fast-event-05-M01"
+      ],
+      "period_start": null,
+      "period_end": null,
+      "time_precision": "UNKNOWN",
+      "evidence_status": "PENDING_EVIDENCE",
+      "evidence_boundary_cn": "核心事实仍待补证，当前只保留候选叙事，不进入干净归因评分。",
+      "activated_path_ids": [],
+      "amplified_path_ids": [],
+      "weakened_path_ids": [],
+      "market_series_ids": []
+    },
+    {
+      "story_step_id": "story-event-05-02",
+      "sequence": 2,
+      "phase": "INITIAL_SHOCK",
+      "title_cn": "监管机构关闭硅谷银行",
+      "narrative_cn": "监管机构关闭硅谷银行。事件状态由“流动性压力公开暴露但证据不完整”转为“银行关闭使系统性风险进入定价”，后续观察应使用新的阶段基准。",
+      "before_state_cn": "流动性压力公开暴露但证据不完整",
+      "after_state_cn": "银行关闭使系统性风险进入定价",
+      "significance_cn": "该步骤改变事件性质并启动核心市场重定价，并重新界定银行压力、利率重定价、避险需求与风险资产的观察窗口与传导条件。",
+      "evidence_node_ids": [
+        "fast-event-05-M02"
+      ],
+      "period_start": "2023-03-10T21:00:00+00:00",
+      "period_end": "2023-03-10T21:00:00+00:00",
+      "time_precision": "TIMESTAMP",
+      "evidence_status": "SUPPORTED",
+      "evidence_boundary_cn": "关联证据支持事件事实；前后状态与阶段意义属于可追溯的研究归纳。",
+      "activated_path_ids": [
+        "event-05-P-banking-stress",
+        "event-05-P-rate-repricing",
+        "event-05-P-safe-haven"
+      ],
+      "amplified_path_ids": [],
+      "weakened_path_ids": [],
+      "market_series_ids": [
+        "VIXCLS",
+        "SP500",
+        "DGS10",
+        "DEXCHUS"
+      ]
+    },
+    {
+      "story_step_id": "story-event-05-03",
+      "sequence": 3,
+      "phase": "POLICY_RESPONSE",
+      "title_cn": "美国推出紧急稳定措施",
+      "narrative_cn": "美国推出紧急稳定措施。事件状态由“银行关闭使系统性风险进入定价”转为“政策开始稳定存款与流动性”，后续观察应使用新的阶段基准。",
+      "before_state_cn": "银行关闭使系统性风险进入定价",
+      "after_state_cn": "政策开始稳定存款与流动性",
+      "significance_cn": "该步骤引入可能改变原有传导方向的政策响应，并重新界定银行压力、利率重定价、避险需求与风险资产的观察窗口与传导条件。",
+      "evidence_node_ids": [
+        "fast-event-05-M03"
+      ],
+      "period_start": "2023-03-12T22:15:00+00:00",
+      "period_end": "2023-03-12T22:15:00+00:00",
+      "time_precision": "TIMESTAMP",
+      "evidence_status": "SUPPORTED",
+      "evidence_boundary_cn": "关联证据支持事件事实；前后状态与阶段意义属于可追溯的研究归纳。",
+      "activated_path_ids": [],
+      "amplified_path_ids": [],
+      "weakened_path_ids": [],
+      "market_series_ids": []
+    },
+    {
+      "story_step_id": "story-event-05-04",
+      "sequence": 4,
+      "phase": "SECONDARY_SHOCK",
+      "title_cn": "瑞信处置扩大跨境银行压力",
+      "narrative_cn": "瑞信处置扩大跨境银行压力。事件状态由“政策开始稳定存款与流动性”转为“压力扩展到欧洲银行和资本工具”，后续观察应使用新的阶段基准。",
+      "before_state_cn": "政策开始稳定存款与流动性",
+      "after_state_cn": "压力扩展到欧洲银行和资本工具",
+      "significance_cn": "该步骤形成需要与首次冲击分开观察的新分支，并重新界定银行压力、利率重定价、避险需求与风险资产的观察窗口与传导条件。",
+      "evidence_node_ids": [
+        "fast-event-05-M04"
+      ],
+      "period_start": null,
+      "period_end": null,
+      "time_precision": "UNKNOWN",
+      "evidence_status": "PENDING_EVIDENCE",
+      "evidence_boundary_cn": "核心事实仍待补证，当前只保留候选叙事，不进入干净归因评分。",
+      "activated_path_ids": [],
+      "amplified_path_ids": [],
+      "weakened_path_ids": [],
+      "market_series_ids": []
+    },
+    {
+      "story_step_id": "story-event-05-05",
+      "sequence": 5,
+      "phase": "EASING",
+      "title_cn": "第一共和银行被收购后压力阶段性缓和",
+      "narrative_cn": "第一共和银行被收购后压力阶段性缓和。事件状态由“压力扩展到欧洲银行和资本工具”转为“主要失败机构完成阶段性处置”，后续观察应使用新的阶段基准。",
+      "before_state_cn": "压力扩展到欧洲银行和资本工具",
+      "after_state_cn": "主要失败机构完成阶段性处置",
+      "significance_cn": "该步骤削弱先前冲击但不代表影响立即消失，并重新界定银行压力、利率重定价、避险需求与风险资产的观察窗口与传导条件。",
+      "evidence_node_ids": [
+        "fast-event-05-M05"
+      ],
+      "period_start": "2023-05-01T07:30:00Z",
+      "period_end": "2023-05-01T07:30:00Z",
+      "time_precision": "TIMESTAMP",
+      "evidence_status": "SUPPORTED",
+      "evidence_boundary_cn": "关联证据支持事件事实；前后状态与阶段意义属于可追溯的研究归纳。",
+      "activated_path_ids": [],
+      "amplified_path_ids": [],
+      "weakened_path_ids": [],
+      "market_series_ids": []
+    }
+  ]
+}

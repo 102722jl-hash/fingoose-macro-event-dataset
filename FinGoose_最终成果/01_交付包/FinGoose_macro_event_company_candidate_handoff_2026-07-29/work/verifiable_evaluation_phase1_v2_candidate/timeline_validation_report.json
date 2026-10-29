@@ -1,0 +1,12 @@
+{
+  "event_count": 10,
+  "formal_ready": false,
+  "hard_failures": [],
+  "node_count": 50,
+  "pending_evidence_count": 0,
+  "promotable_count": 13,
+  "release_tier": "CANDIDATE",
+  "semantic_replacement_count": 10,
+  "sha_gate": "DEFERRED",
+  "verified_count": 50
+}

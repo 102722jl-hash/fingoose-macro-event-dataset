@@ -1,0 +1,920 @@
+
+<!DOCTYPE html>
+<!--[if IE 9 ]> <html class="ie9"><![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html>
+<!--<![endif]-->
+<head>
+    <link href="/Frontend/Finma/default.min.css" rel="stylesheet" type="text/css" />
+    <link href="/Frontend/Finma/app.min.css?v=3.5.0" rel="stylesheet" type="text/css" />
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
+        <title>FINMA approves merger of UBS and Credit Suisse | FINMA</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="rating" content="general" />
+    <meta name="distribution" content="global" />
+    <meta name="Content-Language" content="en" />
+    <meta name="language" content="en" />
+    <meta name="description" content="The Swiss Financial Market Supervisory Authority FINMA has approved the takeover of Credit Suisse by UBS. FINMA welcomes the takeover solution and the measures taken by the Swiss Confederation and the Swiss National Bank SNB. The transaction and the measures taken will ensure stability for the bank’s customers and for the financial centre. The SNB is granting the bank further liquidity assistance that is backed by a default guarantee by the Swiss Confederation. This will provide sufficient liquidity to carry out the takeover. On this basis, it will be possible to continue all the business activities of both banks with no restrictions or interruptions. " />
+    <meta name="keywords" content="" />
+        <meta name="author" content="Eidgen&#246;ssische Finanzmarktaufsicht FINMA" />
+        <link rel="canonical" href="https://www.finma.ch/news/2023/03/20230319-mm-cs-ubs/">
+            <link rel="alternate" hreflang="en" href="https://www.finma.ch/en/news/2023/03/20230319-mm-cs-ubs/" />
+            <link rel="alternate" hreflang="de" href="https://www.finma.ch/de/news/2023/03/20230319-mm-cs-ubs/" />
+            <link rel="alternate" hreflang="fr" href="https://www.finma.ch/fr/news/2023/03/20230319-mm-cs-ubs/" />
+            <link rel="alternate" hreflang="it" href="https://www.finma.ch/it/news/2023/03/20230319-mm-cs-ubs/" />
+    <link rel="alternate" hreflang="x-default" href="https://www.finma.ch/news/2023/03/20230319-mm-cs-ubs/" />
+    <meta name="viewport" id="viewport-meta" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <link rel="shortcut icon" href="/Frontend/Finma/assets/img/icon/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="/Frontend/Finma/assets/img/icon/apple-touch-icon.png" />
+    <link rel="apple-touch-icon-precomposed" href="/Frontend/Finma/assets/img/icon/apple-touch-icon-precomposed.png" />
+    <link rel="shortcut icon" href="/Frontend/Finma/assets/img/icon/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="/Frontend/Finma/assets/img/icon/apple-touch-icon.png" />
+    <link rel="apple-touch-icon-precomposed" href="/Frontend/Finma/assets/img/icon/apple-touch-icon-precomposed.png" />
+    <meta name="application-name" content="FINMA" />
+    <meta name="msapplication-TileColor" content="#FFFFFF" />
+    <meta name="msapplication-TileImage" content="/Frontend/Finma/assets/img/icon/tile-icon.png" />
+    <meta name="msapplication-config" content="none" />
+    <script src="/Frontend/Finma/assets/js/app/modernizr.custom.js" type="text/javascript"></script>
+    <!--[if lt IE 10]>
+    <script src="/Frontend/Finma/assets/js/app/media.match.min.js"></script>
+    <![endif]-->
+<!-- Matomo Tag Manager --> <script> var _mtm = window._mtm = window._mtm || []; _mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'}); _mtm.push({ 'page_type': 'Nachricht', 'publish_datetime': '2023-03-19 18:01:58', 'event': "mtm.pageView",  }); var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0]; g.async=true; g.src='https://insights.finma.ch/js/container_bgMPmEU1.js'; s.parentNode.insertBefore(g,s); </script> <!-- End Matomo Tag Manager --> 
+    <!-- TwitterCards -->
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="FINMA approves merger of UBS and Credit Suisse">
+	<meta name="twitter:description" content="The Swiss Financial Market Supervisory Authority FINMA has approved the takeover of Credit Suisse by UBS. FINMA welcomes the takeover solution and the measures taken by the Swiss Confederation and the Swiss National Bank SNB. The transaction and the measures taken will ensure stability for the bank’s customers and for the financial centre. The SNB is granting the bank further liquidity assistance that is backed by a default guarantee by the Swiss Confederation. This will provide sufficient liquidity to carry out the takeover. On this basis, it will be possible to continue all the business activities of both banks with no restrictions or interruptions. ">
+	<meta name="twitter:image" content="https://www.finma.ch/~/media/finma/images/logo/finma-logo.png">
+
+<!-- OpenGraph -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.finma.ch/en/news/2023/03/20230319-mm-cs-ubs/">
+<meta property="og:site_name" content="Eidgen&#246;ssische Finanzmarktaufsicht FINMA">
+<meta property="og:title" content="FINMA approves merger of UBS and Credit Suisse">
+	<meta property="og:description" content="The Swiss Financial Market Supervisory Authority FINMA has approved the takeover of Credit Suisse by UBS. FINMA welcomes the takeover solution and the measures taken by the Swiss Confederation and the Swiss National Bank SNB. The transaction and the measures taken will ensure stability for the bank’s customers and for the financial centre. The SNB is granting the bank further liquidity assistance that is backed by a default guarantee by the Swiss Confederation. This will provide sufficient liquidity to carry out the takeover. On this basis, it will be possible to continue all the business activities of both banks with no restrictions or interruptions. ">
+	<meta property="og:image" content="https://www.finma.ch/~/media/finma/images/logo/finma-logo.png">
+
+ 
+    
+    
+        <script type="application/ld+json">
+    {
+  "@context": "https://schema.org",
+  "@type": "NewsArticle",
+  "headline": "FINMA approves merger of UBS and Credit Suisse",
+  "image": "https://www.finma.ch/~/media/finma/images/logo/finma-logo.png",
+  "datePublished": "2023-03-19T17:01:58"
+}
+    </script>
+
+</head>
+<body class="mod mod-layout" data-culture="de-CH">
+    <div class="l-page">
+        <header class="l-head" role="banner">
+            <div class="l-wrap">
+
+                <a class="e-btn btn-search-mobile js-btn-search-mobile" href="/en/search/" aria-label="search icon"></a>
+                <a href="javascript:;" class="e-btn btn-navmain-mobile js-btn-navmain-mobile" aria-label="mobile menu"></a>
+                
+<div class="g-row l-service js-l-service">
+    <div class="g-cell left">
+        
+            <div class="mod-nav-meta">    <ul class="nav-meta-list">
+            <li class="nav-meta-list-item">
+                    <a class=" " href="/en/" title="Home" target="">
+                        Home
+                    </a>
+            </li>
+            <li class="nav-meta-list-item">
+                    <a class=" " href="/en/media/" title="Media" target="">
+                        Media
+                    </a>
+            </li>
+            <li class="nav-meta-list-item">
+                    <a class="  " href="/en/finma/working-at-finma/current-vacancies/" accesskey="0" title="Jobs" target="">
+                        Jobs
+                    </a>
+            </li>
+            <li class="nav-meta-list-item">
+                    <a class=" " href="/en/contact/" title="Contact" target="">
+                        Contact
+                    </a>
+            </li>
+            <li class="nav-meta-list-item">
+                    <a class=" " href="https://portal.finma.ch/auth-login/ui/app/auth/application/access?lang=en" title="FINMA portal" target="_blank">
+                        FINMA portal
+                    </a>
+            </li>
+    </ul>
+</div>
+
+
+ 
+    </div>
+    <div class="g-cell right">
+        
+    <div class="mod mod-nav-service">
+        <ul class="nav-service-list">
+            <li>
+    <ul class="quick-btn-links">
+            <li>
+                    <a href="/en/news/" class="e-btn btn-navigation  state-active" accesskey="6" title="News" target="">
+                        <i class="glyph-news"></i>
+                        News
+                    </a>
+            </li>
+            <li>
+                    <a href="/en/documents/" class="e-btn btn-navigation  " title="Documents" target="">
+                        <i class="glyph-documents"></i>
+                        Documents
+                    </a>
+            </li>
+    </ul>
+
+            </li>
+            <li class="service-links-item">
+                <ul class="service-links">
+                        <li class="service-links-watchlist-item">
+                                <a href="/en/personal-download-list/" class="service-icon-watchlist" title="Merkliste">
+                                    <div class="glyph-folder">
+                                        <span class="service-notification-circle">
+                                            <span class="service-notification-number" data-getcounturl="/api/watchlist/GetCount">0</span>
+                                        </span>
+                                    </div>
+                                </a>
+                        </li>
+                        <li class="service-links-lock-item">
+<a class="icon-login" title="MyFINMA" href="/en/myfinma/">MyFINMA</a>                        </li>
+                    <li class="service-link-search-item">
+                            <a href="/en/search/" class="icon-magnifier" accesskey="4" title="Search"><span class="glyph-search"></span></a>
+                    </li>
+                        <li class="service-link-language service-link-language-item js-service-link-language-item">
+                            <ul class="service-link-language-list" accesskey="8" title="Language list">
+                                <li><a class="service-link-language-item js-service-link-language-list active" href="javascript:;" title="EN">
+                                        EN
+                                </a></li>
+                                    <li><a class="service-link-language-item js-service-link-language-list" href="/de/news/2023/03/20230319-mm-cs-ubs/" title="DE">DE</a></li>
+                                    <li><a class="service-link-language-item js-service-link-language-list" href="/fr/news/2023/03/20230319-mm-cs-ubs/" title="FR">FR</a></li>
+                                    <li><a class="service-link-language-item js-service-link-language-list" href="/it/news/2023/03/20230319-mm-cs-ubs/" title="IT">IT</a></li>
+                            </ul>
+                        </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+
+ 
+    </div>
+</div>
+<div class="g-row l-logo">
+        <div class="mod-logo">
+        <a href="/en/" accesskey="0" title="Finma Logo">
+            <img src="/~/media/finma/images/logo/finma-logo.png?h=94&amp;iar=0&amp;w=412&amp;hash=A19C8B9DCA22533F4FECCCAE2CBFFAA1" alt="FINMA" width="412" height="94" />
+        </a>
+    </div>
+ 
+</div>
+<nav class="g-row l-nav js-l-nav">
+    
+    <div class="mod mod-nav-main" data-page="home">
+        <ul class="nav-main-list js-nav-main-list" role="navigation">
+            <a href="#navigation" name="navigation" accesskey="1" title="Menu 1"></a>
+                        <li class="main-list-item js-main-list-item" role="presentation" aria-haspopup="true">
+                        <h2 class="main-list-link js-main-list-link">Authorisation</h2>
+
+                <ul class="main-flyout js-main-flyout" role="menu" aria-expanded="false">
+                    <li class="g-row" role="presentation">
+                        <div class="g-cell s-1of3 flyout-column-left">
+                            <div class="flyout-column-left-wrap e-text">
+                                        <div class="flyout-column-left-title">Authorised or registered institutions, persons and products</div>
+                                                                    <div class="flyout-column-text-box">
+                                            <div class="text-image pull-left">
+                                                <img src="/~/media/finma/images/menuicons/finma_icon_bewilligung.png?h=64&amp;iar=0&amp;w=64&amp;hash=C59AF4AB210953925B44A1CBEDE5FD8F" alt="Authorisation icon" width="64" height="64" />
+                                            </div>
+                                        <div class="flyout-column-text">These companies, persons and products have a licence and are permitted to operate on the financial market.</div>
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="g-cell s-1of3 flyout-column-center">
+                            <div class="flyout-column-center-wrap">
+                                <span class="flyout-column-title">Getting authorised</span>
+                                        <ul class="flyout-column-list" role="menu">
+                <li role="presentation">
+                    <a href="/en/authorisation/authorisation-overview/" title="Authorisation" role="menuitem">Authorisation</a>
+                </li>
+                <li role="presentation">
+                    <a href="/en/authorisation/types-of-licensing/" title="Types of authorisation" role="menuitem">Types of authorisation</a>
+                </li>
+                <li role="presentation">
+                    <a href="/en/authorisation/banks-and-securities-firms/" title="Banks and securities firms" role="menuitem">Banks and securities firms</a>
+                </li>
+                <li role="presentation">
+                    <a href="/en/authorisation/insurers/" title="Insurers" role="menuitem">Insurers</a>
+                </li>
+                <li role="presentation">
+                    <a href="/en/authorisation/insurance-intermediaries/" title="Insurance intermediaries" role="menuitem">Insurance intermediaries</a>
+                </li>
+                <li role="presentation">
+                    <a href="/en/authorisation/asset-management/" title="Asset management" role="menuitem">Asset management</a>
+                </li>
+                <li role="presentation">
+                    <a href="/en/authorisation/portfolio-managers-and-trustees/" title="Portfolio managers and trustees" role="menuitem">Portfolio managers and trustees</a>
+                </li>
+                <li role="presentation">
+                    <a href="/en/authorisation/supervisory-organisations/" title="Supervisory organisations" role="menuitem">Supervisory organisations</a>
+                </li>
+                <li role="presentation">
+                    <a href="/en/authorisation/vertretungen-auslaendischer-finanzinstitute-gemaess-finig/" title="Representative offices of financial institutions based outside Switzerland under FinIA" role="menuitem">Representative offices of financial institutions based outside Switzerland under FinIA</a>
+                </li>
+                <li role="presentation">
+                    <a href="/en/authorisation/self-regulatory-organisations-sros/" title="Self-regulatory organisations (SROs)" role="menuitem">Self-regulatory organisations (SROs)</a>
+                </li>
+                <li role="presentation">
+                    <a href="/en/authorisation/financial-market-infrastructures-and-foreign-market-participants/" title="Financial market infrastructures and foreign market participants" role="menuitem">Financial market infrastructures and foreign market participants</a>
+                </li>
+                <li role="presentation">
+                    <a href="/en/authorisation/rating-agencies/" title="Rating agencies" role="menuitem">Rating agencies</a>
+                </li>
+                <li role="presentation">
+                    <a href="/en/authorisation/registrierungsstelle/" title="Registration body" role="menuitem">Registration body</a>
+                </li>
+                <li role="presentation">
+                    <a href="/en/authorisation/ombudsmen-for-financial-service-providers/" title="Ombudsmen for financial service providers" role="menuitem">Ombudsmen for financial service providers</a>
+                </li>
+                <li role="presentation">
+                    <a href="/en/authorisation/pruefstelle-fuer-prospekte/" title="Reviewing body for prospectuses" role="menuitem">Reviewing body for prospectuses</a>
+                </li>
+                <li role="presentation">
+                    <a href="/en/authorisation/fintech/" title="FinTech" role="menuitem">FinTech</a>
+                </li>
+        </ul>
+
+                            </div>
+                        </div>
+                        <div class="g-cell s-1of3 flyout-column-right">
+                            <div class="flyout-column-right-wrap">
+<a class="flyout-column-link" href="/en/finma-public/authorised-institutions-individuals-and-products/">Authorised or registered institutions, persons and products</a>                                    <div class="flyout-column-text">These companies, persons and products have a licence and are permitted to operate on the financial market.</div>
+                                <a class="flyout-column-link" href="/en/finma-public/warnungen/">Warning list</a>                                    <div class="flyout-column-text">These companies are not authorised and may be engaging in financial market activity without the requisite licence.</div>
+                                                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </li>
+            <li class="main-list-item js-main-list-item" role="presentation" aria-haspopup="true">
+                        <h2 class="main-list-link js-main-list-link">Supervision</h2>
+
+                <ul class="main-flyout js-main-flyout" role="menu" aria-expanded="false">
+                    <li class="g-row" role="presentation">
+                        <div class="g-cell s-1of3 flyout-column-left">
+                            <div class="flyout-column-left-wrap e-text">
+<a class="flyout-column-link" href="/en/supervision/our-approach-to-supervision/">Our approach to supervision</a>                                                                    <div class="flyout-column-text-box">
+                                            <div class="text-image pull-left">
+                                                <img src="/~/media/finma/images/menuicons/finma_icon_ueberwachung.png?h=64&amp;iar=0&amp;w=64&amp;hash=EBB252A54B6BD7EA0CDB0475CA196855" alt="Supervision icon" width="64" height="64" />
+                                            </div>
+                                        <div class="flyout-column-text">FINMA&rsquo;s core task is prudential supervision of the financial market. It also uses private audit companies to extend its reach.</div>
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="g-cell s-1of3 flyout-column-center">
+                            <div class="flyout-column-center-wrap">
+                                <span class="flyout-column-title">Information about supervision of…</span>
+                                        <ul class="flyout-column-list" role="menu">
+                <li role="presentation">
+                    <a href="/en/supervision/our-approach-to-supervision/" title="Our approach to supervision" role="menuitem">Our approach to supervision</a>
+                </li>
+                <li role="presentation">
+                    <a href="/en/supervision/cross-sector-issues/" title="Cross-sector issues" role="menuitem">Cross-sector issues</a>
+                </li>
+                <li role="presentation">
+                    <a href="/en/supervision/banks-and-securities-firms/" title="Banks and securities firms" role="menuitem">Banks and securities firms</a>
+                </li>
+                <li role="presentation">
+                    <a href="/en/supervision/insurers/" title="Insurers" role="menuitem">Insurers</a>
+                </li>
+                <li role="presentation">
+                    <a href="/en/supervision/versicherungsvermittler/" title="Insurance intermediaries" role="menuitem">Insurance intermediaries</a>
+                </li>
+                <li role="presentation">
+                    <a href="/en/supervision/asset-management/" title="Asset Management" role="menuitem">Asset Management</a>
+                </li>
+                <li role="presentation">
+                    <a href="/en/supervision/portfolio-managers-and-trustees/" title="Portfolio managers and trustees" role="menuitem">Portfolio managers and trustees</a>
+                </li>
+                <li role="presentation">
+                    <a href="/en/supervision/supervisory-organisations/" title="Supervisory organisations" role="menuitem">Supervisory organisations</a>
+                </li>
+                <li role="presentation">
+                    <a href="/en/supervision/self-regulatory-organisations-sros/" title="Self-regulatory organisations (SROs)" role="menuitem">Self-regulatory organisations (SROs)</a>
+                </li>
+                <li role="presentation">
+                    <a href="/en/supervision/financial-market-infrastructures/" title="Financial market infrastructures" role="menuitem">Financial market infrastructures</a>
+                </li>
+                <li role="presentation">
+                    <a href="/en/supervision/central-mortgage-bond-institutions/" title="Central mortgage bond institutions" role="menuitem">Central mortgage bond institutions</a>
+                </li>
+                <li role="presentation">
+                    <a href="/en/supervision/fintech/" title="FinTech" role="menuitem">FinTech</a>
+                </li>
+        </ul>
+
+                            </div>
+                        </div>
+                        <div class="g-cell s-1of3 flyout-column-right">
+                            <div class="flyout-column-right-wrap">
+<a class="flyout-column-link" href="/en/supervision/banks-and-securities-firms/categorisation/">Risk categories in the banking sector</a>                                    <div class="flyout-column-text">FINMA assigns banks to different risk categories.</div>
+                                <a class="flyout-column-link" href="/en/supervision/insurers/categorisation/">Risk categories in the insurance sector</a>                                    <div class="flyout-column-text">FINMA assigns insurers to different risk categories.</div>
+                                                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </li>
+            <li class="main-list-item js-main-list-item" role="presentation" aria-haspopup="true">
+                        <h2 class="main-list-link js-main-list-link">Enforcement</h2>
+
+                <ul class="main-flyout js-main-flyout" role="menu" aria-expanded="false">
+                    <li class="g-row" role="presentation">
+                        <div class="g-cell s-1of3 flyout-column-left">
+                            <div class="flyout-column-left-wrap e-text">
+<a class="flyout-column-link" href="/en/enforcement/all-about-enforcement/">Enforcing supervisory law</a>                                                                    <div class="flyout-column-text-box">
+                                            <div class="text-image pull-left">
+                                                <img src="/~/media/finma/images/menuicons/finma_icon_durchsetzung.png?h=64&amp;iar=0&amp;w=64&amp;hash=DD5B067C17728DE511F0D115D366BC67" alt="Enforcement icon" width="64" height="64" />
+                                            </div>
+                                        <div class="flyout-column-text"><p style="margin: 0cm 0cm 0pt;">Where necessary, FINMA enforces supervisory law using coercive measures under administrative law. Find out about its powers, approach and measures for dealing with violations of the law here.</p></div>
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="g-cell s-1of3 flyout-column-center">
+                            <div class="flyout-column-center-wrap">
+                                <span class="flyout-column-title">Enforcement topics</span>
+                                        <ul class="flyout-column-list" role="menu">
+                <li role="presentation">
+                    <a href="/en/enforcement/all-about-enforcement/" title="All about Enforcement" role="menuitem">All about Enforcement</a>
+                </li>
+                <li role="presentation">
+                    <a href="/en/enforcement/licence-holders/" title="Licence holders" role="menuitem">Licence holders</a>
+                </li>
+                <li role="presentation">
+                    <a href="/en/enforcement/unauthorised-activities/" title="Unauthorised activities" role="menuitem">Unauthorised activities</a>
+                </li>
+                <li role="presentation">
+                    <a href="/en/enforcement/market-supervision/" title="Market supervision" role="menuitem">Market supervision</a>
+                </li>
+                <li role="presentation">
+                    <a href="/en/enforcement/enforcement-tools/" title="Enforcement tools" role="menuitem">Enforcement tools</a>
+                </li>
+                <li role="presentation">
+                    <a href="/en/enforcement/database-for-assessing-fitness-and-propriety-requirements/" title="Database for assessing fitness and propriety requirements" role="menuitem">Database for assessing fitness and propriety requirements</a>
+                </li>
+                <li role="presentation">
+                    <a href="/en/enforcement/national-and-international-cooperation/" title="National and international cooperation" role="menuitem">National and international cooperation</a>
+                </li>
+                <li role="presentation">
+                    <a href="/en/enforcement/parties-rights-and-obligations/" title="Rights and obligations" role="menuitem">Rights and obligations</a>
+                </li>
+                <li role="presentation">
+                    <a href="/en/enforcement/case-reports-and-court-decisions/" title="Case reports and court decisions" role="menuitem">Case reports and court decisions</a>
+                </li>
+                <li role="presentation">
+                    <a href="/en/enforcement/recovery-und-resolution-n/" title="Recovery and resolution" role="menuitem">Recovery and resolution</a>
+                </li>
+        </ul>
+
+                            </div>
+                        </div>
+                        <div class="g-cell s-1of3 flyout-column-right">
+                            <div class="flyout-column-right-wrap">
+<a class="flyout-column-link" href="/en/documentation/finma-publications/kennzahlen-und-statistiken/statistiken/enforcement/">Enforcement report</a>                                    <div class="flyout-column-text">The enforcement report contains anonymised case studies that offer a more in-depth insight into FINMA&rsquo;s enforcement activities.</div>
+                                <a class="flyout-column-link" href="/en/finma-public/warnungen/">Warning list</a>                                    <div class="flyout-column-text">This is a list of companies and individuals that may be operating without the requisite FINMA authorisation.</div>
+                                <a class="flyout-column-link" href="/en/enforcement/recovery-und-resolution-n/">Recovery and resolution</a>                                    <div class="flyout-column-text">The section on recovery and resolution provides an insight into the measures available to FINMA in the event that institutions become destabilised. FINMA thereby contributes to ensuring financial stability.</div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </li>
+            <li class="main-list-item js-main-list-item" role="presentation" aria-haspopup="true">
+                        <h2 class="main-list-link js-main-list-link">Documentation</h2>
+
+                <ul class="main-flyout js-main-flyout" role="menu" aria-expanded="false">
+                    <li class="g-row" role="presentation">
+                        <div class="g-cell s-1of3 flyout-column-left">
+                            <div class="flyout-column-left-wrap e-text">
+<a class="flyout-column-link" href="/en/documentation/finma-s-legal-basis/">FINMA’s legal basis</a>                                                                    <div class="flyout-column-text-box">
+                                            <div class="text-image pull-left">
+                                                <img src="/~/media/finma/images/menuicons/finma_icon_dokumentation.png?h=64&amp;iar=0&amp;w=64&amp;hash=42C3971FE452D2643DEB60C25197EEC0" alt="Documentation icon" width="64" height="64" />
+                                            </div>
+                                        <div class="flyout-column-text">The financial market laws and the Financial Market Supervision Act provide the basis for FINMA&rsquo;s activities. FINMA reports in detail on the fulfilment of its aims.</div>
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="g-cell s-1of3 flyout-column-center">
+                            <div class="flyout-column-center-wrap">
+                                <span class="flyout-column-title">Information on…</span>
+                                        <ul class="flyout-column-list" role="menu">
+                <li role="presentation">
+                    <a href="/en/documentation/finma-s-legal-basis/" title="Legal basis for FINMA’s activities" role="menuitem">Legal basis for FINMA’s activities</a>
+                </li>
+                <li role="presentation">
+                    <a href="/en/documentation/legal-basis/" title="Legal basis" role="menuitem">Legal basis</a>
+                </li>
+                <li role="presentation">
+                    <a href="/en/documentation/circulars/" title="Circulars" role="menuitem">Circulars</a>
+                </li>
+                <li role="presentation">
+                    <a href="/en/documentation/consultations/" title="Consultations and evaluations" role="menuitem">Consultations and evaluations</a>
+                </li>
+                <li role="presentation">
+                    <a href="/en/documentation/finma-s-position/" title="FINMA position statements" role="menuitem">FINMA position statements</a>
+                </li>
+                <li role="presentation">
+                    <a href="/en/documentation/finma-guidance/" title="FINMA Guidance" role="menuitem">FINMA Guidance</a>
+                </li>
+                <li role="presentation">
+                    <a href="/en/documentation/finma-publications/" title="FINMA publications" role="menuitem">FINMA publications</a>
+                </li>
+                <li role="presentation">
+                    <a href="/en/documentation/finma-videos/" title="FINMA videos" role="menuitem">FINMA videos</a>
+                </li>
+                <li role="presentation">
+                    <a href="/en/documentation/dossier/" title="Dossiers" role="menuitem">Dossiers</a>
+                </li>
+                <li role="presentation">
+                    <a href="/en/documentation/enforcement-reporting/" title="Enforcement reporting" role="menuitem">Enforcement reporting</a>
+                </li>
+                <li role="presentation">
+                    <a href="/en/documentation/insurance-law-rulings/" title="Insurance law rulings" role="menuitem">Insurance law rulings</a>
+                </li>
+                <li role="presentation">
+                    <a href="/en/documentation/self-regulation/" title="Self-regulation" role="menuitem">Self-regulation</a>
+                </li>
+                <li role="presentation">
+                    <a href="/en/documentation/international-sanctions-and-combating-terrorism/" title="Sanctions and FATF statements" role="menuitem">Sanctions and FATF statements</a>
+                </li>
+                <li role="presentation">
+                    <a href="/en/documentation/archiv/" title="Archive" role="menuitem">Archive</a>
+                </li>
+        </ul>
+
+                            </div>
+                        </div>
+                        <div class="g-cell s-1of3 flyout-column-right">
+                            <div class="flyout-column-right-wrap">
+<a class="flyout-column-link" target="_blank" rel="noopener noreferrer" href="http://www.admin.ch/opc/en/classified-compilation/20052624/index.html">Financial Market Supervision Act</a>                                    <div class="flyout-column-text">The legal basis for FINMA as an authority, setting out its tasks and powers.</div>
+                                <a class="flyout-column-link" href="/en/documentation/finma-publications/annual-reports--and-financial-statements/">Annual report and financial statements</a>                                    <div class="flyout-column-text">FINMA gives a full account of its activities in its annual report.</div>
+                                                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </li>
+            <li class="main-list-item js-main-list-item" role="presentation" aria-haspopup="true">
+                        <h2 class="main-list-link js-main-list-link">FINMA</h2>
+
+                <ul class="main-flyout js-main-flyout" role="menu" aria-expanded="false">
+                    <li class="g-row" role="presentation">
+                        <div class="g-cell s-1of3 flyout-column-left">
+                            <div class="flyout-column-left-wrap e-text">
+<a class="flyout-column-link" href="/en/finma/finma-an-overview/">FINMA – an overview</a>                                                                    <div class="flyout-column-text-box">
+                                            <div class="text-image pull-left">
+                                                <img src="/~/media/finma/images/menuicons/finma_icon_behoerde.png?h=64&amp;iar=0&amp;w=64&amp;hash=ED57AB81A75632D24584A132CD7D6DE6" alt="FINMA icon" width="64" height="64" />
+                                            </div>
+                                        <div class="flyout-column-text">As an independent supervisor of the Swiss financial market, FINMA is institutionally, functionally and financially independent.</div>
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="g-cell s-1of3 flyout-column-center">
+                            <div class="flyout-column-center-wrap">
+                                <span class="flyout-column-title"></span>
+                                        <ul class="flyout-column-list" role="menu">
+                <li role="presentation">
+                    <a href="/en/finma/finma-an-overview/" title="FINMA – an overview " role="menuitem">FINMA – an overview </a>
+                </li>
+                <li role="presentation">
+                    <a href="/en/finma/supervisory-objectives/" title="Supervisory objectives" role="menuitem">Supervisory objectives</a>
+                </li>
+                <li role="presentation">
+                    <a href="/en/finma/organisation/" title="Organisation" role="menuitem">Organisation</a>
+                </li>
+                <li role="presentation">
+                    <a href="/en/finma/working-at-finma/" title="Working at FINMA" role="menuitem">Working at FINMA</a>
+                </li>
+                <li role="presentation">
+                    <a href="/en/finma/activities/" title="Activities" role="menuitem">Activities</a>
+                </li>
+                <li role="presentation">
+                    <a href="/en/finma/auditing/" title="Auditing" role="menuitem">Auditing</a>
+                </li>
+                <li role="presentation">
+                    <a href="/en/finma/finma-mandataries/" title="FINMA mandataries" role="menuitem">FINMA mandataries</a>
+                </li>
+                <li role="presentation">
+                    <a href="/en/finma/national-cooperation/" title="National cooperation" role="menuitem">National cooperation</a>
+                </li>
+                <li role="presentation">
+                    <a href="/en/finma/international-activities/" title="International activities" role="menuitem">International activities</a>
+                </li>
+                <li role="presentation">
+                    <a href="/en/finma/digital-exchange/" title="Digital exchange" role="menuitem">Digital exchange</a>
+                </li>
+                <li role="presentation">
+                    <a href="/en/finma/making-a-report/" title="Making a report" role="menuitem">Making a report</a>
+                </li>
+        </ul>
+
+                            </div>
+                        </div>
+                        <div class="g-cell s-1of3 flyout-column-right">
+                            <div class="flyout-column-right-wrap">
+<a class="flyout-column-link" target="_blank" rel="noopener noreferrer" href="/~/media/finma/dokumente/dokumentencenter/myfinma/6finmapublic/finma-ein-portraet.pdf?sc_lang=en&amp;hash=0CADEB898C65A2CEAF6A410126A5190A">FINMA: A Portrait</a>                                    <div class="flyout-column-text"><p style="margin: 0cm 0cm 0pt;"><span>Supervision of the financial sector calls for a strong, competent, independent regulator. This brochure illustrates how FINMA meets these criteria.</span></p></div>
+                                <a class="flyout-column-link" href="/en/documentation/finma-publications/annual-reports--and-financial-statements/">Annual Report</a>                                    <div class="flyout-column-text">FINMA accounts for its supervisory activities in its annual report and annual financial statements.</div>
+                                                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </li>
+
+                <li class="finma-public-item" style="display: block;" role="presentation" aria-haspopup="true">
+                    <a class="e-btn btn-finma-public" role="menuitem" title="FINMA Public" href="/en/finma-public/">FINMA Public</a>
+                </li>
+        </ul>
+    </div>
+
+
+ 
+</nav>
+ 
+            </div>
+        </header>
+        <div class="l-body l-sub">
+            <div class="l-background">
+                
+            </div>
+            <div class="l-content-wrapper l-wrap">
+                <div class="g-row">
+                    
+<div class="l-bread">
+    <div class="mod-breadcrumb">
+        <ul class="breadcrumb-list">
+                <li><a href="/en/">Home                </a></li>
+                <li><a href="/en/news/">News                </a></li>
+                <li><a href="/en/news/2023/03/20230319-mm-cs-ubs/">FINMA approves merger of UBS and Credit Suisse                </a></li>
+        </ul>
+    </div>
+</div>
+                    <div class="g-cell s-flex">
+                            <div class="l-content l-left--right">
+        <div class="l-main">
+
+            <div class="mod mod-teaser skin-teaser-news">
+    <div class="teaser-heading-line">
+        <h1 class="e-text">News</h1>
+    </div>
+        <div class="teaser-news">
+            <div class="teaser-info">
+                <span class="teaser-info-date" itemprop="datePublished">19 March 2023</span>
+                    <div class="teaser-tag-label">Press release</div>
+                    <div class="teaser-tag-label">2023</div>
+            </div>
+
+            <div class="e-text" data-track-content data-content-name='News' data-content-piece='FINMA approves merger of UBS and Credit Suisse'>
+                <h2 class="text-headline-big">FINMA approves merger of UBS and Credit Suisse</h2>
+                <div class="mod mod-content">
+                    <div class="text-lead-intro">
+                        The Swiss Financial Market Supervisory Authority FINMA has approved the takeover of Credit Suisse by UBS. FINMA welcomes the takeover solution and the measures taken by the Swiss Confederation and the Swiss National Bank SNB. The transaction and the measures taken will ensure stability for the bank’s customers and for the financial centre. The SNB is granting the bank further liquidity assistance that is backed by a default guarantee by the Swiss Confederation. This will provide sufficient liquidity to carry out the takeover. On this basis, it will be possible to continue all the business activities of both banks with no restrictions or interruptions.
+                    </div>
+                    <div class="text-page">
+                        <p>The Credit Suisse Group is experiencing a crisis of confidence, which has manifested in considerable outflows of client funds. This was intensified by the upheavals in the US banking market in March 2023. There was a risk of the bank becoming illiquid, even if it remained solvent, and it was necessary for the authorities to take action in order to prevent serious damage to the Swiss and international financial markets.<br /></p><h2>UBS to take over Credit Suisse <br /></h2><p>FINMA has been monitoring Credit Suisse intensively for several months. During this time, the bank has taken a number of measures to stabilise the situation. These were not enough to restore confidence in the bank, however, and more far-reaching options were also examined. To protect depositors and the financial markets, the offer by UBS to take over Credit Suisse has proven to be the most effective solution. FINMA has therefore approved this transaction. <br /></p><h2>Transaction has official support<br /></h2><p>In close coordination with FINMA, the Swiss Confederation and the SNB, UBS will take over Credit Suisse in full. The extraordinary government support will trigger a complete write-down of the nominal value of all AT1 debt of Credit Suisse in the amount of around CHF 16 billion, and thus an increase in core capital.</p><p><br />The takeover will result in a larger bank, for which the current regulations require higher capital buffers. FINMA will grant appropriate transitional periods for these to be built up. </p><p><br />FINMA will very closely monitor the transaction and compliance with all requirements under supervisory law. As in the previous months, it will also coordinate continuously with national and international authorities in this regard, namely the US Federal Reserve and the British Prudential Regulation Authority (PRA). <br /></p><h2>Swiss Confederation and SNB to provide additional liquidity<br /></h2><p>To ensure that all obligations can continue to be met at all times throughout the transaction, further liquidity assistance will be assured. This means that the banks involved will have substantial additional liquidity available to carry out the takeover. The liquidity provided by the SNB will include a loan covered by a federal guarantee. The Swiss Confederation will also provide guarantees for potential losses of certain assets that UBS will acquire as part of the transaction, if these losses exceed a specific threshold (<a rel="noopener noreferrer" href="https://www.admin.ch/gov/en/start/documentation/media-releases.msg-id-93793.html" target="_blank" title="new window">media release by the Federal Council</a> and <a rel="noopener noreferrer" href="https://www.snb.ch/en/mmr/reference/pre_20230319/source/pre_20230319.en.pdf" target="_blank" title="new window">media release by the SNB</a>). <br /></p><h2>All bank services to remain available without interruption<br /></h2><p>On this basis, it will be possible to continue all the business activities of the banks with no restrictions or interruptions. This will ensure protection for depositors as accounts, security accounts and other services (counters, ATMs, e-banking, debit and credit cards) will likewise remain accessible as usual. <br /></p><h2>Contact<br /></h2><p>Tobias Lux, Media Spokesperson<br />Tel. +41 31 327 91 71<br /><a href="mailto:tobias.lux@finma.ch">tobias.lux@finma.ch</a><br /><br />Vinzenz Mathys, Media Spokesperson<br />Tel. +41 31 327 19 77<br /><a href="mailto:vinzenz.mathys@finma.ch">vinzenz.mathys@finma.ch</a><br /></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+</div>
+
+    <div class="mod mod-document-teaser">
+            <div class="document-teaser-box">
+                <a class="e-btn btn-icon icon-document pdf" title="Press release" href="/en/~/media/finma/dokumente/dokumentencenter/8news/medienmitteilungen/2023/03/20230319-mm-cs-ubs.pdf?sc_lang=en&amp;hash=47C921C769CE0100247843DD1E86D106" target="_blank"></a>
+                <div class="document-teaser-box-content">
+                    <a class="document-teaser-box-title" title="Press release" href="/en/~/media/finma/dokumente/dokumentencenter/8news/medienmitteilungen/2023/03/20230319-mm-cs-ubs.pdf?sc_lang=en&amp;hash=47C921C769CE0100247843DD1E86D106" target="_blank">
+Press release                    </a>
+
+                        <p class="document-teaser-box-text js-document-teaser-box-text">FINMA approves merger of UBS and Credit Suisse</p>
+
+                    <div class="document-teaser-box-info js-document-teaser-box-info">
+                        <span class="document-teaser-box-update">Updated: 19.03.2023</span>
+                        <span class="document-teaser-box-size">Size: 0.28&nbsp; MB</span>
+                            <ul class="document-teaser-language-list">
+                                <li class="document-teaser-box-language-title">Language(s):</li>
+                                    <li class="document-teaser-box-language-label">
+                                        <a target="_blank" title="Press release DE" href="/de/~/media/finma/dokumente/dokumentencenter/8news/medienmitteilungen/2023/03/20230319-mm-cs-ubs.pdf?sc_lang=de&amp;hash=BE23D4F055CA1B5E177A2398F45926B9" data-download-title="Press release" data-download-lang="DE">DE</a>
+                                    </li>
+                                    <li class="document-teaser-box-language-label">
+                                        <a target="_blank" title="Press release FR" href="/fr/~/media/finma/dokumente/dokumentencenter/8news/medienmitteilungen/2023/03/20230319-mm-cs-ubs.pdf?sc_lang=fr&amp;hash=1BE41C3E5200EE5A12E497A9A7E0CCF2" data-download-title="Press release" data-download-lang="FR">FR</a>
+                                    </li>
+                                    <li class="document-teaser-box-language-label">
+                                        <a target="_blank" title="Press release IT" href="/it/~/media/finma/dokumente/dokumentencenter/8news/medienmitteilungen/2023/03/20230319-mm-cs-ubs.pdf?sc_lang=it&amp;hash=3C6CD94EC0E1EC6267D7C0B9E073EBB9" data-download-title="Press release" data-download-lang="IT">IT</a>
+                                    </li>
+                                    <li class="document-teaser-box-language-label">
+                                        <a target="_blank" title="Press release EN" href="/en/~/media/finma/dokumente/dokumentencenter/8news/medienmitteilungen/2023/03/20230319-mm-cs-ubs.pdf?sc_lang=en&amp;hash=47C921C769CE0100247843DD1E86D106" data-download-title="Press release" data-download-lang="EN">EN</a>
+                                    </li>
+                            </ul>
+                    </div>
+                </div>
+                <a class="e-btn btn-icon icon-notification js-icon-notification" data-id="{4D5D7AFD-CFB2-429C-A034-133FD96DE7CB}" href="javascript:;" rel="tooltip" title="Add to personal download list"
+                   data-addtext="Add to personal download list"
+                   data-removetext="Remove from personal download list"
+                   data-mobile-addalerttext="The document has been added to your personal download list."
+                   data-mobile-removealerttext="The document has been removed from your personal download list.">
+                    <span class="notification-text" data-deleteonewatchlisturl="/api/watchlist/DeleteDocument?id={4D5D7AFD-CFB2-429C-A034-133FD96DE7CB}" data-addwatchlist="/api/watchlist/PostWatchListDocument/{4D5D7AFD-CFB2-429C-A034-133FD96DE7CB}">Add to personal download list</span>
+                </a>
+                <span class="document-teaser-nav-mobile js-document-teaser-nav-mobile"></span>
+            </div>
+    </div>
+
+
+        </div>
+        <div class="l-sidebar">
+        </div>
+    </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="l-background-image-container js-l-background-image-container">
+                <img class="l-background-image js-l-background-image" src="/Frontend/Finma/assets/img/content/background-image-grey.png" width="1920" height="620" alt="Backgroundimage" />
+            </div>
+        </div>
+
+        <footer class="l-footer-wrapper" role="contentinfo">
+            
+<div class="js-l-footer-scroll-anchor" style="height: 1px;"></div>
+<div class="l-footer l-wrap">
+    <div class="l-footer-top">
+        <div class="g-row">
+            <div class="g-cell s-3of5">
+                
+<div class="mod-footer">
+    <!-- Footer Address  -->
+            <ul class="footer-adress-list">
+                <li>
+                    <span itemprop="name" class="footer-adress-title">Swiss Financial Market Supervisory Authority FINMA</span>
+                </li>
+                <li>
+                    <p itemprop="address" class="footer-adress-text" itemscope itemtype="http://data-vocabulary.org/Address">
+                        <span itemprop="street-address">Laupenstrasse 27</span>,
+                        <span itemprop="postal-code">3003</span>
+                        <span itemprop="locality">Bern</span>
+                    </p>
+                </li>
+                <li>
+                    <p itemprop="tel" class="footer-adress-text">
+                        <a href="tel:0041313279100">Phone +41 31 327 91 00</a>,
+                        <span>Fax +41 31 327 91 01</span>
+                    </p>
+                </li>
+                <li>
+                    <p itemprop="mail" class="footer-adress-mail">
+                        <a href="mailto:info@finma.ch">info@finma.ch</a>
+                    </p>
+                </li>
+            </ul>
+</div>
+ 
+            </div>
+            <div class="g-cell s-2of5">
+                
+<div class="mod-footer">
+            <!-- Footer Search -->
+            <ul class="footer-search">
+                <li class="footer-search-title">Search site</li>
+                <li class="footer-search-field">
+                    <div class="mod mod-search skin-search-footer" data-url="/en/search">
+                        <div class="search-formline">
+                                <input class="js-search" type="text" placeholder="What are you looking for?">
+                            <a class="e-btn btn-search" href="javascript:;"></a>
+
+                        </div>
+                    </div>
+                </li>
+            </ul>
+</div>
+ 
+            </div>
+        </div>
+    </div>
+    <div class="l-footer-list">
+        
+    <div class="mod-footer">
+        <div class="g-row footer-linklist">
+                        <div class="g-cell s-1of5">
+                <h3 class="footer-linklist-title">Authorisation</h3>
+                        <ul class="footer-linklist">
+                <li><a href="/en/authorisation/authorisation-overview/" title="Authorisation">Authorisation</a></li>
+                <li><a href="/en/authorisation/types-of-licensing/" title="Types of authorisation">Types of authorisation</a></li>
+                <li><a href="/en/authorisation/banks-and-securities-firms/" title="Banks and securities firms">Banks and securities firms</a></li>
+                <li><a href="/en/authorisation/insurers/" title="Insurers">Insurers</a></li>
+                <li><a href="/en/authorisation/insurance-intermediaries/" title="Insurance intermediaries">Insurance intermediaries</a></li>
+                <li><a href="/en/authorisation/asset-management/" title="Asset management">Asset management</a></li>
+                <li><a href="/en/authorisation/portfolio-managers-and-trustees/" title="Portfolio managers and trustees">Portfolio managers and trustees</a></li>
+                <li><a href="/en/authorisation/supervisory-organisations/" title="Supervisory organisations">Supervisory organisations</a></li>
+                <li><a href="/en/authorisation/vertretungen-auslaendischer-finanzinstitute-gemaess-finig/" title="Representative offices of financial institutions based outside Switzerland under FinIA">Representative offices of financial institutions based outside Switzerland under FinIA</a></li>
+                <li><a href="/en/authorisation/self-regulatory-organisations-sros/" title="Self-regulatory organisations (SROs)">Self-regulatory organisations (SROs)</a></li>
+                <li><a href="/en/authorisation/financial-market-infrastructures-and-foreign-market-participants/" title="Financial market infrastructures and foreign market participants">Financial market infrastructures and foreign market participants</a></li>
+                <li><a href="/en/authorisation/rating-agencies/" title="Rating agencies">Rating agencies</a></li>
+                <li><a href="/en/authorisation/registrierungsstelle/" title="Registration body">Registration body</a></li>
+                <li><a href="/en/authorisation/ombudsmen-for-financial-service-providers/" title="Ombudsmen for financial service providers">Ombudsmen for financial service providers</a></li>
+                <li><a href="/en/authorisation/pruefstelle-fuer-prospekte/" title="Reviewing body for prospectuses">Reviewing body for prospectuses</a></li>
+                <li><a href="/en/authorisation/fintech/" title="FinTech">FinTech</a></li>
+        </ul>
+
+            </div>
+            <div class="g-cell s-1of5">
+                <h3 class="footer-linklist-title">Supervision</h3>
+                        <ul class="footer-linklist">
+                <li><a href="/en/supervision/our-approach-to-supervision/" title="Our approach to supervision">Our approach to supervision</a></li>
+                <li><a href="/en/supervision/cross-sector-issues/" title="Cross-sector issues">Cross-sector issues</a></li>
+                <li><a href="/en/supervision/banks-and-securities-firms/" title="Banks and securities firms">Banks and securities firms</a></li>
+                <li><a href="/en/supervision/insurers/" title="Insurers">Insurers</a></li>
+                <li><a href="/en/supervision/versicherungsvermittler/" title="Insurance intermediaries">Insurance intermediaries</a></li>
+                <li><a href="/en/supervision/asset-management/" title="Asset Management">Asset Management</a></li>
+                <li><a href="/en/supervision/portfolio-managers-and-trustees/" title="Portfolio managers and trustees">Portfolio managers and trustees</a></li>
+                <li><a href="/en/supervision/supervisory-organisations/" title="Supervisory organisations">Supervisory organisations</a></li>
+                <li><a href="/en/supervision/self-regulatory-organisations-sros/" title="Self-regulatory organisations (SROs)">Self-regulatory organisations (SROs)</a></li>
+                <li><a href="/en/supervision/financial-market-infrastructures/" title="Financial market infrastructures">Financial market infrastructures</a></li>
+                <li><a href="/en/supervision/central-mortgage-bond-institutions/" title="Central mortgage bond institutions">Central mortgage bond institutions</a></li>
+                <li><a href="/en/supervision/fintech/" title="FinTech">FinTech</a></li>
+        </ul>
+
+            </div>
+            <div class="g-cell s-1of5">
+                <h3 class="footer-linklist-title">Enforcement</h3>
+                        <ul class="footer-linklist">
+                <li><a href="/en/enforcement/all-about-enforcement/" title="All about Enforcement">All about Enforcement</a></li>
+                <li><a href="/en/enforcement/licence-holders/" title="Licence holders">Licence holders</a></li>
+                <li><a href="/en/enforcement/unauthorised-activities/" title="Unauthorised activities">Unauthorised activities</a></li>
+                <li><a href="/en/enforcement/market-supervision/" title="Market supervision">Market supervision</a></li>
+                <li><a href="/en/enforcement/enforcement-tools/" title="Enforcement tools">Enforcement tools</a></li>
+                <li><a href="/en/enforcement/database-for-assessing-fitness-and-propriety-requirements/" title="Database for assessing fitness and propriety requirements">Database for assessing fitness and propriety requirements</a></li>
+                <li><a href="/en/enforcement/national-and-international-cooperation/" title="National and international cooperation">National and international cooperation</a></li>
+                <li><a href="/en/enforcement/parties-rights-and-obligations/" title="Rights and obligations">Rights and obligations</a></li>
+                <li><a href="/en/enforcement/case-reports-and-court-decisions/" title="Case reports and court decisions">Case reports and court decisions</a></li>
+                <li><a href="/en/enforcement/recovery-und-resolution-n/" title="Recovery and resolution">Recovery and resolution</a></li>
+        </ul>
+
+            </div>
+            <div class="g-cell s-1of5">
+                <h3 class="footer-linklist-title">Documentation</h3>
+                        <ul class="footer-linklist">
+                <li><a href="/en/documentation/finma-s-legal-basis/" title="Legal basis for FINMA’s activities">Legal basis for FINMA’s activities</a></li>
+                <li><a href="/en/documentation/legal-basis/" title="Legal basis">Legal basis</a></li>
+                <li><a href="/en/documentation/circulars/" title="Circulars">Circulars</a></li>
+                <li><a href="/en/documentation/consultations/" title="Consultations and evaluations">Consultations and evaluations</a></li>
+                <li><a href="/en/documentation/finma-s-position/" title="FINMA position statements">FINMA position statements</a></li>
+                <li><a href="/en/documentation/finma-guidance/" title="FINMA Guidance">FINMA Guidance</a></li>
+                <li><a href="/en/documentation/finma-publications/" title="FINMA publications">FINMA publications</a></li>
+                <li><a href="/en/documentation/finma-videos/" title="FINMA videos">FINMA videos</a></li>
+                <li><a href="/en/documentation/dossier/" title="Dossiers">Dossiers</a></li>
+                <li><a href="/en/documentation/enforcement-reporting/" title="Enforcement reporting">Enforcement reporting</a></li>
+                <li><a href="/en/documentation/insurance-law-rulings/" title="Insurance law rulings">Insurance law rulings</a></li>
+                <li><a href="/en/documentation/self-regulation/" title="Self-regulation">Self-regulation</a></li>
+                <li><a href="/en/documentation/international-sanctions-and-combating-terrorism/" title="Sanctions and FATF statements">Sanctions and FATF statements</a></li>
+                <li><a href="/en/documentation/archiv/" title="Archive">Archive</a></li>
+        </ul>
+
+            </div>
+            <div class="g-cell s-1of5">
+                <h3 class="footer-linklist-title">FINMA</h3>
+                        <ul class="footer-linklist">
+                <li><a href="/en/finma/finma-an-overview/" title="FINMA – an overview ">FINMA – an overview </a></li>
+                <li><a href="/en/finma/supervisory-objectives/" title="Supervisory objectives">Supervisory objectives</a></li>
+                <li><a href="/en/finma/organisation/" title="Organisation">Organisation</a></li>
+                <li><a href="/en/finma/working-at-finma/" title="Working at FINMA">Working at FINMA</a></li>
+                <li><a href="/en/finma/activities/" title="Activities">Activities</a></li>
+                <li><a href="/en/finma/auditing/" title="Auditing">Auditing</a></li>
+                <li><a href="/en/finma/finma-mandataries/" title="FINMA mandataries">FINMA mandataries</a></li>
+                <li><a href="/en/finma/national-cooperation/" title="National cooperation">National cooperation</a></li>
+                <li><a href="/en/finma/international-activities/" title="International activities">International activities</a></li>
+                <li><a href="/en/finma/digital-exchange/" title="Digital exchange">Digital exchange</a></li>
+                <li><a href="/en/finma/making-a-report/" title="Making a report">Making a report</a></li>
+        </ul>
+
+                    <span class="footer-finmapublic-btn">
+                            <a href="/en/finma-public/" class="e-btn btn-standard">FINMA Public</a>
+                    </span>
+                    <ul class="footer-linklist">
+                            <li><a href="/en/finma-public/article-series,-c-,-finma-at-work/">Article series: FINMA at work</a></li>
+                            <li><a href="/en/finma-public/authorised-institutions-individuals-and-products/">Authorised companies</a></li>
+                            <li><a href="/en/finma-public/warnungen/">Warnings</a></li>
+                            <li><a href="/en/finma-public/reporting-information/">Reporting information</a></li>
+                    </ul>
+            </div>
+
+        </div>
+    </div>
+
+
+
+ 
+    </div>
+    <div class="l-footer-bottom">
+        <div class="g-cell left">
+            
+<div class="mod-footer">
+        <ul class="footer-language-links">
+                <li><a href="javascript:;" class="state-active">EN</a></li>
+                    <li><a href="/de/news/2023/03/20230319-mm-cs-ubs/">DE</a></li>
+                    <li><a href="/fr/news/2023/03/20230319-mm-cs-ubs/">FR</a></li>
+                    <li><a href="/it/news/2023/03/20230319-mm-cs-ubs/">IT</a></li>
+        </ul>
+</div>
+ 
+            
+<div class="mod mod-footer">
+            <ul class="footer-meta-links">
+                <li><span class="footer-copy">&copy; 2026 FINMA</span></li>
+                    <li>
+                            <a href="/en/media/" title="Media">Media</a>
+                    </li>
+                    <li>
+                            <a href="/en/finma/working-at-finma/" title="Jobs and careers">Jobs and careers</a>
+                    </li>
+                    <li>
+                            <a href="/en/contact/" title="Contact">Contact</a>
+                    </li>
+                    <li>
+                            <a href="/en/finma-public/abbreviations/" title="Abbreviations">Abbreviations</a>
+                    </li>
+                    <li>
+                            <a href="/en/terms-and-conditions/" title="Terms and conditions">Terms and conditions</a>
+                    </li>
+                    <li>
+                            <a href="/en/impressum/" title="About this website">About this website</a>
+                    </li>
+                    <li>
+                            <a href="/en/sitemap/" title="Sitemap">Sitemap</a>
+                    </li>
+                    <li>
+                            <a href="/en/documentation/archiv/" title="Archive">Archive</a>
+                    </li>
+            </ul>
+</div>
+
+ 
+        </div>
+        <div class="g-cell right">
+            
+<div class="mod-footer">
+        <ul class="footer-service-links">
+                    <li>
+                        <a href="/en/news/">
+                            <span class="glyph-news">&nbsp;</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/en/documents/">
+                            <span class="glyph-documents">&nbsp;</span>
+                        </a>
+                    </li>
+        </ul>
+</div>
+ 
+        </div>
+    </div>
+</div>
+<span class="footer-copy-extra">&copy;&nbsp;2026&nbsp;FINMA</span>
+ 
+        </footer>
+    </div>
+    
+
+    <script src="/Frontend/Finma/app.min.js?v=3.5.0" type="text/javascript"></script>
+
+
+    
+
+    <script>
+        (function ($) {
+            $(document).ready(function () {
+                var config = {},
+                    $root = $('html'),
+                    application = new Tc.Application($root, config);
+
+                application.registerModules();
+                application.start();
+            });
+        })(Tc.$);
+
+        var MTUserId = 'a0f8c45a-ea03-4ebd-af89-6dbd56762821';
+        var MTFontIds = new Array();
+
+        MTFontIds.push("722105"); // Frutiger® W01 45 Light
+        MTFontIds.push("722117"); // Frutiger® W01 55 Roman
+        MTFontIds.push("722129"); // Frutiger® W01 65 Bold
+        (function () {
+            var mtTracking = document.createElement('script');
+            mtTracking.type = 'text/javascript';
+            mtTracking.async = 'true';
+            mtTracking.src = ('https:' == document.location.protocol ? 'https:' : 'http:') + '//fast.fonts.net/lt/trackingCode.js';
+
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(mtTracking);
+        })();
+    </script>
+</body>
+</html>

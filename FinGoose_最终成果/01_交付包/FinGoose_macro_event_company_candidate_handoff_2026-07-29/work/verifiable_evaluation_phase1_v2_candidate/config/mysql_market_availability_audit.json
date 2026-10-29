@@ -1,0 +1,21 @@
+{
+  "query_id": "mysql-market-availability-audit-2026-08-01",
+  "query_type": "READ_ONLY_METADATA_AUDIT",
+  "execution_status": "EXECUTED",
+  "executed_at": "2026-08-01T09:17:42.8502766+08:00",
+  "database": "workspace",
+  "table": "information_schema.tables",
+  "sql": "SELECT TABLE_NAME FROM information_schema.tables WHERE table_schema=DATABASE() AND (LOWER(TABLE_NAME) REGEXP 'eod|index|sw|price|daily|quote') ORDER BY TABLE_NAME",
+  "parameters": {},
+  "selected_fields": ["TABLE_NAME"],
+  "time_range": null,
+  "row_count": 1,
+  "matched_tables": ["ccommodityfutureseodprices_202607231545"],
+  "result_sha256": "411ccdebff1bcf598e4dead4065b83a97d39051987e06dae244ab043509b099b",
+  "exit_code": 0,
+  "a_share_price_table_found": false,
+  "broad_market_index_table_found": false,
+  "shenwan_index_table_found": false,
+  "credentials_included": false,
+  "execution_authenticity_status": "UNVERIFIED_NO_SIGNED_EXECUTION_LOG"
+}

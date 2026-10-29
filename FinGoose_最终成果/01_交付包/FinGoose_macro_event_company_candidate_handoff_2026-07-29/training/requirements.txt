@@ -1,0 +1,8 @@
+torch>=2.4,<3
+transformers>=4.48,<6
+datasets>=3,<5
+trl>=0.15,<1
+peft>=0.14,<1
+accelerate>=1,<2
+bitsandbytes>=0.45,<1
+pytest>=7,<9

@@ -1,0 +1,4 @@
+interface:
+  display_name: "可审计宏观数据集"
+  short_description: "发现、补足、构建并确定性复现可审计宏观事件训练候选数据"
+  default_prompt: "使用 $building-auditable-macro-datasets 扩展一个宏观事件并生成可审计候选数据。"

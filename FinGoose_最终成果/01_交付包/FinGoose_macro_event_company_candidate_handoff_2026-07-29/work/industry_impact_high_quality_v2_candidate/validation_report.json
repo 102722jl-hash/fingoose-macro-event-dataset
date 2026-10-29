@@ -1,0 +1,22 @@
+{
+  "candidate_complete_count": 0,
+  "candidate_open_count": 77,
+  "company_link_count": 30,
+  "dataset_version": "fingoose-industry-impact-high-quality-v2-candidate",
+  "driver_count": 77,
+  "event_count": 10,
+  "evidence_count": 11,
+  "formal_ready": false,
+  "hard_failures": [],
+  "mapping_count": 77,
+  "market_window_count": 77,
+  "mechanism_chain_count": 77,
+  "mechanism_node_count": 539,
+  "sha_gate": "DEFERRED",
+  "tier_counts": {
+    "CONDITIONAL": 20,
+    "CORE_DIRECT": 27,
+    "SECOND_ORDER": 30
+  },
+  "valid_candidate": true
+}

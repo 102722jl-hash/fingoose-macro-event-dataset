@@ -1,0 +1,17 @@
+{
+  "event_id": "event-01",
+  "release_tier": "RAPID_CANDIDATE",
+  "formal_ready": false,
+  "sha_gate": "DEFERRED_BY_USER_FOR_RAPID_CANDIDATE",
+  "hard_failures": [],
+  "chronology_status": "CURATED_SEQUENCE_WITH_TIMESTAMP_INVERSIONS",
+  "chronology_warnings": [
+    {
+      "type": "CURATED_SEQUENCE_TIMESTAMP_INVERSION",
+      "previous_node_id": "fast-event-01-M03",
+      "previous_first_public_at": "2020-03-11T19:00:00Z",
+      "current_node_id": "fast-event-01-M04",
+      "current_first_public_at": "2020-03-11T16:30:00+00:00"
+    }
+  ]
+}

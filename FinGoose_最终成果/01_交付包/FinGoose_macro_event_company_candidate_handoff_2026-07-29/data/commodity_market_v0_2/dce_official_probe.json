@@ -1,0 +1,23 @@
+{
+  "adapter_version": "fingoose-dce-official-probe-v0.1",
+  "contract_metadata_status": "missing",
+  "dataset_version": "fingoose-dce-official-probe-v0.2",
+  "date_results": [],
+  "discovered_dce_links": [],
+  "forecast_labels_generated": false,
+  "formal_dce_track_complete": false,
+  "landing_url": "https://www.dce.com.cn/dalianshangpin/xqsj/tjsj26/rtj/rttj/index.html",
+  "manifest_history_count": 43,
+  "manual_intake_is_separate": true,
+  "notes": [
+    "No HTTP response bytes were received, so no snapshot or manifest was fabricated.",
+    "This probe never writes commodity_contract_daily.jsonl."
+  ],
+  "p0_status": "blocked",
+  "probe_status": "access_restricted",
+  "retrieved_at": "2026-07-23T14:52:19+08:00",
+  "source_kind": "official_public_entry_probe",
+  "transport_errors": [
+    "<urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>"
+  ]
+}

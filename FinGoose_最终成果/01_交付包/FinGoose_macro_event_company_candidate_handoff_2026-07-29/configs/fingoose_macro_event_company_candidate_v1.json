@@ -1,0 +1,22 @@
+{
+  "dataset_version": "fingoose-macro-event-company-candidate-v1.0",
+  "release_tier": "CANDIDATE",
+  "market_source_root": "outputs/fingoose_macro_event_attribution_v1",
+  "protected_output_roots": [
+    "outputs/fingoose_macro_event_attribution_v1",
+    "outputs/fingoose_formal_v1_macro",
+    "outputs/fingoose_macro_event_company_v1"
+  ],
+  "events": [
+    {"event_id":"event-01","companies":[{"company_code":"600009.SH","company_name":"\u4e0a\u6d77\u673a\u573a"},{"company_code":"601111.SH","company_name":"\u4e2d\u56fd\u56fd\u822a"},{"company_code":"002030.SZ","company_name":"\u8fbe\u5b89\u57fa\u56e0"}]},
+    {"event_id":"event-02","companies":[{"company_code":"601857.SH","company_name":"\u4e2d\u56fd\u77f3\u6cb9"},{"company_code":"601233.SH","company_name":"\u6850\u6606\u80a1\u4efd"},{"company_code":"600346.SH","company_name":"\u6052\u529b\u77f3\u5316"}]},
+    {"event_id":"event-03","companies":[{"company_code":"601318.SH","company_name":"\u4e2d\u56fd\u5e73\u5b89"},{"company_code":"600036.SH","company_name":"\u62db\u5546\u94f6\u884c"},{"company_code":"601012.SH","company_name":"\u9686\u57fa\u7eff\u80fd"}]},
+    {"event_id":"event-04","companies":[{"company_code":"600009.SH","company_name":"\u4e0a\u6d77\u673a\u573a"},{"company_code":"601111.SH","company_name":"\u4e2d\u56fd\u56fd\u822a"},{"company_code":"600754.SH","company_name":"\u9526\u6c5f\u9152\u5e97"}]},
+    {"event_id":"event-05","companies":[{"company_code":"002432.SZ","company_name":"\u4e5d\u5b89\u533b\u7597"},{"company_code":"300482.SZ","company_name":"\u4e07\u5b5a\u751f\u7269"},{"company_code":"688235.SH","company_name":"\u767e\u6d4e\u795e\u5dde"}]},
+    {"event_id":"event-06","companies":[{"company_code":"601857.SH","company_name":"\u4e2d\u56fd\u77f3\u6cb9"},{"company_code":"600028.SH","company_name":"\u4e2d\u56fd\u77f3\u5316"},{"company_code":"000301.SZ","company_name":"\u4e1c\u65b9\u76db\u8679"}]},
+    {"event_id":"event-07","companies":[{"company_code":"601857.SH","company_name":"\u4e2d\u56fd\u77f3\u6cb9"},{"company_code":"601919.SH","company_name":"\u4e2d\u8fdc\u6d77\u63a7"},{"company_code":"601021.SH","company_name":"\u6625\u79cb\u822a\u7a7a"}]},
+    {"event_id":"event-08","companies":[{"company_code":"601988.SH","company_name":"\u4e2d\u56fd\u94f6\u884c"},{"company_code":"601021.SH","company_name":"\u6625\u79cb\u822a\u7a7a"},{"company_code":"601211.SH","company_name":"\u56fd\u6cf0\u541b\u5b89"}]},
+    {"event_id":"event-09","companies":[{"company_code":"600048.SH","company_name":"\u4fdd\u5229\u53d1\u5c55"},{"company_code":"300059.SZ","company_name":"\u4e1c\u65b9\u8d22\u5bcc"},{"company_code":"600036.SH","company_name":"\u62db\u5546\u94f6\u884c"}]},
+    {"event_id":"event-10","companies":[{"company_code":"002475.SZ","company_name":"\u7acb\u8baf\u7cbe\u5bc6"},{"company_code":"000333.SZ","company_name":"\u7f8e\u7684\u96c6\u56e2"},{"company_code":"601012.SH","company_name":"\u9686\u57fa\u7eff\u80fd"}]}
+  ]
+}

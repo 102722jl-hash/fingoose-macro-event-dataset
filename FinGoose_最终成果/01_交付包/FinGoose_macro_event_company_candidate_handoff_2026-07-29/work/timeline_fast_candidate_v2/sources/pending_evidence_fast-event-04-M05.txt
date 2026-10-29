@@ -1,0 +1,12 @@
+EVIDENCE SPEC (snapshot not retrievable automatically - manual drop-in required)
+NODE: fast-event-04-M05
+OFFICIAL_URL: http://www.customs.gov.cn/customs/302249/202212/131.shtml
+PUBLISHER: General Administration of Customs of China (GACC)
+
+VERBATIM QUOTE (target):
+  "自2023年1月8日起，取消入境人员全员核酸检测要求……"
+
+OCCURRED_AT: 2023-01-08T00:00:00+08:00 (Asia/Shanghai (UTC+8))
+FIRST_PUBLIC_AT: 2022-12-27T00:00:00+08:00 (Asia/Shanghai (UTC+8))
+
+FACT: China announced (Dec 26-27 2022) it would reclassify COVID-19 to Class B and, from Jan 8 2023, cancel universal nucleic-acid testing for inbound arrivals - the formal exit from zero-COVID.

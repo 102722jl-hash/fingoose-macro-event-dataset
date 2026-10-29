@@ -1,0 +1,47 @@
+{
+  "dataset_version": "fingoose-industry-impact-high-quality-v2-candidate",
+  "files": [
+    {
+      "path": "event_industry_mappings.jsonl",
+      "sha256": "6c3219f18f8ef67512b70d4fe132dd6dfa2efea694b351ea7ccf924210bdfd47",
+      "size": 149751
+    },
+    {
+      "path": "industry_completion_report.jsonl",
+      "sha256": "64fc028b17ee04c458032df5558741469bce10c784ac7ed946955a42187fbb78",
+      "size": 69309
+    },
+    {
+      "path": "industry_driver_registry.jsonl",
+      "sha256": "4f636f03b093a5c2e6061b7356bbc6c5cfc22624a4e44f256497be5d40ba471b",
+      "size": 41512
+    },
+    {
+      "path": "industry_evidence.jsonl",
+      "sha256": "87f3085d970be69a92e9ff226aa835ccdaea7a357b817130557ccf6e20f81979",
+      "size": 8017
+    },
+    {
+      "path": "industry_market_windows.jsonl",
+      "sha256": "71afbe2855da6dbec43dc1e8fa6f572904bfc10da3635d033c10d18bbcc2d933",
+      "size": 105184
+    },
+    {
+      "path": "industry_mechanism_chains.jsonl",
+      "sha256": "0c491b453809054767ddf399e141e7a4f078058932b6fc8dec2fcfddd5ee31c9",
+      "size": 257963
+    },
+    {
+      "path": "summary.json",
+      "sha256": "c92de1625078d383e813016a80fbe07767033544601cb96cf8d98c4f526367ba",
+      "size": 538
+    },
+    {
+      "path": "validation_report.json",
+      "sha256": "03ee84a65be2c5e95ab3eb3df6dfc675258588d8bb8f0d1977dd6be60cbd0ee8",
+      "size": 566
+    }
+  ],
+  "formal_ready": false,
+  "sha_gate": "DEFERRED"
+}

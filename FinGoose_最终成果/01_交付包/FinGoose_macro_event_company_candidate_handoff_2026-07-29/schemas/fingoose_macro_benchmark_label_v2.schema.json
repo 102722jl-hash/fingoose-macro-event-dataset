@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://fingoose.local/schemas/fingoose_macro_benchmark_label_v2.schema.json",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["label_id", "dataset_version", "release_tier", "case_id", "event_id", "hidden", "timeline_labels", "graph_edge_labels", "direction_label", "abstention_label", "verification_windows"],
+  "properties": {
+    "label_id": {"type": "string", "pattern": "^label-event-[0-9]{2}-[a-f0-9]{12}$"},
+    "dataset_version": {"const": "fingoose-macro-event-attribution-v2.0"},
+    "release_tier": {"const": "CANDIDATE"},
+    "case_id": {"type": "string", "pattern": "^case-event-[0-9]{2}-[a-f0-9]{12}$"},
+    "event_id": {"type": "string", "pattern": "^event-[0-9]{2}$"},
+    "hidden": {"const": true},
+    "timeline_labels": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"type": "string", "pattern": "^milestone-event-[0-9]{2}-[a-f0-9]{12}$"}},
+    "graph_edge_labels": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"type": "string", "minLength": 1}},
+    "direction_label": {"enum": ["UP", "DOWN", "MIXED", "FLAT", "UNKNOWN"]},
+    "abstention_label": {"type": "boolean"},
+    "verification_windows": {
+      "type": "array", "minItems": 1, "uniqueItems": true,
+      "items": {"enum": ["D5", "D20", "M3"]}
+    }
+  }
+}

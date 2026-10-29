@@ -1,0 +1,55 @@
+[
+  {
+    "source_id": "event05-fdic",
+    "event_id": "event-05",
+    "publisher": "Federal Deposit Insurance Corporation",
+    "source_tier": "A",
+    "url": "https://www.fdic.gov/resources/resolutions/bank-failures/failed-bank-list/silicon-valley.html",
+    "published_at": "2023-03-10T21:00:00+00:00",
+    "title": "Silicon Valley Bank failure information",
+    "locator": "Silicon Valley Bank failure information",
+    "quote": null,
+    "evidence_scope": "EVENT_FACT_AND_TIME",
+    "visibility": "PUBLIC_PREDICTION",
+    "snapshot_path": "sources/event05_fdic_svb.html"
+  },
+  {
+    "source_id": "event05-fed-joint",
+    "event_id": "event-05",
+    "publisher": "Federal Reserve Board",
+    "source_tier": "A",
+    "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20230312b.htm",
+    "published_at": "2023-03-12T22:15:00+00:00",
+    "title": "Joint banking-system stabilization statement",
+    "locator": "Joint banking-system stabilization statement",
+    "quote": null,
+    "evidence_scope": "EVENT_FACT_AND_TIME",
+    "visibility": "PUBLIC_PREDICTION",
+    "snapshot_path": "sources/event05_fed_joint.html"
+  },
+  {
+    "source_id": "mechanism-event-05-fed-svb-review",
+    "publisher": "Board of Governors of the Federal Reserve System",
+    "source_tier": "A",
+    "url": "https://www.federalreserve.gov/publications/files/svb-review-20230428.pdf",
+    "published_at": "2023-04-28",
+    "locator": "Executive summary and contagion discussion",
+    "quote": "The failure of SVB demonstrated weaknesses in governance, liquidity and interest-rate risk management.",
+    "evidence_scope": "POST_EVENT_MECHANISM_CORROBORATION",
+    "visibility": "HIDDEN_FROM_PRIMARY_PREDICTION"
+  },
+  {
+    "source_id": "supplemental-fast-event-05-M05",
+    "event_id": "event-05",
+    "publisher": "Federal Deposit Insurance Corporation",
+    "source_tier": "A",
+    "url": "https://www.fdic.gov/news/press-releases/2023/pr23034.html",
+    "published_at": null,
+    "title": null,
+    "locator": null,
+    "quote": null,
+    "evidence_scope": "EVENT_FACT_AND_TIME",
+    "visibility": "PUBLIC_PREDICTION",
+    "snapshot_path": "sources/cand_fast-event-05-M05.html"
+  }
+]

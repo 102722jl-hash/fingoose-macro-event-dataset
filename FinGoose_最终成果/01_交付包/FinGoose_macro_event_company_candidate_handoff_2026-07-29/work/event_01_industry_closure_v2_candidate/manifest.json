@@ -1,0 +1,59 @@
+{
+  "dataset_version": "fingoose-event-01-industry-closure-v2-candidate",
+  "files": [
+    {
+      "bytes": 4646,
+      "path": "event_industry_mappings.jsonl",
+      "record_count": 8
+    },
+    {
+      "bytes": 1841,
+      "path": "industry_completion_report.jsonl",
+      "record_count": 8
+    },
+    {
+      "bytes": 7426,
+      "path": "industry_driver_observations.jsonl",
+      "record_count": 16
+    },
+    {
+      "bytes": 3673,
+      "path": "industry_driver_registry.jsonl",
+      "record_count": 8
+    },
+    {
+      "bytes": 11726,
+      "path": "industry_evidence.jsonl",
+      "record_count": 12
+    },
+    {
+      "bytes": 128885,
+      "path": "industry_market_windows.jsonl",
+      "record_count": 8
+    },
+    {
+      "bytes": 44544,
+      "path": "industry_mechanism_chains.jsonl",
+      "record_count": 8
+    },
+    {
+      "bytes": 15309,
+      "path": "industry_source_fetches.jsonl",
+      "record_count": 14
+    },
+    {
+      "bytes": 387,
+      "path": "summary.json",
+      "record_count": null
+    },
+    {
+      "bytes": 600,
+      "path": "validation_report.json",
+      "record_count": null
+    }
+  ],
+  "formal_ready": false,
+  "generated_at": "2026-08-04T04:39:36.603013+00:00",
+  "sha_gate": "DEFERRED",
+  "sha_included": false
+}

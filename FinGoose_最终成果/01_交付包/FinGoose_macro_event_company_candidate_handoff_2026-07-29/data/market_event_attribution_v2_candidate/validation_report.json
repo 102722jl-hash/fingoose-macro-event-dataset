@@ -1,0 +1,43 @@
+{
+  "cross_record_errors": [],
+  "dataset_version": "fingoose-macro-event-attribution-v2.0",
+  "graph_errors": {},
+  "hard_failures": {
+    "cross_record_invalid": false,
+    "fabricated_source": false,
+    "graph_invalid": false,
+    "non_recomputable_window": false,
+    "public_hidden_leakage": false,
+    "schema_invalid": false
+  },
+  "notes": [
+    "三个赛道独立记录，不生成综合总分。",
+    "原始 FRED 快照已按 SHA-256 核验，并用于重算八窗口、标准化变化和历史分位数。",
+    "所有传导边均为 AI 生成的 PROPOSED 候选，尚未完成人工确认。"
+  ],
+  "public_projection_errors": [],
+  "release_tier": "CANDIDATE",
+  "schema_errors": {
+    "benchmark_case": [],
+    "benchmark_label": [],
+    "episode": [],
+    "market_window": [],
+    "milestone": [],
+    "transmission_graph": []
+  },
+  "scoring_tracks": {
+    "direction_and_abstention": {
+      "aggregate_score": null,
+      "status": "READY"
+    },
+    "timeline_reconstruction": {
+      "aggregate_score": null,
+      "status": "READY"
+    },
+    "transmission_graph": {
+      "aggregate_score": null,
+      "status": "READY"
+    }
+  },
+  "valid": true
+}

@@ -1,0 +1,14 @@
+{
+  "broad_market_benchmark_unavailable_count": 30,
+  "candidate_company_mention_count": 72,
+  "company_exposure_gap_count": 30,
+  "company_window_count": 30,
+  "formal_ready": false,
+  "graph_linked_company_mention_count": 33,
+  "hard_failures": [],
+  "industry_benchmark_unavailable_count": 30,
+  "industry_direction_human_review_count": 43,
+  "industry_impact_count": 43,
+  "sha_gate": "DEFERRED",
+  "verified_company_link_count": 0
+}

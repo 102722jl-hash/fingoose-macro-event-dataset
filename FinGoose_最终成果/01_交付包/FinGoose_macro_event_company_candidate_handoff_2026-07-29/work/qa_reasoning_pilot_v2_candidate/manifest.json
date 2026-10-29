@@ -1,0 +1,43 @@
+{
+  "answer_count": 40,
+  "artifacts": [
+    {
+      "bytes": 22385,
+      "path": "qa_cases.jsonl",
+      "records": 40,
+      "sha256": "b9c06927b10edf4315d7af35aa7cf909f6e6f864ef0b56047a83cca609a788e6"
+    },
+    {
+      "bytes": 5469981,
+      "path": "qa_answer_candidates.jsonl",
+      "records": 40,
+      "sha256": "07a26dbabf714a930c66e95cd624736c17633f809563f5b021b1963e465428d0"
+    },
+    {
+      "bytes": 14667,
+      "path": "source_fetches.jsonl",
+      "records": 13,
+      "sha256": "b40c4909129af118da7e43b47587cbb4ef735640123dd3c8e963268336f75772"
+    },
+    {
+      "bytes": 314,
+      "path": "qa_validation_report.json",
+      "records": 1,
+      "sha256": "2e1f25252e23754d458e757383eac9589d652bb8c75c50b3207f390271c274cd"
+    },
+    {
+      "bytes": 48904,
+      "path": "evaluator_only/qa_labels.jsonl",
+      "records": 40,
+      "sha256": "79b247729f620fd45e4da237952fc3af3a5ae9b9da4b8d0b2c9cc71a76bcbbce"
+    }
+  ],
+  "case_count": 40,
+  "dataset_version": "fingoose-event-qa-reasoning-v2-candidate",
+  "event_count": 10,
+  "formal_ready": false,
+  "label_count": 40,
+  "review_status": "NEEDS_HUMAN_REVIEW",
+  "sha_gate": "DEFERRED",
+  "status": "PROPOSED"
+}

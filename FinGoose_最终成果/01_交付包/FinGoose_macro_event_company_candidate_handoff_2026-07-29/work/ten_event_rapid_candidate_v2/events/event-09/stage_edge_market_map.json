@@ -1,0 +1,55 @@
+{
+  "event_id": "event-09",
+  "mapping_rule": "node -> rule-matched core paths -> preselected core series",
+  "node_mappings": [
+    {
+      "fast_node_id": "fast-event-09-M01",
+      "phase": "PRECONDITION",
+      "node_action": "OBSERVES",
+      "path_ids": [],
+      "series_ids": [],
+      "market_window_status": "NOT_COMPUTED"
+    },
+    {
+      "fast_node_id": "fast-event-09-M02",
+      "phase": "PRECONDITION",
+      "node_action": "OBSERVES",
+      "path_ids": [],
+      "series_ids": [],
+      "market_window_status": "NOT_COMPUTED"
+    },
+    {
+      "fast_node_id": "fast-event-09-M03",
+      "phase": "INITIAL_SHOCK",
+      "node_action": "STARTS",
+      "path_ids": [
+        "event-09-P-china-growth",
+        "event-09-P-yuan-repricing",
+        "event-09-P-risk-assets"
+      ],
+      "series_ids": [
+        "DEXCHUS",
+        "DGS10",
+        "DTWEXBGS",
+        "SP500"
+      ],
+      "market_window_status": "PRIMARY_ANCHOR"
+    },
+    {
+      "fast_node_id": "fast-event-09-M04",
+      "phase": "POLICY_RESPONSE",
+      "node_action": "OBSERVES",
+      "path_ids": [],
+      "series_ids": [],
+      "market_window_status": "SAME_DAY_UNRESOLVED"
+    },
+    {
+      "fast_node_id": "fast-event-09-M05",
+      "phase": "POLICY_RESPONSE",
+      "node_action": "AMPLIFIES",
+      "path_ids": [],
+      "series_ids": [],
+      "market_window_status": "SAME_DAY_UNRESOLVED"
+    }
+  ]
+}

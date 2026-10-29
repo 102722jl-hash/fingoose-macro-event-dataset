@@ -1,0 +1,65 @@
+{
+  "announcement_body_disposition_counts": {
+    "IRRELEVANT": 6,
+    "MINOR_RELEVANCE": 39,
+    "RELEVANT": 2,
+    "UNRESOLVED": 0
+  },
+  "announcement_body_review_count": 47,
+  "announcement_retrieval_count": 47,
+  "announcement_title_candidate_count": 47,
+  "binding_review_count": 30,
+  "broad_channel_only_count": 9,
+  "candidate_complete_count": 0,
+  "candidate_open_count": 30,
+  "company_confounder_count": 30,
+  "company_count": 23,
+  "company_market_window_count": 30,
+  "completion_report_count": 30,
+  "confounder_argument_count": 30,
+  "confounder_grade_counts": {
+    "CLEAN": 15,
+    "MATERIAL": 2,
+    "MINOR": 13
+  },
+  "confounder_search_audit_count": 30,
+  "counterevidence_review_count": 30,
+  "csi300_coverage_count": 30,
+  "dataset_version": "fingoose-company-impact-high-quality-v2-candidate",
+  "direction_review_count": 30,
+  "dossier_count": 23,
+  "dossier_search_audit_count": 8,
+  "etf_proxy_count": 0,
+  "event_company_count": 30,
+  "evidence_complete_candidate_dossier_count": 23,
+  "formal_ready": false,
+  "hard_failures": [],
+  "industry_benchmark_registry_count": 10,
+  "industry_classification_coverage_count": 30,
+  "industry_classification_status_counts": {
+    "OFFICIAL_HISTORY_ASOF_MATCHED": 30
+  },
+  "industry_classification_unknown_count": 0,
+  "market_relative_observation_count": 180,
+  "mechanism_chain_count": 30,
+  "mechanism_chain_edge_count": 180,
+  "mechanism_chain_node_count": 210,
+  "orphan_id_count": 0,
+  "partial_dossier_count": 0,
+  "relative_return_recompute_error_count": 0,
+  "relative_return_window_count": 30,
+  "sha_gate": "DEFERRED",
+  "shenwan_coverage_count": 0,
+  "suspension_status_counts": {
+    "VERIFIED_TRADING": 30
+  },
+  "trading_status_review_count": 30,
+  "ui_path": "ui/index.html",
+  "verified_dossier_count": 0,
+  "warnings": [
+    "PARTIAL_DOSSIERS:0",
+    "DIRECTION_HUMAN_REVIEW_PENDING:30",
+    "INDUSTRY_BENCHMARK_PENDING:30",
+    "CONFOUNDER_HUMAN_REVIEW_PENDING:30"
+  ]
+}

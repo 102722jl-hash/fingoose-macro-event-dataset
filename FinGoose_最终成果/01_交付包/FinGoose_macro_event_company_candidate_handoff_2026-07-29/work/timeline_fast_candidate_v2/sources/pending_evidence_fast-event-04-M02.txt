@@ -1,0 +1,12 @@
+EVIDENCE SPEC (snapshot not retrievable automatically - manual drop-in required)
+NODE: fast-event-04-M02
+OFFICIAL_URL: http://www.news.cn/politics/2022-11/30/c_1129174151.htm
+PUBLISHER: Xinhua News Agency
+
+VERBATIM QUOTE (target):
+  "随着奥密克戎病毒致病性的减弱、疫苗接种的普及、防控经验的积累，我国疫情防控面临新形势新任务。"
+
+OCCURRED_AT: 2022-11-30T00:00:00+08:00 (Asia/Shanghai (UTC+8))
+FIRST_PUBLIC_AT: 2022-11-30T00:00:00+08:00 (Asia/Shanghai (UTC+8))
+
+FACT: Official framing shifted on Nov 30 2022 to acknowledge Omicron's reduced pathogenicity and a "new situation and new task" - the first public signal of the policy turn.

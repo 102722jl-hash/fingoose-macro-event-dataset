@@ -1,0 +1,66 @@
+﻿request_id,event_id,ts_code,exchange,instrument_type,start_date,end_date,window_purpose,notes
+REQ-event-01-600009.SH,event-01,600009.SH,SSE,EQUITY,2016-11-12,2020-05-12,event_study_full_history,T0-40mo~T0+2mo (design §4.2); 行业指数代码待行业映射后补
+REQ-event-01-601111.SH,event-01,601111.SH,SSE,EQUITY,2016-11-12,2020-05-12,event_study_full_history,T0-40mo~T0+2mo (design §4.2); 行业指数代码待行业映射后补
+REQ-event-01-002030.SZ,event-01,002030.SZ,SZSE,EQUITY,2016-11-12,2020-05-12,event_study_full_history,T0-40mo~T0+2mo (design §4.2); 行业指数代码待行业映射后补
+REQ-event-02-601857.SH,event-02,601857.SH,SSE,EQUITY,2018-10-24,2022-04-24,event_study_full_history,T0-40mo~T0+2mo (design §4.2); 行业指数代码待行业映射后补
+REQ-event-02-601233.SH,event-02,601233.SH,SSE,EQUITY,2018-10-24,2022-04-24,event_study_full_history,T0-40mo~T0+2mo (design §4.2); 行业指数代码待行业映射后补
+REQ-event-02-600346.SH,event-02,600346.SH,SSE,EQUITY,2018-10-24,2022-04-24,event_study_full_history,T0-40mo~T0+2mo (design §4.2); 行业指数代码待行业映射后补
+REQ-event-03-601318.SH,event-03,601318.SH,SSE,EQUITY,2018-11-17,2022-05-17,event_study_full_history,T0-40mo~T0+2mo (design §4.2); 行业指数代码待行业映射后补
+REQ-event-03-600036.SH,event-03,600036.SH,SSE,EQUITY,2018-11-17,2022-05-17,event_study_full_history,T0-40mo~T0+2mo (design §4.2); 行业指数代码待行业映射后补
+REQ-event-03-601012.SH,event-03,601012.SH,SSE,EQUITY,2018-11-17,2022-05-17,event_study_full_history,T0-40mo~T0+2mo (design §4.2); 行业指数代码待行业映射后补
+REQ-event-04-600009.SH,event-04,600009.SH,SSE,EQUITY,2019-08-07,2023-02-07,event_study_full_history,T0-40mo~T0+2mo (design §4.2); 行业指数代码待行业映射后补
+REQ-event-04-601111.SH,event-04,601111.SH,SSE,EQUITY,2019-08-07,2023-02-07,event_study_full_history,T0-40mo~T0+2mo (design §4.2); 行业指数代码待行业映射后补
+REQ-event-04-600754.SH,event-04,600754.SH,SSE,EQUITY,2019-08-07,2023-02-07,event_study_full_history,T0-40mo~T0+2mo (design §4.2); 行业指数代码待行业映射后补
+REQ-event-05-002432.SZ,event-05,002432.SZ,SZSE,EQUITY,2019-11-13,2023-05-13,event_study_full_history,T0-40mo~T0+2mo (design §4.2); 行业指数代码待行业映射后补
+REQ-event-05-300482.SZ,event-05,300482.SZ,SZSE,EQUITY,2019-11-13,2023-05-13,event_study_full_history,T0-40mo~T0+2mo (design §4.2); 行业指数代码待行业映射后补
+REQ-event-05-688235.SH,event-05,688235.SH,SSE,EQUITY,2019-11-13,2023-05-13,event_study_full_history,T0-40mo~T0+2mo (design §4.2); 行业指数代码待行业映射后补
+REQ-event-06-601857.SH,event-06,601857.SH,SSE,EQUITY,2019-12-04,2023-06-04,event_study_full_history,T0-40mo~T0+2mo (design §4.2); 行业指数代码待行业映射后补
+REQ-event-06-600028.SH,event-06,600028.SH,SSE,EQUITY,2019-12-04,2023-06-04,event_study_full_history,T0-40mo~T0+2mo (design §4.2); 行业指数代码待行业映射后补
+REQ-event-06-000301.SZ,event-06,000301.SZ,SZSE,EQUITY,2019-12-04,2023-06-04,event_study_full_history,T0-40mo~T0+2mo (design §4.2); 行业指数代码待行业映射后补
+REQ-event-07-601857.SH,event-07,601857.SH,SSE,EQUITY,2020-06-09,2023-12-09,event_study_full_history,T0-40mo~T0+2mo (design §4.2); 行业指数代码待行业映射后补
+REQ-event-07-601919.SH,event-07,601919.SH,SSE,EQUITY,2020-06-09,2023-12-09,event_study_full_history,T0-40mo~T0+2mo (design §4.2); 行业指数代码待行业映射后补
+REQ-event-07-601021.SH,event-07,601021.SH,SSE,EQUITY,2020-06-09,2023-12-09,event_study_full_history,T0-40mo~T0+2mo (design §4.2); 行业指数代码待行业映射后补
+REQ-event-08-601988.SH,event-08,601988.SH,SSE,EQUITY,2020-11-19,2024-05-19,event_study_full_history,T0-40mo~T0+2mo (design §4.2); 行业指数代码待行业映射后补
+REQ-event-08-601021.SH,event-08,601021.SH,SSE,EQUITY,2020-11-19,2024-05-19,event_study_full_history,T0-40mo~T0+2mo (design §4.2); 行业指数代码待行业映射后补
+REQ-event-08-601211.SH,event-08,601211.SH,SSE,EQUITY,2020-11-19,2024-05-19,event_study_full_history,T0-40mo~T0+2mo (design §4.2); 行业指数代码待行业映射后补
+REQ-event-09-600048.SH,event-09,600048.SH,SSE,EQUITY,2021-05-24,2024-11-24,event_study_full_history,T0-40mo~T0+2mo (design §4.2); 行业指数代码待行业映射后补
+REQ-event-09-300059.SZ,event-09,300059.SZ,SZSE,EQUITY,2021-05-24,2024-11-24,event_study_full_history,T0-40mo~T0+2mo (design §4.2); 行业指数代码待行业映射后补
+REQ-event-09-600036.SH,event-09,600036.SH,SSE,EQUITY,2021-05-24,2024-11-24,event_study_full_history,T0-40mo~T0+2mo (design §4.2); 行业指数代码待行业映射后补
+REQ-event-10-002475.SZ,event-10,002475.SZ,SZSE,EQUITY,2021-12-03,2025-06-03,event_study_full_history,T0-40mo~T0+2mo (design §4.2); 行业指数代码待行业映射后补
+REQ-event-10-000333.SZ,event-10,000333.SZ,SZSE,EQUITY,2021-12-03,2025-06-03,event_study_full_history,T0-40mo~T0+2mo (design §4.2); 行业指数代码待行业映射后补
+REQ-event-10-601012.SH,event-10,601012.SH,SSE,EQUITY,2021-12-03,2025-06-03,event_study_full_history,T0-40mo~T0+2mo (design §4.2); 行业指数代码待行业映射后补
+REQ-BENCH-000985.CSI,ALL,000985.CSI,CSI,INDEX,2016-11-12,2025-06-03,broad_market_primary,中证全指
+REQ-BENCH-000300.SH,ALL,000300.SH,SH,INDEX,2016-11-12,2025-06-03,broad_market_alt,沪深300
+REQ-CAL-SSE,ALL,,SSE,TRADING_CALENDAR,2016-11-12,2025-06-03,trading_calendar,上交所 官方交易日历
+REQ-CAL-SZSE,ALL,,SZSE,TRADING_CALENDAR,2016-11-12,2025-06-03,trading_calendar,深交所 官方交易日历
+REQ-CAL-BSE,ALL,,BSE,TRADING_CALENDAR,2016-11-12,2025-06-03,trading_calendar,北交所 官方交易日历
+REQ-CA-event-01-600009.SH,event-01,600009.SH,SSE,CORPORATE_ACTIONS,2016-11-12,2020-05-12,dividend_split_rights,分红/送转/拆并/配股
+REQ-CA-event-01-601111.SH,event-01,601111.SH,SSE,CORPORATE_ACTIONS,2016-11-12,2020-05-12,dividend_split_rights,分红/送转/拆并/配股
+REQ-CA-event-01-002030.SZ,event-01,002030.SZ,SZSE,CORPORATE_ACTIONS,2016-11-12,2020-05-12,dividend_split_rights,分红/送转/拆并/配股
+REQ-CA-event-02-601857.SH,event-02,601857.SH,SSE,CORPORATE_ACTIONS,2018-10-24,2022-04-24,dividend_split_rights,分红/送转/拆并/配股
+REQ-CA-event-02-601233.SH,event-02,601233.SH,SSE,CORPORATE_ACTIONS,2018-10-24,2022-04-24,dividend_split_rights,分红/送转/拆并/配股
+REQ-CA-event-02-600346.SH,event-02,600346.SH,SSE,CORPORATE_ACTIONS,2018-10-24,2022-04-24,dividend_split_rights,分红/送转/拆并/配股
+REQ-CA-event-03-601318.SH,event-03,601318.SH,SSE,CORPORATE_ACTIONS,2018-11-17,2022-05-17,dividend_split_rights,分红/送转/拆并/配股
+REQ-CA-event-03-600036.SH,event-03,600036.SH,SSE,CORPORATE_ACTIONS,2018-11-17,2022-05-17,dividend_split_rights,分红/送转/拆并/配股
+REQ-CA-event-03-601012.SH,event-03,601012.SH,SSE,CORPORATE_ACTIONS,2018-11-17,2022-05-17,dividend_split_rights,分红/送转/拆并/配股
+REQ-CA-event-04-600009.SH,event-04,600009.SH,SSE,CORPORATE_ACTIONS,2019-08-07,2023-02-07,dividend_split_rights,分红/送转/拆并/配股
+REQ-CA-event-04-601111.SH,event-04,601111.SH,SSE,CORPORATE_ACTIONS,2019-08-07,2023-02-07,dividend_split_rights,分红/送转/拆并/配股
+REQ-CA-event-04-600754.SH,event-04,600754.SH,SSE,CORPORATE_ACTIONS,2019-08-07,2023-02-07,dividend_split_rights,分红/送转/拆并/配股
+REQ-CA-event-05-002432.SZ,event-05,002432.SZ,SZSE,CORPORATE_ACTIONS,2019-11-13,2023-05-13,dividend_split_rights,分红/送转/拆并/配股
+REQ-CA-event-05-300482.SZ,event-05,300482.SZ,SZSE,CORPORATE_ACTIONS,2019-11-13,2023-05-13,dividend_split_rights,分红/送转/拆并/配股
+REQ-CA-event-05-688235.SH,event-05,688235.SH,SSE,CORPORATE_ACTIONS,2019-11-13,2023-05-13,dividend_split_rights,分红/送转/拆并/配股
+REQ-CA-event-06-601857.SH,event-06,601857.SH,SSE,CORPORATE_ACTIONS,2019-12-04,2023-06-04,dividend_split_rights,分红/送转/拆并/配股
+REQ-CA-event-06-600028.SH,event-06,600028.SH,SSE,CORPORATE_ACTIONS,2019-12-04,2023-06-04,dividend_split_rights,分红/送转/拆并/配股
+REQ-CA-event-06-000301.SZ,event-06,000301.SZ,SZSE,CORPORATE_ACTIONS,2019-12-04,2023-06-04,dividend_split_rights,分红/送转/拆并/配股
+REQ-CA-event-07-601857.SH,event-07,601857.SH,SSE,CORPORATE_ACTIONS,2020-06-09,2023-12-09,dividend_split_rights,分红/送转/拆并/配股
+REQ-CA-event-07-601919.SH,event-07,601919.SH,SSE,CORPORATE_ACTIONS,2020-06-09,2023-12-09,dividend_split_rights,分红/送转/拆并/配股
+REQ-CA-event-07-601021.SH,event-07,601021.SH,SSE,CORPORATE_ACTIONS,2020-06-09,2023-12-09,dividend_split_rights,分红/送转/拆并/配股
+REQ-CA-event-08-601988.SH,event-08,601988.SH,SSE,CORPORATE_ACTIONS,2020-11-19,2024-05-19,dividend_split_rights,分红/送转/拆并/配股
+REQ-CA-event-08-601021.SH,event-08,601021.SH,SSE,CORPORATE_ACTIONS,2020-11-19,2024-05-19,dividend_split_rights,分红/送转/拆并/配股
+REQ-CA-event-08-601211.SH,event-08,601211.SH,SSE,CORPORATE_ACTIONS,2020-11-19,2024-05-19,dividend_split_rights,分红/送转/拆并/配股
+REQ-CA-event-09-600048.SH,event-09,600048.SH,SSE,CORPORATE_ACTIONS,2021-05-24,2024-11-24,dividend_split_rights,分红/送转/拆并/配股
+REQ-CA-event-09-300059.SZ,event-09,300059.SZ,SZSE,CORPORATE_ACTIONS,2021-05-24,2024-11-24,dividend_split_rights,分红/送转/拆并/配股
+REQ-CA-event-09-600036.SH,event-09,600036.SH,SSE,CORPORATE_ACTIONS,2021-05-24,2024-11-24,dividend_split_rights,分红/送转/拆并/配股
+REQ-CA-event-10-002475.SZ,event-10,002475.SZ,SZSE,CORPORATE_ACTIONS,2021-12-03,2025-06-03,dividend_split_rights,分红/送转/拆并/配股
+REQ-CA-event-10-000333.SZ,event-10,000333.SZ,SZSE,CORPORATE_ACTIONS,2021-12-03,2025-06-03,dividend_split_rights,分红/送转/拆并/配股
+REQ-CA-event-10-601012.SH,event-10,601012.SH,SSE,CORPORATE_ACTIONS,2021-12-03,2025-06-03,dividend_split_rights,分红/送转/拆并/配股

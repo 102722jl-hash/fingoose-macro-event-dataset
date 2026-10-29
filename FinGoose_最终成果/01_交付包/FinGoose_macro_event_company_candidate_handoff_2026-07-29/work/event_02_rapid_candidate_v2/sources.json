@@ -1,0 +1,70 @@
+[
+  {
+    "source_id": "supplemental-fast-event-02-M02",
+    "publisher": "President of Russia",
+    "source_tier": "A",
+    "url": "http://en.kremlin.ru/events/president/news/67843",
+    "evidence_scope": "EVENT_FACT_AND_TIME",
+    "visibility": "PUBLIC_PREDICTION"
+  },
+  {
+    "source_id": "event02-nato-statement",
+    "publisher": "NATO",
+    "source_tier": "B",
+    "url": "https://www.nato.int/en/about-us/official-texts-and-resources/official-texts/2022/02/24/statement-by-the-north-atlantic-council-on-russias-attack-on-ukraine",
+    "evidence_scope": "EVENT_FACT_AND_TIME",
+    "visibility": "PUBLIC_PREDICTION"
+  },
+  {
+    "source_id": "supplemental-fast-event-02-M05",
+    "publisher": "U.S. Department of the Treasury",
+    "source_tier": "A",
+    "url": "https://home.treasury.gov/news/press-releases/jy1138",
+    "evidence_scope": "EVENT_FACT_AND_TIME",
+    "visibility": "POST_PRIMARY_WINDOW"
+  },
+  {
+    "source_id": "mechanism-imf-2022-03-15",
+    "publisher": "International Monetary Fund",
+    "source_tier": "A",
+    "url": "https://www.imf.org/en/Blogs/Articles/2022/03/15/blog-how-war-in-ukraine-is-reverberating-across-worlds-regions-031522",
+    "published_at": "2022-03-15",
+    "evidence_scope": "POST_EVENT_MECHANISM_CORROBORATION",
+    "visibility": "HIDDEN_FROM_PRIMARY_PREDICTION",
+    "locator": "Paragraph beginning 'Beyond the suffering and humanitarian crisis'",
+    "quote": "Impacts will flow through three main channels. One, higher prices for commodities like food and energy will push up inflation further..."
+  },
+  {
+    "source_id": "mechanism-ecb-eb-2022-04",
+    "publisher": "European Central Bank",
+    "source_tier": "A",
+    "url": "https://www.ecb.europa.eu/press/economic-bulletin/focus/2022/html/ecb.ebbox202204_01~68ef3c3dc6.en.html",
+    "published_at": "2022-06",
+    "evidence_scope": "POST_EVENT_MECHANISM_CORROBORATION",
+    "visibility": "HIDDEN_FROM_PRIMARY_PREDICTION",
+    "locator": "Box: The impact of the war in Ukraine on euro area energy markets",
+    "quote": "The war in Ukraine has generated a sharp increase in energy prices and significant volatility in energy markets."
+  },
+  {
+    "source_id": "mechanism-fed-2022-05-27",
+    "publisher": "Board of Governors of the Federal Reserve System",
+    "source_tier": "A",
+    "url": "https://www.federalreserve.gov/econres/notes/feds-notes/the-effect-of-the-war-in-ukraine-on-global-activity-and-inflation-20220527.html",
+    "published_at": "2022-05-27",
+    "evidence_scope": "POST_EVENT_MECHANISM_CORROBORATION",
+    "visibility": "HIDDEN_FROM_PRIMARY_PREDICTION",
+    "locator": "Opening summary and model-results section",
+    "quote": "Commodity markets are in turmoil and financial markets have been highly volatile since the start of the conflict."
+  },
+  {
+    "source_id": "mechanism-stlouisfed-2022-q4",
+    "publisher": "Federal Reserve Bank of St. Louis",
+    "source_tier": "A",
+    "url": "https://www.stlouisfed.org/publications/review/2022/10/21/financial-market-reactions-to-the-russian-invasion-of-ukraine",
+    "published_at": "2022-10-21",
+    "evidence_scope": "POST_EVENT_MECHANISM_CORROBORATION",
+    "visibility": "HIDDEN_FROM_PRIMARY_PREDICTION",
+    "locator": "Introduction",
+    "quote": "The global price of oil rose by about 35 percent from February 21, 2022, to March 8, 2022."
+  }
+]

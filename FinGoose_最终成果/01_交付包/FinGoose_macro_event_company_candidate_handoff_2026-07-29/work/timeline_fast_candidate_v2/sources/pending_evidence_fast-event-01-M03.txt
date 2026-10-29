@@ -1,0 +1,14 @@
+EVIDENCE SPEC (snapshot not retrievable automatically - manual drop-in required)
+NODE: fast-event-01-M03
+OFFICIAL_URL: https://www.paho.org/en/news/11-3-2020-who-characterizes-covid-19-pandemic
+PUBLISHER: Pan American Health Organization (WHO Regional Office)
+
+VERBATIM QUOTE (target):
+  "We have therefore made the assessment that COVID-19 can be characterized as a pandemic"
+
+OCCURRED_AT: 2020-03-11T19:00:00Z (Europe/Zurich (UTC+1, CET, Mar))
+  locator: WHO DG opening remarks, 11 Mar 2020: 'We have therefore made the assessment that COVID-19 can be characterized as a pandemic.'
+FIRST_PUBLIC_AT: 2020-03-11T19:00:00Z (Europe/Zurich (UTC+1, CET))
+  locator: PAHO news item (who.int regional office) published 11 Mar 2020.
+
+FACT: WHO (via PAHO) characterized COVID-19 as a pandemic on 11 March 2020 - the global public-health escalation signal.

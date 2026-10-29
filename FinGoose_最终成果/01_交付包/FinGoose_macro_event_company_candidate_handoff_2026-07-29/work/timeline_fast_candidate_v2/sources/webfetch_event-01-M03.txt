@@ -1,0 +1,19 @@
+Title: WHO characterizes COVID-19 as a pandemic - PAHO/WHO
+Date: 11 Mar 2020
+URL: https://www.paho.org/en/news/11-3-2020-who-characterizes-covid-19-pandemic
+
+Speaking at the COVID-19 media briefing, the WHO Director-General said:
+
+"WHO has been assessing this outbreak around the clock and we are deeply concerned both by the alarming levels of spread and severity, and by the alarming levels of inaction.
+
+We have therefore made the assessment that COVID-19 can be characterized as a pandemic.
+
+Pandemic is not a word to use lightly or carelessly. It is a word that, if misused, can cause unreasonable fear, or unjustified acceptance that the fight is over, leading to unnecessary suffering and death.
+
+Describing the situation as a pandemic does not change WHO's assessment of the threat posed by this virus. It doesn't change what WHO is doing, and it doesn't change what countries should do.
+
+We have never before seen a pandemic sparked by a coronavirus. This is the first pandemic caused by a coronavirus.
+
+And we have never before seen a pandemic that can be controlled, at the same time."
+
+NOTE: WebFetch-rendered real-body snapshot of the official PAHO/WHO news page. Raw HTTP returned 403 (bot-wall) and the Wayback availability API was 429 rate-limited, so the rendered body is used as the local snapshot. The verbatim fact-bearing sentence is preserved.

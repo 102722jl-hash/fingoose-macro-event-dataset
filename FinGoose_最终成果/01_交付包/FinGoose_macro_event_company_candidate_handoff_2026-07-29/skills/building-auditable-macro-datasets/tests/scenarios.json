@@ -1,0 +1,17 @@
+[
+  {
+    "scenario_id": "specified-event",
+    "prompt": "使用 $building-auditable-macro-datasets 扩展一个给定锚点和官方种子 URL 的宏观事件，生成候选审计目录。",
+    "success": ["candidate_master_data", "candidate_sft_or_quarantine", "search_audit", "validation_report"]
+  },
+  {
+    "scenario_id": "controlled-discovery",
+    "prompt": "使用 $building-auditable-macro-datasets 搜索给定季度的重要宏观事件，只先生成候选清单。",
+    "success": ["discovery_candidates", "no_unselected_event_build"]
+  },
+  {
+    "scenario_id": "offline-replay",
+    "prompt": "使用 $building-auditable-macro-datasets 从冻结证据、冻结研究内容、基线和配置离线重建两次并比较 SHA。",
+    "success": ["no_network", "no_prose_regeneration", "stable_hashes", "ready_true", "model_loaded_false"]
+  }
+]

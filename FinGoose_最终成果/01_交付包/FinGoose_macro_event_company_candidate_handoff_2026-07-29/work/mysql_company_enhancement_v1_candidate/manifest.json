@@ -1,0 +1,42 @@
+{
+  "dataset_version": "fingoose-mysql-company-enhancement-v1.0",
+  "files": [
+    {
+      "path": "company_impact_candidates.jsonl",
+      "record_count": 30,
+      "sha256": "fe1da21a369cc06172e7697af6ee464c117044657ccac03c356494f4b6d7615f"
+    },
+    {
+      "path": "company_rating_windows.jsonl",
+      "record_count": 30,
+      "sha256": "5871de79d81e5d781ca8da61e1f7b958d2828836fa03d09c2e348d174e2f391e"
+    },
+    {
+      "path": "company_financial_baselines.jsonl",
+      "record_count": 30,
+      "sha256": "bff8928bdb93d52f078fbfd2c423c6faebb1c4235380cc94ba0f7c1971809ed5"
+    },
+    {
+      "path": "source_manifest.jsonl",
+      "record_count": 32,
+      "sha256": "ca95f209f765fd810413f36efc38ba5f4dd8c045b70c4ec562db7add4de1743b"
+    },
+    {
+      "path": "validation_report.json",
+      "record_count": 1,
+      "sha256": "7939c57e5c6fe6de4d769420e77c69cfebaf34c0f4bbfd97ac3322a262e0abec"
+    },
+    {
+      "path": "summary.json",
+      "record_count": 1,
+      "sha256": "371651745bbd150e9b7dc2e6da1d2887ec81afd48c2ea0f5f7c2f6e28f1abd41"
+    },
+    {
+      "path": "README.md",
+      "record_count": 1,
+      "sha256": "a6ab26fbf20a66f1bad4317ad3e9f60e1bd3fbdc8dae99821ca75f2a22503493"
+    }
+  ],
+  "formal_ready": false,
+  "release_tier": "VENDOR_CANDIDATE"
+}

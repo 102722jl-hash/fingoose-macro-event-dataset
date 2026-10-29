@@ -1,0 +1,7 @@
+{
+  "allowlist": [
+    "benchmark_labels.jsonl"
+  ],
+  "contains_hidden_labels": true,
+  "package": "EVALUATOR_ONLY_LABELS"
+}

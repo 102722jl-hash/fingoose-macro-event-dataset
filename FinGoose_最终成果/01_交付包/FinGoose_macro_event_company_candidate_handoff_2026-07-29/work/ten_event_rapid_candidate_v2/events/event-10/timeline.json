@@ -1,0 +1,169 @@
+{
+  "event_id": "event-10",
+  "title": "美国建立广泛对等关税框架",
+  "release_tier": "RAPID_CANDIDATE",
+  "formal_ready": false,
+  "primary_anchor_fast_node_id": "fast-event-10-M02",
+  "nodes": [
+    {
+      "anchor_role": "NONE",
+      "event_id": "event-10",
+      "evidence_status": "PENDING_EVIDENCE",
+      "expected_type": "UNKNOWN",
+      "fact": "The \"America First Trade Policy\" Presidential Memorandum (Jan 20 2025) directed reciprocal-trade investigations - the policy baseline before the April reciprocal tariff.",
+      "fast_node_id": "fast-event-10-M01",
+      "first_public_at": null,
+      "gap_reason": "CLAIMED_TIME_CONTRADICTS_SNAPSHOT: a semantically matched official snapshot must independently support the fact, occurred_at, and first_public_at before promotion.",
+      "impact_tags": [
+        "TRADE_COSTS",
+        "GLOBAL_GROWTH"
+      ],
+      "node_action": "OBSERVES",
+      "occurred_at": null,
+      "original_milestone_id": null,
+      "phase": "PRECONDITION",
+      "promotion_eligible": false,
+      "sequence": 1,
+      "source_ids": [],
+      "status": "PROPOSED",
+      "visibility": "UNRESOLVED",
+      "linked_path_ids": [],
+      "impact_summary": "Pending evidence; no scored path is activated."
+    },
+    {
+      "anchor_role": "PRIMARY",
+      "event_id": "event-10",
+      "evidence_status": "VERIFIED_EXISTING",
+      "fact": "The order established a broad reciprocal tariff framework.",
+      "fast_node_id": "fast-event-10-M02",
+      "first_public_at": "2025-04-02T21:37:45+00:00",
+      "gap_reason": null,
+      "impact_tags": [
+        "TRADE_COSTS",
+        "INFLATION_EXPECTATIONS",
+        "GLOBAL_GROWTH",
+        "SAFE_HAVEN_DEMAND"
+      ],
+      "node_action": "STARTS",
+      "occurred_at": "2025-04-02T21:19:04+00:00",
+      "original_milestone_id": "milestone-event-10-30c54387a6e6",
+      "phase": "INITIAL_SHOCK",
+      "promotion_eligible": false,
+      "sequence": 2,
+      "source_ids": [
+        "event10-whitehouse-order"
+      ],
+      "status": "PROPOSED",
+      "visibility": "PUBLIC_PREDICTION",
+      "linked_path_ids": [
+        "event-10-P-trade-costs",
+        "event-10-P-inflation-rates",
+        "event-10-P-global-growth-risk"
+      ],
+      "impact_summary": "Verified milestone; linked paths are rule-projected candidates."
+    },
+    {
+      "anchor_role": "SECONDARY",
+      "event_id": "event-10",
+      "evidence_status": "VERIFIED_EXISTING",
+      "fact": "The fact sheet describes the measures and transmission logic.",
+      "fast_node_id": "fast-event-10-M03",
+      "first_public_at": "2025-04-02T21:19:04+00:00",
+      "gap_reason": null,
+      "impact_tags": [
+        "TRADE_COSTS",
+        "INFLATION_EXPECTATIONS",
+        "GLOBAL_GROWTH",
+        "SAFE_HAVEN_DEMAND"
+      ],
+      "node_action": "AMPLIFIES",
+      "occurred_at": "2025-04-02T21:19:04+00:00",
+      "original_milestone_id": "milestone-event-10-87a14b1556ae",
+      "phase": "ESCALATION",
+      "promotion_eligible": true,
+      "sequence": 3,
+      "source_ids": [
+        "event10-whitehouse-fact"
+      ],
+      "status": "PROPOSED",
+      "visibility": "PUBLIC_PREDICTION",
+      "linked_path_ids": [],
+      "impact_summary": "Verified milestone; linked paths are rule-projected candidates."
+    },
+    {
+      "anchor_role": "SECONDARY",
+      "event_id": "event-10",
+      "evidence_status": "PENDING_EVIDENCE",
+      "expected_type": "UNKNOWN",
+      "fact": "EO 14257 Annex I sets country-specific ad valorem duty rates effective 12:01 a.m. EDT 9 Apr 2025; U.S. Customs and Border Protection executes the rates at the border.",
+      "fast_node_id": "fast-event-10-M04",
+      "first_public_at": null,
+      "gap_reason": "FIRST_PUBLIC_TIME_NOT_IN_SNAPSHOT: a semantically matched official snapshot must independently support the fact, occurred_at, and first_public_at before promotion.",
+      "impact_tags": [
+        "TRADE_COSTS",
+        "INFLATION_EXPECTATIONS"
+      ],
+      "node_action": "AMPLIFIES",
+      "occurred_at": null,
+      "original_milestone_id": null,
+      "phase": "POLICY_RESPONSE",
+      "promotion_eligible": false,
+      "sequence": 4,
+      "source_ids": [],
+      "status": "PROPOSED",
+      "visibility": "UNRESOLVED",
+      "linked_path_ids": [],
+      "impact_summary": "Pending evidence; no scored path is activated."
+    },
+    {
+      "anchor_role": "SECONDARY",
+      "event_id": "event-10",
+      "evidence_status": "PENDING_EVIDENCE",
+      "expected_type": "UNKNOWN",
+      "fact": "EO 14266 (9 Apr 2025) modified the reciprocal-tariff rates in response to trading-partner retaliation - the first adjustment/pause mechanism of the regime.",
+      "fast_node_id": "fast-event-10-M05",
+      "first_public_at": null,
+      "gap_reason": "FIRST_PUBLIC_TIME_NOT_IN_SNAPSHOT: a semantically matched official snapshot must independently support the fact, occurred_at, and first_public_at before promotion.",
+      "impact_tags": [
+        "TRADE_COSTS",
+        "GLOBAL_GROWTH"
+      ],
+      "node_action": "WEAKENS",
+      "occurred_at": null,
+      "original_milestone_id": null,
+      "phase": "EASING",
+      "promotion_eligible": false,
+      "sequence": 5,
+      "source_ids": [],
+      "status": "PROPOSED",
+      "visibility": "UNRESOLVED",
+      "linked_path_ids": [],
+      "impact_summary": "Pending evidence; no scored path is activated."
+    }
+  ],
+  "daily_resolution": {
+    "status": "SAME_DAY_UNRESOLVED",
+    "groups": [
+      {
+        "date": "2025-04-02",
+        "node_ids": [
+          "fast-event-10-M02",
+          "fast-event-10-M03"
+        ],
+        "status": "SAME_DAY_UNRESOLVED",
+        "reason": "Daily observations cannot identify the marginal effect of same-day nodes."
+      }
+    ]
+  },
+  "ordering_basis": "CURATED_SEQUENCE",
+  "chronology_warnings": [
+    {
+      "type": "CURATED_SEQUENCE_TIMESTAMP_INVERSION",
+      "previous_node_id": "fast-event-10-M02",
+      "previous_first_public_at": "2025-04-02T21:37:45+00:00",
+      "current_node_id": "fast-event-10-M03",
+      "current_first_public_at": "2025-04-02T21:19:04+00:00"
+    }
+  ],
+  "chronology_status": "CURATED_SEQUENCE_WITH_TIMESTAMP_INVERSIONS"
+}

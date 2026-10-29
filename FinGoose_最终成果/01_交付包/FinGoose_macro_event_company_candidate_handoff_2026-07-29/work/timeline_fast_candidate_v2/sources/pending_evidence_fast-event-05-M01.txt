@@ -1,0 +1,14 @@
+EVIDENCE SPEC (snapshot not retrievable automatically - manual drop-in required)
+NODE: fast-event-05-M01
+OFFICIAL_URL: https://www.sec.gov/Archives/edgar/data/719739/000119312523070254/d487554d8k.htm
+PUBLISHER: SEC / SVB Financial Group (Form 8-K)
+
+VERBATIM QUOTE (target):
+  "completed the sale of a portfolio of available for sale securities"
+
+OCCURRED_AT: 2023-03-08T22:00:00Z (America/New_York (UTC-5, EST))
+  locator: SVB 8-K (filed Period 2023-03-08): 'on March 8, 2023, Silicon Valley Bank completed the sale of a portfolio of available for sale securities with a book value of approximately $23.97 billion for net proceeds of approximately $21.45 billion (resulting in an after tax loss of approximately $1.8 billion).'
+FIRST_PUBLIC_AT: 2023-03-08T22:00:00Z (America/New_York (UTC-5, EST))
+  locator: SEC EDGAR filing d487554d8k.htm published 8 Mar 2023.
+
+FACT: SVB Financial Group disclosed the completed sale of its available-for-sale securities portfolio (~$24bn book, ~$1.8bn after-tax loss) on 8 Mar 2023 - the liquidity-stress trigger.

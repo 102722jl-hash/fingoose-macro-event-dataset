@@ -1,0 +1,25 @@
+{
+  "dataset_version": "fingoose-event-02-rapid-candidate-v2.0",
+  "release_tier": "RAPID_CANDIDATE",
+  "formal_ready": false,
+  "generated_at": "2026-07-31T00:00:00+08:00",
+  "scope": "event-02-only",
+  "files": [
+    "timeline.json",
+    "core_transmission_paths.json",
+    "market_windows.jsonl",
+    "confounders.json",
+    "stage_edge_market_map.json",
+    "sources.json",
+    "validation_report.json",
+    "README.md",
+    "index.html"
+  ],
+  "counts": {
+    "timeline_nodes": 5,
+    "core_paths": 4,
+    "market_series": 5,
+    "sources": 7
+  },
+  "hashes": "DEFERRED_BY_USER"
+}

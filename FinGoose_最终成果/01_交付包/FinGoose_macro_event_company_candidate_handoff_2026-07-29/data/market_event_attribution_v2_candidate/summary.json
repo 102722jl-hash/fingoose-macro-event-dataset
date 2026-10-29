@@ -1,0 +1,18 @@
+{
+  "benchmark_case_count": 10,
+  "candidate_ready": true,
+  "challenge_case_count": 4,
+  "challenge_event_count": 5,
+  "dataset_version": "fingoose-macro-event-attribution-v2.0",
+  "episode_count": 21,
+  "event_count": 10,
+  "example_event_count": 3,
+  "formal_ready": false,
+  "hidden_evaluation_event_count": 3,
+  "hidden_label_count": 10,
+  "market_window_count": 40,
+  "milestone_count": 21,
+  "release_decision": "CANDIDATE_REVIEW_REQUIRED",
+  "release_tier": "CANDIDATE",
+  "transmission_graph_count": 10
+}

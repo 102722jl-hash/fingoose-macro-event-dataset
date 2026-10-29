@@ -1,0 +1,155 @@
+{
+  "event_id": "event-03",
+  "title": "美联储开启 2022 年加息周期",
+  "release_tier": "RAPID_CANDIDATE",
+  "formal_ready": false,
+  "primary_anchor_fast_node_id": "fast-event-03-M03",
+  "nodes": [
+    {
+      "anchor_role": "NONE",
+      "event_id": "event-03",
+      "evidence_status": "VERIFIED_EXISTING",
+      "fact": "FOMC kept the target range at 0%-0.25%, signaled that raising it would soon be appropriate, and set asset purchases to end in early March.",
+      "fast_node_id": "fast-event-03-M01",
+      "first_public_at": "2022-01-26T19:00:00Z",
+      "gap_reason": null,
+      "impact_tags": [
+        "RATE_EXPECTATIONS",
+        "DISCOUNT_RATE"
+      ],
+      "node_action": "OBSERVES",
+      "occurred_at": "2022-01-26T19:00:00Z",
+      "original_milestone_id": null,
+      "phase": "PRECONDITION",
+      "promotion_eligible": true,
+      "sequence": 1,
+      "source_ids": [
+        "supplemental-fast-event-03-M01"
+      ],
+      "status": "PROPOSED",
+      "visibility": "PUBLIC_PREDICTION",
+      "linked_path_ids": [],
+      "impact_summary": "Verified milestone; linked paths are rule-projected candidates."
+    },
+    {
+      "anchor_role": "NONE",
+      "event_id": "event-03",
+      "evidence_status": "VERIFIED_EXISTING",
+      "fact": "BLS reported January CPI was 7.5% higher than a year earlier.",
+      "fast_node_id": "fast-event-03-M02",
+      "first_public_at": "2022-02-10T13:30:00Z",
+      "gap_reason": null,
+      "impact_tags": [
+        "INFLATION_EXPECTATIONS",
+        "RATE_EXPECTATIONS"
+      ],
+      "node_action": "AMPLIFIES",
+      "occurred_at": "2022-02-10T13:30:00Z",
+      "original_milestone_id": null,
+      "phase": "PRECONDITION",
+      "promotion_eligible": true,
+      "sequence": 2,
+      "source_ids": [
+        "supplemental-fast-event-03-M02"
+      ],
+      "status": "PROPOSED",
+      "visibility": "PUBLIC_PREDICTION",
+      "linked_path_ids": [],
+      "impact_summary": "Verified milestone; linked paths are rule-projected candidates."
+    },
+    {
+      "anchor_role": "PRIMARY",
+      "event_id": "event-03",
+      "evidence_status": "VERIFIED_EXISTING",
+      "fact": "FOMC raised the target range for the federal funds rate to 1/4 to 1/2 percent (first 25bp hike, 16 Mar 2022).",
+      "fast_node_id": "fast-event-03-M03",
+      "first_public_at": "2022-03-16T18:00:00Z",
+      "gap_reason": null,
+      "impact_tags": [
+        "RATE_EXPECTATIONS",
+        "DISCOUNT_RATE",
+        "DOLLAR_LIQUIDITY"
+      ],
+      "node_action": "STARTS",
+      "occurred_at": "2022-03-16T18:00:00Z",
+      "original_milestone_id": "milestone-event-03-3c2b0dbb65d4",
+      "phase": "INITIAL_SHOCK",
+      "promotion_eligible": true,
+      "sequence": 3,
+      "source_ids": [
+        "event03-fomc",
+        "supplemental-fast-event-03-M03"
+      ],
+      "status": "PROPOSED",
+      "visibility": "PUBLIC_PREDICTION",
+      "linked_path_ids": [
+        "event-03-P-rate-expectations",
+        "event-03-P-equity-duration",
+        "event-03-P-dollar-liquidity",
+        "event-03-P-growth-expectations"
+      ],
+      "impact_summary": "Verified milestone; linked paths are rule-projected candidates."
+    },
+    {
+      "anchor_role": "SECONDARY",
+      "event_id": "event-03",
+      "evidence_status": "VERIFIED_EXISTING",
+      "fact": "FOMC raised the target range to 1-1/2 to 1-3/4 percent (75bp hike, 15 Jun 2022).",
+      "fast_node_id": "fast-event-03-M04",
+      "first_public_at": "2022-06-15T18:00:00Z",
+      "gap_reason": null,
+      "impact_tags": [
+        "RATE_EXPECTATIONS",
+        "DOLLAR_LIQUIDITY"
+      ],
+      "node_action": "AMPLIFIES",
+      "occurred_at": "2022-06-15T18:00:00Z",
+      "original_milestone_id": null,
+      "phase": "ESCALATION",
+      "promotion_eligible": false,
+      "sequence": 4,
+      "source_ids": [
+        "supplemental-fast-event-03-M04"
+      ],
+      "status": "PROPOSED",
+      "visibility": "PUBLIC_PREDICTION",
+      "linked_path_ids": [],
+      "impact_summary": "Verified milestone; linked paths are rule-projected candidates."
+    },
+    {
+      "anchor_role": "SECONDARY",
+      "event_id": "event-03",
+      "evidence_status": "VERIFIED_EXISTING",
+      "fact": "FOMC raised the target range to 5-1/4 to 5-1/2 percent (terminal 5.5%, 26 Jul 2023).",
+      "fast_node_id": "fast-event-03-M05",
+      "first_public_at": "2023-07-26T18:00:00Z",
+      "gap_reason": null,
+      "impact_tags": [
+        "RATE_EXPECTATIONS",
+        "DISCOUNT_RATE",
+        "DOLLAR_LIQUIDITY"
+      ],
+      "node_action": "OBSERVES",
+      "occurred_at": "2023-07-26T18:00:00Z",
+      "original_milestone_id": "milestone-event-03-62fc34af53b1",
+      "phase": "ESCALATION",
+      "promotion_eligible": true,
+      "sequence": 5,
+      "source_ids": [
+        "event03-mpr",
+        "supplemental-fast-event-03-M05"
+      ],
+      "status": "PROPOSED",
+      "visibility": "PUBLIC_PREDICTION",
+      "linked_path_ids": [],
+      "impact_summary": "Verified milestone; linked paths are rule-projected candidates."
+    }
+  ],
+  "daily_resolution": {
+    "status": "UNIQUE_DAILY_ANCHOR",
+    "groups": []
+  },
+  "ordering_basis": "CURATED_SEQUENCE",
+  "chronology_warnings": [],
+  "chronology_status": "CURATED_SEQUENCE_CHRONOLOGICAL"
+}

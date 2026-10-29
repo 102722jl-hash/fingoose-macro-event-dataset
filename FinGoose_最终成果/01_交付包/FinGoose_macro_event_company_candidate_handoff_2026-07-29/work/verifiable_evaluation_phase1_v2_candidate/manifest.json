@@ -1,0 +1,40 @@
+{
+  "counts": {
+    "anchors": 24,
+    "benchmark_cases": 10,
+    "bindings": 111,
+    "candidate_company_mentions": 72,
+    "company_windows": 30,
+    "events": 10,
+    "graph_linked_company_mentions": 33,
+    "hidden_labels": 7,
+    "industry_impacts": 43,
+    "timeline_nodes": 50,
+    "verified_company_links": 0
+  },
+  "dataset_version": "fingoose-verifiable-evaluation-phase1-v2-candidate",
+  "formal_ready": false,
+  "hard_failures": [],
+  "known_gaps": [
+    "111 dynamic bindings require edge-level human review",
+    "43 industry directions require human review",
+    "30 broad-market benchmarks unavailable",
+    "30 event-date Shenwan index benchmarks unavailable",
+    "30 official company exposure dossiers remain open",
+    "Graph construction and direction tracks are blocked until scoring labels are human-reviewed.",
+    "Public evidence documents use node-level first_public_at; independent per-document publication timestamps remain incomplete.",
+    "MySQL audit is internally reproducible but has no signed execution log; execution authenticity remains unverified.",
+    "25 source snapshots lack SHA-256; SHA gate remains deferred."
+  ],
+  "schemas": {
+    "benchmark_cases": "phase1.benchmark_case.v2",
+    "company_price_windows": "phase1.company_window.v2",
+    "dynamic_edge_bindings": "phase1.dynamic_binding.v2",
+    "evaluator_only_labels": "phase1.benchmark_label.v2",
+    "event_industry_impacts": "phase1.industry_impact.v2",
+    "timeline_nodes": "phase1.timeline_node.v2"
+  },
+  "sha_gate": "DEFERRED",
+  "source_scope": "official event evidence plus isolated post-event mechanism review",
+  "vendor_license_boundary": "Public-vendor and MySQL rows are candidate-only and not redistributable until licence review."
+}

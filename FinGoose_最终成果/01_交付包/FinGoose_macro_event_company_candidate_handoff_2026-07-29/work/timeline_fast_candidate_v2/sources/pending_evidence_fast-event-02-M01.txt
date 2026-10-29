@@ -1,0 +1,14 @@
+EVIDENCE SPEC (snapshot not retrievable automatically - manual drop-in required)
+NODE: fast-event-02-M01
+OFFICIAL_URL: https://en.kremlin.ru/events/president/news/67843
+PUBLISHER: President of Russia (Kremlin)
+
+VERBATIM QUOTE (target):
+  "special military operation"
+
+OCCURRED_AT: 2022-02-24T03:00:00Z (Europe/Moscow (UTC+3, MSK))
+  locator: Kremlin address 24 Feb 2022: 'I have decided to conduct a special military operation'.
+FIRST_PUBLIC_AT: 2022-02-24T03:00:00Z (Europe/Moscow (UTC+3, MSK))
+  locator: Kremlin news item 67843 published 24 Feb 2022.
+
+FACT: The Kremlin address (24 Feb 2022) announced the decision to conduct a special military operation - the conflict-onset signal.

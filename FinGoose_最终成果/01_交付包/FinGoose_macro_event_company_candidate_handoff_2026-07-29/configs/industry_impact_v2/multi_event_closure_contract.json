@@ -1,0 +1,54 @@
+{
+  "dataset_version": "fingoose-event-02-10-industry-closure-v2-candidate",
+  "source_profile": "configs/industry_impact_v2/event_industry_profiles.json",
+  "anchor_profile": "work/industry_impact_high_quality_v2_candidate/event_industry_mappings.jsonl",
+  "included_event_ids": [
+    "event-02",
+    "event-03",
+    "event-04",
+    "event-05",
+    "event-06",
+    "event-07",
+    "event-08",
+    "event-09",
+    "event-10"
+  ],
+  "excluded_event_ids": ["event-01"],
+  "expected_mapping_count": 69,
+  "expected_union_mapping_count": 77,
+  "step_contract": [
+    {"step_type": "EVENT_FACT", "statement_class": "SOURCE_FACT"},
+    {"step_type": "BEHAVIOR_OR_POLICY_CHANGE", "statement_class": "SOURCE_FACT"},
+    {"step_type": "OBSERVABLE_DRIVER", "statement_class": "SOURCE_FACT"},
+    {"step_type": "INDUSTRY_OPERATING_VARIABLE", "statement_class": "SOURCE_FACT"},
+    {"step_type": "INDUSTRY_REVENUE_OR_COST_VARIABLE", "statement_class": "RESEARCH_INFERENCE"},
+    {"step_type": "DIRECTION_ASSESSMENT", "statement_class": "RESEARCH_INFERENCE"},
+    {"step_type": "PRICE_CONFOUNDER_AND_COUNTEREVIDENCE", "statement_class": "CALCULATED_FACT"}
+  ],
+  "overlay_order": [
+    {
+      "path": "work/event_01_industry_closure_v2_candidate",
+      "event_scope": ["event-01"]
+    },
+    {
+      "path": "work/ten_event_industry_closure_v2_candidate",
+      "event_scope": [
+        "event-02",
+        "event-03",
+        "event-04",
+        "event-05",
+        "event-06",
+        "event-07",
+        "event-08",
+        "event-09",
+        "event-10"
+      ]
+    }
+  ],
+  "missing_evidence_policy": "KEEP_PENDING_NEVER_INFER_AVAILABLE",
+  "missing_market_policy": "KEEP_NULL_NEVER_ZERO_IMPUTE",
+  "status": "PROPOSED",
+  "review_status": "NEEDS_HUMAN_REVIEW",
+  "formal_ready": false,
+  "sha_gate": "DEFERRED"
+}

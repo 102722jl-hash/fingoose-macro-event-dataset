@@ -1,0 +1,575 @@
+{
+    "fast-event-01-M04":  {
+                              "source":  {
+                                             "source_id":  "event01-who-pandemic",
+                                             "publisher":  "World Health Organization",
+                                             "source_tier":  "B",
+                                             "url":  "https://www.who.int/news-room/speeches/item/who-director-general-s-opening-remarks-at-the-media-briefing-on-covid-19---11-march-2020",
+                                             "snapshot_path":  "evidence_snapshots/macro_event_attribution_v1/sources/event01_who_pandemic.html",
+                                             "quote":  "We have therefore made the assessment that COVID-19 can be characterized as a pandemic.",
+                                             "locator":  "speech body, paragraph beginning \u0027We have therefore made the assessment\u0027"
+                                         },
+                              "occurred":  {
+                                               "value":  "2020-03-11T16:30:00Z",
+                                               "precision":  "MINUTE",
+                                               "locator":  "WHO page publication metadata"
+                                           },
+                              "first_public":  {
+                                                   "value":  "2020-03-11T16:30:00Z",
+                                                   "precision":  "MINUTE",
+                                                   "locator":  "WHO page publication metadata"
+                                               }
+                          },
+    "fast-event-02-M01":  {
+                              "new_fast_node_id":  "fast-event-02-M01R1",
+                              "supersedes_node_id":  "fast-event-02-M01",
+                              "fact":  "Kremlin address announced the decision to carry out a \u0027special military operation\u0027 on 24 February 2022, providing the conflict-onset shock for the event.",
+                              "phase":  "INITIAL_SHOCK",
+                              "node_action":  "STARTS",
+                              "source":  {
+                                             "source_id":  "official-kremlin-67843",
+                                             "publisher":  "President of Russia",
+                                             "source_tier":  "A",
+                                             "url":  "http://en.kremlin.ru/events/president/news/67843",
+                                             "snapshot_path":  "work/verifiable_evaluation_phase1_v2_candidate/sources/official-kremlin-67843.md",
+                                             "quote":  "I made a decision to carry out a special military operation.",
+                                             "locator":  "address body, paragraph beginning \u0027In this context, in accordance with Article 51\u0027"
+                                         },
+                              "occurred":  {
+                                               "value":  "2022-02-24T06:00:00+03:00",
+                                               "precision":  "MINUTE",
+                                               "locator":  "official page heading: February 24, 2022 06:00"
+                                           },
+                              "first_public":  {
+                                                   "value":  "2022-02-24T06:00:00+03:00",
+                                                   "precision":  "MINUTE",
+                                                   "locator":  "official page publication status: February 24, 2022, 06:00"
+                                               },
+                              "replacement_reason":  "The previous EIA inventory precondition fact and the attached Kremlin conflict-onset source were semantically different records.",
+                              "original_source_ids":  [
+                                                          "supplemental-fast-event-02-M01"
+                                                      ],
+                              "affected_records":  [
+                                                       "timeline episode event-02 initial shock",
+                                                       "anchor projection",
+                                                       "dynamic bindings",
+                                                       "market windows",
+                                                       "industry impacts"
+                                                   ]
+                          },
+    "fast-event-02-M03":  {
+                              "source":  {
+                                             "source_id":  "event02-nato-statement",
+                                             "publisher":  "NATO",
+                                             "source_tier":  "B",
+                                             "url":  "https://www.nato.int/en/about-us/official-texts-and-resources/official-texts/2022/02/24/statement-by-the-north-atlantic-council-on-russias-attack-on-ukraine",
+                                             "snapshot_path":  "evidence_snapshots/macro_event_attribution_v1/sources/event02_nato_ukraine.html",
+                                             "quote":  "We condemn in the strongest possible terms Russia\u0027s horrifying attack on Ukraine, which is entirely unjustified and unprovoked.",
+                                             "locator":  "statement body, first paragraph"
+                                         },
+                              "occurred":  {
+                                               "value":  "2022-02-24",
+                                               "precision":  "DATE",
+                                               "locator":  "official statement date"
+                                           },
+                              "first_public":  {
+                                                   "value":  "2022-02-24",
+                                                   "precision":  "DATE",
+                                                   "locator":  "official statement date"
+                                               }
+                          },
+    "fast-event-02-M04":  {
+                              "source":  {
+                                             "source_id":  "event02-nato-statement",
+                                             "publisher":  "NATO",
+                                             "source_tier":  "B",
+                                             "url":  "https://www.nato.int/en/about-us/official-texts-and-resources/official-texts/2022/02/24/statement-by-the-north-atlantic-council-on-russias-attack-on-ukraine",
+                                             "snapshot_path":  "evidence_snapshots/macro_event_attribution_v1/sources/event02_nato_ukraine.html",
+                                             "quote":  "Today, we have held consultations under Article 4 of the Washington Treaty. We have decided, in line with our defensive planning to protect all Allies, to take additional steps to further strengthen deterrence and defence across the Alliance.",
+                                             "locator":  "statement body, penultimate paragraph"
+                                         },
+                              "occurred":  {
+                                               "value":  "2022-02-24",
+                                               "precision":  "DATE",
+                                               "locator":  "official statement says \u0027Today\u0027 under the 24 February heading"
+                                           },
+                              "first_public":  {
+                                                   "value":  "2022-02-24",
+                                                   "precision":  "DATE",
+                                                   "locator":  "official statement date"
+                                               }
+                          },
+    "fast-event-04-M03":  {
+                              "fact":  "The State Council page records that the joint prevention and control mechanism published the ten optimized COVID-19 measures on 7 December 2022.",
+                              "source":  {
+                                             "source_id":  "event04-govcn",
+                                             "publisher":  "State Council of China",
+                                             "source_tier":  "A",
+                                             "url":  "https://www.gov.cn/xinwen/2022-12/08/content_5730637.htm",
+                                             "snapshot_path":  "evidence_snapshots/macro_event_attribution_v1/sources/event04_govcn.html",
+                                             "quote":  "国务院联防联控机制综合组7日公布《关于进一步优化落实新冠肺炎疫情防控措施的通知》，对风险区划定和管理、核酸检测、隔离方式等工作提出十个方面进一步的优化要求。",
+                                             "locator":  "article body, paragraph after the Xinhua dateline"
+                                         },
+                              "occurred":  {
+                                               "value":  "2022-12-07",
+                                               "precision":  "DATE",
+                                               "locator":  "quoted paragraph states the mechanism published the notice on the 7th"
+                                           },
+                              "first_public":  {
+                                                   "value":  "2022-12-07",
+                                                   "precision":  "DATE",
+                                                   "locator":  "quoted paragraph states the notice was published on the 7th"
+                                               }
+                          },
+    "fast-event-04-M04":  {
+                              "fact":  "Guangzhou\u0027s official briefing records implementation of the ten measures and immediate relaxation of testing, code-checking and quarantine rules.",
+                              "source":  {
+                                             "source_id":  "event04-gz-briefing",
+                                             "publisher":  "Guangzhou Municipal Government",
+                                             "source_tier":  "A",
+                                             "url":  "https://www.gz.gov.cn/xw/xwfbh/content/post_8700455.html",
+                                             "snapshot_path":  "evidence_snapshots/macro_event_attribution_v1/sources/event04_gz_interpretation.html",
+                                             "quote":  "12月7日，国务院联防联控机制公布了《关于进一步优化落实新冠肺炎疫情防控措施的通知》，广州市将坚决贯彻落实“新十条”要求，持续全面优化各项防控措施，更加科学精准防控疫情。",
+                                             "locator":  "article body, section \u0027广州坚决贯彻落实新十条要求\u0027"
+                                         },
+                              "occurred":  {
+                                               "value":  "2022-12-07",
+                                               "precision":  "DATE",
+                                               "locator":  "article heading and body identify the 7 December briefing"
+                                           },
+                              "first_public":  {
+                                                   "value":  "2022-12-08T10:05:00+08:00",
+                                                   "precision":  "MINUTE",
+                                                   "locator":  "official page publication metadata in production source manifest"
+                                               }
+                          },
+    "fast-event-05-M01":  {
+                              "source":  {
+                                             "source_id":  "sec-svb-8k-20230308",
+                                             "publisher":  "U.S. Securities and Exchange Commission / SVB Financial Group",
+                                             "source_tier":  "A",
+                                             "url":  "https://www.sec.gov/Archives/edgar/data/719739/000119312523064680/d430920d8k.htm",
+                                             "snapshot_path":  "work/verifiable_evaluation_phase1_v2_candidate/sources/sec-svb-8k-20230308.md",
+                                             "quote":  "The AFS portfolio sale, which was completed today, will result in an after-tax loss of approximately $1.8 billion in the first quarter.",
+                                             "locator":  "Form 8-K, Item 7.01, second paragraph"
+                                         },
+                              "time_source":  {
+                                                  "source_id":  "sec-svb-8k-20230308-index",
+                                                  "publisher":  "U.S. Securities and Exchange Commission",
+                                                  "source_tier":  "A",
+                                                  "url":  "https://www.sec.gov/Archives/edgar/data/719739/000119312523064680/0001193125-23-064680-index.html",
+                                                  "snapshot_path":  "work/verifiable_evaluation_phase1_v2_candidate/sources/sec-svb-8k-20230308-index.md",
+                                                  "quote":  "Accepted 2023-03-08 17:16:05",
+                                                  "locator":  "EDGAR Filing Detail, Accepted field"
+                                              },
+                              "occurred":  {
+                                               "value":  "2023-03-08",
+                                               "precision":  "DATE",
+                                               "locator":  "Form 8-K says the sale was completed today; Date of Report is March 8, 2023"
+                                           },
+                              "first_public":  {
+                                                   "value":  "2023-03-08T17:16:05-05:00",
+                                                   "precision":  "SECOND",
+                                                   "locator":  "EDGAR filing detail, Accepted 2023-03-08 17:16:05 (SEC Eastern Time)"
+                                               }
+                          },
+    "fast-event-05-M02":  {
+                              "source":  {
+                                             "source_id":  "event05-fdic",
+                                             "publisher":  "Federal Deposit Insurance Corporation",
+                                             "source_tier":  "A",
+                                             "url":  "https://www.fdic.gov/resources/resolutions/bank-failures/failed-bank-list/silicon-valley.html",
+                                             "snapshot_path":  "evidence_snapshots/macro_event_attribution_v1/sources/event05_fdic_svb.html",
+                                             "quote":  "On Friday, March 10, 2023, Silicon Valley Bank, Santa Clara, CA was closed by the California Department of Financial Protection \u0026 Innovation and the Federal Deposit Insurance Corporation (FDIC) was named Receiver.",
+                                             "locator":  "failure information page, opening paragraph"
+                                         },
+                              "occurred":  {
+                                               "value":  "2023-03-10",
+                                               "precision":  "DATE",
+                                               "locator":  "opening paragraph gives closure date"
+                                           },
+                              "first_public":  {
+                                                   "value":  "2023-03-10",
+                                                   "precision":  "DATE",
+                                                   "locator":  "official failure information date"
+                                               }
+                          },
+    "fast-event-05-M03":  {
+                              "fact":  "U.S. authorities announced a systemic-risk exception protecting all SVB depositors and access to funds from 13 March 2023.",
+                              "source":  {
+                                             "source_id":  "event05-fed-joint",
+                                             "publisher":  "Federal Reserve Board",
+                                             "source_tier":  "A",
+                                             "url":  "https://www.federalreserve.gov/newsevents/pressreleases/monetary20230312b.htm",
+                                             "snapshot_path":  "evidence_snapshots/macro_event_attribution_v1/sources/event05_fed_joint.html",
+                                             "quote":  "Secretary Yellen approved actions enabling the FDIC to complete its resolution of Silicon Valley Bank, Santa Clara, California, in a manner that fully protects all depositors. Depositors will have access to all of their money starting Monday, March 13.",
+                                             "locator":  "joint statement, second paragraph"
+                                         },
+                              "occurred":  {
+                                               "value":  "2023-03-12T22:15:00Z",
+                                               "precision":  "MINUTE",
+                                               "locator":  "Federal Reserve release metadata"
+                                           },
+                              "first_public":  {
+                                                   "value":  "2023-03-12T22:15:00Z",
+                                                   "precision":  "MINUTE",
+                                                   "locator":  "Federal Reserve release metadata"
+                                               }
+                          },
+    "fast-event-05-M04":  {
+                              "source":  {
+                                             "source_id":  "finma-cs-ubs-20230319",
+                                             "publisher":  "Swiss Financial Market Supervisory Authority FINMA",
+                                             "source_tier":  "A",
+                                             "url":  "https://www.finma.ch/en/news/2023/03/20230319-mm-cs-ubs",
+                                             "snapshot_path":  "work/timeline_fast_candidate_v2/sources/webfetch_fast-fast-event-05-M04.txt",
+                                             "quote":  "In close coordination with FINMA, the Swiss Confederation and the SNB, UBS will take over Credit Suisse in full. The extraordinary government support will trigger a complete write-down of the nominal value of all AT1 debt of Credit Suisse in the amount of around CHF 16 billion, and thus an increase in core capital.",
+                                             "locator":  "section \u0027Transaction has official support\u0027, first paragraph"
+                                         },
+                              "occurred":  {
+                                               "value":  "2023-03-19",
+                                               "precision":  "DATE",
+                                               "locator":  "official release date"
+                                           },
+                              "first_public":  {
+                                                   "value":  "2023-03-19",
+                                                   "precision":  "DATE",
+                                                   "locator":  "official release date; embedded time lacks an explicit timezone and is not used"
+                                               }
+                          },
+    "fast-event-06-M01":  {
+                              "source":  {
+                                             "source_id":  "iea-omr-20230315",
+                                             "publisher":  "International Energy Agency",
+                                             "source_tier":  "A",
+                                             "url":  "https://www.iea.org/reports/oil-market-report-march-2023",
+                                             "snapshot_path":  "work/timeline_fast_candidate_v2/sources/webfetch_fast-event-06-M01.txt",
+                                             "quote":  "Prices fell a further $3/bbl in March as macroeconomic worries escalated following the collapse of Silicon Valley Bank.",
+                                             "locator":  "March 2023 Oil Market Report highlights"
+                                         },
+                              "occurred":  {
+                                               "value":  "2023-03-15",
+                                               "precision":  "DATE",
+                                               "locator":  "official report publication date"
+                                           },
+                              "first_public":  {
+                                                   "value":  "2023-03-15",
+                                                   "precision":  "DATE",
+                                                   "locator":  "official report publication date"
+                                               }
+                          },
+    "fast-event-06-M02":  {
+                              "source":  {
+                                             "source_id":  "event06-eia-steo",
+                                             "publisher":  "U.S. Energy Information Administration",
+                                             "source_tier":  "A",
+                                             "url":  "https://www.eia.gov/outlooks/steo/archives/mar23.pdf",
+                                             "snapshot_path":  "evidence_snapshots/macro_event_attribution_v1/sources/event06_eia_mar23.pdf",
+                                             "quote":  "We expect that the Brent crude oil spot price will fall from an average of $84/b in the second quarter of 2023 (2Q23) to $81/b in 4Q23 and then average $78/b in 2024.",
+                                             "locator":  "March 2023 STEO, Crude oil prices section"
+                                         },
+                              "occurred":  {
+                                               "value":  "2023-03-07",
+                                               "precision":  "DATE",
+                                               "locator":  "March 2023 STEO release date"
+                                           },
+                              "first_public":  {
+                                                   "value":  "2023-03-07",
+                                                   "precision":  "DATE",
+                                                   "locator":  "March 2023 STEO release date"
+                                               }
+                          },
+    "fast-event-06-M03":  {
+                              "fact":  "OPEC documented additional voluntary production adjustments totaling 1.66 million barrels per day as a precautionary market-stability measure.",
+                              "source":  {
+                                             "source_id":  "event06-opec",
+                                             "publisher":  "OPEC",
+                                             "source_tier":  "B",
+                                             "url":  "https://www.opec.org/pr-detail/63-03-apr-2023.html",
+                                             "snapshot_path":  "evidence_snapshots/macro_event_attribution_v1/sources/event06_opec.html",
+                                             "quote":  "Accordingly, this will bring the total additional voluntary production adjustments by the above-mentioned countries to 1.66 million b/d. The Meeting noted that this is a precautionary measure aimed at supporting the stability of the oil market.",
+                                             "locator":  "JMMC release, final three paragraphs"
+                                         },
+                              "occurred":  {
+                                               "value":  "2023-04-03",
+                                               "precision":  "DATE",
+                                               "locator":  "OPEC release date"
+                                           },
+                              "first_public":  {
+                                                   "value":  "2023-04-03",
+                                                   "precision":  "DATE",
+                                                   "locator":  "OPEC release date"
+                                               }
+                          },
+    "fast-event-07-M01":  {
+                              "fact":  "The UN Special Coordinator condemned the multi-front Hamas assault against Israeli towns and the rocket barrage on 7 October 2023.",
+                              "source":  {
+                                             "source_id":  "event07-un",
+                                             "publisher":  "United Nations",
+                                             "source_tier":  "B",
+                                             "url":  "https://www.un.org/unispal/wp-content/uploads/2023/10/Statement-by-UN-Special-Coordinator-Wennesland-7-October-2023.pdf",
+                                             "snapshot_path":  "evidence_snapshots/macro_event_attribution_v1/sources/event07_un_statement.pdf",
+                                             "quote":  "I vehemently condemn this morning\u0027s multi-front assault against Israeli towns and cities near the Gaza Strip, and barrage of rockets reaching across central Israel by Hamas militants.",
+                                             "locator":  "statement, opening paragraph"
+                                         },
+                              "occurred":  {
+                                               "value":  "2023-10-07",
+                                               "precision":  "DATE",
+                                               "locator":  "statement date and phrase \u0027this morning\u0027"
+                                           },
+                              "first_public":  {
+                                                   "value":  "2023-10-07",
+                                                   "precision":  "DATE",
+                                                   "locator":  "official statement date"
+                                               }
+                          },
+    "fast-event-07-M02":  {
+                              "fact":  "EIA stated that the attacks on Israel raised the potential for oil supply disruptions and higher prices, while noting no physical-market impact at the report cutoff.",
+                              "source":  {
+                                             "source_id":  "event07-eia-steo",
+                                             "publisher":  "U.S. Energy Information Administration",
+                                             "source_tier":  "A",
+                                             "url":  "https://www.eia.gov/outlooks/steo/archives/oct23.pdf",
+                                             "snapshot_path":  "evidence_snapshots/macro_event_attribution_v1/sources/event07_eia_oct23.pdf",
+                                             "quote":  "Although the recent attacks on Israel have not affected physical oil markets, they raise the potential for oil supply disruptions and higher oil prices.",
+                                             "locator":  "October 2023 STEO, Global oil prices and inventory levels"
+                                         },
+                              "occurred":  {
+                                               "value":  "2023-10-11",
+                                               "precision":  "DATE",
+                                               "locator":  "October 2023 STEO release date"
+                                           },
+                              "first_public":  {
+                                                   "value":  "2023-10-11",
+                                                   "precision":  "DATE",
+                                                   "locator":  "October 2023 STEO release date"
+                                               }
+                          },
+    "fast-event-07-M05":  {
+                              "source":  {
+                                             "source_id":  "govinfo-dcpd-202400015",
+                                             "publisher":  "Office of the Federal Register / The White House",
+                                             "source_tier":  "A",
+                                             "url":  "https://www.govinfo.gov/content/pkg/DCPD-202400015/html/DCPD-202400015.htm",
+                                             "snapshot_path":  "work/verifiable_evaluation_phase1_v2_candidate/sources/govinfo-dcpd-202400015.md",
+                                             "quote":  "Today, at my direction, U.S. military forces—together with the United Kingdom and with support from Australia, Bahrain, Canada, and the Netherlands—successfully conducted strikes against a number of targets in Yemen used by Houthi rebels to endanger freedom of navigation in one of the world\u0027s most vital waterways.",
+                                             "locator":  "statement, opening paragraph"
+                                         },
+                              "occurred":  {
+                                               "value":  "2024-01-11",
+                                               "precision":  "DATE",
+                                               "locator":  "official statement date and phrase \u0027Today\u0027"
+                                           },
+                              "first_public":  {
+                                                   "value":  "2024-01-11",
+                                                   "precision":  "DATE",
+                                                   "locator":  "official statement date"
+                                               }
+                          },
+    "fast-event-08-M02":  {
+                              "source":  {
+                                             "source_id":  "event08-boj-outlook",
+                                             "publisher":  "Bank of Japan",
+                                             "source_tier":  "A",
+                                             "url":  "https://www.boj.or.jp/en/mopo/outlook/gor2401b.pdf",
+                                             "snapshot_path":  "evidence_snapshots/macro_event_attribution_v1/sources/event08_boj_outlook.pdf",
+                                             "quote":  "Underlying CPI inflation is likely to increase gradually toward achieving the price stability target, as the output gap turns positive and as medium- to long-term inflation expectations and wage growth rise.",
+                                             "locator":  "January 2024 Outlook Report, Bank\u0027s View"
+                                         },
+                              "occurred":  {
+                                               "value":  "2024-01-23",
+                                               "precision":  "DATE",
+                                               "locator":  "Outlook Report release date"
+                                           },
+                              "first_public":  {
+                                                   "value":  "2024-01-23",
+                                                   "precision":  "DATE",
+                                                   "locator":  "Outlook Report release date"
+                                               }
+                          },
+    "fast-event-08-M04":  {
+                              "fact":  "The Bank of Japan ended the negative-interest-rate/YCC framework and guided the uncollateralized overnight call rate to around 0 to 0.1 percent.",
+                              "source":  {
+                                             "source_id":  "event08-boj",
+                                             "publisher":  "Bank of Japan",
+                                             "source_tier":  "A",
+                                             "url":  "https://www.boj.or.jp/en/mopo/mpmdeci/state_2024/k240319a.htm",
+                                             "snapshot_path":  "evidence_snapshots/macro_event_attribution_v1/sources/event08_boj.html",
+                                             "quote":  "The Bank considers that the policy framework of Quantitative and Qualitative Monetary Easing (QQE) with Yield Curve Control and the negative interest rate policy to date have fulfilled their roles.",
+                                             "locator":  "Changes in the Monetary Policy Framework, opening decision paragraph"
+                                         },
+                              "occurred":  {
+                                               "value":  "2024-03-19",
+                                               "precision":  "DATE",
+                                               "locator":  "official decision date"
+                                           },
+                              "first_public":  {
+                                                   "value":  "2024-03-19",
+                                                   "precision":  "DATE",
+                                                   "locator":  "official decision date"
+                                               },
+                              "supporting_sources":  [
+                                                         {
+                                                             "source_id":  "event08-boj-rate",
+                                                             "publisher":  "Bank of Japan",
+                                                             "source_tier":  "A",
+                                                             "url":  "https://www.boj.or.jp/en/mopo/mpmdeci/state_2024/k240319a.htm",
+                                                             "snapshot_path":  "evidence_snapshots/macro_event_attribution_v1/sources/event08_boj.html",
+                                                             "quote":  "The Bank will encourage the uncollateralized overnight call rate to remain at around 0 to 0.1 percent.",
+                                                             "locator":  "Changes in the Monetary Policy Framework, short-term rate paragraph"
+                                                         }
+                                                     ]
+                          },
+    "fast-event-09-M02":  {
+                              "source":  {
+                                             "source_id":  "fed-fomc-20240918",
+                                             "publisher":  "Federal Reserve Board",
+                                             "source_tier":  "A",
+                                             "url":  "https://www.federalreserve.gov/newsevents/pressreleases/monetary20240918a.htm",
+                                             "snapshot_path":  "work/verifiable_evaluation_phase1_v2_candidate/sources/fed-fomc-20240918.md",
+                                             "quote":  "The Committee decided to lower the target range for the federal funds rate by 1/2 percentage point to 4-3/4 to 5 percent.",
+                                             "locator":  "FOMC statement, third paragraph"
+                                         },
+                              "occurred":  {
+                                               "value":  "2024-09-18T18:00:00Z",
+                                               "precision":  "MINUTE",
+                                               "locator":  "Federal Reserve release timestamp"
+                                           },
+                              "first_public":  {
+                                                   "value":  "2024-09-18T18:00:00Z",
+                                                   "precision":  "MINUTE",
+                                                   "locator":  "Federal Reserve release timestamp"
+                                               }
+                          },
+    "fast-event-09-M03":  {
+                              "fact":  "At the 24 September 2024 State Council Information Office briefing, the PBOC announced reserve-ratio and policy-rate cuts, lower existing mortgage rates, and new stock-market support tools.",
+                              "source":  {
+                                             "source_id":  "event09-pbc",
+                                             "publisher":  "People\u0027s Bank of China",
+                                             "source_tier":  "A",
+                                             "url":  "https://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2025092212554295936/index.html",
+                                             "snapshot_path":  "evidence_snapshots/macro_event_attribution_v1/sources/event09_pbc.html",
+                                             "quote":  "第一，降低存款准备金率和政策利率，并带动市场基准利率下行。第二，降低存量房贷利率，并统一房贷的最低首付比例。第三，创设新的货币政策工具，支持股票市场稳定发展。",
+                                             "locator":  "briefing transcript, PBOC Governor Pan Gongsheng\u0027s opening policy list"
+                                         },
+                              "occurred":  {
+                                               "value":  "2024-09-24T09:00:00+08:00",
+                                               "precision":  "MINUTE",
+                                               "locator":  "transcript opening: briefing held at 09:00 on 24 September 2024"
+                                           },
+                              "first_public":  {
+                                                   "value":  "2024-09-24T09:00:00+08:00",
+                                                   "precision":  "MINUTE",
+                                                   "locator":  "live public briefing time in official transcript"
+                                               }
+                          },
+    "fast-event-10-M01":  {
+                              "source":  {
+                                             "source_id":  "whitehouse-america-first-trade-policy",
+                                             "publisher":  "The White House",
+                                             "source_tier":  "A",
+                                             "url":  "https://www.whitehouse.gov/presidential-actions/2025/01/america-first-trade-policy/",
+                                             "snapshot_path":  "work/timeline_fast_candidate_v2/sources/webfetch_fast-fast-event-10-M01.txt",
+                                             "quote":  "The Secretary of Commerce, in consultation with the Secretary of the Treasury and the United States Trade Representative, shall investigate the causes of our country\u0027s large and persistent annual trade deficits in goods, as well as the economic and national security implications and risks resulting from such deficits, and recommend appropriate measures, such as a global supplemental tariff or other policies, to remedy such deficits.",
+                                             "locator":  "Section 2(a), Addressing Unfair and Unbalanced Trade"
+                                         },
+                              "occurred":  {
+                                               "value":  "2025-01-20",
+                                               "precision":  "DATE",
+                                               "locator":  "presidential memorandum document date"
+                                           },
+                              "first_public":  {
+                                                   "value":  "2025-01-21T01:31:29Z",
+                                                   "precision":  "SECOND",
+                                                   "locator":  "White House article:published_time metadata"
+                                               }
+                          },
+    "fast-event-10-M02":  {
+                              "source":  {
+                                             "source_id":  "event10-whitehouse-order",
+                                             "publisher":  "The White House",
+                                             "source_tier":  "A",
+                                             "url":  "https://www.whitehouse.gov/presidential-actions/2025/04/regulating-imports-with-a-reciprocal-tariff-to-rectify-trade-practices-that-contribute-to-large-and-persistent-annual-united-states-goods-trade-deficits/",
+                                             "snapshot_path":  "evidence_snapshots/macro_event_attribution_v1/sources/event10_whitehouse_eo.html",
+                                             "quote":  "It is the policy of the United States to rebalance global trade flows by imposing an additional ad valorem duty on all imports from all trading partners except as otherwise provided herein.",
+                                             "locator":  "Executive Order 14257, Section 2, Reciprocal Tariff Policy"
+                                         },
+                              "occurred":  {
+                                               "value":  "2025-04-02",
+                                               "precision":  "DATE",
+                                               "locator":  "executive order signature date"
+                                           },
+                              "first_public":  {
+                                                   "value":  "2025-04-02T21:37:45Z",
+                                                   "precision":  "SECOND",
+                                                   "locator":  "White House datePublished metadata"
+                                               }
+                          },
+    "fast-event-10-M03":  {
+                              "source":  {
+                                             "source_id":  "event10-whitehouse-fact",
+                                             "publisher":  "The White House",
+                                             "source_tier":  "A",
+                                             "url":  "https://www.whitehouse.gov/fact-sheets/2025/04/fact-sheet-president-donald-j-trump-declares-national-emergency-to-increase-our-competitive-edge-protect-our-sovereignty-and-strengthen-our-national-and-economic-security/",
+                                             "snapshot_path":  "evidence_snapshots/macro_event_attribution_v1/sources/event10_whitehouse_fact.html",
+                                             "quote":  "President Trump will impose an individualized reciprocal higher tariff on the countries with which the United States has the largest trade deficits. All other countries will continue to be subject to the original 10% tariff baseline.",
+                                             "locator":  "fact sheet, reciprocal tariff bullet list"
+                                         },
+                              "occurred":  {
+                                               "value":  "2025-04-02T21:19:04Z",
+                                               "precision":  "SECOND",
+                                               "locator":  "White House datePublished metadata"
+                                           },
+                              "first_public":  {
+                                                   "value":  "2025-04-02T21:19:04Z",
+                                                   "precision":  "SECOND",
+                                                   "locator":  "White House datePublished metadata"
+                                               }
+                          },
+    "fast-event-10-M04":  {
+                              "source":  {
+                                             "source_id":  "event10-whitehouse-order",
+                                             "publisher":  "The White House",
+                                             "source_tier":  "A",
+                                             "url":  "https://www.whitehouse.gov/presidential-actions/2025/04/regulating-imports-with-a-reciprocal-tariff-to-rectify-trade-practices-that-contribute-to-large-and-persistent-annual-united-states-goods-trade-deficits/",
+                                             "snapshot_path":  "evidence_snapshots/macro_event_attribution_v1/sources/event10_whitehouse_eo.html",
+                                             "quote":  "At 12:01 a.m. eastern daylight time on April 9, 2025, all articles from trading partners enumerated in Annex I to this order imported into the customs territory of the United States shall be, consistent with law, subject to the country-specific ad valorem rates of duty specified in Annex I to this order.",
+                                             "locator":  "Executive Order 14257, Section 3(a), second paragraph"
+                                         },
+                              "occurred":  {
+                                               "value":  "2025-04-09T00:01:00-04:00",
+                                               "precision":  "MINUTE",
+                                               "locator":  "Executive Order 14257, Section 3(a), explicit EDT effective time"
+                                           },
+                              "first_public":  {
+                                                   "value":  "2025-04-02T21:37:45Z",
+                                                   "precision":  "SECOND",
+                                                   "locator":  "White House datePublished metadata for Executive Order 14257"
+                                               }
+                          },
+    "fast-event-10-M05":  {
+                              "fact":  "Executive Order 14266 temporarily suspended most Annex I country-specific rates for 90 days and applied a 10 percent additional rate from 10 April 2025, while increasing the China rate following retaliation.",
+                              "original_source_ids":  [
+                                                          "supplemental-fast-event-10-M05"
+                                                      ],
+                              "source":  {
+                                             "source_id":  "federal-register-eo14266",
+                                             "publisher":  "Federal Register / Executive Office of the President",
+                                             "source_tier":  "A",
+                                             "url":  "https://www.federalregister.gov/executive-order/14266",
+                                             "snapshot_path":  "work/timeline_fast_candidate_v2/sources/webfetch_fast-fast-event-10-M05.txt",
+                                             "quote":  "Effective with respect to goods entered for consumption, or withdrawn from warehouse for consumption, on or after 12:01 a.m. eastern daylight time on April 10, 2025, enforcement of the second paragraph of section 3(a) of Executive Order 14257 is suspended until 12:01 a.m. eastern daylight time on July 9, 2025.",
+                                             "locator":  "Executive Order 14266, Section 2, Suspension of Country-Specific Ad Valorem Rates of Duty"
+                                         },
+                              "occurred":  {
+                                               "value":  "2025-04-10T00:01:00-04:00",
+                                               "precision":  "MINUTE",
+                                               "locator":  "Executive Order 14266, Section 2 explicit EDT effective time"
+                                           },
+                              "first_public":  {
+                                                   "value":  "2025-04-09",
+                                                   "precision":  "DATE",
+                                                   "locator":  "Executive Order 14266 document/signature date"
+                                               }
+                          }
+}

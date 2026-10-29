@@ -1,0 +1,83 @@
+[
+  {
+    "source_id": "event09-pbc",
+    "event_id": "event-09",
+    "publisher": "People's Bank of China",
+    "source_tier": "A",
+    "url": "https://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2025092212554295936/index.html",
+    "published_at": "2024-09-24T16:07:00+08:00",
+    "title": "Briefing on financial support for high-quality development",
+    "locator": "Briefing on financial support for high-quality development",
+    "quote": null,
+    "evidence_scope": "EVENT_FACT_AND_TIME",
+    "visibility": "PUBLIC_PREDICTION",
+    "snapshot_path": "sources/event09_pbc.html"
+  },
+  {
+    "source_id": "event09-pbc-q2",
+    "event_id": "event-09",
+    "publisher": "People's Bank of China",
+    "source_tier": "A",
+    "url": "https://www.pbc.gov.cn/zhengcehuobisi/125207/125227/125957/5347949/2025100917195573922/index.html",
+    "published_at": "2024-08-09T18:34:00+08:00",
+    "title": "China Monetary Policy Report, 2024 Q2",
+    "locator": "China Monetary Policy Report, 2024 Q2",
+    "quote": null,
+    "evidence_scope": "EVENT_FACT_AND_TIME",
+    "visibility": "PUBLIC_PREDICTION",
+    "snapshot_path": "sources/event09_pbc_q2_report.html"
+  },
+  {
+    "source_id": "mechanism-event-09-pbc-report",
+    "publisher": "People's Bank of China",
+    "source_tier": "A",
+    "url": "https://www.pbc.gov.cn/en/3688229/3688353/3688356/4583781/4584048/2022062209443031445.pdf",
+    "published_at": "2022-05-09",
+    "locator": "Liquidity, credit, interest-rate and RMB exchange-rate sections",
+    "quote": "Monetary instruments support liquidity, credit growth and transmission while the exchange rate remains market based.",
+    "evidence_scope": "MECHANISM_PRIOR",
+    "visibility": "PUBLIC_PREDICTION"
+  },
+  {
+    "source_id": "supplemental-fast-event-09-M01",
+    "event_id": "event-09",
+    "publisher": "Federal Reserve Board",
+    "source_tier": "A",
+    "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20240918a.htm",
+    "published_at": null,
+    "title": null,
+    "locator": null,
+    "quote": null,
+    "evidence_scope": "EVENT_FACT_AND_TIME",
+    "visibility": "PUBLIC_PREDICTION",
+    "snapshot_path": "sources/fast-event-09-M01.md"
+  },
+  {
+    "source_id": "supplemental-fast-event-09-M04",
+    "event_id": "event-09",
+    "publisher": "People's Bank of China (PBOC)",
+    "source_tier": "A",
+    "url": "https://www.pbc.gov.cn/rmyh/3963412/3963426/2025092319241282606/index.html",
+    "published_at": null,
+    "title": null,
+    "locator": null,
+    "quote": null,
+    "evidence_scope": "EVENT_FACT_AND_TIME",
+    "visibility": "PUBLIC_PREDICTION",
+    "snapshot_path": "sources/live_fast-event-09-M04.html"
+  },
+  {
+    "source_id": "supplemental-fast-event-09-M05",
+    "event_id": "event-09",
+    "publisher": "People's Bank of China (PBOC)",
+    "source_tier": "A",
+    "url": "https://www.pbc.gov.cn/zhengcehuobisi/125207/125213/125431/125469/5474434/index.html",
+    "published_at": null,
+    "title": null,
+    "locator": null,
+    "quote": null,
+    "evidence_scope": "EVENT_FACT_AND_TIME",
+    "visibility": "PUBLIC_PREDICTION",
+    "snapshot_path": "sources/live_fast-event-09-M05.html"
+  }
+]

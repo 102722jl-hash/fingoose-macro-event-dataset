@@ -1,0 +1,19 @@
+{
+  "announcement_candidate_count": 47,
+  "announcement_snapshot_count": 30,
+  "body_reviewed_count": 0,
+  "challenge_only_count": 30,
+  "counterevidence_search_pending_count": 30,
+  "formal_ready": false,
+  "hard_failures": [],
+  "record_count": 30,
+  "rows_with_candidates": 15,
+  "rows_without_title_candidate": 15,
+  "sha_gate": "DEFERRED",
+  "suspension_unverified_count": 30,
+  "warnings": [
+    "ANNOUNCEMENT_BODY_REVIEW_PENDING:47",
+    "SUSPENSION_NOTICE_BODY_REVIEW_PENDING",
+    "COMPANY_COUNTEREVIDENCE_SEARCH_PENDING:30"
+  ]
+}

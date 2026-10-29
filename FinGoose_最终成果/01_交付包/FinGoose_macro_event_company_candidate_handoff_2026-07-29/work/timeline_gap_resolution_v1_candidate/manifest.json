@@ -1,0 +1,27 @@
+{
+  "dataset_version": "fingoose-timeline-gap-resolution-v1.0",
+  "files": [
+    {
+      "path": "gap_resolution_candidates.jsonl",
+      "record_count": 8,
+      "sha256": "b0e7c0cff2e5593bbac59795c0f0ab4666cbd00046fead43a83dc943797714b8"
+    },
+    {
+      "path": "validation_report.json",
+      "record_count": 1,
+      "sha256": "5d40359da3aff88f513eb68fee4d4e295f660f4fa8d75a209d5ea0d9e23aa668"
+    },
+    {
+      "path": "summary.json",
+      "record_count": 1,
+      "sha256": "8475e1f860f195aebfeb8d58a65de636a439cd1f2def18edf2b8e32679ccf796"
+    },
+    {
+      "path": "README.md",
+      "record_count": 1,
+      "sha256": "ae8437ea28a7fa4ca89cc87c82232f17c076c42997902c561c88b7cbed96421a"
+    }
+  ],
+  "formal_ready": false,
+  "release_tier": "FAST_CANDIDATE_AUDIT"
+}

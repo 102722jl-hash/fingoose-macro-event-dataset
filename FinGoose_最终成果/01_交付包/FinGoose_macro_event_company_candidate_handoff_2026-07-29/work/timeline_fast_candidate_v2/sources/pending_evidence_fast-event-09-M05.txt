@@ -1,0 +1,12 @@
+EVIDENCE SPEC (snapshot not retrievable automatically - manual drop-in required)
+NODE: fast-event-09-M05
+OFFICIAL_URL: http://www.pbc.gov.cn/goutongfeijiao/113419/113411/5480112/index.html
+PUBLISHER: People's Bank of China (PBOC)
+
+VERBATIM QUOTE (target):
+  "中国人民银行决定创设“证券、基金、保险公司互换便利（SFISF）”，首期操作规模5000亿元。"
+
+OCCURRED_AT: 2024-09-24T00:00:00+08:00 (Asia/Shanghai (UTC+8))
+FIRST_PUBLIC_AT: 2024-09-24T00:00:00+08:00 (Asia/Shanghai (UTC+8))
+
+FACT: The PBOC created the Securities/Funds/Insurance companies Swap Facility (SFISF), first tranche RMB 500bn (Sep 24 2024) - a capital-market support instrument of the stimulus package.

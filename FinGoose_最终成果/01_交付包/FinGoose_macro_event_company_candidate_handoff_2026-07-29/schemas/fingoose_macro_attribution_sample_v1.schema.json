@@ -1,0 +1,87 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://fingoose.local/schemas/fingoose_macro_attribution_sample_v1.schema.json",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["record_id", "dataset_version", "event_id", "task_type", "target_series_ids", "as_of_at", "forecast_as_of_at", "visible_evidence_ids", "market_window_ids", "attribution", "forecast_reasoning_chain", "review_id"],
+  "properties": {
+    "record_id": {"type": "string", "pattern": "^macro-event-v1-[a-z0-9-]+$"},
+    "dataset_version": {"const": "fingoose-macro-event-attribution-v1.0"},
+    "event_id": {"type": "string", "pattern": "^event-[0-9]{2}$"},
+    "task_type": {"enum": ["single_asset_attribution_forecast", "cross_asset_attribution_forecast"]},
+    "target_series_ids": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"type": "string", "minLength": 1}},
+    "as_of_at": {"type": "string", "format": "date-time"},
+    "forecast_as_of_at": {"type": "string", "format": "date-time"},
+    "visible_evidence_ids": {"type": "array", "minItems": 2, "uniqueItems": true, "items": {"type": "string", "minLength": 1}},
+    "market_window_ids": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"type": "string", "minLength": 1}},
+    "attribution": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["label", "confidence", "channels", "counterevidence"],
+      "properties": {
+        "label": {"enum": ["PRIMARY_DRIVER", "CONTRIBUTING_FACTOR", "WEAK_RELATION", "UNSUPPORTED"]},
+        "confidence": {"enum": ["HIGH", "MEDIUM", "LOW"]},
+        "channels": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"type": "string", "minLength": 1}},
+        "counterevidence": {"type": "array", "minItems": 1, "items": {"type": "string", "minLength": 1}}
+      }
+    },
+    "forecast_reasoning_chain": {"$ref": "#/$defs/forecastReasoningChain"},
+    "review_id": {"type": "string", "minLength": 1}
+  },
+  "$defs": {
+    "forecastReasoningChain": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["sequence", "forecast_as_of_at", "macro_report_evidence", "data_cutoff", "period_description", "fact_transmission_chain", "trend_confirmation", "short_term_prediction"],
+      "properties": {
+        "sequence": {"const": ["MACRO_REPORT", "DATA", "PERIOD_DESCRIPTION", "FACT_TRANSMISSION_CHAIN", "MULTI_DATA_TREND_CONFIRMATION", "SHORT_TERM_PREDICTION"]},
+        "forecast_as_of_at": {"type": "string", "format": "date-time"},
+        "macro_report_evidence": {"type": "array", "minItems": 1, "items": {"type": "object"}},
+        "data_cutoff": {
+          "type": "object", "additionalProperties": false,
+          "required": ["visible_windows", "hidden_outcome_window"],
+          "properties": {
+            "visible_windows": {"const": ["D1", "D3"]},
+            "hidden_outcome_window": {"const": "D20"}
+          }
+        },
+        "period_description": {
+          "type": "object", "additionalProperties": false,
+          "required": ["start_date", "end_date", "summary"],
+          "properties": {
+            "start_date": {"type": "string", "format": "date"},
+            "end_date": {"type": "string", "format": "date"},
+            "summary": {"type": "string", "minLength": 1}
+          }
+        },
+        "fact_transmission_chain": {
+          "type": "object", "additionalProperties": false,
+          "required": ["nodes", "edges"],
+          "properties": {
+            "nodes": {"type": "array", "minItems": 3, "items": {"type": "object"}},
+            "edges": {"type": "array", "minItems": 2, "items": {"type": "object"}}
+          }
+        },
+        "trend_confirmation": {
+          "type": "object", "additionalProperties": false,
+          "required": ["series_count", "items"],
+          "properties": {
+            "series_count": {"type": "integer", "minimum": 2},
+            "items": {"type": "array", "minItems": 2, "items": {"type": "object"}}
+          }
+        },
+        "short_term_prediction": {
+          "type": "object", "additionalProperties": false,
+          "required": ["target_series_id", "horizon", "direction", "confidence", "invalidation_conditions"],
+          "properties": {
+            "target_series_id": {"type": "string", "minLength": 1},
+            "horizon": {"const": "D20"},
+            "direction": {"enum": ["UP", "DOWN", "FLAT", "UNCERTAIN"]},
+            "confidence": {"enum": ["HIGH", "MEDIUM", "LOW"]},
+            "invalidation_conditions": {"type": "array", "minItems": 1, "items": {"type": "string", "minLength": 1}}
+          }
+        }
+      }
+    }
+  }
+}
