@@ -28,7 +28,7 @@
 
 ---
 
-## 0. 在线查看
+## 在线查看
 
 - **代码仓库**：https://github.com/102722jl-hash/fingoose-macro-event-dataset
 - **在线站点（GitHub Pages）**：https://102722jl-hash.github.io/fingoose-macro-event-dataset/
@@ -39,7 +39,7 @@
 
 ---
 
-## 2. 技术栈与运行环境
+## 技术栈与运行环境
 
 | 层 | 技术 | 备注 |
 |---|---|---|
@@ -57,7 +57,7 @@
 
 ---
 
-## 3. 架构总览：四层传导链与"研究区段"
+## 架构总览：四层传导链与"研究区段"
 
 ### 四层传导链
 
@@ -85,7 +85,7 @@ flowchart TD
 
 ---
 
-## 4. 目录结构
+## 目录结构
 
 交付包 `FinGoose_macro_event_company_candidate_handoff_2026-07-29/`（精简示意，归档目录已略）：
 
@@ -114,7 +114,7 @@ flowchart TD
 
 ---
 
-## 5. 领域模型与数据规模
+## 领域模型与数据规模
 
 ### 宏观事件（10 个）
 
@@ -154,7 +154,7 @@ flowchart TD
 
 ---
 
-## 7. 防泄漏与可审计体系（核心）
+## 防泄漏与可审计体系（核心）
 
 这是本项目的第一加分项。
 
@@ -169,7 +169,7 @@ flowchart TD
 
 ---
 
-## 9. 工程门禁与质量保证
+## 工程门禁与质量保证
 
 - **校验与测试**：`validate_dataset.py` → `validation passed: 0 errors, 0 warnings`；`pytest training/tests` → **46 passed**；另有 `compileall` 语法检查、`train_sft.py --dry-run` → `ready=true`。（现存正式口径为 **46 passed**。）
 - **哈希门禁**：`VERIFY_HANDOFF.ps1` 遍历 `FILE_MANIFEST.csv` 逐文件校验 SHA-256，并断言关键计数（market `event_count=10 & sample_count=40`；company `company_dossier_count=30 & candidate_sample_count=60` 等），全部通过才输出 `HANDOFF VERIFIED`。
@@ -180,7 +180,7 @@ flowchart TD
 
 ---
 
-## 15. 已知局限与后续规划
+## 已知局限与后续规划
 
 ### 已知局限（诚实声明）
 
